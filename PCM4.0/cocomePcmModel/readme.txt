@@ -1,4 +1,4 @@
-This model is PCM 3.5
+This model is PCM 4.0
 
 see for details and migration:
 - https://sdqweb.ipd.kit.edu/wiki/PCM_Releases
