@@ -99,6 +99,27 @@
   <assemblyContexts__ComposedStructure id="_0D2TEBkWEeaIeLbO8-hHwA" entityName="org.cocome.tradingsystem.inventory.application.store.StoreEventHandler">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_xH0xIOtTEeWsnI9iaMkITA"/>
   </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_61T3EEmuEea5x_mOIzz6aA" entityName="org.cocome.pickupshop.CheckOut">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_H9-ogDSdEeal3vOMu7N_ww"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_7ElP4EmzEea5x_mOIzz6aA" entityName="org.cocome.pickupshop.Inventory">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_nV4qGTSeEeal3vOMu7N_ww"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_BKqdUEm0Eea5x_mOIzz6aA" entityName="org.cocome.pickupshop.ShoppingCart">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_k0zX8DSfEeal3vOMu7N_ww"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_GLQCUEm0Eea5x_mOIzz6aA" entityName="org.cocome.pickupshop.UserManager">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TErv0DSgEeal3vOMu7N_ww"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_J5Dw0Em0Eea5x_mOIzz6aA" entityName="org.cocome.cloud.webservice.LoginManager">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_oFfIwDSjEeal3vOMu7N_ww"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_QDYlEEm0Eea5x_mOIzz6aA" entityName="org.cocome.tradingsystem.inventory.application.UserManager">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_iQEYEDSkEeal3vOMu7N_ww"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_UinwgEm0Eea5x_mOIzz6aA" entityName="org.cocome.tradingsystem.inventory.data.UserManager">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_oTQFuTSoEeal3vOMu7N_ww"/>
+  </assemblyContexts__ComposedStructure>
   <eventChannel__ComposedStructure id="_1cnioDhsEealadqw2jBWqw" entityName="CashAmountEnteredEventSaleStartedEvent" eventChannelSourceConnector__EventChannel="_AUYWYDhtEealadqw2jBWqw _5iAG0DhwEealadqw2jBWqw" eventChannelSinkConnector__EventChannel="_pGv8sDhtEealadqw2jBWqw _yO0UcDhtEealadqw2jBWqw _xHd1YDhuEealadqw2jBWqw">
     <eventGroup__EventChannel href="cocome-cloud.repository#_qOBWFuq2EeW7M_vBrFkmVw"/>
   </eventChannel__ComposedStructure>
@@ -131,10 +152,6 @@
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_Yzm6Adb0EeWn1fcBwCRaXA"/>
     <requiredRole_AssemblyConnector href="cocome-cloud.repository#_PBwZ5Nb-EeWn1fcBwCRaXA"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_vz1AJhzLEea8GbPCfF3wlg" entityName="IContentChangedListenerBarcodeScanner" requiringAssemblyContext_AssemblyConnector="_4ZJxUBkUEeaIeLbO8-hHwA">
-    <providedRole_AssemblyConnector href="cocome-cloud.repository#_EAf3gewpEeW_LdalkgkVnQ"/>
-    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_3HbSVewzEeW_LdalkgkVnQ"/>
-  </connectors__ComposedStructure>
   <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_w0-lRhw1Eea23tyZwqz2AQ" entityName="ICashBoxLocal" requiringAssemblyContext_AssemblyConnector="_ENzWABkTEeaIeLbO8-hHwA" providingAssemblyContext_AssemblyConnector="_F1McgBkREeaIeLbO8-hHwA">
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_mj52oewoEeW_LdalkgkVnQ"/>
     <requiredRole_AssemblyConnector href="cocome-cloud.repository#_JwG15dcFEeWn1fcBwCRaXA"/>
@@ -147,14 +164,6 @@
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_mj52oewoEeW_LdalkgkVnQ"/>
     <requiredRole_AssemblyConnector href="cocome-cloud.repository#_sPrGpewoEeW_LdalkgkVnQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_U9UBMRw9Eea23tyZwqz2AQ" entityName="IContentChangedListenerCashBox" providingAssemblyContext_AssemblyConnector="_ENzWABkTEeaIeLbO8-hHwA">
-    <providedRole_AssemblyConnector href="cocome-cloud.repository#_EAf3gewpEeW_LdalkgkVnQ"/>
-    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gqt0tewzEeW_LdalkgkVnQ"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_8sYXdhw9Eea23tyZwqz2AQ" entityName="IContentChangedListenerExpressLight" requiringAssemblyContext_AssemblyConnector="_PJgOkBkTEeaIeLbO8-hHwA" providingAssemblyContext_AssemblyConnector="_ENzWABkTEeaIeLbO8-hHwA">
-    <providedRole_AssemblyConnector href="cocome-cloud.repository#_EAf3gewpEeW_LdalkgkVnQ"/>
-    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_rb_l9ewzEeW_LdalkgkVnQ"/>
-  </connectors__ComposedStructure>
   <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_nRJcJhzFEea8GbPCfF3wlg" entityName="IExpressLightLocal" requiringAssemblyContext_AssemblyConnector="_PJgOkBkTEeaIeLbO8-hHwA" providingAssemblyContext_AssemblyConnector="_hS7SEBkTEeaIeLbO8-hHwA">
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_lmRmMewnEeW_LdalkgkVnQ"/>
     <requiredRole_AssemblyConnector href="cocome-cloud.repository#_qZMS1dcDEeWn1fcBwCRaXA"/>
@@ -166,10 +175,6 @@
   <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_jQ5ghhzKEea8GbPCfF3wlg" entityName="IExpressLightLocal" requiringAssemblyContext_AssemblyConnector="_bG3YcBkTEeaIeLbO8-hHwA" providingAssemblyContext_AssemblyConnector="_hS7SEBkTEeaIeLbO8-hHwA">
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_lmRmMewnEeW_LdalkgkVnQ"/>
     <requiredRole_AssemblyConnector href="cocome-cloud.repository#_ra0-xewnEeW_LdalkgkVnQ"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_tJ9zNhzREea8GbPCfF3wlg" entityName="IContentChangedListenerPrinter" requiringAssemblyContext_AssemblyConnector="_UjG7EBkUEeaIeLbO8-hHwA" providingAssemblyContext_AssemblyConnector="_ENzWABkTEeaIeLbO8-hHwA">
-    <providedRole_AssemblyConnector href="cocome-cloud.repository#_EAf3gewpEeW_LdalkgkVnQ"/>
-    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_9hEU9ewzEeW_LdalkgkVnQ"/>
   </connectors__ComposedStructure>
   <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_E3Fd5hzUEea8GbPCfF3wlg" entityName="IPrinter" requiringAssemblyContext_AssemblyConnector="_RGwI8BkUEeaIeLbO8-hHwA" providingAssemblyContext_AssemblyConnector="_UjG7EBkUEeaIeLbO8-hHwA">
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_Q0arUdbzEeWn1fcBwCRaXA"/>
@@ -596,4 +601,52 @@
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_kBdF0dYgEeWrM-HnT5f_ug"/>
     <requiredRole_AssemblyConnector href="cocome-cloud.repository#_OkKAZRdTEeaR2IIRs9mD-g"/>
   </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:RequiredDelegationConnector" id="_LsIgZVJZEeaHcZxBxmMnKg" entityName="IBank" outerRequiredRole_RequiredDelegationConnector="_kJYME1JREeaHcZxBxmMnKg" assemblyContext_RequiredDelegationConnector="_90My0BkWEeaIeLbO8-hHwA">
+    <innerRequiredRole_RequiredDelegationConnector href="cocome-cloud.repository#_apvdBREPEeaZraF8j4MsOw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_Vo8kRFJYEeaHcZxBxmMnKg" entityName="IBarcodeScannerModel" outerProvidedRole_ProvidedDelegationConnector="_xKVLz1JPEeaHcZxBxmMnKg" assemblyContext_ProvidedDelegationConnector="_bnUhgBkQEeaIeLbO8-hHwA">
+    <innerProvidedRole_ProvidedDelegationConnector href="cocome-cloud.repository#_j15WE9YgEeWrM-HnT5f_ug"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_2pSc5FJREeaHcZxBxmMnKg" entityName="ICardReaderModel" outerProvidedRole_ProvidedDelegationConnector="_62RFn1JPEeaHcZxBxmMnKg" assemblyContext_ProvidedDelegationConnector="_gqrGoBkQEeaIeLbO8-hHwA">
+    <innerProvidedRole_ProvidedDelegationConnector href="cocome-cloud.repository#_j159I9YgEeWrM-HnT5f_ug"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_CiW8pFJSEeaHcZxBxmMnKg" entityName="ICashDeskModel" outerProvidedRole_ProvidedDelegationConnector="_nwdSX1JPEeaHcZxBxmMnKg" assemblyContext_ProvidedDelegationConnector="_90My0BkWEeaIeLbO8-hHwA">
+    <innerProvidedRole_ProvidedDelegationConnector href="cocome-cloud.repository#_vBFpIeuKEeWsnI9iaMkITA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_O00MxFJSEeaHcZxBxmMnKg" entityName="ICashBoxModel" outerProvidedRole_ProvidedDelegationConnector="_qfzNf1JPEeaHcZxBxmMnKg" assemblyContext_ProvidedDelegationConnector="_F1McgBkREeaIeLbO8-hHwA">
+    <innerProvidedRole_ProvidedDelegationConnector href="cocome-cloud.repository#_mj52oewoEeW_LdalkgkVnQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_TlClFFJTEeaHcZxBxmMnKg" entityName="IPrinterModel" outerProvidedRole_ProvidedDelegationConnector="_0n9JP1JPEeaHcZxBxmMnKg" assemblyContext_ProvidedDelegationConnector="_0Hj1wBkTEeaIeLbO8-hHwA">
+    <innerProvidedRole_ProvidedDelegationConnector href="cocome-cloud.repository#_0effAewkEeW_LdalkgkVnQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_uqDtxFJXEeaHcZxBxmMnKg" entityName="IUserDisplayModel" outerProvidedRole_ProvidedDelegationConnector="_3aVKP1JPEeaHcZxBxmMnKg" assemblyContext_ProvidedDelegationConnector="_-IknsBkTEeaIeLbO8-hHwA">
+    <innerProvidedRole_ProvidedDelegationConnector href="cocome-cloud.repository#_ocslQewdEeW_LdalkgkVnQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_GNUjxFJYEeaHcZxBxmMnKg" entityName="IExpressLight" outerProvidedRole_ProvidedDelegationConnector="_umnR31JPEeaHcZxBxmMnKg" assemblyContext_ProvidedDelegationConnector="_hS7SEBkTEeaIeLbO8-hHwA">
+    <innerProvidedRole_ProvidedDelegationConnector href="cocome-cloud.repository#_lmRmMewnEeW_LdalkgkVnQ"/>
+  </connectors__ComposedStructure>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0n9JP1JPEeaHcZxBxmMnKg" entityName="IPrinterModel">
+    <providedInterface__OperationProvidedRole href="cocome-cloud.repository#_j5pNoNYgEeWrM-HnT5f_ug"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_3aVKP1JPEeaHcZxBxmMnKg" entityName="IUserDisplayModel">
+    <providedInterface__OperationProvidedRole href="cocome-cloud.repository#_j5rC0NYgEeWrM-HnT5f_ug"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_62RFn1JPEeaHcZxBxmMnKg" entityName="ICardReaderModel">
+    <providedInterface__OperationProvidedRole href="cocome-cloud.repository#_j159IdYgEeWrM-HnT5f_ug"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_nwdSX1JPEeaHcZxBxmMnKg" entityName="ICashDeskModel">
+    <providedInterface__OperationProvidedRole href="cocome-cloud.repository#_j2DHENYgEeWrM-HnT5f_ug"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_qfzNf1JPEeaHcZxBxmMnKg" entityName="ICashBoxModel">
+    <providedInterface__OperationProvidedRole href="cocome-cloud.repository#_j16kMdYgEeWrM-HnT5f_ug"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_umnR31JPEeaHcZxBxmMnKg" entityName="IExpressLightModel">
+    <providedInterface__OperationProvidedRole href="cocome-cloud.repository#_j5mxYNYgEeWrM-HnT5f_ug"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_xKVLz1JPEeaHcZxBxmMnKg" entityName="IBarcodeScannerModel">
+    <providedInterface__OperationProvidedRole href="cocome-cloud.repository#_j15WEdYgEeWrM-HnT5f_ug"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_kJYME1JREeaHcZxBxmMnKg" entityName="IBank">
+    <requiredInterface__OperationRequiredRole href="cocome-cloud.repository#_j4f-KNYgEeWrM-HnT5f_ug"/>
+  </requiredRoles_InterfaceRequiringEntity>
 </system:System>
