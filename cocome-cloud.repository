@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.1" id="_j1pecNYgEeWrM-HnT5f_ug" entityName="org.cocome.cloud">
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.1" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.1" id="_j1pecNYgEeWrM-HnT5f_ug" entityName="org.cocome.cloud">
   <components__Repository xsi:type="repository:BasicComponent" id="_j15WENYgEeWrM-HnT5f_ug" entityName=" org.cocome.tradingsystem.cashdeskline.cashdesk.BarcodeScanner">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_j15WE9YgEeWrM-HnT5f_ug" entityName="IBarcodeScannerLocal" providedInterface__OperationProvidedRole="_j15WEdYgEeWrM-HnT5f_ug"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:SourceRole" id="_6jn6Nut0EeWsnI9iaMkITA" entityName="fireProductBarcodeScannedEvent" eventGroup__SourceRole="_7kdfpurFEeW7M_vBrFkmVw"/>
@@ -123,6 +123,19 @@
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_MS0I1REREeaZraF8j4MsOw" entityName="IStoreManager" requiredInterface__OperationRequiredRole="_kIbQgtYgEeWrM-HnT5f_ug"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_mDIPxRESEeaZraF8j4MsOw" entityName="IEnterpriseManager" requiredInterface__OperationRequiredRole="_JWIwEA4WEeaNfMfZ20wdnQ"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_E8Wp5REXEeaZraF8j4MsOw" entityName="ICashDesk" requiredInterface__OperationRequiredRole="_h5yZUOwaEeW_LdalkgkVnQ"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_nhiRh2LiEeaCDbHvk6YpBA" describedService__SEFF="_KzMkMNb9EeWn1fcBwCRaXA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_QhLpYmLkEeaCDbHvk6YpBA" entityName="Start New Sale" successor_AbstractAction="_U3ydSGLkEeaCDbHvk6YpBA"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_U3ydSGLkEeaCDbHvk6YpBA" entityName="pressControlKey START_SALE" predecessor_AbstractAction="_QhLpYmLkEeaCDbHvk6YpBA" successor_AbstractAction="_ewQ-RGLkEeaCDbHvk6YpBA" calledService_ExternalService="_KzMkMNb9EeWn1fcBwCRaXA"/>
+      <steps_Behaviour xsi:type="seff:LoopAction" id="_ewQ-RGLkEeaCDbHvk6YpBA" entityName="Scan Products" predecessor_AbstractAction="_U3ydSGLkEeaCDbHvk6YpBA" successor_AbstractAction="_CXq7nWLlEeaCDbHvk6YpBA">
+        <bodyBehaviour_Loop xsi:type="seff:ResourceDemandingSEFF" id="_kdME02LkEeaCDbHvk6YpBA">
+          <steps_Behaviour xsi:type="seff:StartAction" id="_mk1t0mLkEeaCDbHvk6YpBA" entityName="trigger scan" successor_AbstractAction="_pEoKCGLkEeaCDbHvk6YpBA"/>
+          <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_pEoKCGLkEeaCDbHvk6YpBA" entityName="sendProductBarcode" predecessor_AbstractAction="_mk1t0mLkEeaCDbHvk6YpBA" successor_AbstractAction="_4q9lsGLkEeaCDbHvk6YpBA" calledService_ExternalService="_nCl9sNbzEeWn1fcBwCRaXA"/>
+          <steps_Behaviour xsi:type="seff:StopAction" id="_4q9lsGLkEeaCDbHvk6YpBA" entityName="end scan" predecessor_AbstractAction="_pEoKCGLkEeaCDbHvk6YpBA"/>
+        </bodyBehaviour_Loop>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_CXq7nWLlEeaCDbHvk6YpBA" entityName="pressControlKey FINISH_SALE" predecessor_AbstractAction="_ewQ-RGLkEeaCDbHvk6YpBA" successor_AbstractAction="_Q9n4UGLlEeaCDbHvk6YpBA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_Q9n4UGLlEeaCDbHvk6YpBA" entityName="End New Sale" predecessor_AbstractAction="_CXq7nWLlEeaCDbHvk6YpBA"/>
+    </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_noNyUNY6EeW73vtlcwkhxw" entityName="org.cocome.cloud.webservice.cashdesk.Printer">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Q0arUdbzEeWn1fcBwCRaXA" entityName="IPrinter" providedInterface__OperationProvidedRole="_G2Jyx9bwEeWn1fcBwCRaXA"/>
