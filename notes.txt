@@ -1,0 +1,27 @@
+# Differences in CoCoME-Cloud and Tech-Report
+
+- Figure 5.9 Architecture Overview of the Hybrid Cloud-based Variant of CoCoME
+- Figure 5.2 First Part fo the Sequence Diagram of the Proces Sale UseCase
+
+- CDEIventBus from 5.2,5.9 is missing in model (cocome-cloud)
+- Model contains ICashBoxLocal but no ICashBox like 5.2,5.9 and vis versa
+- ICashDeskEventHandler does not exist in model
+- The fully qualified names of components do not match
+- Not all interfaces are labeled correctly in 5.2,5.9
+- Model contains which are not depicted in 5.9 and 5.2
+  - org.cocome.tradingsystem.cashdeskline.cashdesk.CashBoxEventHandler 
+  - org.cocome.tradingsystem.cashdeskline.cashdesk.ExpressLightEventHandler
+  - org.cocome.tradingsystem.cashdeskline.cashdesk.PrinterEventHandler
+  - org.cocome.tradingsystem.cashdeskline.cashdesk.UserDisplayEventHandler
+  - 
+- Multiple components named CashDesk in 5.9
+- There is a component org.cloud.web.usecase in the model, but in 5.9 it is called WebFrontend::UseCases, it should be named WebFrontend in both cases
+- Model ICashDeskModelLocal -> 5.9 ICashDeskModel
+
+- Diagram 5.2 depicts
+  - the sequence over services borders. This is not a good idea. It also discusses implementation details, like message busses.
+  - a method fire with a property SaleStartedEvent, but there is no fire method in the model. There are fireSaleRegisteredEvent (<SourceRole>).
+  - a fire(SaleStartedEvent), but the model only contains a source role fileSaleRegisteredEvent, are they the same?
+
+Furthermore, the images in 5.9 do not match the system model. The system model only includes the pickup shop?
+

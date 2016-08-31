@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.1" xsi:schemaLocation="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.1 http://palladiosimulator.org/PalladioComponentModel/5.1#//seff" xmi:id="_9uRygGheEeaWxN-Fhs659g" type="PCM SEFF Model" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_F1ApEGhfEeaWxN-Fhs659g" type="2001">
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_F1ApEWhfEeaWxN-Fhs659g"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_F1ApEmhfEeaWxN-Fhs659g" fontName="Ubuntu"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_F1ApE2hfEeaWxN-Fhs659g"/>
+    <element xmi:type="seff:StartAction" href="cocome-cloud.repository#_F0_a8GhfEeaWxN-Fhs659g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F1ApFGhfEeaWxN-Fhs659g" x="161" y="133"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_GPkeIGhfEeaWxN-Fhs659g" type="2002" fontName="Ubuntu">
+    <element xmi:type="seff:StopAction" href="cocome-cloud.repository#_GPjQAGhfEeaWxN-Fhs659g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GPkeIWhfEeaWxN-Fhs659g" x="864" y="120"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_AsdlcGhgEeaWxN-Fhs659g" type="2003" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_AsdlcmhgEeaWxN-Fhs659g" type="5002"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Asdlc2hgEeaWxN-Fhs659g" type="7001">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_AsdldGhgEeaWxN-Fhs659g" showTitle="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_AsdldWhgEeaWxN-Fhs659g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_AsdldmhgEeaWxN-Fhs659g"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Asdld2hgEeaWxN-Fhs659g" type="7021">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_AsdleGhgEeaWxN-Fhs659g" showTitle="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_AsdleWhgEeaWxN-Fhs659g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_AsdlemhgEeaWxN-Fhs659g"/>
+    </children>
+    <element xmi:type="seff:ExternalCallAction" href="cocome-cloud.repository#__Mb9IGhfEeaWxN-Fhs659g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AsdlcWhgEeaWxN-Fhs659g" x="288" y="96"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="__FRoYGhjEeaWxN-Fhs659g" type="2013" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="__FRoYmhjEeaWxN-Fhs659g" type="5046"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="__FRoY2hjEeaWxN-Fhs659g" type="7042">
+      <styles xmi:type="notation:TitleStyle" xmi:id="__FRoZGhjEeaWxN-Fhs659g" showTitle="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="__FRoZWhjEeaWxN-Fhs659g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="__FRoZmhjEeaWxN-Fhs659g"/>
+    </children>
+    <element xmi:type="seff:EmitEventAction" href="cocome-cloud.repository#_9xSQ-2hjEeaWxN-Fhs659g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__FRoYWhjEeaWxN-Fhs659g" x="612" y="108"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_9uRygWheEeaWxN-Fhs659g"/>
+  <element xmi:type="seff:ResourceDemandingSEFF" href="cocome-cloud.repository#_zrHEd2heEeaWxN-Fhs659g"/>
+  <edges xmi:type="notation:Connector" xmi:id="_D5BoEGhgEeaWxN-Fhs659g" type="4001" source="_F1ApEGhfEeaWxN-Fhs659g" target="_AsdlcGhgEeaWxN-Fhs659g">
+    <styles xmi:type="notation:FontStyle" xmi:id="_D5BoEWhgEeaWxN-Fhs659g" fontName="Ubuntu"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_D5BoEmhgEeaWxN-Fhs659g" points="[9, -1, -247, 3]$[116, -1, -140, 3]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_D5GgkGhgEeaWxN-Fhs659g" id="(0.55,0.15)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_EipM0GhgEeaWxN-Fhs659g" type="4001" source="_AsdlcGhgEeaWxN-Fhs659g" target="__FRoYGhjEeaWxN-Fhs659g">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Eipz4GhgEeaWxN-Fhs659g" fontName="Ubuntu"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Eipz4WhgEeaWxN-Fhs659g" points="[17, 0, -119, -5]$[135, -11, -1, -16]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EisQIGhgEeaWxN-Fhs659g" id="(0.9392857142857143,0.4722222222222222)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_SjAMYGhkEeaWxN-Fhs659g" type="4001" source="__FRoYGhjEeaWxN-Fhs659g" target="_GPkeIGhfEeaWxN-Fhs659g">
+    <styles xmi:type="notation:FontStyle" xmi:id="_SjAMYWhkEeaWxN-Fhs659g" fontName="Ubuntu"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_SjAMYmhkEeaWxN-Fhs659g" points="[7, -26, -31, 93]$[27, -110, -11, 9]"/>
+  </edges>
+</notation:Diagram>

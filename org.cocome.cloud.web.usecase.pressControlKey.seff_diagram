@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.1" xsi:schemaLocation="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.1 http://palladiosimulator.org/PalladioComponentModel/5.1#//seff" xmi:id="_2vhHYGR-EeaEFbiv1qambg" type="PCM SEFF Model" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_4x4AsGR-EeaEFbiv1qambg" type="2001">
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_4x4AsWR-EeaEFbiv1qambg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_4x4AsmR-EeaEFbiv1qambg" fontName="Ubuntu"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_4x4As2R-EeaEFbiv1qambg"/>
+    <element xmi:type="seff:StartAction" href="cocome-cloud.repository#_QhLpYmLkEeaCDbHvk6YpBA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4x4AtGR-EeaEFbiv1qambg" y="55"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_4x5O0GR-EeaEFbiv1qambg" type="2003" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_4x5O0mR-EeaEFbiv1qambg" type="5002"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_4x5O02R-EeaEFbiv1qambg" type="7001">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_4x5O1GR-EeaEFbiv1qambg" showTitle="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_4x5O1WR-EeaEFbiv1qambg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_4x5O1mR-EeaEFbiv1qambg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_4x5O12R-EeaEFbiv1qambg" type="7021">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_4x5O2GR-EeaEFbiv1qambg" showTitle="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_4x5O2WR-EeaEFbiv1qambg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_4x5O2mR-EeaEFbiv1qambg"/>
+    </children>
+    <element xmi:type="seff:ExternalCallAction" href="cocome-cloud.repository#_U3ydSGLkEeaCDbHvk6YpBA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4x5O0WR-EeaEFbiv1qambg" x="40" y="29"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_4x5O22R-EeaEFbiv1qambg" type="2004" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_4x5O3WR-EeaEFbiv1qambg" type="5009"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_4x5O3mR-EeaEFbiv1qambg" type="5010"/>
+    <element xmi:type="seff:LoopAction" href="cocome-cloud.repository#_ewQ-RGLkEeaCDbHvk6YpBA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4x5O3GR-EeaEFbiv1qambg" x="264"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_4x5O32R-EeaEFbiv1qambg" type="2003" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_4x5O4WR-EeaEFbiv1qambg" type="5002"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_4x5O4mR-EeaEFbiv1qambg" type="7001">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_4x5O42R-EeaEFbiv1qambg" showTitle="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_4x5O5GR-EeaEFbiv1qambg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_4x5O5WR-EeaEFbiv1qambg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_4x5O5mR-EeaEFbiv1qambg" type="7021">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_4x5O52R-EeaEFbiv1qambg" showTitle="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_4x5O6GR-EeaEFbiv1qambg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_4x5O6WR-EeaEFbiv1qambg"/>
+    </children>
+    <element xmi:type="seff:ExternalCallAction" href="cocome-cloud.repository#_CXq7nWLlEeaCDbHvk6YpBA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4x5O4GR-EeaEFbiv1qambg" x="588" y="24"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_4x514GR-EeaEFbiv1qambg" type="2002" fontName="Ubuntu">
+    <element xmi:type="seff:StopAction" href="cocome-cloud.repository#_Q9n4UGLlEeaCDbHvk6YpBA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4x514WR-EeaEFbiv1qambg" x="780" y="48"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_2vhHYWR-EeaEFbiv1qambg"/>
+  <element xmi:type="seff:ResourceDemandingSEFF" href="cocome-cloud.repository#_nhiRh2LiEeaCDbHvk6YpBA"/>
+</notation:Diagram>
