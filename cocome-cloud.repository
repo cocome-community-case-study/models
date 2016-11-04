@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.1" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.1" id="_j1pecNYgEeWrM-HnT5f_ug" entityName="org.cocome.cloud">
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.1" id="_j1pecNYgEeWrM-HnT5f_ug" entityName="org.cocome.cloud">
   <components__Repository xsi:type="repository:BasicComponent" id="_j15WENYgEeWrM-HnT5f_ug" entityName=" org.cocome.tradingsystem.cashdeskline.cashdesk.BarcodeScanner">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_j15WE9YgEeWrM-HnT5f_ug" entityName="IBarcodeScannerLocal" providedInterface__OperationProvidedRole="_j15WEdYgEeWrM-HnT5f_ug"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:SourceRole" id="_6jn6Nut0EeWsnI9iaMkITA" entityName="fireProductBarcodeScannedEvent" eventGroup__SourceRole="_7kdfpurFEeW7M_vBrFkmVw"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="__t_Zx2hZEeaWxN-Fhs659g" describedService__SEFF="_DU9ngOrGEeW7M_vBrFkmVw">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_bE2dMGhaEeaWxN-Fhs659g" successor_AbstractAction="_zgP1G2haEeaWxN-Fhs659g"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_hd0xcGhaEeaWxN-Fhs659g" predecessor_AbstractAction="_zgP1G2haEeaWxN-Fhs659g"/>
-      <steps_Behaviour xsi:type="seff:EmitEventAction" id="_zgP1G2haEeaWxN-Fhs659g" entityName="fire(ProductBarcodeScannedEvent)" predecessor_AbstractAction="_bE2dMGhaEeaWxN-Fhs659g" successor_AbstractAction="_hd0xcGhaEeaWxN-Fhs659g" eventType__EmitEventAction="_DU9ngOrGEeW7M_vBrFkmVw" sourceRole__EmitEventAction="_6jn6Nut0EeWsnI9iaMkITA"/>
-    </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_j159INYgEeWrM-HnT5f_ug" entityName="org.cocome.tradingsystem.cashdeskline.cashdesk.CardReader">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_j159I9YgEeWrM-HnT5f_ug" entityName="ICardReaderLocal" providedInterface__OperationProvidedRole="_j159IdYgEeWrM-HnT5f_ug"/>
@@ -128,19 +123,6 @@
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_MS0I1REREeaZraF8j4MsOw" entityName="IStoreManager" requiredInterface__OperationRequiredRole="_kIbQgtYgEeWrM-HnT5f_ug"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_mDIPxRESEeaZraF8j4MsOw" entityName="IEnterpriseManager" requiredInterface__OperationRequiredRole="_JWIwEA4WEeaNfMfZ20wdnQ"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_E8Wp5REXEeaZraF8j4MsOw" entityName="ICashDesk" requiredInterface__OperationRequiredRole="_h5yZUOwaEeW_LdalkgkVnQ"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_nhiRh2LiEeaCDbHvk6YpBA" describedService__SEFF="_KzMkMNb9EeWn1fcBwCRaXA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_QhLpYmLkEeaCDbHvk6YpBA" entityName="Start New Sale" successor_AbstractAction="_U3ydSGLkEeaCDbHvk6YpBA"/>
-      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_U3ydSGLkEeaCDbHvk6YpBA" entityName="pressControlKeySTART_SALE" predecessor_AbstractAction="_QhLpYmLkEeaCDbHvk6YpBA" successor_AbstractAction="_ewQ-RGLkEeaCDbHvk6YpBA" calledService_ExternalService="_KzMkMNb9EeWn1fcBwCRaXA" role_ExternalService="_sMyJpdb-EeWn1fcBwCRaXA"/>
-      <steps_Behaviour xsi:type="seff:LoopAction" id="_ewQ-RGLkEeaCDbHvk6YpBA" entityName="Scan Products" predecessor_AbstractAction="_U3ydSGLkEeaCDbHvk6YpBA" successor_AbstractAction="_CXq7nWLlEeaCDbHvk6YpBA">
-        <bodyBehaviour_Loop xsi:type="seff:ResourceDemandingSEFF" id="_kdME02LkEeaCDbHvk6YpBA">
-          <steps_Behaviour xsi:type="seff:StartAction" id="_mk1t0mLkEeaCDbHvk6YpBA" entityName="trigger scan" successor_AbstractAction="_pEoKCGLkEeaCDbHvk6YpBA"/>
-          <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_pEoKCGLkEeaCDbHvk6YpBA" entityName="sendProductBarcode" predecessor_AbstractAction="_mk1t0mLkEeaCDbHvk6YpBA" successor_AbstractAction="_4q9lsGLkEeaCDbHvk6YpBA" calledService_ExternalService="_nCl9sNbzEeWn1fcBwCRaXA" role_ExternalService="_sMyJpdb-EeWn1fcBwCRaXA"/>
-          <steps_Behaviour xsi:type="seff:StopAction" id="_4q9lsGLkEeaCDbHvk6YpBA" entityName="end scan" predecessor_AbstractAction="_pEoKCGLkEeaCDbHvk6YpBA"/>
-        </bodyBehaviour_Loop>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_CXq7nWLlEeaCDbHvk6YpBA" entityName="pressControlKey FINISH_SALE" predecessor_AbstractAction="_ewQ-RGLkEeaCDbHvk6YpBA" successor_AbstractAction="_Q9n4UGLlEeaCDbHvk6YpBA" role_ExternalService="_sMyJpdb-EeWn1fcBwCRaXA"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_Q9n4UGLlEeaCDbHvk6YpBA" entityName="End New Sale" predecessor_AbstractAction="_CXq7nWLlEeaCDbHvk6YpBA"/>
-    </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_noNyUNY6EeW73vtlcwkhxw" entityName="org.cocome.cloud.webservice.cashdesk.Printer">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Q0arUdbzEeWn1fcBwCRaXA" entityName="IPrinter" providedInterface__OperationProvidedRole="_G2Jyx9bwEeWn1fcBwCRaXA"/>
@@ -240,17 +222,6 @@
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ohcztREPEeaZraF8j4MsOw" entityName="IStoreInventoryLocal" requiredInterface__OperationRequiredRole="_j4ldsdYgEeWrM-HnT5f_ug"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_94SohRgtEea9zdPO8i2hhg" entityName="ExpressModePolicy" requiredInterface__OperationRequiredRole="_VGuuEOuMEeWsnI9iaMkITA"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:SourceRole" id="_6OwBJkN-Eea_F4Tx7yqD5A" entityName="fireSaleFinishedEvent" eventGroup__SourceRole="_nCR_lurGEeW7M_vBrFkmVw"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_zrHEd2heEeaWxN-Fhs659g" describedService__SEFF="_j2DHFNYgEeWrM-HnT5f_ug">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_F0_a8GhfEeaWxN-Fhs659g" entityName="startSaleAction" successor_AbstractAction="__Mb9IGhfEeaWxN-Fhs659g"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_GPjQAGhfEeaWxN-Fhs659g" entityName="startSaleEnd" predecessor_AbstractAction="_9xSQ-2hjEeaWxN-Fhs659g"/>
-      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="__Mb9IGhfEeaWxN-Fhs659g" entityName="getProductWithStockItem" predecessor_AbstractAction="_F0_a8GhfEeaWxN-Fhs659g" successor_AbstractAction="_9xSQ-2hjEeaWxN-Fhs659g" calledService_ExternalService="_j4ldstYgEeWrM-HnT5f_ug" role_ExternalService="_ohcztREPEeaZraF8j4MsOw"/>
-      <steps_Behaviour xsi:type="seff:EmitEventAction" id="_9xSQ-2hjEeaWxN-Fhs659g" entityName="fire RunningTotalChangedEvent" predecessor_AbstractAction="__Mb9IGhfEeaWxN-Fhs659g" successor_AbstractAction="_GPjQAGhfEeaWxN-Fhs659g" eventType__EmitEventAction="_VQdjwOrGEeW7M_vBrFkmVw"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_TNknd293EeaiIJhVRz8Www" describedService__SEFF="_0R1xIOrGEeW7M_vBrFkmVw">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_Xa7jQG94EeaiIJhVRz8Www" successor_AbstractAction="_ynEkc294EeaiIJhVRz8Www"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_XxgQMG94EeaiIJhVRz8Www" predecessor_AbstractAction="_ynEkc294EeaiIJhVRz8Www"/>
-      <steps_Behaviour xsi:type="seff:EmitEventAction" id="_ynEkc294EeaiIJhVRz8Www" entityName="fire(SaleStartedEvent)" predecessor_AbstractAction="_Xa7jQG94EeaiIJhVRz8Www" successor_AbstractAction="_XxgQMG94EeaiIJhVRz8Www" eventType__EmitEventAction="_0R1xIOrGEeW7M_vBrFkmVw"/>
-    </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_yc_bCetYEeWsnI9iaMkITA" entityName="org.cocome.tradingsystem.cashdeskline.cashdesk.CashDeskEventHandler">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:SinkRole" id="__OsL4OtYEeWsnI9iaMkITA" entityName="handleCashAmountEnteredEvent" eventGroup__SinkRole="_qOBWFuq2EeW7M_vBrFkmVw"/>
@@ -266,6 +237,7 @@
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_H9-ogDSdEeal3vOMu7N_ww" entityName="org.cocome.pickupshop.CheckOut">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_PbLkcTSeEeal3vOMu7N_ww" entityName="ICheckOut" providedInterface__OperationProvidedRole="_KUrktzSeEeal3vOMu7N_ww"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_OmTrkWCIEeaftfO-M3V5YQ" entityName="ICheckOutWebAccess" providedInterface__OperationProvidedRole="_wKcmE2CHEeaftfO-M3V5YQ"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_YM35BTSdEeal3vOMu7N_ww" entityName="IBankLocal" requiredInterface__OperationRequiredRole="_j4f-KNYgEeWrM-HnT5f_ug"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_9JXt9Um6EeaHOPhDyP7akA" entityName="IInventory" requiredInterface__OperationRequiredRole="_rvrU4DSeEeal3vOMu7N_ww"/>
   </components__Repository>
@@ -275,12 +247,14 @@
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ZXfnJTSfEeal3vOMu7N_ww" entityName="IEnterpriseManager" requiredInterface__OperationRequiredRole="_JWIwEA4WEeaNfMfZ20wdnQ"/>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_k0zX8DSfEeal3vOMu7N_ww" entityName="org.cocome.pickupshop.ShoppingCart">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Uh_m4WCIEeaftfO-M3V5YQ" entityName="IShoppingCartWebAccess" providedInterface__OperationProvidedRole="_EyIbx2CIEeaftfO-M3V5YQ"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_rDsjJTSfEeal3vOMu7N_ww" entityName="ICheckOut" requiredInterface__OperationRequiredRole="_KUrktzSeEeal3vOMu7N_ww"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_u66FRTSfEeal3vOMu7N_ww" entityName="IInventory" requiredInterface__OperationRequiredRole="_rvrU4DSeEeal3vOMu7N_ww"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_AVMx5TSgEeal3vOMu7N_ww" entityName="IUserManager" requiredInterface__OperationRequiredRole="_8oRNJzSfEeal3vOMu7N_ww"/>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_TErv0DSgEeal3vOMu7N_ww" entityName="org.cocome.pickupshop.UserManager">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_fKOlUTSgEeal3vOMu7N_ww" entityName="IUserManager" providedInterface__OperationProvidedRole="_8oRNJzSfEeal3vOMu7N_ww"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_d6XrgWCIEeaftfO-M3V5YQ" entityName="IUserManagerWebAccess" providedInterface__OperationProvidedRole="_IiXzN2CIEeaftfO-M3V5YQ"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_lsmtNTSgEeal3vOMu7N_ww" entityName="ILoginManager" requiredInterface__OperationRequiredRole="_ZImaFTSgEeal3vOMu7N_ww"/>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_oFfIwDSjEeal3vOMu7N_ww" entityName="org.cocome.cloud.webservice.LoginManager">
@@ -1701,6 +1675,9 @@
       <parameters__OperationSignature dataType__Parameter="_FQHmnAuJEeavOKEBhe9hQA" parameterName="list_productSupplier"/>
     </signatures__OperationInterface>
   </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_wKcmE2CHEeaftfO-M3V5YQ" entityName="ICheckOutWebAccess"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_EyIbx2CIEeaftfO-M3V5YQ" entityName="IShoppingCartWebAccess"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IiXzN2CIEeaftfO-M3V5YQ" entityName="IUserManagerWebAccess"/>
   <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_ytVnPkc5EeaL399ofOJboA" entityName="productAmountTO">
     <innerDeclaration_CompositeDataType entityName="__amount">
       <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
