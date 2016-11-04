@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+	xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+	xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+	modelDirectory="/de.fzi.pcm.decision.security/src-gen" editDirectory="/de.fzi.pcm.decision.security.edit/src-gen"
+	editorDirectory="/de.fzi.pcm.decision.security.editor/src-gen"
+	modelPluginID="de.fzi.pcm.decision.security" modelName="Security"
+	rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+	testsDirectory="/de.fzi.pcm.decision.security.tests/src-gen"
+	importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0"
+	copyrightFields="false"
+	usedGenPackages="../../de.uka.ipd.sdq.identifier/model/identifier.genmodel#//identifier ../../org.palladiosimulator.pcm/model/pcm.genmodel#//pcm ../../de.uka.ipd.sdq.probfunction/model/ProbabilityFunction.genmodel#//probfunction ../../de.uka.ipd.sdq.stoex/model/stoex.genmodel#//stoex ../../de.uka.ipd.sdq.units/model/Units.genmodel#//units"
+	importOrganizing="true">
+	<foreignModel>security.ecore</foreignModel>
+	<genPackages prefix="Security" disposableProviderFactory="true"
+		ecorePackage="security.ecore#/">
+		<genClasses ecoreClass="security.ecore#//Container">
+			<genFeatures createChild="false"
+				ecoreFeature="ecore:EAttribute security.ecore#//Container/name" />
+			<genFeatures createChild="false"
+				ecoreFeature="ecore:EAttribute security.ecore#//Container/description" />
+			<genFeatures createChild="false"
+				ecoreFeature="ecore:EAttribute security.ecore#//Container/timeStamp" />
+			<genFeatures property="None" children="true" createChild="true"
+				ecoreFeature="ecore:EReference security.ecore#//Container/contains" />
+			<genFeatures notify="false" createChild="false"
+				propertySortChoices="true"
+				ecoreFeature="ecore:EReference security.ecore#//Container/references" />
+		</genClasses>
+		<genClasses image="false" ecoreClass="security.ecore#//Catalog">
+			<genFeatures createChild="false"
+				ecoreFeature="ecore:EAttribute security.ecore#//Catalog/name" />
+			<genFeatures createChild="false"
+				ecoreFeature="ecore:EAttribute security.ecore#//Catalog/description" />
+			<genFeatures createChild="false"
+				ecoreFeature="ecore:EAttribute security.ecore#//Catalog/timeStamp" />
+			<genFeatures createChild="false"
+				ecoreFeature="ecore:EAttribute security.ecore#//Catalog/createdBy" />
+		</genClasses>
+		<nestedGenPackages prefix="SecurityPatterns"
+			basePackage="security" disposableProviderFactory="true"
+			ecorePackage="security.ecore#//securityPatterns">
+			<genEnums typeSafeEnumCompatible="false"
+				ecoreEnum="security.ecore#//securityPatterns/Status">
+				<genEnumLiterals ecoreEnumLiteral="security.ecore#//securityPatterns/Status/VALID" />
+				<genEnumLiterals ecoreEnumLiteral="security.ecore#//securityPatterns/Status/INVALID" />
+			</genEnums>
+			<genClasses ecoreClass="security.ecore#//securityPatterns/PatternCatalog">
+				<genFeatures property="None" children="true"
+					createChild="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityPatterns/PatternCatalog/securityPatterns" />
+			</genClasses>
+			<genClasses image="false"
+				ecoreClass="security.ecore#//securityPatterns/SecurityPattern">
+				<genFeatures createChild="false"
+					ecoreFeature="ecore:EAttribute security.ecore#//securityPatterns/SecurityPattern/name" />
+				<genFeatures createChild="false"
+					ecoreFeature="ecore:EAttribute security.ecore#//securityPatterns/SecurityPattern/description" />
+				<genFeatures createChild="false"
+					ecoreFeature="ecore:EAttribute security.ecore#//securityPatterns/SecurityPattern/stakeholder" />
+				<genFeatures createChild="false"
+					ecoreFeature="ecore:EAttribute security.ecore#//securityPatterns/SecurityPattern/status" />
+				<genFeatures property="None" children="true"
+					createChild="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityPatterns/SecurityPattern/roles" />
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityPatterns/SecurityPattern/prerequisites" />
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityPatterns/SecurityPattern/subSecurityPatterns" />
+			</genClasses>
+			<genClasses image="false" ecoreClass="security.ecore#//securityPatterns/Role" />
+			<genClasses ecoreClass="security.ecore#//securityPatterns/ComponentRole">
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityPatterns/ComponentRole/basicComponent" />
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityPatterns/ComponentRole/operationInterface" />
+			</genClasses>
+			<genClasses ecoreClass="security.ecore#//securityPatterns/ProvidedInterfaceRole">
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityPatterns/ProvidedInterfaceRole/operationProvidedRole" />
+			</genClasses>
+			<genClasses ecoreClass="security.ecore#//securityPatterns/AssemblyRole">
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityPatterns/AssemblyRole/assemblyContext" />
+			</genClasses>
+			<genClasses ecoreClass="security.ecore#//securityPatterns/SystemRole">
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityPatterns/SystemRole/system" />
+			</genClasses>
+			<genClasses ecoreClass="security.ecore#//securityPatterns/ContainerRole">
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityPatterns/ContainerRole/resourceContainer" />
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityPatterns/ContainerRole/processingResourceSpecification" />
+			</genClasses>
+			<genClasses ecoreClass="security.ecore#//securityPatterns/EnvironmentRole">
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityPatterns/EnvironmentRole/resourceEnvironment" />
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityPatterns/EnvironmentRole/linkingResource" />
+			</genClasses>
+			<genClasses ecoreClass="security.ecore#//securityPatterns/UsageRole">
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityPatterns/UsageRole/usageScenario" />
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityPatterns/UsageRole/workload" />
+			</genClasses>
+			<genClasses ecoreClass="security.ecore#//securityPatterns/AllocationRole">
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityPatterns/AllocationRole/allocationContext" />
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityPatterns/AllocationRole/allocation" />
+			</genClasses>
+		</nestedGenPackages>
+		<nestedGenPackages prefix="SecurityPrerequisites"
+			basePackage="security" disposableProviderFactory="true"
+			ecorePackage="security.ecore#//securityPrerequisites">
+			<genEnums typeSafeEnumCompatible="false"
+				ecoreEnum="security.ecore#//securityPrerequisites/Status">
+				<genEnumLiterals
+					ecoreEnumLiteral="security.ecore#//securityPrerequisites/Status/VALID" />
+				<genEnumLiterals
+					ecoreEnumLiteral="security.ecore#//securityPrerequisites/Status/INVALID" />
+				<genEnumLiterals
+					ecoreEnumLiteral="security.ecore#//securityPrerequisites/Status/DEPRECATED" />
+			</genEnums>
+			<genClasses
+				ecoreClass="security.ecore#//securityPrerequisites/PrerequisiteCatalog">
+				<genFeatures property="None" children="true"
+					createChild="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityPrerequisites/PrerequisiteCatalog/prerequisites" />
+			</genClasses>
+			<genClasses image="false"
+				ecoreClass="security.ecore#//securityPrerequisites/Prerequisite">
+				<genFeatures createChild="false"
+					ecoreFeature="ecore:EAttribute security.ecore#//securityPrerequisites/Prerequisite/name" />
+				<genFeatures createChild="false"
+					ecoreFeature="ecore:EAttribute security.ecore#//securityPrerequisites/Prerequisite/description" />
+				<genFeatures createChild="false"
+					ecoreFeature="ecore:EAttribute security.ecore#//securityPrerequisites/Prerequisite/status" />
+				<genFeatures createChild="false"
+					ecoreFeature="ecore:EAttribute security.ecore#//securityPrerequisites/Prerequisite/statePositive" />
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityPrerequisites/Prerequisite/securityPatterns" />
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityPrerequisites/Prerequisite/attacks" />
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityPrerequisites/Prerequisite/matches" />
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityPrerequisites/Prerequisite/technology" />
+				<genFeatures createChild="false"
+					ecoreFeature="ecore:EAttribute security.ecore#//securityPrerequisites/Prerequisite/timeStamp" />
+			</genClasses>
+			<genClasses
+				ecoreClass="security.ecore#//securityPrerequisites/SecurityPrerequisite">
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityPrerequisites/SecurityPrerequisite/relates" />
+			</genClasses>
+			<genClasses
+				ecoreClass="security.ecore#//securityPrerequisites/ComponentPrerequisite">
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityPrerequisites/ComponentPrerequisite/relates" />
+			</genClasses>
+			<genClasses
+				ecoreClass="security.ecore#//securityPrerequisites/SystemPrerequisite">
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityPrerequisites/SystemPrerequisite/relates" />
+			</genClasses>
+			<genClasses
+				ecoreClass="security.ecore#//securityPrerequisites/ResourcePrerequisite">
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityPrerequisites/ResourcePrerequisite/relates" />
+			</genClasses>
+			<genClasses
+				ecoreClass="security.ecore#//securityPrerequisites/UsagePrerequisite">
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityPrerequisites/UsagePrerequisite/relates" />
+			</genClasses>
+			<genClasses
+				ecoreClass="security.ecore#//securityPrerequisites/BusinessPrerequisite" />
+			<genClasses
+				ecoreClass="security.ecore#//securityPrerequisites/ConfigurationPrerequisite" />
+			<genClasses
+				ecoreClass="security.ecore#//securityPrerequisites/AttackerPrerequisite">
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityPrerequisites/AttackerPrerequisite/relates" />
+			</genClasses>
+			<genClasses
+				ecoreClass="security.ecore#//securityPrerequisites/TechnologyPrerequisite">
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityPrerequisites/TechnologyPrerequisite/depends" />
+			</genClasses>
+		</nestedGenPackages>
+		<nestedGenPackages prefix="SecurityThreats"
+			basePackage="security" disposableProviderFactory="true"
+			ecorePackage="security.ecore#//securityThreats">
+			<genEnums typeSafeEnumCompatible="false"
+				ecoreEnum="security.ecore#//securityThreats/Activity">
+				<genEnumLiterals ecoreEnumLiteral="security.ecore#//securityThreats/Activity/ACTIVE" />
+				<genEnumLiterals ecoreEnumLiteral="security.ecore#//securityThreats/Activity/PASSIVE" />
+			</genEnums>
+			<genEnums typeSafeEnumCompatible="false"
+				ecoreEnum="security.ecore#//securityThreats/Position">
+				<genEnumLiterals
+					ecoreEnumLiteral="security.ecore#//securityThreats/Position/INTERNAL" />
+				<genEnumLiterals
+					ecoreEnumLiteral="security.ecore#//securityThreats/Position/EXTERNAL" />
+			</genEnums>
+			<genEnums typeSafeEnumCompatible="false"
+				ecoreEnum="security.ecore#//securityThreats/Intention">
+				<genEnumLiterals
+					ecoreEnumLiteral="security.ecore#//securityThreats/Intention/MALICIOUS" />
+				<genEnumLiterals
+					ecoreEnumLiteral="security.ecore#//securityThreats/Intention/NONMALICIOUS" />
+			</genEnums>
+			<genClasses ecoreClass="security.ecore#//securityThreats/ThreatCatalog">
+				<genFeatures property="None" children="true"
+					createChild="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityThreats/ThreatCatalog/attackers" />
+				<genFeatures property="None" children="true"
+					createChild="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityThreats/ThreatCatalog/attackTypes" />
+			</genClasses>
+			<genClasses ecoreClass="security.ecore#//securityThreats/AttackerClass">
+				<genFeatures createChild="false"
+					ecoreFeature="ecore:EAttribute security.ecore#//securityThreats/AttackerClass/name" />
+				<genFeatures createChild="false"
+					ecoreFeature="ecore:EAttribute security.ecore#//securityThreats/AttackerClass/description" />
+				<genFeatures createChild="false"
+					ecoreFeature="ecore:EAttribute security.ecore#//securityThreats/AttackerClass/position" />
+				<genFeatures createChild="false"
+					ecoreFeature="ecore:EAttribute security.ecore#//securityThreats/AttackerClass/intention" />
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityThreats/AttackerClass/attackCapabilities" />
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityThreats/AttackerClass/prerequisites" />
+			</genClasses>
+			<genClasses ecoreClass="security.ecore#//securityThreats/Attack">
+				<genFeatures createChild="false"
+					ecoreFeature="ecore:EAttribute security.ecore#//securityThreats/Attack/name" />
+				<genFeatures createChild="false"
+					ecoreFeature="ecore:EAttribute security.ecore#//securityThreats/Attack/description" />
+				<genFeatures createChild="false"
+					ecoreFeature="ecore:EAttribute security.ecore#//securityThreats/Attack/activity" />
+				<genFeatures createChild="false"
+					ecoreFeature="ecore:EAttribute security.ecore#//securityThreats/Attack/timeStamp" />
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityThreats/Attack/subAttacks" />
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityThreats/Attack/attacker" />
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityThreats/Attack/prerequisites" />
+			</genClasses>
+			<genClasses image="false"
+				ecoreClass="security.ecore#//securityThreats/ComponentAttack">
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityThreats/ComponentAttack/basicComponent" />
+			</genClasses>
+			<genClasses image="false"
+				ecoreClass="security.ecore#//securityThreats/SystemAttack">
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityThreats/SystemAttack/assemblyContext" />
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityThreats/SystemAttack/operationProvidedRole" />
+			</genClasses>
+			<genClasses image="false"
+				ecoreClass="security.ecore#//securityThreats/ResourceAttack">
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityThreats/ResourceAttack/resourceContainer" />
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityThreats/ResourceAttack/linkingResource" />
+			</genClasses>
+			<genClasses image="false"
+				ecoreClass="security.ecore#//securityThreats/AllocationAttack">
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityThreats/AllocationAttack/allocation" />
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityThreats/AllocationAttack/allocationContext" />
+			</genClasses>
+			<genClasses image="false"
+				ecoreClass="security.ecore#//securityThreats/UsageAttack">
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityThreats/UsageAttack/usageScenario" />
+				<genFeatures notify="false" createChild="false"
+					propertySortChoices="true"
+					ecoreFeature="ecore:EReference security.ecore#//securityThreats/UsageAttack/scenarioBehaviour" />
+			</genClasses>
+		</nestedGenPackages>
+	</genPackages>
+</genmodel:GenModel>

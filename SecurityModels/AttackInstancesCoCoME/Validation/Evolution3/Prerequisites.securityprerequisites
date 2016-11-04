@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<securityPrerequisites:PrerequisiteCatalog xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:securityPrerequisites="http://www.fzi.de/pcm/security/securityPrerequisites" id="_Ad3WcD03EeaC77dVaP0Eeg" name="Prerequisites" description="The catalog of prerequisites to capture context assumptions." timeStamp="2016-08-17T00:00:00.000+0200" createdBy="Kevin Wiegratz">
+  <prerequisites xsi:type="securityPrerequisites:SystemPrerequisite" id="_WZhQQj1JEeaC77dVaP0Eeg" name="WebApplication" description="The system is a web application." technology="_Myt4qD1KEeaVk-W-mW-puA _GBmUuD1LEeaVk-W-mW-puA _M0bySGSOEeaBdfha1Hk-SA" timeStamp="2016-08-17T00:00:00.000+0200">
+    <attacks href="Threats.securitythreats#_DPedQj1JEeaC77dVaP0Eeg"/>
+    <attacks href="Threats.securitythreats#_zbUWEj1KEeaVk-W-mW-puA"/>
+    <attacks href="Threats.securitythreats#_gEjY5T1OEeaVk-W-mW-puA"/>
+    <attacks href="Threats.securitythreats#_XL2vUj1NEeaVk-W-mW-puA"/>
+    <attacks href="Threats.securitythreats#_yZTNgT1MEeaVk-W-mW-puA"/>
+    <relates href="../../../cocome-cloud-pcm-model/cocome-cloud.system#_hn6AYBkPEeaIeLbO8-hHwA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:TechnologyPrerequisite" id="_Myt4qD1KEeaVk-W-mW-puA" name="HTTPUsage" description="The system uses HTTP to fulfill its tasks as a web server." timeStamp="2016-08-17T00:00:00.000+0200" depends="_WZhQQj1JEeaC77dVaP0Eeg">
+    <attacks href="Threats.securitythreats#_DPedQj1JEeaC77dVaP0Eeg"/>
+    <attacks href="Threats.securitythreats#_gEjY5T1OEeaVk-W-mW-puA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:AttackerPrerequisite" id="_g5Xd1z1KEeaVk-W-mW-puA" name="BotNetAvailability" description="The attacker has a bot net under his control." timeStamp="2016-08-17T00:00:00.000+0200">
+    <attacks href="Threats.securitythreats#_DPedQj1JEeaC77dVaP0Eeg"/>
+    <attacks href="Threats.securitythreats#_zbUWEj1KEeaVk-W-mW-puA"/>
+    <relates href="Threats.securitythreats#_pCMgMGFnEeaenr5P40YdvQ"/>
+    <relates href="Threats.securitythreats#_iPckkGFoEeaenr5P40YdvQ"/>
+    <relates href="Threats.securitythreats#_6mm8sGFoEeaenr5P40YdvQ"/>
+    <relates href="Threats.securitythreats#_gzjY4GFpEeaenr5P40YdvQ"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:TechnologyPrerequisite" id="_GBmUuD1LEeaVk-W-mW-puA" name="TCPUsage" description="The system uses TCP as a transport protocol to enable the use of HTTP and fulfill its tasks as a web server." timeStamp="2016-08-17T00:00:00.000+0200" depends="_WZhQQj1JEeaC77dVaP0Eeg">
+    <attacks href="Threats.securitythreats#_zbUWEj1KEeaVk-W-mW-puA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" id="_BvpFYT1NEeaVk-W-mW-puA" name="Interpreter" description="The component is an interpreter that can execute code." technology="_K3GZKD1NEeaVk-W-mW-puA" timeStamp="2016-08-17T00:00:00.000+0200">
+    <attacks href="Threats.securitythreats#_yZTNgT1MEeaVk-W-mW-puA"/>
+    <relates href="../../../cocome-cloud-pcm-model/cocome-cloud.repository#_kBFSaNYgEeWrM-HnT5f_ug"/>
+    <relates href="../../../cocome-cloud-pcm-model/cocome-cloud.repository#_llW0oNY4EeW73vtlcwkhxw"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:TechnologyPrerequisite" id="_K3GZKD1NEeaVk-W-mW-puA" name="SQLDatabase" description="The database uses SQL for access." timeStamp="2016-08-17T00:00:00.000+0200" depends="_BvpFYT1NEeaVk-W-mW-puA">
+    <attacks href="Threats.securitythreats#_yZTNgT1MEeaVk-W-mW-puA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:TechnologyPrerequisite" id="_M0bySGSOEeaBdfha1Hk-SA" name="HTMLWithScripting" description="HTML with scripting (e.g. JavaScript) is used." timeStamp="2016-08-17T00:00:00.000+0200" depends="_WZhQQj1JEeaC77dVaP0Eeg">
+    <attacks href="Threats.securitythreats#_XL2vUj1NEeaVk-W-mW-puA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:UsagePrerequisite" id="_uZh6Yj1OEeaVk-W-mW-puA" name="CarelessLinkOpening" description="The user carelessly clicks on unknown links." timeStamp="2016-08-17T00:00:00.000+0200">
+    <attacks href="Threats.securitythreats#_gEjY5T1OEeaVk-W-mW-puA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" id="_w4tQsmfOEeat05QRYoj_vQ" name="LoginRequired" description="The user has to log in before using the system." timeStamp="2016-08-21T00:00:00.000+0200">
+    <attacks href="Threats.securitythreats#_gEjY5T1OEeaVk-W-mW-puA"/>
+    <relates href="../../../cocome-cloud-pcm-model/cocome-cloud.repository#_oFfIwDSjEeal3vOMu7N_ww"/>
+  </prerequisites>
+</securityPrerequisites:PrerequisiteCatalog>

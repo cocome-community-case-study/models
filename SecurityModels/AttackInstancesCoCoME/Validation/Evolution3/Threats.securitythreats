@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<securityThreats:ThreatCatalog xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:securityThreats="http://www.fzi.de/pcm/security/securityThreats" id="_8YfcgD02EeaC77dVaP0Eeg" name="Threats" description="The catalog of threats." timeStamp="2016-08-17T00:00:00.000+0200" createdBy="Kevin Wiegratz">
+  <attackers id="_pCMgMGFnEeaenr5P40YdvQ" name="ProfessionalHacker" description="A professional hacker who has a high level of security knowledge and is able to carry out sophisticated attacks." position="EXTERNAL" attackCapabilities="_yZTNgT1MEeaVk-W-mW-puA _DPedQj1JEeaC77dVaP0Eeg _XL2vUj1NEeaVk-W-mW-puA _zbUWEj1KEeaVk-W-mW-puA _gEjY5T1OEeaVk-W-mW-puA" stealth="STEALTHY">
+    <prerequisites href="Prerequisites.securityprerequisites#_g5Xd1z1KEeaVk-W-mW-puA"/>
+  </attackers>
+  <attackers id="_A2-kAGFoEeaenr5P40YdvQ" name="ScriptKiddie" description="A person with a low level of security knowledge who uses tools for his attacks which he or she does not understand." position="EXTERNAL" attackCapabilities="_yZTNgT1MEeaVk-W-mW-puA _DPedQj1JEeaC77dVaP0Eeg _zbUWEj1KEeaVk-W-mW-puA _XL2vUj1NEeaVk-W-mW-puA" focus="RANDOM" motivation="PERSONAL" timeConstraints="NONE" stealth="STEALTHY"/>
+  <attackers id="_ZiIPIGFoEeaenr5P40YdvQ" name="InternalAttacker" description="An attacker who is positioned inside the target system." focus="DIRECTED" stealth="STEALTHY"/>
+  <attackers id="_iPckkGFoEeaenr5P40YdvQ" name="Company" description="A whole company with a high level of financial resources and financially motivated goals." position="EXTERNAL" attackCapabilities="_yZTNgT1MEeaVk-W-mW-puA _DPedQj1JEeaC77dVaP0Eeg _XL2vUj1NEeaVk-W-mW-puA _zbUWEj1KEeaVk-W-mW-puA _gEjY5T1OEeaVk-W-mW-puA" focus="DIRECTED" motivation="FINANCIAL" timeConstraints="SOFT" stealth="STEALTHY">
+    <prerequisites href="Prerequisites.securityprerequisites#_g5Xd1z1KEeaVk-W-mW-puA"/>
+  </attackers>
+  <attackers id="_6mm8sGFoEeaenr5P40YdvQ" name="Government" description="The government in the form of an intelligence agency or police with nearly unlimited resources and information gathering as their main goal." position="EXTERNAL" attackCapabilities="_yZTNgT1MEeaVk-W-mW-puA _XL2vUj1NEeaVk-W-mW-puA _gEjY5T1OEeaVk-W-mW-puA" focus="DIRECTED" motivation="POLITICAL" timeConstraints="SOFT" stealth="STEALTHY">
+    <prerequisites href="Prerequisites.securityprerequisites#_g5Xd1z1KEeaVk-W-mW-puA"/>
+  </attackers>
+  <attackers id="_gzjY4GFpEeaenr5P40YdvQ" name="Terrorists" description="The main goal is to create damage at the target system." position="EXTERNAL" attackCapabilities="_yZTNgT1MEeaVk-W-mW-puA _DPedQj1JEeaC77dVaP0Eeg _XL2vUj1NEeaVk-W-mW-puA _zbUWEj1KEeaVk-W-mW-puA _gEjY5T1OEeaVk-W-mW-puA" motivation="POLITICAL">
+    <prerequisites href="Prerequisites.securityprerequisites#_g5Xd1z1KEeaVk-W-mW-puA"/>
+  </attackers>
+  <attackers id="_r5aTAGFpEeaenr5P40YdvQ" name="CuriousEmployee" description="Insider at the target system with the goal of simple information gathering." activity="PASSIVE" focus="DIRECTED" motivation="PERSONAL" timeConstraints="NONE" stealth="STEALTHY"/>
+  <attackers id="_4K5SwGFpEeaenr5P40YdvQ" name="CuriousUser" description="User of the target system with the goal of simple information gathering." position="EXTERNAL" focus="RANDOM" motivation="PERSONAL" timeConstraints="NONE" stealth="STEALTHY"/>
+  <attackers id="_CZhp8GFqEeaenr5P40YdvQ" name="OrdinaryEmployee" description="Insider at the target system who is mislead into executing malicious actions." intention="NONMALICIOUS" focus="DIRECTED" timeConstraints="NONE"/>
+  <attackers id="_R5xEsGFqEeaenr5P40YdvQ" name="OrdinaryUser" description="An ordinary user of the target system who is mislead into malicious actions." position="EXTERNAL" intention="NONMALICIOUS" attackCapabilities="_DPedQj1JEeaC77dVaP0Eeg _zbUWEj1KEeaVk-W-mW-puA" focus="DIRECTED" timeConstraints="NONE"/>
+  <attackTypes xsi:type="securityThreats:SystemAttack" id="_DPedQj1JEeaC77dVaP0Eeg" name="HTTPFlooding" description="The attacker issues an enormous amount of HTTP requests to produce a denial of service at the web server (the exploitation of bugs does not play a role), often described simply as DDoS." timeStamp="2016-08-17T00:00:00.000+0200" attacker="_pCMgMGFnEeaenr5P40YdvQ _A2-kAGFoEeaenr5P40YdvQ _iPckkGFoEeaenr5P40YdvQ _gzjY4GFpEeaenr5P40YdvQ _R5xEsGFqEeaenr5P40YdvQ" stealth="STEALTHY">
+    <prerequisites href="Prerequisites.securityprerequisites#_WZhQQj1JEeaC77dVaP0Eeg"/>
+    <prerequisites href="Prerequisites.securityprerequisites#_Myt4qD1KEeaVk-W-mW-puA"/>
+    <prerequisites href="Prerequisites.securityprerequisites#_g5Xd1z1KEeaVk-W-mW-puA"/>
+    <securityViolations>AVAILABILITY</securityViolations>
+    <operationProvidedRole href="../../../cocome-cloud-pcm-model/cocome-cloud.repository#_OmTrkWCIEeaftfO-M3V5YQ"/>
+    <operationProvidedRole href="../../../cocome-cloud-pcm-model/cocome-cloud.repository#_Uh_m4WCIEeaftfO-M3V5YQ"/>
+    <operationProvidedRole href="../../../cocome-cloud-pcm-model/cocome-cloud.repository#_d6XrgWCIEeaftfO-M3V5YQ"/>
+    <system href="../../../cocome-cloud-pcm-model/cocome-cloud.system#_hn6AYBkPEeaIeLbO8-hHwA"/>
+  </attackTypes>
+  <attackTypes xsi:type="securityThreats:SystemAttack" id="_zbUWEj1KEeaVk-W-mW-puA" name="TCPSYNFlooding" description="The attacker opens lots of TCP connections with the server, but suppresses the final ACK of the handshake procedure, so that every connection stays half-open and uses resources of the server to finally produce a denial of service." timeStamp="2016-08-17T00:00:00.000+0200" attacker="_pCMgMGFnEeaenr5P40YdvQ _A2-kAGFoEeaenr5P40YdvQ _iPckkGFoEeaenr5P40YdvQ _gzjY4GFpEeaenr5P40YdvQ _R5xEsGFqEeaenr5P40YdvQ" stealth="STEALTHY">
+    <prerequisites href="Prerequisites.securityprerequisites#_WZhQQj1JEeaC77dVaP0Eeg"/>
+    <prerequisites href="Prerequisites.securityprerequisites#_GBmUuD1LEeaVk-W-mW-puA"/>
+    <prerequisites href="Prerequisites.securityprerequisites#_g5Xd1z1KEeaVk-W-mW-puA"/>
+    <securityViolations>AVAILABILITY</securityViolations>
+    <operationProvidedRole href="../../../cocome-cloud-pcm-model/cocome-cloud.repository#_OmTrkWCIEeaftfO-M3V5YQ"/>
+    <operationProvidedRole href="../../../cocome-cloud-pcm-model/cocome-cloud.repository#_Uh_m4WCIEeaftfO-M3V5YQ"/>
+    <operationProvidedRole href="../../../cocome-cloud-pcm-model/cocome-cloud.repository#_d6XrgWCIEeaftfO-M3V5YQ"/>
+    <system href="../../../cocome-cloud-pcm-model/cocome-cloud.system#_hn6AYBkPEeaIeLbO8-hHwA"/>
+  </attackTypes>
+  <attackTypes xsi:type="securityThreats:ComponentAttack" id="_yZTNgT1MEeaVk-W-mW-puA" name="SQLInjection" description="The attacker injects malicious SQL code in parameters that are passed into SQL commands unchecked which leads to the execution of malicious SQL commands." timeStamp="2016-08-17T00:00:00.000+0200" attacker="_pCMgMGFnEeaenr5P40YdvQ _A2-kAGFoEeaenr5P40YdvQ _iPckkGFoEeaenr5P40YdvQ _6mm8sGFoEeaenr5P40YdvQ _gzjY4GFpEeaenr5P40YdvQ" stealth="STEALTHY">
+    <prerequisites href="Prerequisites.securityprerequisites#_BvpFYT1NEeaVk-W-mW-puA"/>
+    <prerequisites href="Prerequisites.securityprerequisites#_K3GZKD1NEeaVk-W-mW-puA"/>
+    <prerequisites href="Prerequisites.securityprerequisites#_WZhQQj1JEeaC77dVaP0Eeg"/>
+    <securityViolations>CONFIDENTIALITY</securityViolations>
+    <securityViolations>INTEGRITY</securityViolations>
+    <securityViolations>NONREPUDIATION</securityViolations>
+    <basicComponent href="../../../cocome-cloud-pcm-model/cocome-cloud.repository#_kBFSaNYgEeWrM-HnT5f_ug"/>
+    <basicComponent href="../../../cocome-cloud-pcm-model/cocome-cloud.repository#_llW0oNY4EeW73vtlcwkhxw"/>
+  </attackTypes>
+  <attackTypes xsi:type="securityThreats:SystemAttack" id="_XL2vUj1NEeaVk-W-mW-puA" name="PersistentCrossSiteScripting" description="The attacker passes malicious code to the system that is persisted (e.g. in the database), later the the system passes the malicious code to a user where it is executed in the browser." timeStamp="2016-08-17T00:00:00.000+0200" attacker="_pCMgMGFnEeaenr5P40YdvQ _iPckkGFoEeaenr5P40YdvQ _6mm8sGFoEeaenr5P40YdvQ _gzjY4GFpEeaenr5P40YdvQ _A2-kAGFoEeaenr5P40YdvQ" stealth="STEALTHY">
+    <prerequisites href="Prerequisites.securityprerequisites#_M0bySGSOEeaBdfha1Hk-SA"/>
+    <prerequisites href="Prerequisites.securityprerequisites#_WZhQQj1JEeaC77dVaP0Eeg"/>
+    <securityViolations>CONFIDENTIALITY</securityViolations>
+    <securityViolations>INTEGRITY</securityViolations>
+    <securityViolations>AUTHENTICATION</securityViolations>
+    <operationProvidedRole href="../../../cocome-cloud-pcm-model/cocome-cloud.repository#_OmTrkWCIEeaftfO-M3V5YQ"/>
+    <operationProvidedRole href="../../../cocome-cloud-pcm-model/cocome-cloud.repository#_Uh_m4WCIEeaftfO-M3V5YQ"/>
+    <operationProvidedRole href="../../../cocome-cloud-pcm-model/cocome-cloud.repository#_d6XrgWCIEeaftfO-M3V5YQ"/>
+    <system href="../../../cocome-cloud-pcm-model/cocome-cloud.system#_hn6AYBkPEeaIeLbO8-hHwA"/>
+  </attackTypes>
+  <attackTypes xsi:type="securityThreats:ComponentAttack" id="_gEjY5T1OEeaVk-W-mW-puA" name="CrossSiteRequestForgery" description="The attacker misleads a user of a web application who is logged in to open a link that contains a malicious command which is then executed with the rights of the user." timeStamp="2016-08-17T00:00:00.000+0200" attacker="_pCMgMGFnEeaenr5P40YdvQ _iPckkGFoEeaenr5P40YdvQ _6mm8sGFoEeaenr5P40YdvQ _gzjY4GFpEeaenr5P40YdvQ" stealth="STEALTHY">
+    <prerequisites href="Prerequisites.securityprerequisites#_WZhQQj1JEeaC77dVaP0Eeg"/>
+    <prerequisites href="Prerequisites.securityprerequisites#_Myt4qD1KEeaVk-W-mW-puA"/>
+    <prerequisites href="Prerequisites.securityprerequisites#_uZh6Yj1OEeaVk-W-mW-puA"/>
+    <prerequisites href="Prerequisites.securityprerequisites#_w4tQsmfOEeat05QRYoj_vQ"/>
+    <securityViolations>AUTHENTICATION</securityViolations>
+    <basicComponent href="../../../cocome-cloud-pcm-model/cocome-cloud.repository#_oFfIwDSjEeal3vOMu7N_ww"/>
+  </attackTypes>
+</securityThreats:ThreatCatalog>

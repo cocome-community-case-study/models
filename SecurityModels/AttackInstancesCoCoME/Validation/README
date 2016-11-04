@@ -1,0 +1,2 @@
+The folders contain the prerequisite and threat models with references to the CoCoME PCM model for every evolutionary step described in the validation.
+For the references to work the folder CoCoME-SPP/src/cocomePcmModels/PCM4.0/cococme-cloud-pcm-model has to be checked out into the workspace.

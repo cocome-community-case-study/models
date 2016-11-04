@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<securityThreats:ThreatCatalog xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:securityPrerequisites="http://www.fzi.de/pcm/security/securityPrerequisites" xmlns:securityThreats="http://www.fzi.de/pcm/security/securityThreats" id="_LAiOkDoDEeavwJ56dShmzg" name="AttackCatalog" description="Contains all attackers and attacks.">
+  <attackers id="_MyuuEC5UEea9s_HT1ck1fA" name="InternalAttacker" description="Attacker that is positioned inside the attacked system." attackCapabilities="_MywjQi5UEea9s_HT1ck1fA">
+    <prerequisites href="InitialPrerequisites.securityprerequisites#_dgT8ljoDEeavwJ56dShmzg"/>
+  </attackers>
+  <attackers id="_MyuuES5UEea9s_HT1ck1fA" name="ExternalUser" description="Ordinary (non-malicious) external user of the system." position="EXTERNAL" intention="NONMALICIOUS"/>
+  <attackers id="_MyuuEi5UEea9s_HT1ck1fA" name="InternalUser" description="Ordinary (non-malicious) internal user of the system." intention="NONMALICIOUS"/>
+  <attackers id="_MyvVIC5UEea9s_HT1ck1fA" name="ScriptKiddie" description="Attacker who is using programs from security experts but does not understand their inner workings." position="EXTERNAL" attackCapabilities="_MyvVJy5UEea9s_HT1ck1fA _Myv8Mi5UEea9s_HT1ck1fA _Myv8MC5UEea9s_HT1ck1fA _MywjQS5UEea9s_HT1ck1fA _Myv8NS5UEea9s_HT1ck1fA _MyvVKC5UEea9s_HT1ck1fA"/>
+  <attackers id="_MyvVIS5UEea9s_HT1ck1fA" name="SecurityExpert" description="Attacker who is capable of sophisticated attacks." position="EXTERNAL" attackCapabilities="_Myv8MS5UEea9s_HT1ck1fA _Myv8Mi5UEea9s_HT1ck1fA _Myv8My5UEea9s_HT1ck1fA _Myv8Ni5UEea9s_HT1ck1fA _Myv8MC5UEea9s_HT1ck1fA _MywjQC5UEea9s_HT1ck1fA _MywjQS5UEea9s_HT1ck1fA _Myv8Ny5UEea9s_HT1ck1fA _MyvVJy5UEea9s_HT1ck1fA _Myv8NS5UEea9s_HT1ck1fA _Myv8NC5UEea9s_HT1ck1fA _Myv8OC5UEea9s_HT1ck1fA _MyvVKC5UEea9s_HT1ck1fA _MywjQi5UEea9s_HT1ck1fA _MywjQy5UEea9s_HT1ck1fA">
+    <prerequisites href="InitialPrerequisites.securityprerequisites#_dgTVmDoDEeavwJ56dShmzg"/>
+    <prerequisites href="InitialPrerequisites.securityprerequisites#_dgTVnToDEeavwJ56dShmzg"/>
+    <prerequisites href="InitialPrerequisites.securityprerequisites#_dgTVpDoDEeavwJ56dShmzg"/>
+    <prerequisites href="InitialPrerequisites.securityprerequisites#_dgTVqjoDEeavwJ56dShmzg"/>
+    <prerequisites href="InitialPrerequisites.securityprerequisites#_dgTVrDoDEeavwJ56dShmzg"/>
+    <prerequisites href="InitialPrerequisites.securityprerequisites#_dgT8ljoDEeavwJ56dShmzg"/>
+  </attackers>
+  <attackers id="_MyvVIi5UEea9s_HT1ck1fA" name="Company" description="Attacker that can carry out sophisticated attacks that require costly resources." position="EXTERNAL" attackCapabilities="_Myv8MS5UEea9s_HT1ck1fA _Myv8MC5UEea9s_HT1ck1fA _MyvVJy5UEea9s_HT1ck1fA _MyvVKC5UEea9s_HT1ck1fA _Myv8Mi5UEea9s_HT1ck1fA _MywjQC5UEea9s_HT1ck1fA _Myv8Ny5UEea9s_HT1ck1fA _Myv8NS5UEea9s_HT1ck1fA _MywjQS5UEea9s_HT1ck1fA _MywjQy5UEea9s_HT1ck1fA _MywjQi5UEea9s_HT1ck1fA">
+    <prerequisites href="InitialPrerequisites.securityprerequisites#_dgTVrDoDEeavwJ56dShmzg"/>
+    <prerequisites href="InitialPrerequisites.securityprerequisites#_dgT8ljoDEeavwJ56dShmzg"/>
+  </attackers>
+  <attackers id="_MyvVIy5UEea9s_HT1ck1fA" name="IntelligenceAgency" description="Attacker that can carry out sophisticated attacks that require very costly resources." position="EXTERNAL" attackCapabilities="_Myv8MS5UEea9s_HT1ck1fA _Myv8Mi5UEea9s_HT1ck1fA _Myv8My5UEea9s_HT1ck1fA _Myv8Ni5UEea9s_HT1ck1fA _Myv8MC5UEea9s_HT1ck1fA _MywjQC5UEea9s_HT1ck1fA _MywjQS5UEea9s_HT1ck1fA _Myv8Ny5UEea9s_HT1ck1fA _MyvVJy5UEea9s_HT1ck1fA _Myv8NS5UEea9s_HT1ck1fA _Myv8NC5UEea9s_HT1ck1fA _Myv8OC5UEea9s_HT1ck1fA _MyvVKC5UEea9s_HT1ck1fA _MywjQi5UEea9s_HT1ck1fA _MywjQy5UEea9s_HT1ck1fA">
+    <prerequisites href="InitialPrerequisites.securityprerequisites#_dgTVmDoDEeavwJ56dShmzg"/>
+    <prerequisites href="InitialPrerequisites.securityprerequisites#_dgTVnToDEeavwJ56dShmzg"/>
+    <prerequisites href="InitialPrerequisites.securityprerequisites#_dgTVpDoDEeavwJ56dShmzg"/>
+    <prerequisites href="InitialPrerequisites.securityprerequisites#_dgTVqjoDEeavwJ56dShmzg"/>
+    <prerequisites href="InitialPrerequisites.securityprerequisites#_dgTVrDoDEeavwJ56dShmzg"/>
+    <prerequisites href="InitialPrerequisites.securityprerequisites#_dgT8ljoDEeavwJ56dShmzg"/>
+  </attackers>
+  <attackers id="_MyvVJC5UEea9s_HT1ck1fA" name="Malware" description="Automated malware within the attacked system."/>
+  <attackers id="_MyvVJS5UEea9s_HT1ck1fA" name="CuriousUser" description="User of the system that carries out easy attacks with a low probability of discovery." position="EXTERNAL"/>
+  <attackers id="_MyvVJi5UEea9s_HT1ck1fA" name="CuriousEmployee" description="Internal attacker that carries out easy attacks with a low probability of discovery." attackCapabilities="_MywjQi5UEea9s_HT1ck1fA">
+    <prerequisites href="InitialPrerequisites.securityprerequisites#_dgT8ljoDEeavwJ56dShmzg"/>
+  </attackers>
+  <attackTypes xsi:type="securityThreats:ComponentAttack" id="_MyvVJy5UEea9s_HT1ck1fA" name="SQLInjection" description="Typical SQL Injection." position="EXTERNAL" attacker="_MyvVIi5UEea9s_HT1ck1fA _MyvVIC5UEea9s_HT1ck1fA _MyvVIS5UEea9s_HT1ck1fA _MyvVIy5UEea9s_HT1ck1fA">
+    <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" href="InitialPrerequisites.securityprerequisites#_dgTVgToDEeavwJ56dShmzg"/>
+    <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" href="InitialPrerequisites.securityprerequisites#_dgSucToDEeavwJ56dShmzg"/>
+  </attackTypes>
+  <attackTypes xsi:type="securityThreats:ComponentAttack" id="_MyvVKC5UEea9s_HT1ck1fA" name="XMLInjection" description="XML Injection, similar to a SQL injection but exploits XML usage for database access." position="EXTERNAL" attacker="_MyvVIi5UEea9s_HT1ck1fA _MyvVIC5UEea9s_HT1ck1fA _MyvVIS5UEea9s_HT1ck1fA _MyvVIy5UEea9s_HT1ck1fA">
+    <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" href="InitialPrerequisites.securityprerequisites#_dgTVgzoDEeavwJ56dShmzg"/>
+    <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" href="InitialPrerequisites.securityprerequisites#_dgTVhToDEeavwJ56dShmzg"/>
+  </attackTypes>
+  <attackTypes xsi:type="securityThreats:ComponentAttack" id="_Myv8MC5UEea9s_HT1ck1fA" name="LDAPInjection" description="LDAP Injection, similar to a SQL Injection, exploits LDAP usage by a component e.g. for authentication." position="EXTERNAL" attacker="_MyvVIi5UEea9s_HT1ck1fA _MyvVIC5UEea9s_HT1ck1fA _MyvVIS5UEea9s_HT1ck1fA _MyvVIy5UEea9s_HT1ck1fA">
+    <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" href="InitialPrerequisites.securityprerequisites#_dgTVhzoDEeavwJ56dShmzg"/>
+    <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" href="InitialPrerequisites.securityprerequisites#_dgTViToDEeavwJ56dShmzg"/>
+  </attackTypes>
+  <attackTypes xsi:type="securityThreats:ComponentAttack" id="_Myv8MS5UEea9s_HT1ck1fA" name="CrossSiteRequestForgery" description="Cross Site Request Forgery (CSRF) attack, also named session riding." position="EXTERNAL" attacker="_MyvVIi5UEea9s_HT1ck1fA _MyvVIS5UEea9s_HT1ck1fA _MyvVIy5UEea9s_HT1ck1fA">
+    <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" href="InitialPrerequisites.securityprerequisites#_dgTVizoDEeavwJ56dShmzg"/>
+    <prerequisites xsi:type="securityPrerequisites:UsagePrerequisite" href="InitialPrerequisites.securityprerequisites#_dgTVjjoDEeavwJ56dShmzg"/>
+  </attackTypes>
+  <attackTypes xsi:type="securityThreats:ComponentAttack" id="_Myv8Mi5UEea9s_HT1ck1fA" name="HTTPDenialOfService" description="Many HTTP sessions are opened and kept alive indefinitely to produce a denial of service (DoS) of the attacked server. " position="EXTERNAL" attacker="_MyvVIC5UEea9s_HT1ck1fA _MyvVIS5UEea9s_HT1ck1fA _MyvVIi5UEea9s_HT1ck1fA _MyvVIy5UEea9s_HT1ck1fA">
+    <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" href="InitialPrerequisites.securityprerequisites#_dgTVkToDEeavwJ56dShmzg"/>
+    <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" href="InitialPrerequisites.securityprerequisites#_dgTVljoDEeavwJ56dShmzg"/>
+  </attackTypes>
+  <attackTypes xsi:type="securityThreats:ComponentAttack" id="_Myv8My5UEea9s_HT1ck1fA" name="HTTPFlooding" description="Lots of normal HTTP GET requests are issued to produce a denial of service (DoS) at the attacked server." position="EXTERNAL" attacker="_MyvVIS5UEea9s_HT1ck1fA _MyvVIy5UEea9s_HT1ck1fA">
+    <prerequisites xsi:type="securityPrerequisites:AttackerPrerequisite" href="InitialPrerequisites.securityprerequisites#_dgTVmDoDEeavwJ56dShmzg"/>
+    <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" href="InitialPrerequisites.securityprerequisites#_dgTVkToDEeavwJ56dShmzg"/>
+  </attackTypes>
+  <attackTypes xsi:type="securityThreats:ComponentAttack" id="_Myv8NC5UEea9s_HT1ck1fA" name="TCPFlooding" description="Lots of TCP requests are issued to produce a denial of service (DoS) at the attacked server." position="EXTERNAL" attacker="_MyvVIS5UEea9s_HT1ck1fA _MyvVIy5UEea9s_HT1ck1fA">
+    <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" href="InitialPrerequisites.securityprerequisites#_dgTVmjoDEeavwJ56dShmzg"/>
+    <prerequisites xsi:type="securityPrerequisites:AttackerPrerequisite" href="InitialPrerequisites.securityprerequisites#_dgTVnToDEeavwJ56dShmzg"/>
+  </attackTypes>
+  <attackTypes xsi:type="securityThreats:ComponentAttack" id="_Myv8NS5UEea9s_HT1ck1fA" name="TCPDenialOfService" description="Many TCP sessions are opened while the final ACK of the client is suppressed to produce a denial of service (DoS) of the attacked server. Also called SYN-Flooding." position="EXTERNAL" attacker="_MyvVIC5UEea9s_HT1ck1fA _MyvVIS5UEea9s_HT1ck1fA _MyvVIi5UEea9s_HT1ck1fA _MyvVIy5UEea9s_HT1ck1fA">
+    <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" href="InitialPrerequisites.securityprerequisites#_dgTVmjoDEeavwJ56dShmzg"/>
+    <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" href="InitialPrerequisites.securityprerequisites#_dgTVnzoDEeavwJ56dShmzg"/>
+  </attackTypes>
+  <attackTypes xsi:type="securityThreats:ComponentAttack" id="_Myv8Ni5UEea9s_HT1ck1fA" name="ICMPFlooding" description="Lots of ICMP messages are sent to the system under attack to produce a denial of service." position="EXTERNAL" attacker="_MyvVIS5UEea9s_HT1ck1fA _MyvVIy5UEea9s_HT1ck1fA">
+    <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" href="InitialPrerequisites.securityprerequisites#_dgTVoToDEeavwJ56dShmzg"/>
+    <prerequisites xsi:type="securityPrerequisites:AttackerPrerequisite" href="InitialPrerequisites.securityprerequisites#_dgTVpDoDEeavwJ56dShmzg"/>
+  </attackTypes>
+  <attackTypes xsi:type="securityThreats:ComponentAttack" id="_Myv8Ny5UEea9s_HT1ck1fA" name="SmurfAttack" description="Lots of ICMP messages are sent to the broadcast address of a network where the source IP address is manipulated so that the recipients answer to the system under attack creating a denial of service (DoS)." attacker="_MyvVIS5UEea9s_HT1ck1fA _MyvVIi5UEea9s_HT1ck1fA _MyvVIy5UEea9s_HT1ck1fA">
+    <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" href="InitialPrerequisites.securityprerequisites#_dgTVoToDEeavwJ56dShmzg"/>
+    <prerequisites xsi:type="securityPrerequisites:ConfigurationPrerequisite" href="InitialPrerequisites.securityprerequisites#_dgTVpjoDEeavwJ56dShmzg"/>
+  </attackTypes>
+  <attackTypes xsi:type="securityThreats:ComponentAttack" id="_Myv8OC5UEea9s_HT1ck1fA" name="UDPFlooding" description="Lots of UDP requests are issued to produce a denial of service (DoS) at the attacked server." position="EXTERNAL" attacker="_MyvVIS5UEea9s_HT1ck1fA _MyvVIy5UEea9s_HT1ck1fA">
+    <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" href="InitialPrerequisites.securityprerequisites#_dgTVqDoDEeavwJ56dShmzg"/>
+    <prerequisites xsi:type="securityPrerequisites:AttackerPrerequisite" href="InitialPrerequisites.securityprerequisites#_dgTVqjoDEeavwJ56dShmzg"/>
+  </attackTypes>
+  <attackTypes xsi:type="securityThreats:ComponentAttack" id="_MywjQC5UEea9s_HT1ck1fA" name="LocalCookieStealing" description="The attacker steals a HTTP session cookie that is stored locally on the system." attacker="_MyvVIS5UEea9s_HT1ck1fA _MyvVIi5UEea9s_HT1ck1fA _MyvVIy5UEea9s_HT1ck1fA">
+    <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" href="InitialPrerequisites.securityprerequisites#_dgTVkToDEeavwJ56dShmzg"/>
+    <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" href="InitialPrerequisites.securityprerequisites#_dgTVizoDEeavwJ56dShmzg"/>
+    <prerequisites xsi:type="securityPrerequisites:AttackerPrerequisite" href="InitialPrerequisites.securityprerequisites#_dgTVrDoDEeavwJ56dShmzg"/>
+  </attackTypes>
+  <attackTypes xsi:type="securityThreats:ComponentAttack" id="_MywjQS5UEea9s_HT1ck1fA" name="ReflectedCrossSiteScripting" description="The attack passes malicious content within a normal HTTP Request and the system reflects that content to other users of the system." position="EXTERNAL" attacker="_MyvVIC5UEea9s_HT1ck1fA _MyvVIS5UEea9s_HT1ck1fA _MyvVIi5UEea9s_HT1ck1fA _MyvVIy5UEea9s_HT1ck1fA">
+    <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" href="InitialPrerequisites.securityprerequisites#_dgTVkToDEeavwJ56dShmzg"/>
+    <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" href="InitialPrerequisites.securityprerequisites#_dgT8kDoDEeavwJ56dShmzg"/>
+    <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" href="InitialPrerequisites.securityprerequisites#_dgT8kjoDEeavwJ56dShmzg"/>
+  </attackTypes>
+  <attackTypes xsi:type="securityThreats:ResourceAttack" id="_MywjQi5UEea9s_HT1ck1fA" name="ManInTheMiddle" description="The attacker places itself between two communicating entities (components or system and user) so he can eavesdrop or alter the communication without knowledge of the entities." attacker="_MyuuEC5UEea9s_HT1ck1fA _MyvVIS5UEea9s_HT1ck1fA _MyvVIi5UEea9s_HT1ck1fA _MyvVIy5UEea9s_HT1ck1fA _MyvVJi5UEea9s_HT1ck1fA">
+    <prerequisites xsi:type="securityPrerequisites:AttackerPrerequisite" href="InitialPrerequisites.securityprerequisites#_dgT8ljoDEeavwJ56dShmzg"/>
+    <prerequisites xsi:type="securityPrerequisites:ResourcePrerequisite" href="InitialPrerequisites.securityprerequisites#_dgT8mDoDEeavwJ56dShmzg"/>
+    <prerequisites xsi:type="securityPrerequisites:ResourcePrerequisite" href="InitialPrerequisites.securityprerequisites#_dgT8mjoDEeavwJ56dShmzg"/>
+  </attackTypes>
+  <attackTypes xsi:type="securityThreats:UsageAttack" id="_MywjQy5UEea9s_HT1ck1fA" name="Phishing" description="The attacker tricks the victim into giving him valid credentials through looking like a legitimate entity." position="EXTERNAL" attacker="_MyvVIS5UEea9s_HT1ck1fA _MyvVIi5UEea9s_HT1ck1fA _MyvVIy5UEea9s_HT1ck1fA">
+    <prerequisites xsi:type="securityPrerequisites:UsagePrerequisite" href="InitialPrerequisites.securityprerequisites#_dgT8lDoDEeavwJ56dShmzg"/>
+    <prerequisites xsi:type="securityPrerequisites:UsagePrerequisite" href="InitialPrerequisites.securityprerequisites#_dgTVjjoDEeavwJ56dShmzg"/>
+  </attackTypes>
+</securityThreats:ThreatCatalog>

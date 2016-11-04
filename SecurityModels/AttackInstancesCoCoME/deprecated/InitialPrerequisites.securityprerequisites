@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<securityPrerequisites:PrerequisiteCatalog xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:securityPrerequisites="http://www.fzi.de/pcm/security/securityPrerequisites" xmlns:securityThreats="http://www.fzi.de/pcm/security/securityThreats" id="_dgSucDoDEeavwJ56dShmzg" name="Prerequisites" description="Contains all prerequisites for the attacks.">
+  <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" id="_dgSucToDEeavwJ56dShmzg" name="SQLUsage" description="The component uses SQL for access to a database internally.">
+    <attacks xsi:type="securityThreats:ComponentAttack" href="InitialThreats.securitythreats#_MyvVJy5UEea9s_HT1ck1fA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" id="_dgTVgToDEeavwJ56dShmzg" name="InsufficientSQLInputSanitization" description="The component does not sanitize input properly for SQL input.">
+    <attacks xsi:type="securityThreats:ComponentAttack" href="InitialThreats.securitythreats#_MyvVJy5UEea9s_HT1ck1fA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" id="_dgTVgzoDEeavwJ56dShmzg" name="XMLUsage" description="The component uses XML to access a database.">
+    <attacks xsi:type="securityThreats:ComponentAttack" href="InitialThreats.securitythreats#_MyvVKC5UEea9s_HT1ck1fA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" id="_dgTVhToDEeavwJ56dShmzg" name="InsufficientXMLInputSanitization" description="The component does not sanitize input properly for XML input.">
+    <attacks xsi:type="securityThreats:ComponentAttack" href="InitialThreats.securitythreats#_MyvVKC5UEea9s_HT1ck1fA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" id="_dgTVhzoDEeavwJ56dShmzg" name="LDAPUsage" description="The component uses LDAP e.g. for authentication.">
+    <attacks xsi:type="securityThreats:ComponentAttack" href="InitialThreats.securitythreats#_Myv8MC5UEea9s_HT1ck1fA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" id="_dgTViToDEeavwJ56dShmzg" name="InsufficientXMLInputSanitization" description="The component does not sanitize input properly for LDAP commands .">
+    <attacks xsi:type="securityThreats:ComponentAttack" href="InitialThreats.securitythreats#_Myv8MC5UEea9s_HT1ck1fA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" id="_dgTVizoDEeavwJ56dShmzg" name="SessionCookieUsage" description="A session cookie is created when the user authenticates at the system.">
+    <attacks xsi:type="securityThreats:ComponentAttack" href="InitialThreats.securitythreats#_Myv8MS5UEea9s_HT1ck1fA"/>
+    <attacks xsi:type="securityThreats:ComponentAttack" href="InitialThreats.securitythreats#_MywjQC5UEea9s_HT1ck1fA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:UsagePrerequisite" id="_dgTVjjoDEeavwJ56dShmzg" name="CarelessLinkClicking" description="The user carelessly clicks on links while being authenticated at the system.">
+    <attacks xsi:type="securityThreats:ComponentAttack" href="InitialThreats.securitythreats#_Myv8MS5UEea9s_HT1ck1fA"/>
+    <attacks xsi:type="securityThreats:UsageAttack" href="InitialThreats.securitythreats#_MywjQy5UEea9s_HT1ck1fA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" id="_dgTVkToDEeavwJ56dShmzg" name="HTTPUsage" description="The HTTP protocol is used which automatically produces a potential vulnerability for DDoS-Attacks.">
+    <attacks xsi:type="securityThreats:ComponentAttack" href="InitialThreats.securitythreats#_Myv8Mi5UEea9s_HT1ck1fA"/>
+    <attacks xsi:type="securityThreats:ComponentAttack" href="InitialThreats.securitythreats#_Myv8My5UEea9s_HT1ck1fA"/>
+    <attacks xsi:type="securityThreats:ComponentAttack" href="InitialThreats.securitythreats#_MywjQC5UEea9s_HT1ck1fA"/>
+    <attacks xsi:type="securityThreats:ComponentAttack" href="InitialThreats.securitythreats#_MywjQS5UEea9s_HT1ck1fA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" id="_dgTVljoDEeavwJ56dShmzg" name="HTTPFloodingVulnerability" description="The component is vulnerable to HTTP flooding by a single or few clients.">
+    <attacks xsi:type="securityThreats:ComponentAttack" href="InitialThreats.securitythreats#_Myv8Mi5UEea9s_HT1ck1fA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:AttackerPrerequisite" id="_dgTVmDoDEeavwJ56dShmzg" name="MassiveHTTPTrafficGeneration" description="The attacker is able to generate massive HTTP traffic e.g. via a bot-net.">
+    <attacks xsi:type="securityThreats:ComponentAttack" href="InitialThreats.securitythreats#_Myv8My5UEea9s_HT1ck1fA"/>
+    <relates href="InitialThreats.securitythreats#_MyvVIS5UEea9s_HT1ck1fA"/>
+    <relates href="InitialThreats.securitythreats#_MyvVIy5UEea9s_HT1ck1fA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" id="_dgTVmjoDEeavwJ56dShmzg" name="TCPUsage" description="The TCP protocol is used which automatically produces a potential vulnerability for DDoS-Attacks.">
+    <attacks xsi:type="securityThreats:ComponentAttack" href="InitialThreats.securitythreats#_Myv8NC5UEea9s_HT1ck1fA"/>
+    <attacks xsi:type="securityThreats:ComponentAttack" href="InitialThreats.securitythreats#_Myv8NS5UEea9s_HT1ck1fA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:AttackerPrerequisite" id="_dgTVnToDEeavwJ56dShmzg" name="MassiveTCPTrafficGeneration" description="The attacker is able to generate massive TCP traffic e.g. via a bot-net.">
+    <attacks xsi:type="securityThreats:ComponentAttack" href="InitialThreats.securitythreats#_Myv8NC5UEea9s_HT1ck1fA"/>
+    <relates href="InitialThreats.securitythreats#_MyvVIS5UEea9s_HT1ck1fA"/>
+    <relates href="InitialThreats.securitythreats#_MyvVIy5UEea9s_HT1ck1fA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" id="_dgTVnzoDEeavwJ56dShmzg" name="SYNFloodingVulnerability" description="The component is vulnerable of the typical SYN-Flooding attack.">
+    <attacks xsi:type="securityThreats:ComponentAttack" href="InitialThreats.securitythreats#_Myv8NS5UEea9s_HT1ck1fA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" id="_dgTVoToDEeavwJ56dShmzg" name="ICMPUsage" description="The component uses the ICMP protocol, so it accepts incoming ICMP messages.">
+    <attacks xsi:type="securityThreats:ComponentAttack" href="InitialThreats.securitythreats#_Myv8Ni5UEea9s_HT1ck1fA"/>
+    <attacks xsi:type="securityThreats:ComponentAttack" href="InitialThreats.securitythreats#_Myv8Ny5UEea9s_HT1ck1fA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:AttackerPrerequisite" id="_dgTVpDoDEeavwJ56dShmzg" name="MassiveICMPGeneration" description="The attacker is able to generate lots of ICMP messages e.g. via a bot-net.">
+    <attacks xsi:type="securityThreats:ComponentAttack" href="InitialThreats.securitythreats#_Myv8Ni5UEea9s_HT1ck1fA"/>
+    <relates href="InitialThreats.securitythreats#_MyvVIS5UEea9s_HT1ck1fA"/>
+    <relates href="InitialThreats.securitythreats#_MyvVIy5UEea9s_HT1ck1fA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:ConfigurationPrerequisite" id="_dgTVpjoDEeavwJ56dShmzg" name="ManyOtherSystemsInTheNetwork" description="A high number of other systems are present in the network.">
+    <attacks xsi:type="securityThreats:ComponentAttack" href="InitialThreats.securitythreats#_Myv8Ny5UEea9s_HT1ck1fA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" id="_dgTVqDoDEeavwJ56dShmzg" name="UDPUsage" description="The UDP protocol is used which automatically produces a potential vulnerability for DDoS-Attacks.">
+    <attacks xsi:type="securityThreats:ComponentAttack" href="InitialThreats.securitythreats#_Myv8OC5UEea9s_HT1ck1fA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:AttackerPrerequisite" id="_dgTVqjoDEeavwJ56dShmzg" name="MassiveUDPTrafficGeneration" description="The attacker is able to generate massive UDP traffic e.g. via a bot-net.">
+    <attacks xsi:type="securityThreats:ComponentAttack" href="InitialThreats.securitythreats#_Myv8OC5UEea9s_HT1ck1fA"/>
+    <relates href="InitialThreats.securitythreats#_MyvVIS5UEea9s_HT1ck1fA"/>
+    <relates href="InitialThreats.securitythreats#_MyvVIy5UEea9s_HT1ck1fA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:AttackerPrerequisite" id="_dgTVrDoDEeavwJ56dShmzg" name="FileSystemReadAccess" description="The attacker has read access to the file system of the attacked system.">
+    <attacks xsi:type="securityThreats:ComponentAttack" href="InitialThreats.securitythreats#_MywjQC5UEea9s_HT1ck1fA"/>
+    <relates href="InitialThreats.securitythreats#_MyvVIi5UEea9s_HT1ck1fA"/>
+    <relates href="InitialThreats.securitythreats#_MyvVIy5UEea9s_HT1ck1fA"/>
+    <relates href="InitialThreats.securitythreats#_MyvVIS5UEea9s_HT1ck1fA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" id="_dgT8kDoDEeavwJ56dShmzg" name="ScriptingUsage" description="The system supports scripts within HTTP requests.">
+    <attacks xsi:type="securityThreats:ComponentAttack" href="InitialThreats.securitythreats#_MywjQS5UEea9s_HT1ck1fA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:ComponentPrerequisite" id="_dgT8kjoDEeavwJ56dShmzg" name="HTMLReflection" description="The system allows reflection of user-generated HTML to other users of the system.">
+    <attacks xsi:type="securityThreats:ComponentAttack" href="InitialThreats.securitythreats#_MywjQS5UEea9s_HT1ck1fA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:UsagePrerequisite" id="_dgT8lDoDEeavwJ56dShmzg" name="AttackerSystemUserContact" description="The attacker can contact an user of the system.">
+    <attacks xsi:type="securityThreats:UsageAttack" href="InitialThreats.securitythreats#_MywjQy5UEea9s_HT1ck1fA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:AttackerPrerequisite" id="_dgT8ljoDEeavwJ56dShmzg" name="CommunicationEavesdropping" description="The attacker can eavesdrop the communication e.g. between components.">
+    <attacks xsi:type="securityThreats:ResourceAttack" href="InitialThreats.securitythreats#_MywjQi5UEea9s_HT1ck1fA"/>
+    <relates href="InitialThreats.securitythreats#_MyuuEC5UEea9s_HT1ck1fA"/>
+    <relates href="InitialThreats.securitythreats#_MyvVIi5UEea9s_HT1ck1fA"/>
+    <relates href="InitialThreats.securitythreats#_MyvVIy5UEea9s_HT1ck1fA"/>
+    <relates href="InitialThreats.securitythreats#_MyvVIS5UEea9s_HT1ck1fA"/>
+    <relates href="InitialThreats.securitythreats#_MyvVJi5UEea9s_HT1ck1fA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:ResourcePrerequisite" id="_dgT8mDoDEeavwJ56dShmzg" name="InsufficientMutualAuthentication" description="The communication between components or system and user is not properly authenticated.">
+    <attacks xsi:type="securityThreats:ResourceAttack" href="InitialThreats.securitythreats#_MywjQi5UEea9s_HT1ck1fA"/>
+  </prerequisites>
+  <prerequisites xsi:type="securityPrerequisites:ResourcePrerequisite" id="_dgT8mjoDEeavwJ56dShmzg" name="InsufficientCommunicationEncryption" description="The communication between components or system and user is not properly (or not at all) encrypted.">
+    <attacks xsi:type="securityThreats:ResourceAttack" href="InitialThreats.securitythreats#_MywjQi5UEea9s_HT1ck1fA"/>
+  </prerequisites>
+</securityPrerequisites:PrerequisiteCatalog>

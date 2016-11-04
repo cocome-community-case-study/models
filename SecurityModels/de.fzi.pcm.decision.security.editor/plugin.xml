@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated security -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="security.presentation.SecurityModelWizardID"
+            name="%_UI_SecurityModelWizard_label"
+            class="security.presentation.SecurityModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/SecurityModelFile.gif">
+         <description>%_UI_SecurityModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated security -->
+      <editor
+            id="security.presentation.SecurityEditorID"
+            name="%_UI_SecurityEditor_label"
+            icon="icons/full/obj16/SecurityModelFile.gif"
+            extensions="security"
+            class="security.presentation.SecurityEditor"
+            contributorClass="security.presentation.SecurityActionBarContributor">
+      </editor>
+   </extension>
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated security -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="security.securityPatterns.presentation.SecurityPatternsModelWizardID"
+            name="%_UI_SecurityPatternsModelWizard_label"
+            class="security.securityPatterns.presentation.SecurityPatternsModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/SecurityPatternsModelFile.gif">
+         <description>%_UI_SecurityPatternsModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated security -->
+      <editor
+            id="security.securityPatterns.presentation.SecurityPatternsEditorID"
+            name="%_UI_SecurityPatternsEditor_label"
+            icon="icons/full/obj16/SecurityPatternsModelFile.gif"
+            extensions="securitypatterns"
+            class="security.securityPatterns.presentation.SecurityPatternsEditor"
+            contributorClass="security.securityPatterns.presentation.SecurityPatternsActionBarContributor">
+      </editor>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated security -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="security.securityPrerequisites.presentation.SecurityPrerequisitesModelWizardID"
+            name="%_UI_SecurityPrerequisitesModelWizard_label"
+            class="security.securityPrerequisites.presentation.SecurityPrerequisitesModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/SecurityPrerequisitesModelFile.gif">
+         <description>%_UI_SecurityPrerequisitesModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated security -->
+      <editor
+            id="security.securityPrerequisites.presentation.SecurityPrerequisitesEditorID"
+            name="%_UI_SecurityPrerequisitesEditor_label"
+            icon="icons/full/obj16/SecurityPrerequisitesModelFile.gif"
+            extensions="securityprerequisites"
+            class="security.securityPrerequisites.presentation.SecurityPrerequisitesEditor"
+            contributorClass="security.securityPrerequisites.presentation.SecurityPrerequisitesActionBarContributor">
+      </editor>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated security -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="security.securityThreats.presentation.SecurityThreatsModelWizardID"
+            name="%_UI_SecurityThreatsModelWizard_label"
+            class="security.securityThreats.presentation.SecurityThreatsModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/SecurityThreatsModelFile.gif">
+         <description>%_UI_SecurityThreatsModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated security -->
+      <editor
+            id="security.securityThreats.presentation.SecurityThreatsEditorID"
+            name="%_UI_SecurityThreatsEditor_label"
+            icon="icons/full/obj16/SecurityThreatsModelFile.gif"
+            extensions="securitythreats"
+            class="security.securityThreats.presentation.SecurityThreatsEditor"
+            contributorClass="security.securityThreats.presentation.SecurityThreatsActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
