@@ -65,7 +65,7 @@
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_FfVxUQ3ZEeaNfMfZ20wdnQ" entityName="IStockItem" providedInterface__OperationProvidedRole="_qtu_WAbuEeaw45Je4nSaaQ"/>
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_MiRBgQ3ZEeaNfMfZ20wdnQ" entityName="IStore" providedInterface__OperationProvidedRole="_sV4B2AbuEeaw45Je4nSaaQ"/>
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_WD03UQ3ZEeaNfMfZ20wdnQ" entityName="IStoreDataFactory" providedInterface__OperationProvidedRole="_xp7VaAbuEeaw45Je4nSaaQ"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_kBdF0tYgEeWrM-HnT5f_ug" entityName="IEnterpriseQueryLocal 95 (req)" requiredInterface__OperationRequiredRole="_kAYu0NYgEeWrM-HnT5f_ug"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_kBdF0tYgEeWrM-HnT5f_ug" entityName="IEnterpriseQueryLocal" requiredInterface__OperationRequiredRole="_kAYu0NYgEeWrM-HnT5f_ug"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_-KfONQ3ZEeaNfMfZ20wdnQ" entityName="IProduct" requiredInterface__OperationRequiredRole="_mp9A2AbuEeaw45Je4nSaaQ"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_t46KNQ3mEeaNfMfZ20wdnQ" entityName="IEnterpriseDataFactory" requiredInterface__OperationRequiredRole="_dZAZ4QbuEeaw45Je4nSaaQ"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_lzeUJQ3mEeaNfMfZ20wdnQ" entityName="ITradingEnterprise" requiredInterface__OperationRequiredRole="_GiPOyAb0EeaWztvthg0dUA"/>
@@ -163,7 +163,7 @@
   <components__Repository xsi:type="repository:BasicComponent" id="_j_LN6dYgEeWrM-HnT5f_ug" entityName="org.cocome.tradingsystem.inventory.application.ProductDispatcher">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_j_8p8tYgEeWrM-HnT5f_ug" entityName="IProductDispatcherLocal" providedInterface__OperationProvidedRole="_j_8p8NYgEeWrM-HnT5f_ug"/>
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_j_8C4dYgEeWrM-HnT5f_ug" entityName="IOptimizationSolverLocal" providedInterface__OperationProvidedRole="_j9J0oNYgEeWrM-HnT5f_ug"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_j_McANYgEeWrM-HnT5f_ug" entityName="IStoreQueryLocal 44 (req)" requiredInterface__OperationRequiredRole="_j8RD0NYgEeWrM-HnT5f_ug"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_j_McANYgEeWrM-HnT5f_ug" entityName="IStoreQueryLocal" requiredInterface__OperationRequiredRole="_j8RD0NYgEeWrM-HnT5f_ug"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_WIJl9QbvEeaWztvthg0dUA" entityName="IEnterpriseDataFactory" requiredInterface__OperationRequiredRole="_dZAZ4QbuEeaw45Je4nSaaQ"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_alDPFQbvEeaWztvthg0dUA" entityName="IProduct" requiredInterface__OperationRequiredRole="_mp9A2AbuEeaw45Je4nSaaQ"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_g4aDhQbvEeaWztvthg0dUA" entityName="IStockItem" requiredInterface__OperationRequiredRole="_qtu_WAbuEeaw45Je4nSaaQ"/>
@@ -189,11 +189,11 @@
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ijSBRRdTEeaR2IIRs9mD-g" entityName="IStoreDataFactory" requiredInterface__OperationRequiredRole="_xp7VaAbuEeaw45Je4nSaaQ"/>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_kAQL8NYgEeWrM-HnT5f_ug" entityName="org.cocome.tradingsystem.inventory.application.Store">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_kAWSkNYgEeWrM-HnT5f_ug" entityName="IStoreInventoryLocal 39 (prov)" providedInterface__OperationProvidedRole="_j4ldsdYgEeWrM-HnT5f_ug"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_kAVrgdYgEeWrM-HnT5f_ug" entityName="IStoreInventoryManagerLocal 38 (prov)" providedInterface__OperationProvidedRole="_j_McAdYgEeWrM-HnT5f_ug"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_kAWSkNYgEeWrM-HnT5f_ug" entityName="IStoreInventoryLocal" providedInterface__OperationProvidedRole="_j4ldsdYgEeWrM-HnT5f_ug"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_kAVrgdYgEeWrM-HnT5f_ug" entityName="IStoreInventoryManagerLocal" providedInterface__OperationProvidedRole="_j_McAdYgEeWrM-HnT5f_ug"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_iE2blQucEeavOKEBhe9hQA" entityName="IStoreDataFactory" requiredInterface__OperationRequiredRole="_xp7VaAbuEeaw45Je4nSaaQ"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_kAT2UNYgEeWrM-HnT5f_ug" entityName="IStoreQueryLocal 55 (req)" requiredInterface__OperationRequiredRole="_j8RD0NYgEeWrM-HnT5f_ug"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_kAUdZdYgEeWrM-HnT5f_ug" entityName="IPersistenceContextLocal 56 (req)" requiredInterface__OperationRequiredRole="_kAT2UdYgEeWrM-HnT5f_ug"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_kAT2UNYgEeWrM-HnT5f_ug" entityName="IStoreQueryLocal" requiredInterface__OperationRequiredRole="_j8RD0NYgEeWrM-HnT5f_ug"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_kAUdZdYgEeWrM-HnT5f_ug" entityName="IPersistenceContextLocal" requiredInterface__OperationRequiredRole="_kAT2UdYgEeWrM-HnT5f_ug"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ikA9dQuUEeavOKEBhe9hQA" entityName="IOrderEntry" requiredInterface__OperationRequiredRole="_r5RM6AulEeavOKEBhe9hQA"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ajKy1QucEeavOKEBhe9hQA" entityName="IProductOrder" requiredInterface__OperationRequiredRole="_5pxBAAuoEeavOKEBhe9hQA"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_eEEtxQucEeavOKEBhe9hQA" entityName="IStockItem" requiredInterface__OperationRequiredRole="_qtu_WAbuEeaw45Je4nSaaQ"/>
@@ -237,7 +237,6 @@
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_H9-ogDSdEeal3vOMu7N_ww" entityName="org.cocome.pickupshop.CheckOut">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_PbLkcTSeEeal3vOMu7N_ww" entityName="ICheckOut" providedInterface__OperationProvidedRole="_KUrktzSeEeal3vOMu7N_ww"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_OmTrkWCIEeaftfO-M3V5YQ" entityName="ICheckOutWebAccess" providedInterface__OperationProvidedRole="_wKcmE2CHEeaftfO-M3V5YQ"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_YM35BTSdEeal3vOMu7N_ww" entityName="IBankLocal" requiredInterface__OperationRequiredRole="_j4f-KNYgEeWrM-HnT5f_ug"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_9JXt9Um6EeaHOPhDyP7akA" entityName="IInventory" requiredInterface__OperationRequiredRole="_rvrU4DSeEeal3vOMu7N_ww"/>
   </components__Repository>
@@ -247,14 +246,12 @@
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ZXfnJTSfEeal3vOMu7N_ww" entityName="IEnterpriseManager" requiredInterface__OperationRequiredRole="_JWIwEA4WEeaNfMfZ20wdnQ"/>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_k0zX8DSfEeal3vOMu7N_ww" entityName="org.cocome.pickupshop.ShoppingCart">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Uh_m4WCIEeaftfO-M3V5YQ" entityName="IShoppingCartWebAccess" providedInterface__OperationProvidedRole="_EyIbx2CIEeaftfO-M3V5YQ"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_rDsjJTSfEeal3vOMu7N_ww" entityName="ICheckOut" requiredInterface__OperationRequiredRole="_KUrktzSeEeal3vOMu7N_ww"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_u66FRTSfEeal3vOMu7N_ww" entityName="IInventory" requiredInterface__OperationRequiredRole="_rvrU4DSeEeal3vOMu7N_ww"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_AVMx5TSgEeal3vOMu7N_ww" entityName="IUserManager" requiredInterface__OperationRequiredRole="_8oRNJzSfEeal3vOMu7N_ww"/>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_TErv0DSgEeal3vOMu7N_ww" entityName="org.cocome.pickupshop.UserManager">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_fKOlUTSgEeal3vOMu7N_ww" entityName="IUserManager" providedInterface__OperationProvidedRole="_8oRNJzSfEeal3vOMu7N_ww"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_d6XrgWCIEeaftfO-M3V5YQ" entityName="IUserManagerWebAccess" providedInterface__OperationProvidedRole="_IiXzN2CIEeaftfO-M3V5YQ"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_lsmtNTSgEeal3vOMu7N_ww" entityName="ILoginManager" requiredInterface__OperationRequiredRole="_ZImaFTSgEeal3vOMu7N_ww"/>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_oFfIwDSjEeal3vOMu7N_ww" entityName="org.cocome.cloud.webservice.LoginManager">
@@ -275,6 +272,1099 @@
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_uMAo0TSoEeal3vOMu7N_ww" entityName="IUserQuery" providedInterface__OperationProvidedRole="_W0jaODSoEeal3vOMu7N_ww"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_M3BkpTSpEeal3vOMu7N_ww" entityName="IStoreDataFactory" requiredInterface__OperationRequiredRole="_xp7VaAbuEeaw45Je4nSaaQ"/>
   </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_Q-5QeV_AEeavmo6nsNCw2Q" entityName="org.cocome.cloud.web.connector.cashdeskconnector">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_3COywV_CEeavmo6nsNCw2Q" entityName="ICashDeskQuery" providedInterface__OperationProvidedRole="_lEOnEF_AEeavmo6nsNCw2Q"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_N7RKlV_EEeavmo6nsNCw2Q" entityName="IBarcodeScanner" requiredInterface__OperationRequiredRole="_iean59bzEeWn1fcBwCRaXA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_NDLIJV_IEeavmo6nsNCw2Q" entityName="ICardReader" requiredInterface__OperationRequiredRole="_zoOe99bnEeWn1fcBwCRaXA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_PyNhRV_IEeavmo6nsNCw2Q" entityName="ICashBox" requiredInterface__OperationRequiredRole="_eJ3-p9b1EeWn1fcBwCRaXA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_SO-epV_IEeavmo6nsNCw2Q" entityName="ICashDesk" requiredInterface__OperationRequiredRole="_h5yZUOwaEeW_LdalkgkVnQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_hk9KJV_IEeavmo6nsNCw2Q" entityName="IUserDisplay" requiredInterface__OperationRequiredRole="_qFHNJ9brEeWn1fcBwCRaXA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_WrBzNV_IEeavmo6nsNCw2Q" entityName="IExpressLight" requiredInterface__OperationRequiredRole="_uhQ5R9b0EeWn1fcBwCRaXA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_Y6fUZV_IEeavmo6nsNCw2Q" entityName="IPrinter" requiredInterface__OperationRequiredRole="_G2Jyx9bwEeWn1fcBwCRaXA"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_y0NvkWCFEeazuKfW7hgDjA" entityName="org.cocome.cloud.web.connector.enterpriseconnector">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_E0NKQWCGEeazuKfW7hgDjA" entityName="IEnterpriseQuery" providedInterface__OperationProvidedRole="_m9L3QF_BEea_gvFl-mCXRQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_PFsBJWCGEeazuKfW7hgDjA" entityName="IEnterpriseManager" requiredInterface__OperationRequiredRole="_JWIwEA4WEeaNfMfZ20wdnQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_A_pmIWRNEeaYxPjtCxykSQ" entityName="IStore.java.web.data.store.Store" requiredInterface__OperationRequiredRole="_m86KcF_BEea_gvFl-mCXRQ"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_CqDCuWReEeaYxPjtCxykSQ" entityName="org.cocome.cloud.web.connector.storeconnector">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Hdj1AWReEeaYxPjtCxykSQ" entityName="IStoreQuery" providedInterface__OperationProvidedRole="_m9TMAl_BEea_gvFl-mCXRQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_PLlQpWReEeaYxPjtCxykSQ" entityName="IStoreManager" requiredInterface__OperationRequiredRole="_kIbQgtYgEeWrM-HnT5f_ug"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_bZ5npWReEeaYxPjtCxykSQ" entityName="IStore.java.web.data.store.Store" requiredInterface__OperationRequiredRole="_m86KcF_BEea_gvFl-mCXRQ"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_RzaYGWRqEeaYxPjtCxykSQ" entityName="org.cocome.cloud.web.data.cashdeskdata">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_edbaUWRvEeaYxPjtCxykSQ" entityName="ICashDesk.web.data.cashdesk" providedInterface__OperationProvidedRole="_8JvPEGRrEeaYxPjtCxykSQ"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_62ThIaZqEea90o6iaEaVPw" entityName="ICashDeskDAO" providedInterface__OperationProvidedRole="_5atmgaZiEea90o6iaEaVPw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_wEQhlaZvEea90o6iaEaVPw" entityName="ICashDeskQuery" requiredInterface__OperationRequiredRole="_lEOnEF_AEeavmo6nsNCw2Q"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_iW_F2WRvEeaYxPjtCxykSQ" entityName="org.cocome.cloud.web.data.enterprisedata">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_h0RBAWR0EeaYxPjtCxykSQ" entityName="IEnterprisePersistence" providedInterface__OperationProvidedRole="_m-Sqgl_BEea_gvFl-mCXRQ"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_00Ya8aZqEea90o6iaEaVPw" entityName="IEnterpriseDAO" providedInterface__OperationProvidedRole="_EebyqKZjEea90o6iaEaVPw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_wD3TRWR0EeaYxPjtCxykSQ" entityName="IEnterpriseQuery" requiredInterface__OperationRequiredRole="_m9L3QF_BEea_gvFl-mCXRQ"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_62NbiWR0EeaYxPjtCxykSQ" entityName="org.cocome.cloud.web.data.logindata">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_R5tW4WR2EeaYxPjtCxykSQ" entityName="ICredentialFactory" providedInterface__OperationProvidedRole="_Nz3i8GR2EeaYxPjtCxykSQ"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_mrsB8WR_EeaYxPjtCxykSQ" entityName="IUser" providedInterface__OperationProvidedRole="_m8sIBl_BEea_gvFl-mCXRQ"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_N2E90WSAEeaYxPjtCxykSQ" entityName="ICredential.web.data.login" providedInterface__OperationProvidedRole="_m8sIAl_BEea_gvFl-mCXRQ"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_XUsNUWSAEeaYxPjtCxykSQ" entityName="IPermission" providedInterface__OperationProvidedRole="_DMZ7WGR-EeaYxPjtCxykSQ"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_f61jwWSAEeaYxPjtCxykSQ" entityName="IAuthenticator" providedInterface__OperationProvidedRole="_m8odoF_BEea_gvFl-mCXRQ"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_Nq59uWSCEeaYxPjtCxykSQ" entityName="org.cocome.cloud.web.data.storedata">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_zSHPkWSCEeaYxPjtCxykSQ" entityName="IStorePersistence" providedInterface__OperationProvidedRole="_m9UaI1_BEea_gvFl-mCXRQ"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_uryFAaZqEea90o6iaEaVPw" entityName="IStoreDAO" providedInterface__OperationProvidedRole="_HwyUOKZjEea90o6iaEaVPw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_HBGitWSDEeaYxPjtCxykSQ" entityName="IEnterpriseQuery" requiredInterface__OperationRequiredRole="_m9L3QF_BEea_gvFl-mCXRQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_VHJ3ZWSDEeaYxPjtCxykSQ" entityName="IStoreQuery" requiredInterface__OperationRequiredRole="_m9TMAl_BEea_gvFl-mCXRQ"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_xjaKuWSFEeaYxPjtCxykSQ" entityName="org.cocome.cloud.web.frontend.cashdesk">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_GuzbQWVTEead_5QKkcGuDg" entityName="ICashDeskView" providedInterface__OperationProvidedRole="_iS-YcGVHEead_5QKkcGuDg"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_3WQTFWSFEeaYxPjtCxykSQ" entityName="ICashDeskQuery" requiredInterface__OperationRequiredRole="_lEOnEF_AEeavmo6nsNCw2Q"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_DugpNWSGEeaYxPjtCxykSQ" entityName="ICashDesk" requiredInterface__OperationRequiredRole="_8JvPEGRrEeaYxPjtCxykSQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_TGkYVWSGEeaYxPjtCxykSQ" entityName="IStoreInformation" requiredInterface__OperationRequiredRole="_kngqGGSHEeaYxPjtCxykSQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_nH4j1aZsEea90o6iaEaVPw" entityName="ICashDeskDAO" requiredInterface__OperationRequiredRole="_5atmgaZiEea90o6iaEaVPw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_WslVaWSJEeaYxPjtCxykSQ" entityName="org.cocome.cloud.web.frontend.enterprise">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_wR4UkWSJEeaYxPjtCxykSQ" entityName="IEnterpriseInformation" providedInterface__OperationProvidedRole="_m9nVFF_BEea_gvFl-mCXRQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_eFGbFWSJEeaYxPjtCxykSQ" entityName="IEnterpriseQuery" requiredInterface__OperationRequiredRole="_m9L3QF_BEea_gvFl-mCXRQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_qS-m1aZsEea90o6iaEaVPw" entityName="IEnterpriseDAO" requiredInterface__OperationRequiredRole="_EebyqKZjEea90o6iaEaVPw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__mx7paZsEea90o6iaEaVPw" entityName="storeDAO" requiredInterface__OperationRequiredRole="_HwyUOKZjEea90o6iaEaVPw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_MqE5MGSKEeaYxPjtCxykSQ" entityName="org.cocome.cloud.web.frontend.login">
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_Oc9MFWSKEeaYxPjtCxykSQ" entityName="IAuthenticator" requiredInterface__OperationRequiredRole="_m8odoF_BEea_gvFl-mCXRQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_NPlklWSLEeaYxPjtCxykSQ" entityName="ICredential.web.data.login" requiredInterface__OperationRequiredRole="_m8sIAl_BEea_gvFl-mCXRQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:SourceRole" id="_wnycRmUPEead_5QKkcGuDg" entityName="fireLoginEvent" eventGroup__SourceRole="_hzxT_mSDEeaYxPjtCxykSQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:SourceRole" id="_NxJ_JmUQEead_5QKkcGuDg" entityName="fireLogoutEvent" eventGroup__SourceRole="_H_NURmSEEeaYxPjtCxykSQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_UzaLxWq0EeaAnZVBu2pnYQ" entityName="IStoreInformation" requiredInterface__OperationRequiredRole="_kngqGGSHEeaYxPjtCxykSQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_j6hqBWUQEead_5QKkcGuDg" entityName="ICredentialFactory" requiredInterface__OperationRequiredRole="_Nz3i8GR2EeaYxPjtCxykSQ"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_t06IKWUTEead_5QKkcGuDg" entityName="org.cocome.cloud.web.frontend.navigation">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Cg3AgWUZEead_5QKkcGuDg" entityName="INavigationMenu" providedInterface__OperationProvidedRole="_Rf5vkGUVEead_5QKkcGuDg"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_r957gWUZEead_5QKkcGuDg" entityName="INavigationElement" providedInterface__OperationProvidedRole="_f9VFmGUZEead_5QKkcGuDg"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_6s5fgWUZEead_5QKkcGuDg" entityName="ILabelResolver" providedInterface__OperationProvidedRole="_yz-beGUZEead_5QKkcGuDg"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:SinkRole" id="_ORjK4GUaEead_5QKkcGuDg" entityName="handleChangeViewEvent" eventGroup__SinkRole="_S7kUJmSEEeaYxPjtCxykSQ"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:SinkRole" id="_TV844GUaEead_5QKkcGuDg" entityName="handleLoginEvent" eventGroup__SinkRole="_hzxT_mSDEeaYxPjtCxykSQ"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:SinkRole" id="_WwKV8GUaEead_5QKkcGuDg" entityName="handleLogoutEvent" eventGroup__SinkRole="_H_NURmSEEeaYxPjtCxykSQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_gsjtpWUaEead_5QKkcGuDg" entityName="IUser" requiredInterface__OperationRequiredRole="_m8sIBl_BEea_gvFl-mCXRQ"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_uCE9SWUaEead_5QKkcGuDg" entityName="org.cocome.cloud.web.frontend.store">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_KWXx8WUeEead_5QKkcGuDg" entityName="IStoreInformation" providedInterface__OperationProvidedRole="_kngqGGSHEeaYxPjtCxykSQ"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:SinkRole" id="_chwH0GUfEead_5QKkcGuDg" entityName="handleLoginEvent" eventGroup__SinkRole="_hzxT_mSDEeaYxPjtCxykSQ"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_tS-GkGYBEeamEr6y5T9PEQ" entityName="IShowStockView" providedInterface__OperationProvidedRole="_zV_Y-GYBEeamEr6y5T9PEQ"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_C05V8WYNEeamEr6y5T9PEQ" entityName="IstockOrderView" providedInterface__OperationProvidedRole="_ydLWIGYLEeamEr6y5T9PEQ"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_j4-6kWYQEeamEr6y5T9PEQ" entityName="IReceiveOrderView" providedInterface__OperationProvidedRole="__nooaGYPEeamEr6y5T9PEQ"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_-tqMEWYSEeamEr6y5T9PEQ" entityName="IShowReportView" providedInterface__OperationProvidedRole="_Jg3FaGYSEeamEr6y5T9PEQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_dSEm9WUeEead_5QKkcGuDg" entityName="IStoreQuery" requiredInterface__OperationRequiredRole="_m9TMAl_BEea_gvFl-mCXRQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_oQdAFWUeEead_5QKkcGuDg" entityName="IEnterpriseQuery" requiredInterface__OperationRequiredRole="_m9L3QF_BEea_gvFl-mCXRQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:SourceRole" id="_Tar1pmUfEead_5QKkcGuDg" entityName="fireChangeViewEvent" eventGroup__SourceRole="_S7kUJmSEEeaYxPjtCxykSQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_unDEFaZsEea90o6iaEaVPw" entityName="IEnterpriseDAO" requiredInterface__OperationRequiredRole="_EebyqKZjEea90o6iaEaVPw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_9IRR1aZsEea90o6iaEaVPw" entityName="IStoreDAO" requiredInterface__OperationRequiredRole="_HwyUOKZjEea90o6iaEaVPw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_E7QQdacyEea6yqnnpazPHg" entityName="IStorePersistence" requiredInterface__OperationRequiredRole="_m9UaI1_BEea_gvFl-mCXRQ"/>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_5atmgaZiEea90o6iaEaVPw" entityName="ICashDeskDAO">
+    <signatures__OperationInterface id="_K5a5EKZjEea90o6iaEaVPw" entityName="startSale">
+      <parameters__OperationSignature parameterName="cashDeskName">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="storeID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_NL55EKZjEea90o6iaEaVPw" entityName="isInExpressMode">
+      <parameters__OperationSignature parameterName="cashDeskName">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="storeID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_QNHAQKZjEea90o6iaEaVPw" entityName="getDisplayMessage">
+      <parameters__OperationSignature parameterName="cashDeskName">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="storeID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_SyK-AKZjEea90o6iaEaVPw" entityName="getPrinterOutput" returnType__OperationSignature="_kRVU4tYgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature parameterName="cashDeskName">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="storeID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_fnZkAKZjEea90o6iaEaVPw" entityName="enterCashAmount">
+      <parameters__OperationSignature parameterName="cashDeskName">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="storeID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="amount">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.3"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_5TIiYKZjEea90o6iaEaVPw" entityName="enterCardInfo">
+      <parameters__OperationSignature parameterName="cashDeskName">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="storeID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="cardInfo">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="pin">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_6silUKZjEea90o6iaEaVPw" entityName="startCashPayment">
+      <parameters__OperationSignature parameterName="cashDeskName">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="storeID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_88SaYKZjEea90o6iaEaVPw" entityName="startCreditCardPayment">
+      <parameters__OperationSignature parameterName="cashDeskName">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="storeID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_-0RPsKZjEea90o6iaEaVPw" entityName="enterBarcode">
+      <parameters__OperationSignature parameterName="cashDeskName">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="storeID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature dataType__Parameter="_jVQ-HUdGEeaL399ofOJboA" parameterName="barcode"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_EebyqKZjEea90o6iaEaVPw" entityName="IEnterpriseDAO">
+    <signatures__OperationInterface id="_JnTfAKZlEea90o6iaEaVPw" entityName="getAllEnterprises" returnType__OperationSignature="_kA99oNYgEeWrM-HnT5f_ug"/>
+    <signatures__OperationInterface id="_LdoHcKZlEea90o6iaEaVPw" entityName="getEnterpriseByID">
+      <parameters__OperationSignature parameterName="enterpriseID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_PDCu8KZlEea90o6iaEaVPw" entityName="getAllProducts" returnType__OperationSignature="_WQtHLGSIEeaYxPjtCxykSQ"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_HwyUOKZjEea90o6iaEaVPw" entityName="IStoreDAO">
+    <signatures__OperationInterface id="_fc1A0KZlEea90o6iaEaVPw" entityName="getStoresInEnterprise" returnType__OperationSignature="_j3mmSdYgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature parameterName="enterpriseID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_kXp8EKZlEea90o6iaEaVPw" entityName="getStoreByID" returnType__OperationSignature="_j8Rq4NYgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature parameterName="storeID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_miI2oKZlEea90o6iaEaVPw" entityName="queryStockItems" returnType__OperationSignature="_WQtHLGSIEeaYxPjtCxykSQ">
+      <parameters__OperationSignature dataType__Parameter="_j8Rq4NYgEeWrM-HnT5f_ug" parameterName="store"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_n0w8IKZlEea90o6iaEaVPw" entityName="getStockItemByProductID" returnType__OperationSignature="_m9DUYl_BEea_gvFl-mCXRQ">
+      <parameters__OperationSignature dataType__Parameter="_j8Rq4NYgEeWrM-HnT5f_ug" parameterName="store"/>
+      <parameters__OperationSignature parameterName="productID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_pFb50KZlEea90o6iaEaVPw" entityName="getStockItemByBarcode" returnType__OperationSignature="_m9DUYl_BEea_gvFl-mCXRQ">
+      <parameters__OperationSignature dataType__Parameter="_j8Rq4NYgEeWrM-HnT5f_ug" parameterName="store"/>
+      <parameters__OperationSignature dataType__Parameter="_jVQ-HUdGEeaL399ofOJboA" parameterName="barcode"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_qZ7nkKZlEea90o6iaEaVPw" entityName="getAllOrders" returnType__OperationSignature="_mTiLjFlZEeafw8jrX0KOKw">
+      <parameters__OperationSignature dataType__Parameter="_j8Rq4NYgEeWrM-HnT5f_ug" parameterName="store"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_sJp4wKZlEea90o6iaEaVPw" entityName="getOrderByID" returnType__OperationSignature="_j_Vl9NYgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature dataType__Parameter="_j8Rq4NYgEeWrM-HnT5f_ug" parameterName="store"/>
+      <parameters__OperationSignature parameterName="orderID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_ydLWIGYLEeamEr6y5T9PEQ" entityName="IstockOrderView">
+    <signatures__OperationInterface id="__S8uoGYLEeamEr6y5T9PEQ" entityName="selectOrderItem">
+      <parameters__OperationSignature dataType__Parameter="_m9DUYl_BEea_gvFl-mCXRQ" parameterName="item"/>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_JVWAoGYMEeamEr6y5T9PEQ" entityName="addOrderAmount">
+      <parameters__OperationSignature parameterName="amount">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_PvxtcGYMEeamEr6y5T9PEQ" entityName="removeOrderItem">
+      <parameters__OperationSignature dataType__Parameter="_m9DUYl_BEea_gvFl-mCXRQ" parameterName="item"/>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_eUf7IGYMEeamEr6y5T9PEQ" entityName="startNewOrder">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_gE0pQGYMEeamEr6y5T9PEQ" entityName="submitOrder">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_idaRQGYMEeamEr6y5T9PEQ" entityName="cancelOrder">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_mgtHkGYMEeamEr6y5T9PEQ" entityName="showOrder">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_o8zWkGYMEeamEr6y5T9PEQ" entityName="getOrderItems" returnType__OperationSignature="_m9OTgF_BEea_gvFl-mCXRQ"/>
+    <signatures__OperationInterface id="_vB-lEGYMEeamEr6y5T9PEQ" entityName="hasOrderProducts">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_yJzRoGYMEeamEr6y5T9PEQ" entityName="isItemSelected">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_02x1QGYMEeamEr6y5T9PEQ" entityName="getSelectedItem" returnType__OperationSignature="_m9DUYl_BEea_gvFl-mCXRQ"/>
+    <signatures__OperationInterface id="_6BEv4GYMEeamEr6y5T9PEQ" entityName="deselectProduct">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_kAT2UdYgEeWrM-HnT5f_ug" entityName="IPersistenceContextLocal">
+    <signatures__OperationInterface id="_kAT2UtYgEeWrM-HnT5f_ug" entityName="createEntity_productOrder">
+      <parameters__OperationSignature dataType__Parameter="_j9Cf49YgEeWrM-HnT5f_ug" parameterName="productOrder"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_kAT2U9YgEeWrM-HnT5f_ug" entityName="updateEntity_productOrder">
+      <parameters__OperationSignature dataType__Parameter="_j9Cf49YgEeWrM-HnT5f_ug" parameterName="productOrder"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_kAT2VNYgEeWrM-HnT5f_ug" entityName="createEntity_stockItem">
+      <parameters__OperationSignature dataType__Parameter="_j8vk8tYgEeWrM-HnT5f_ug" parameterName="stockItem"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_kAT2VdYgEeWrM-HnT5f_ug" entityName="updateEntity_stockItem">
+      <parameters__OperationSignature dataType__Parameter="_j8vk8tYgEeWrM-HnT5f_ug" parameterName="stockItem"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_kAT2VtYgEeWrM-HnT5f_ug" entityName="createEntity_enterprise">
+      <parameters__OperationSignature dataType__Parameter="_j8fGQNYgEeWrM-HnT5f_ug" parameterName="enterprise"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_kAT2V9YgEeWrM-HnT5f_ug" entityName="updateEntity_enterprise">
+      <parameters__OperationSignature dataType__Parameter="_j8fGQNYgEeWrM-HnT5f_ug" parameterName="enterprise"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_kAT2WNYgEeWrM-HnT5f_ug" entityName="createEntity_store">
+      <parameters__OperationSignature dataType__Parameter="_j8Rq4NYgEeWrM-HnT5f_ug" parameterName="store"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_kAT2WdYgEeWrM-HnT5f_ug" entityName="updateEntity_store">
+      <parameters__OperationSignature dataType__Parameter="_j8Rq4NYgEeWrM-HnT5f_ug" parameterName="store"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_kAT2WtYgEeWrM-HnT5f_ug" entityName="createEntity_supplier">
+      <parameters__OperationSignature dataType__Parameter="_j88ZQNYgEeWrM-HnT5f_ug" parameterName="supplier"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_kAUdYNYgEeWrM-HnT5f_ug" entityName="updateEntity_supplier">
+      <parameters__OperationSignature dataType__Parameter="_j88ZQNYgEeWrM-HnT5f_ug" parameterName="supplier"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_kAUdYdYgEeWrM-HnT5f_ug" entityName="createEntity_product">
+      <parameters__OperationSignature dataType__Parameter="_j83gwNYgEeWrM-HnT5f_ug" parameterName="product"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_kAUdYtYgEeWrM-HnT5f_ug" entityName="updateEntity_product">
+      <parameters__OperationSignature dataType__Parameter="_j83gwNYgEeWrM-HnT5f_ug" parameterName="product"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_kAUdY9YgEeWrM-HnT5f_ug" entityName="createEntity_customer">
+      <parameters__OperationSignature dataType__Parameter="_VYnS-A3gEeaNfMfZ20wdnQ" parameterName="customer"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_kAUdZNYgEeWrM-HnT5f_ug" entityName="updateEntity_customer">
+      <parameters__OperationSignature dataType__Parameter="_VYnS-A3gEeaNfMfZ20wdnQ" parameterName="customer"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_O5-PwEQ_EeaKq8TkC7OS4w" entityName="createEntity_user">
+      <parameters__OperationSignature dataType__Parameter="_kXSy8tYgEeWrM-HnT5f_ug" parameterName="user"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_Pl8k8EQ_EeaKq8TkC7OS4w" entityName="updateEntity_user">
+      <parameters__OperationSignature dataType__Parameter="_kXSy8tYgEeWrM-HnT5f_ug" parameterName="user"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_Jg3FaGYSEeamEr6y5T9PEQ" entityName="IShowReportView">
+    <signatures__OperationInterface id="_TvWSoGYSEeamEr6y5T9PEQ" entityName="loadReport">
+      <parameters__OperationSignature parameterName="storeId">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_pOswIGYSEeamEr6y5T9PEQ" entityName="getStockItems" returnType__OperationSignature="_WQtHLGSIEeaYxPjtCxykSQ"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__nooaGYPEeamEr6y5T9PEQ" entityName="IReceiveOrderView">
+    <signatures__OperationInterface id="_Dx0w4GYQEeamEr6y5T9PEQ" entityName="loadAllOrders"/>
+    <signatures__OperationInterface id="_F1obsGYQEeamEr6y5T9PEQ" entityName="loadOrder">
+      <parameters__OperationSignature parameterName="orderId">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_LffnMGYQEeamEr6y5T9PEQ" entityName="rollInOrder">
+      <parameters__OperationSignature dataType__Parameter="_j_Vl9NYgEeWrM-HnT5f_ug" parameterName="order"/>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_iS-YcGVHEead_5QKkcGuDg" entityName="ICashDeskView">
+    <signatures__OperationInterface id="_lWnvkGVHEead_5QKkcGuDg" entityName="submitCashDeskName"/>
+    <signatures__OperationInterface id="_v55SUGVNEead_5QKkcGuDg" entityName="enterCashAmount">
+      <parameters__OperationSignature parameterName="cashAmount">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.3"/>
+      </parameters__OperationSignature>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_c1jCMGVOEead_5QKkcGuDg" entityName="enterCardInfo">
+      <parameters__OperationSignature parameterName="cardInfo">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="pin">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_v97g8GVREead_5QKkcGuDg" entityName="scanBarcode">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_9Kj6UGVREead_5QKkcGuDg" entityName="startCashPayment">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_gii7kGVSEead_5QKkcGuDg" entityName="startCardPayment">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_uz4TMGVSEead_5QKkcGuDg" entityName="resetSale">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_y7-SEGXjEeamEr6y5T9PEQ" entityName="addDigitToBarcode">
+      <parameters__OperationSignature parameterName="digit">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.4"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_Mpwe4GXkEeamEr6y5T9PEQ" entityName="clearBarcode"/>
+    <signatures__OperationInterface id="_PktNEGXkEeamEr6y5T9PEQ" entityName="removeLastBarcodeDigit"/>
+    <signatures__OperationInterface id="_Z4vLMGrSEea_zK7OHEqi-g" entityName="updatePrinterOutput"/>
+    <signatures__OperationInterface id="_rr800KaAEea90o6iaEaVPw" entityName="updateExpressMode"/>
+    <signatures__OperationInterface id="_uHAiAKaAEea90o6iaEaVPw" entityName="updateDisplayMessage"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_kAYu0NYgEeWrM-HnT5f_ug" entityName="IEnterpriseQueryLocal">
+    <signatures__OperationInterface id="_kAYu0dYgEeWrM-HnT5f_ug" entityName="queryEnterpriseById" returnType__OperationSignature="_j8fGQNYgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature parameterName="enterpriseID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_kAYu0tYgEeWrM-HnT5f_ug" entityName="queryStoresByEnterpriseId">
+      <parameters__OperationSignature parameterName="enterpriseID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_kAYu09YgEeWrM-HnT5f_ug" entityName="queryStoreByEnterprise" returnType__OperationSignature="_j8Rq4NYgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature parameterName="enterpriseID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="storeID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_kAYu1NYgEeWrM-HnT5f_ug" entityName="queryEnterpriseByName" returnType__OperationSignature="_j8fGQNYgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature parameterName="enterpriseName">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_kAYu1dYgEeWrM-HnT5f_ug" entityName="getMeanTimeToDelivery">
+      <parameters__OperationSignature dataType__Parameter="_j88ZQNYgEeWrM-HnT5f_ug" parameterName="supplier"/>
+      <parameters__OperationSignature dataType__Parameter="_j8fGQNYgEeWrM-HnT5f_ug" parameterName="enterprise"/>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_kAYu1tYgEeWrM-HnT5f_ug" entityName="queryAllProducts">
+      <parameters__OperationSignature parameterName="enterpriseID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_kAYu19YgEeWrM-HnT5f_ug" entityName="queryAllProducts_1"/>
+    <signatures__OperationInterface id="_kAYu2NYgEeWrM-HnT5f_ug" entityName="queryProductByID" returnType__OperationSignature="_j83gwNYgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature parameterName="productID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_kAYu2dYgEeWrM-HnT5f_ug" entityName="queryProductByBarcode" returnType__OperationSignature="_j83gwNYgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature dataType__Parameter="_jVQ-HUdGEeaL399ofOJboA" parameterName="productBarcode"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_kAZV4NYgEeWrM-HnT5f_ug" entityName="querySuppliers">
+      <parameters__OperationSignature parameterName="enterpriseID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_kAZV4dYgEeWrM-HnT5f_ug" entityName="querySupplierByID" returnType__OperationSignature="_j88ZQNYgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature parameterName="supplierID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_kAZV4tYgEeWrM-HnT5f_ug" entityName="querySupplierForProduct" returnType__OperationSignature="_j88ZQNYgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature parameterName="enterpriseID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature dataType__Parameter="_jVQ-HUdGEeaL399ofOJboA" parameterName="productBarcode"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_kAZV49YgEeWrM-HnT5f_ug" entityName="queryProductsBySupplier">
+      <parameters__OperationSignature parameterName="enterpriseID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="productSupplierID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_kAZV5NYgEeWrM-HnT5f_ug" entityName="queryAllEnterprises"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_zV_Y-GYBEeamEr6y5T9PEQ" entityName="IShowStockView">
+    <signatures__OperationInterface id="_4iX-QGYBEeamEr6y5T9PEQ" entityName="createNewStockItem">
+      <parameters__OperationSignature dataType__Parameter="_m9DUYl_BEea_gvFl-mCXRQ" parameterName="item"/>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_dZ3DYGYCEeamEr6y5T9PEQ" entityName="updateStockItem">
+      <parameters__OperationSignature dataType__Parameter="_m9DUYl_BEea_gvFl-mCXRQ" parameterName="item"/>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_xp7VaAbuEeaw45Je4nSaaQ" entityName="IStoreDataFactory">
+    <signatures__OperationInterface id="_jTQpIAhfEeav9ZCsCxP2FQ" entityName="getNewOrderEntry" returnType__OperationSignature="_j_-fI9YgEeWrM-HnT5f_ug"/>
+    <signatures__OperationInterface id="_y7x2IAhfEeav9ZCsCxP2FQ" entityName="getNewStockItem" returnType__OperationSignature="_j8vk8tYgEeWrM-HnT5f_ug"/>
+    <signatures__OperationInterface id="_7rkQwAhfEeav9ZCsCxP2FQ" entityName="getNewProductOrder" returnType__OperationSignature="_j9Cf49YgEeWrM-HnT5f_ug"/>
+    <signatures__OperationInterface id="_PElT4AhgEeav9ZCsCxP2FQ" entityName="getNewStore" returnType__OperationSignature="_j8Rq4NYgEeWrM-HnT5f_ug"/>
+    <signatures__OperationInterface id="_ZOMBIAhgEeav9ZCsCxP2FQ" entityName="convertToOrderEntry" returnType__OperationSignature="_j_-fI9YgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature dataType__Parameter="_j_ZQUdYgEeWrM-HnT5f_ug" parameterName="ComplexOrderEntryTO"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_MIA_oAhhEeav9ZCsCxP2FQ" entityName="fillComplexOrderEntryTO" returnType__OperationSignature="_j_ZQUdYgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature dataType__Parameter="_j_-fI9YgEeWrM-HnT5f_ug" parameterName="orderEntry"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_ZQB-wAhhEeav9ZCsCxP2FQ" entityName="convertToProductOrder" returnType__OperationSignature="_j9Cf49YgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature dataType__Parameter="_j_Vl9NYgEeWrM-HnT5f_ug" parameterName="complexOrderTo"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_-skRsAhhEeav9ZCsCxP2FQ" entityName="fillComplexOrderTO" returnType__OperationSignature="_j_Vl9NYgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature dataType__Parameter="_j9Cf49YgEeWrM-HnT5f_ug" parameterName="productOrder"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_fHNYEAhiEeav9ZCsCxP2FQ" entityName="convertToStockItem" returnType__OperationSignature="_j8vk8tYgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature dataType__Parameter="_j4pvINYgEeWrM-HnT5f_ug" parameterName="stockItemTO"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_0YqjgAhiEeav9ZCsCxP2FQ" entityName="fillStockItemTO" returnType__OperationSignature="_j4pvINYgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature dataType__Parameter="_j8vk8tYgEeWrM-HnT5f_ug" parameterName="stockItem"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_AdQ90AhjEeav9ZCsCxP2FQ" entityName="convertToStore" returnType__OperationSignature="_j8Rq4NYgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature dataType__Parameter="_jE1R_ghnEeav9ZCsCxP2FQ" parameterName="storeTO"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_yJMT4AhlEeav9ZCsCxP2FQ" entityName="fillStoreTO" returnType__OperationSignature="_jE1R_ghnEeav9ZCsCxP2FQ">
+      <parameters__OperationSignature dataType__Parameter="_j8Rq4NYgEeWrM-HnT5f_ug" parameterName="store"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_MhmyEAhmEeav9ZCsCxP2FQ" entityName="fillOrderEntryTO" returnType__OperationSignature="_kAElw9YgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature dataType__Parameter="_j_-fI9YgEeWrM-HnT5f_ug" parameterName="orderEntry"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_QJZ_MAhmEeav9ZCsCxP2FQ" entityName="fillOrderTO" returnType__OperationSignature="_kAIQIdYgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature dataType__Parameter="_j9Cf49YgEeWrM-HnT5f_ug" parameterName="productOrder"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_zlkV0AhmEeav9ZCsCxP2FQ" entityName="fillProductWithStockItemTO" returnType__OperationSignature="_j4lds9YgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature dataType__Parameter="_j8vk8tYgEeWrM-HnT5f_ug" parameterName="stockItem"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_DuaosAhnEeav9ZCsCxP2FQ" entityName="fillProductWithSupplierAndStockItemTO" returnType__OperationSignature="_kALTcNYgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature dataType__Parameter="_j8vk8tYgEeWrM-HnT5f_ug" parameterName="stockItem"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_TjN-MAhnEeav9ZCsCxP2FQ" entityName="fillStoreWithEnterpriseTO" returnType__OperationSignature="_j_O4QtYgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature dataType__Parameter="_j8Rq4NYgEeWrM-HnT5f_ug" parameterName="store"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_m9nVFF_BEea_gvFl-mCXRQ" entityName="IEnterpriseInformation.java.IEnterpriseInformation">
+    <signatures__OperationInterface id="_m9nVFV_BEea_gvFl-mCXRQ" entityName="getEnterprises" returnType__OperationSignature="_m9OTgF_BEea_gvFl-mCXRQ"/>
+    <signatures__OperationInterface id="_m9nVFl_BEea_gvFl-mCXRQ" entityName="getStores" returnType__OperationSignature="_m9OTgF_BEea_gvFl-mCXRQ"/>
+    <signatures__OperationInterface id="_m9nVF1_BEea_gvFl-mCXRQ" entityName="getActiveEnterpriseID">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m9nVGF_BEea_gvFl-mCXRQ" entityName="setActiveEnterpriseID">
+      <parameters__OperationSignature parameterName="enterpriseID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m9vQ4F_BEea_gvFl-mCXRQ" entityName="getActiveEnterprise" returnType__OperationSignature="_m9Qvw1_BEea_gvFl-mCXRQ"/>
+    <signatures__OperationInterface id="_m9xtIF_BEea_gvFl-mCXRQ" entityName="setActiveEnterprise">
+      <parameters__OperationSignature dataType__Parameter="_m9Qvw1_BEea_gvFl-mCXRQ" parameterName="enterprise"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m9yUMF_BEea_gvFl-mCXRQ" entityName="submitActiveEnterprise">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m9yUMV_BEea_gvFl-mCXRQ" entityName="isEnterpriseSubmitted">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m9yUMl_BEea_gvFl-mCXRQ" entityName="setEnterpriseSubmitted">
+      <parameters__OperationSignature parameterName="submitted">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m9yUM1_BEea_gvFl-mCXRQ" entityName="isEnterpriseSet">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m9yUNF_BEea_gvFl-mCXRQ" entityName="setNewEnterpriseName">
+      <parameters__OperationSignature parameterName="name">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m9yUNV_BEea_gvFl-mCXRQ" entityName="getNewEnterpriseName">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_Rf5vkGUVEead_5QKkcGuDg" entityName="INavigationMenu">
+    <signatures__OperationInterface id="_pL0yQGUVEead_5QKkcGuDg" entityName="getElements" returnType__OperationSignature="_4Q6avGUYEead_5QKkcGuDg"/>
+    <signatures__OperationInterface id="_uGn4UGUVEead_5QKkcGuDg" entityName="changeStateTo">
+      <parameters__OperationSignature dataType__Parameter="_m80D0F_BEea_gvFl-mCXRQ" parameterName="newState"/>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_xLgloGUVEead_5QKkcGuDg" entityName="getCurrentState" returnType__OperationSignature="_m80D0F_BEea_gvFl-mCXRQ"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_f9VFmGUZEead_5QKkcGuDg" entityName="INavigationElement">
+    <signatures__OperationInterface id="_iglFcGUZEead_5QKkcGuDg" entityName="getNavOutcome">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_k1j_0GUZEead_5QKkcGuDg" entityName="getDisplayText">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_nMEkMGUZEead_5QKkcGuDg" entityName="getRequiredPermission">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_yz-beGUZEead_5QKkcGuDg" entityName="ILabelResolver">
+    <signatures__OperationInterface id="_1HYogGUZEead_5QKkcGuDg" entityName="getLabel">
+      <parameters__OperationSignature parameterName="navOutcome">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:EventGroup" id="_hzxT_mSDEeaYxPjtCxykSQ" entityName="LoginEvent">
+    <eventTypes__EventGroup id="_od3NYGSDEeaYxPjtCxykSQ" entityName="LoginEvent">
+      <parameter__EventType dataType__Parameter="_qTt7w2SDEeaYxPjtCxykSQ" parameterName="userRoleStoreID"/>
+    </eventTypes__EventGroup>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:EventGroup" id="_H_NURmSEEeaYxPjtCxykSQ" entityName="LogoutEvent">
+    <eventTypes__EventGroup id="_LZitIGSEEeaYxPjtCxykSQ" entityName="LogoutEvent">
+      <parameter__EventType dataType__Parameter="_kXSy8tYgEeWrM-HnT5f_ug" parameterName="user"/>
+    </eventTypes__EventGroup>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:EventGroup" id="_S7kUJmSEEeaYxPjtCxykSQ" entityName="ChangeViewEvent">
+    <eventTypes__EventGroup id="_V15-UGSEEeaYxPjtCxykSQ" entityName="ChangeViewEvent">
+      <parameter__EventType dataType__Parameter="_m80D0F_BEea_gvFl-mCXRQ" parameterName="NavigationViewStates"/>
+    </eventTypes__EventGroup>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_GiPOyAb0EeaWztvthg0dUA" entityName="ITradingEnterprise">
+    <signatures__OperationInterface id="_O45JkAuHEeavOKEBhe9hQA" entityName="initTradingEnterprise"/>
+    <signatures__OperationInterface id="_hprIAAuHEeavOKEBhe9hQA" entityName="getId">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_ly_GwAuHEeavOKEBhe9hQA" entityName="setId">
+      <parameters__OperationSignature parameterName="id">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_u9OowAuHEeavOKEBhe9hQA" entityName="getName">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_zz7R8AuHEeavOKEBhe9hQA" entityName="setName">
+      <parameters__OperationSignature parameterName="name">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_6L45kAuHEeavOKEBhe9hQA" entityName="getStores" returnType__OperationSignature="_j3mmSdYgEeWrM-HnT5f_ug"/>
+    <signatures__OperationInterface id="_vS3FEAuIEeavOKEBhe9hQA" entityName="setStores">
+      <parameters__OperationSignature dataType__Parameter="_j3mmSdYgEeWrM-HnT5f_ug" parameterName="list_store"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_3mbdwAuIEeavOKEBhe9hQA" entityName="getSuppliers" returnType__OperationSignature="_FQHmnAuJEeavOKEBhe9hQA"/>
+    <signatures__OperationInterface id="_SKEUgAuJEeavOKEBhe9hQA" entityName="setSuppliers">
+      <parameters__OperationSignature dataType__Parameter="_FQHmnAuJEeavOKEBhe9hQA" parameterName="list_productSupplier"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_kngqGGSHEeaYxPjtCxykSQ" entityName="IStoreInformation">
+    <signatures__OperationInterface id="_m1HxIGSHEeaYxPjtCxykSQ" entityName="setActiveStoreID">
+      <parameters__OperationSignature parameterName="storeID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_vLls0GSHEeaYxPjtCxykSQ" entityName="getActiveStoreID">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_yF6v8GSHEeaYxPjtCxykSQ" entityName="getActiveStore" returnType__OperationSignature="_m87YlF_BEea_gvFl-mCXRQ"/>
+    <signatures__OperationInterface id="_2LRbwGSHEeaYxPjtCxykSQ" entityName="submitStore">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_RXFFwGSIEeaYxPjtCxykSQ" entityName="isStoreSet">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_UiobwGSIEeaYxPjtCxykSQ" entityName="getAllStockItems" returnType__OperationSignature="_WQtHLGSIEeaYxPjtCxykSQ"/>
+    <signatures__OperationInterface id="_fOAZUGSIEeaYxPjtCxykSQ" entityName="getAllProductsWithStockItems" returnType__OperationSignature="_WQtHLGSIEeaYxPjtCxykSQ"/>
+    <signatures__OperationInterface id="_4SntUGSIEeaYxPjtCxykSQ" entityName="queryStockItems"/>
+    <signatures__OperationInterface id="_6ea2gGSIEeaYxPjtCxykSQ" entityName="queryProductsWithStockItems"/>
+    <signatures__OperationInterface id="_88n-UGSIEeaYxPjtCxykSQ" entityName="getStockReport" returnType__OperationSignature="_WQtHLGSIEeaYxPjtCxykSQ">
+      <parameters__OperationSignature parameterName="storeID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_CLM8AGSJEeaYxPjtCxykSQ" entityName="switchToStore">
+      <parameters__OperationSignature dataType__Parameter="_m87YlF_BEea_gvFl-mCXRQ" parameterName="store"/>
+      <parameters__OperationSignature parameterName="destination">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_uijKQKdLEea6yqnnpazPHg" entityName="createStockItem">
+      <parameters__OperationSignature dataType__Parameter="_m9DUYl_BEea_gvFl-mCXRQ" parameterName="ProductWrapper"/>
+      <parameters__OperationSignature dataType__Parameter="_m87YlF_BEea_gvFl-mCXRQ" parameterName="store"/>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_DvksMKdNEea6yqnnpazPHg" entityName="updateStockItem">
+      <parameters__OperationSignature dataType__Parameter="_m9DUYl_BEea_gvFl-mCXRQ" parameterName="ProductWrapper"/>
+      <parameters__OperationSignature dataType__Parameter="_m87YlF_BEea_gvFl-mCXRQ" parameterName="store"/>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_m9UaI1_BEea_gvFl-mCXRQ" entityName="IStorePersistence">
+    <signatures__OperationInterface id="_m9UaJF_BEea_gvFl-mCXRQ" entityName="updateStore">
+      <parameters__OperationSignature dataType__Parameter="_m87YlF_BEea_gvFl-mCXRQ" parameterName="store"/>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m9UaJV_BEea_gvFl-mCXRQ" entityName="createStore">
+      <parameters__OperationSignature parameterName="enterpriseID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="name">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="location">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m9UaJl_BEea_gvFl-mCXRQ" entityName="updateStockItem">
+      <parameters__OperationSignature dataType__Parameter="_m9DUYl_BEea_gvFl-mCXRQ" parameterName="stockItem"/>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_cMe7QKcyEea6yqnnpazPHg" entityName="orderProducts">
+      <parameters__OperationSignature dataType__Parameter="_m87YlF_BEea_gvFl-mCXRQ" parameterName="Store.web.data.storedata.Store"/>
+      <parameters__OperationSignature dataType__Parameter="_m9OTgF_BEea_gvFl-mCXRQ" parameterName="List_OrderItem"/>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_c90igKc7Eea6yqnnpazPHg" entityName="rollInOrder">
+      <parameters__OperationSignature dataType__Parameter="_j_Vl9NYgEeWrM-HnT5f_ug" parameterName="ComplexOrderTO"/>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_m9L3QF_BEea_gvFl-mCXRQ" entityName="IEnterpriseQuery">
+    <signatures__OperationInterface id="_m9L3QV_BEea_gvFl-mCXRQ" entityName="getEnterprises" returnType__OperationSignature="_kA99oNYgEeWrM-HnT5f_ug"/>
+    <signatures__OperationInterface id="_m9QIsF_BEea_gvFl-mCXRQ" entityName="getStores" returnType__OperationSignature="_j3mmSdYgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature parameterName="enterpriseID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m9QvwF_BEea_gvFl-mCXRQ" entityName="updateEnterpriseInformation"/>
+    <signatures__OperationInterface id="_m9QvwV_BEea_gvFl-mCXRQ" entityName="updateStoreInformation"/>
+    <signatures__OperationInterface id="_m9Qvwl_BEea_gvFl-mCXRQ" entityName="getEnterpriseByID" returnType__OperationSignature="_j8fGQNYgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature parameterName="enterpriseID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m9R94F_BEea_gvFl-mCXRQ" entityName="getStoreByID" returnType__OperationSignature="_j8Rq4NYgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature parameterName="storeID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m9R94V_BEea_gvFl-mCXRQ" entityName="getAllProducts" returnType__OperationSignature="_m9DUYl_BEea_gvFl-mCXRQ"/>
+    <signatures__OperationInterface id="_m9R941_BEea_gvFl-mCXRQ" entityName="getProductByID" returnType__OperationSignature="_m9DUYl_BEea_gvFl-mCXRQ">
+      <parameters__OperationSignature parameterName="productID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m9Sk8F_BEea_gvFl-mCXRQ" entityName="getProductByBarcode" returnType__OperationSignature="_m9DUYl_BEea_gvFl-mCXRQ">
+      <parameters__OperationSignature dataType__Parameter="_jVQ-HUdGEeaL399ofOJboA" parameterName="barcode"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m9Sk8V_BEea_gvFl-mCXRQ" entityName="updateStore">
+      <parameters__OperationSignature dataType__Parameter="_j8Rq4NYgEeWrM-HnT5f_ug" parameterName="store"/>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m9Sk8l_BEea_gvFl-mCXRQ" entityName="createEnterprise">
+      <parameters__OperationSignature parameterName="name">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m9Sk81_BEea_gvFl-mCXRQ" entityName="createProduct">
+      <parameters__OperationSignature parameterName="name">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="barcode">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="purchasePrice">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.3"/>
+      </parameters__OperationSignature>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m9TMAF_BEea_gvFl-mCXRQ" entityName="createStore">
+      <parameters__OperationSignature parameterName="enterpriseID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="name">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="location">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_m8sIBl_BEea_gvFl-mCXRQ" entityName="IUser">
+    <signatures__OperationInterface id="_m8sIB1_BEea_gvFl-mCXRQ" entityName="getUsername">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m8sICF_BEea_gvFl-mCXRQ" entityName="setCredentials">
+      <parameters__OperationSignature dataType__Parameter="_kWs1E1YgEeWrM-HnT5f_ug" parameterName="credentials"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m8sICV_BEea_gvFl-mCXRQ" entityName="getCredentials" returnType__OperationSignature="_kWs1E1YgEeWrM-HnT5f_ug"/>
+    <signatures__OperationInterface id="_m8sICl_BEea_gvFl-mCXRQ" entityName="checkCredentials">
+      <parameters__OperationSignature dataType__Parameter="_kWs1E1YgEeWrM-HnT5f_ug" parameterName="credentials"/>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m8sIC1_BEea_gvFl-mCXRQ" entityName="hasPermissionString">
+      <parameters__OperationSignature parameterName="permission">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m8sIDF_BEea_gvFl-mCXRQ" entityName="hasPermission">
+      <parameters__OperationSignature dataType__Parameter="_kW6Yc9YgEeWrM-HnT5f_ug" parameterName="permission"/>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m8sIDV_BEea_gvFl-mCXRQ" entityName="addPermission">
+      <parameters__OperationSignature dataType__Parameter="_kW6Yc9YgEeWrM-HnT5f_ug" parameterName="permission"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_m8sIAl_BEea_gvFl-mCXRQ" entityName="ICredential.web.data.login">
+    <signatures__OperationInterface id="_m8sIA1_BEea_gvFl-mCXRQ" entityName="isMatching">
+      <parameters__OperationSignature dataType__Parameter="_kWs1E1YgEeWrM-HnT5f_ug" parameterName="credentials"/>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m8sIBF_BEea_gvFl-mCXRQ" entityName="getCredentialString">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_DMZ7WGR-EeaYxPjtCxykSQ" entityName="IPermission">
+    <signatures__OperationInterface id="_FUMHMGR-EeaYxPjtCxykSQ" entityName="setName">
+      <parameters__OperationSignature parameterName="name">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_IzMksGR-EeaYxPjtCxykSQ" entityName="getName">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_84OX5zSjEeal3vOMu7N_ww" entityName="IAuthenticator"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_Nz3i8GR2EeaYxPjtCxykSQ" entityName="ICredentialFactory">
+    <signatures__OperationInterface id="_WFCH0GR2EeaYxPjtCxykSQ" entityName="createPlainPassword" returnType__OperationSignature="_kWs9E9YgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature parameterName="password">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_m-Sqgl_BEea_gvFl-mCXRQ" entityName="IEnterprisePersistence">
+    <signatures__OperationInterface id="_m-Sqg1_BEea_gvFl-mCXRQ" entityName="createEnterprise">
+      <parameters__OperationSignature parameterName="name">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m-SqhF_BEea_gvFl-mCXRQ" entityName="updateEnterprise">
+      <parameters__OperationSignature dataType__Parameter="_m9Qvw1_BEea_gvFl-mCXRQ" parameterName="enterprise"/>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m-SqhV_BEea_gvFl-mCXRQ" entityName="updateProduct">
+      <parameters__OperationSignature parameterName="name">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature dataType__Parameter="_jVQ-HUdGEeaL399ofOJboA" parameterName="barcode"/>
+      <parameters__OperationSignature parameterName="purchasePrice">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.3"/>
+      </parameters__OperationSignature>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m-TRkF_BEea_gvFl-mCXRQ" entityName="createProduct">
+      <parameters__OperationSignature parameterName="name">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature dataType__Parameter="_jVQ-HUdGEeaL399ofOJboA" parameterName="barcode"/>
+      <parameters__OperationSignature parameterName="purchasePrice">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.3"/>
+      </parameters__OperationSignature>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_8JvPEGRrEeaYxPjtCxykSQ" entityName="ICashDesk.web.data.cashdesk">
+    <signatures__OperationInterface id="_BK1KUGRsEeaYxPjtCxykSQ" entityName="getCashDeskName">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_E8AV4GRsEeaYxPjtCxykSQ" entityName="setCashDeskName">
+      <parameters__OperationSignature parameterName="cashDeskName">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_KIbXcGRsEeaYxPjtCxykSQ" entityName="isCashDeskNameNeeded">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_N8iiQGRsEeaYxPjtCxykSQ" entityName="setCashDeskNameNeeded">
+      <parameters__OperationSignature parameterName="cashDeskNameNeeded">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_S90q0GRsEeaYxPjtCxykSQ" entityName="requestNewCashDesk"/>
+    <signatures__OperationInterface id="_VLhRcGRsEeaYxPjtCxykSQ" entityName="isSaleSuccessful">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_X4aVgGRsEeaYxPjtCxykSQ" entityName="setPrinterOutput">
+      <parameters__OperationSignature dataType__Parameter="_kRVU4tYgEeWrM-HnT5f_ug" parameterName="printerOutput"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_ptzpwGRsEeaYxPjtCxykSQ" entityName="getPrinterOutput" returnType__OperationSignature="_kRVU4tYgEeWrM-HnT5f_ug"/>
+    <signatures__OperationInterface id="_szFYoGRsEeaYxPjtCxykSQ" entityName="setDisplayMessage">
+      <parameters__OperationSignature parameterName="displayMessage">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_xQibYGRsEeaYxPjtCxykSQ" entityName="getDisplayMessage">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_zoIk4GRsEeaYxPjtCxykSQ" entityName="setInExpressMode">
+      <parameters__OperationSignature parameterName="inExpressMode">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_pjBgoGRtEeaYxPjtCxykSQ" entityName="isInExpressMode">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_sM9-YGRtEeaYxPjtCxykSQ" entityName="setBarcode">
+      <parameters__OperationSignature dataType__Parameter="_jVQ-HUdGEeaL399ofOJboA" parameterName="barcode"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_yCPvsGRtEeaYxPjtCxykSQ" entityName="getBarcode" returnType__OperationSignature="_jVQ-HUdGEeaL399ofOJboA"/>
+    <signatures__OperationInterface id="_C2OqQGRuEeaYxPjtCxykSQ" entityName="setCardPayment">
+      <parameters__OperationSignature parameterName="cardPayment">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_KJA7YGRuEeaYxPjtCxykSQ" entityName="isCardPayment">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_NjLVIGRuEeaYxPjtCxykSQ" entityName="setSaleStarted">
+      <parameters__OperationSignature parameterName="saleStarted">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_WG0KIGRuEeaYxPjtCxykSQ" entityName="isSaleStarted">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_g0YgEGRuEeaYxPjtCxykSQ" entityName="setAllItemsRegistered">
+      <parameters__OperationSignature parameterName="allItemsRegistered">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m-sGMGRuEeaYxPjtCxykSQ" entityName="isAllItemsRegistered">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_sKLc4GXdEeamEr6y5T9PEQ" entityName="setCashPayment">
+      <parameters__OperationSignature parameterName="cashPayment">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_eU_ccGXiEeamEr6y5T9PEQ" entityName="isCashPayment">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_m9TMAl_BEea_gvFl-mCXRQ" entityName="IStoreQuery">
+    <signatures__OperationInterface id="_m9TMA1_BEea_gvFl-mCXRQ" entityName="queryStockItems" returnType__OperationSignature="_mTiLjFlZEeafw8jrX0KOKw">
+      <parameters__OperationSignature dataType__Parameter="_m87YlF_BEea_gvFl-mCXRQ" parameterName="store"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m9TMBF_BEea_gvFl-mCXRQ" entityName="getStockItemByProductID" returnType__OperationSignature="_m9DUYl_BEea_gvFl-mCXRQ">
+      <parameters__OperationSignature dataType__Parameter="_m87YlF_BEea_gvFl-mCXRQ" parameterName="store"/>
+      <parameters__OperationSignature parameterName="productID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m9TzEF_BEea_gvFl-mCXRQ" entityName="getStockItemByBarcode" returnType__OperationSignature="_m9DUYl_BEea_gvFl-mCXRQ">
+      <parameters__OperationSignature dataType__Parameter="_m87YlF_BEea_gvFl-mCXRQ" parameterName="store"/>
+      <parameters__OperationSignature dataType__Parameter="_jVQ-HUdGEeaL399ofOJboA" parameterName="barcode"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m9TzEV_BEea_gvFl-mCXRQ" entityName="updateStockItem">
+      <parameters__OperationSignature dataType__Parameter="_m87YlF_BEea_gvFl-mCXRQ" parameterName="store"/>
+      <parameters__OperationSignature dataType__Parameter="_m9DUYl_BEea_gvFl-mCXRQ" parameterName="stockItem"/>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m9TzEl_BEea_gvFl-mCXRQ" entityName="orderProducts">
+      <parameters__OperationSignature dataType__Parameter="_m87YlF_BEea_gvFl-mCXRQ" parameterName="store"/>
+      <parameters__OperationSignature dataType__Parameter="_m9OTgF_BEea_gvFl-mCXRQ" parameterName="items"/>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m9TzE1_BEea_gvFl-mCXRQ" entityName="getAllOrders" returnType__OperationSignature="_mTiLjFlZEeafw8jrX0KOKw">
+      <parameters__OperationSignature dataType__Parameter="_m87YlF_BEea_gvFl-mCXRQ" parameterName="store"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m9TzFF_BEea_gvFl-mCXRQ" entityName="getOrderByID" returnType__OperationSignature="_j_Vl9NYgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature dataType__Parameter="_m87YlF_BEea_gvFl-mCXRQ" parameterName="store"/>
+      <parameters__OperationSignature parameterName="orderID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m9TzFV_BEea_gvFl-mCXRQ" entityName="rollInOrder">
+      <parameters__OperationSignature dataType__Parameter="_m87YlF_BEea_gvFl-mCXRQ" parameterName="store"/>
+      <parameters__OperationSignature parameterName="orderID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m9TzFl_BEea_gvFl-mCXRQ" entityName="createStockItem">
+      <parameters__OperationSignature dataType__Parameter="_m87YlF_BEea_gvFl-mCXRQ" parameterName="store"/>
+      <parameters__OperationSignature dataType__Parameter="_m9DUYl_BEea_gvFl-mCXRQ" parameterName="product"/>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m9UaIF_BEea_gvFl-mCXRQ" entityName="lookupStoreManager" returnType__OperationSignature="_m86xgF_BEea_gvFl-mCXRQ">
+      <parameters__OperationSignature parameterName="storeID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_m86KcF_BEea_gvFl-mCXRQ" entityName="IStore.java.web.data.store.Store">
+    <signatures__OperationInterface id="_m86KcV_BEea_gvFl-mCXRQ" entityName="getID">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m86Kcl_BEea_gvFl-mCXRQ" entityName="setID">
+      <parameters__OperationSignature parameterName="storeID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m86Kc1_BEea_gvFl-mCXRQ" entityName="getName">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m86KdF_BEea_gvFl-mCXRQ" entityName="setName">
+      <parameters__OperationSignature parameterName="storeName">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m86KdV_BEea_gvFl-mCXRQ" entityName="getLocation">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m86Kdl_BEea_gvFl-mCXRQ" entityName="setLocation">
+      <parameters__OperationSignature parameterName="storeLocation">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m86Kd1_BEea_gvFl-mCXRQ" entityName="isEditingEnabled">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m86KeF_BEea_gvFl-mCXRQ" entityName="setEditingEnabled">
+      <parameters__OperationSignature parameterName="editingEnabled">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m86KeV_BEea_gvFl-mCXRQ" entityName="getEnterprise" returnType__OperationSignature="_j_SioNYgEeWrM-HnT5f_ug"/>
+    <signatures__OperationInterface id="_m86xgV_BEea_gvFl-mCXRQ" entityName="setEnterprise">
+      <parameters__OperationSignature dataType__Parameter="_j_SioNYgEeWrM-HnT5f_ug" parameterName="EnterpriseTO"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m86xgl_BEea_gvFl-mCXRQ" entityName="getNewName">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m86xg1_BEea_gvFl-mCXRQ" entityName="setNewName">
+      <parameters__OperationSignature parameterName="newName">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m87YkF_BEea_gvFl-mCXRQ" entityName="getNewLocation">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m87YkV_BEea_gvFl-mCXRQ" entityName="setNewLocation">
+      <parameters__OperationSignature parameterName="newLocation">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m87Ykl_BEea_gvFl-mCXRQ" entityName="updateStoreInformation"/>
+    <signatures__OperationInterface id="_m87Yk1_BEea_gvFl-mCXRQ" entityName="createStoreTO" returnType__OperationSignature="_j_O4QtYgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature dataType__Parameter="_m87YlF_BEea_gvFl-mCXRQ" parameterName="store"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m8_C8F_BEea_gvFl-mCXRQ" entityName="fromStoreTO" returnType__OperationSignature="_m87YlF_BEea_gvFl-mCXRQ">
+      <parameters__OperationSignature dataType__Parameter="_j_O4QtYgEeWrM-HnT5f_ug" parameterName="StoreWithEnterpriseTO"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_lEOnEF_AEeavmo6nsNCw2Q" entityName="ICashDeskQuery">
+    <signatures__OperationInterface id="_nxKuYF_AEeavmo6nsNCw2Q" entityName="startSale">
+      <parameters__OperationSignature parameterName="cashDeskName">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="storeID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.3"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_PRtgcF_BEeavmo6nsNCw2Q" entityName="enterBarcode">
+      <parameters__OperationSignature parameterName="storeID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="cashDeskName">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature dataType__Parameter="_jVQ-HUdGEeaL399ofOJboA" parameterName="barcode"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_rAiNYF_AEeavmo6nsNCw2Q" entityName="isInExpressMode">
+      <parameters__OperationSignature parameterName="storeID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="cashDeskName">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_vIQQsF_AEeavmo6nsNCw2Q" entityName="getDisplayMessage">
+      <parameters__OperationSignature parameterName="cashDeskName">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="storeID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_xjVzEF_AEeavmo6nsNCw2Q" entityName="getPrinterOutput" returnType__OperationSignature="_kRVU4tYgEeWrM-HnT5f_ug">
+      <parameters__OperationSignature parameterName="cashDeskName">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="storeID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_54BmEF_AEeavmo6nsNCw2Q" entityName="enterCashAmount">
+      <parameters__OperationSignature parameterName="cashDeskName">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="storeID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="amount">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_7aSqEF_AEeavmo6nsNCw2Q" entityName="enterCardInfo">
+      <parameters__OperationSignature parameterName="cashDeskName">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="storeID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="cardInfo">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="pin">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_85tOYF_AEeavmo6nsNCw2Q" entityName="startCashPayment">
+      <parameters__OperationSignature parameterName="cashDeskName">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="storeID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_-V770F_AEeavmo6nsNCw2Q" entityName="startCreditCardPayment">
+      <parameters__OperationSignature parameterName="cashDeskName">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="storeID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_MwKloBH1Eea2A6qMyDWF1w" entityName="IEnterpriseReport">
     <signatures__OperationInterface id="_Syq6kBH1Eea2A6qMyDWF1w" entityName="getStoreStockReport" returnType__OperationSignature="_C1TfHQuLEeavOKEBhe9hQA">
       <parameters__OperationSignature parameterName="storeId">
@@ -391,7 +1481,7 @@
       <parameters__OperationSignature dataType__Parameter="_j_3KYdYgEeWrM-HnT5f_ug" parameterName="productTO"/>
     </signatures__OperationInterface>
     <signatures__OperationInterface id="_0Uuq8BEDEeaZraF8j4MsOw" entityName="updateProduct">
-      <parameters__OperationSignature dataType__Parameter="_j_bskNYgEeWrM-HnT5f_ug" parameterName="ProductTO"/>
+      <parameters__OperationSignature dataType__Parameter="_j_bskNYgEeWrM-HnT5f_ug" parameterName="ProductWithSupplierTO"/>
     </signatures__OperationInterface>
     <signatures__OperationInterface id="_9tS80BEDEeaZraF8j4MsOw" entityName="getEnterprises" returnType__OperationSignature="_FnxgHREEEeaZraF8j4MsOw"/>
     <signatures__OperationInterface id="_Nre30BEEEeaZraF8j4MsOw" entityName="fillTestDatabase">
@@ -424,6 +1514,14 @@
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
       </parameters__OperationSignature>
       <parameters__OperationSignature parameterName="dirString">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_rTPhMKdBEea6yqnnpazPHg" entityName="queryStoreByName" returnType__OperationSignature="_bgU9rQ4YEeaNfMfZ20wdnQ">
+      <parameters__OperationSignature parameterName="enterpriseID">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="name">
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
       </parameters__OperationSignature>
     </signatures__OperationInterface>
@@ -698,26 +1796,26 @@
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
       </parameters__OperationSignature>
     </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kIb3kNYgEeWrM-HnT5f_ug" entityName="getProductsWithLowStock">
+    <signatures__OperationInterface id="_kIb3kNYgEeWrM-HnT5f_ug" entityName="getProductsWithLowStock" returnType__OperationSignature="_j_O4QNYgEeWrM-HnT5f_ug">
       <parameters__OperationSignature parameterName="storeID">
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
       </parameters__OperationSignature>
     </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kIb3kdYgEeWrM-HnT5f_ug" entityName="getAllStoreProducts">
+    <signatures__OperationInterface id="_kIb3kdYgEeWrM-HnT5f_ug" entityName="getAllStoreProducts" returnType__OperationSignature="_5u--DFsOEearYq_-H-4Gow">
       <parameters__OperationSignature parameterName="storeID">
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
       </parameters__OperationSignature>
     </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kIb3ktYgEeWrM-HnT5f_ug" entityName="getProductsWithStockItems">
+    <signatures__OperationInterface id="_kIb3ktYgEeWrM-HnT5f_ug" entityName="getProductsWithStockItems" returnType__OperationSignature="_LIx7YFsPEearYq_-H-4Gow">
       <parameters__OperationSignature parameterName="storeID">
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
       </parameters__OperationSignature>
     </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kIb3k9YgEeWrM-HnT5f_ug" entityName="orderProducts">
+    <signatures__OperationInterface id="_kIb3k9YgEeWrM-HnT5f_ug" entityName="orderProducts" returnType__OperationSignature="_mTiLjFlZEeafw8jrX0KOKw">
       <parameters__OperationSignature parameterName="storeID">
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
       </parameters__OperationSignature>
-      <parameters__OperationSignature dataType__Parameter="_j_Vl9NYgEeWrM-HnT5f_ug" parameterName="complexOrder"/>
+      <parameters__OperationSignature dataType__Parameter="_j_Vl9NYgEeWrM-HnT5f_ug" parameterName="complexOrderTO"/>
     </signatures__OperationInterface>
     <signatures__OperationInterface id="_kIb3lNYgEeWrM-HnT5f_ug" entityName="getOrder" returnType__OperationSignature="_j_Vl9NYgEeWrM-HnT5f_ug">
       <parameters__OperationSignature parameterName="storeID">
@@ -727,7 +1825,7 @@
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
       </parameters__OperationSignature>
     </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kIb3ldYgEeWrM-HnT5f_ug" entityName="getOutstandingOrders">
+    <signatures__OperationInterface id="_kIb3ldYgEeWrM-HnT5f_ug" entityName="getOutstandingOrders" returnType__OperationSignature="_mTiLjFlZEeafw8jrX0KOKw">
       <parameters__OperationSignature parameterName="storeID">
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
       </parameters__OperationSignature>
@@ -924,10 +2022,10 @@
       <parameters__OperationSignature dataType__Parameter="_j83gwNYgEeWrM-HnT5f_ug" parameterName="product"/>
     </signatures__OperationInterface>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_kBWYINYgEeWrM-HnT5f_ug" entityName="IPersistenceLocal.java.IPersistenceLocal">
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_kBWYINYgEeWrM-HnT5f_ug" entityName="IPersistenceLocal">
     <signatures__OperationInterface id="_kBWYIdYgEeWrM-HnT5f_ug" entityName="getPersistenceContext" returnType__OperationSignature="_kA0MoNYgEeWrM-HnT5f_ug"/>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_j4f-KNYgEeWrM-HnT5f_ug" entityName="IBankLocal.java.IBankLocal">
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_j4f-KNYgEeWrM-HnT5f_ug" entityName="IBankLocal">
     <signatures__OperationInterface id="_j4f-KdYgEeWrM-HnT5f_ug" entityName="validateCard" returnType__OperationSignature="_j4glMNYgEeWrM-HnT5f_ug">
       <parameters__OperationSignature parameterName="cardInfo">
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
@@ -940,7 +2038,7 @@
       <parameters__OperationSignature dataType__Parameter="_j4glMNYgEeWrM-HnT5f_ug" parameterName="tid"/>
     </signatures__OperationInterface>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_j4ldsdYgEeWrM-HnT5f_ug" entityName="IStoreInventoryLocal.java.IStoreInventoryLocal">
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_j4ldsdYgEeWrM-HnT5f_ug" entityName="IStoreInventoryLocal">
     <signatures__OperationInterface id="_j4ldstYgEeWrM-HnT5f_ug" entityName="getProductWithStockItem" returnType__OperationSignature="_j4lds9YgEeWrM-HnT5f_ug">
       <parameters__OperationSignature parameterName="storeID">
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
@@ -1126,11 +2224,27 @@
       </parameters__OperationSignature>
     </signatures__OperationInterface>
   </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_m8odoF_BEea_gvFl-mCXRQ" entityName="IAuthenticator.java.IAuthenticator">
+    <signatures__OperationInterface id="_m9pEsF_BEea_gvFl-mCXRQ" entityName="checkCredentials">
+      <parameters__OperationSignature dataType__Parameter="_m8pEsV_BEea_gvFl-mCXRQ" parameterName="user"/>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m9qS0F_BEea_gvFl-mCXRQ" entityName="checkCredential">
+      <parameters__OperationSignature parameterName="username">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature dataType__Parameter="_m8qS0V_BEea_gvFl-mCXRQ" parameterName="credential"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_m9q54F_BEea_gvFl-mCXRQ" entityName="checkHasPermission">
+      <parameters__OperationSignature dataType__Parameter="_m8pEsV_BEea_gvFl-mCXRQ" parameterName="user"/>
+      <parameters__OperationSignature dataType__Parameter="_m8q54V_BEea_gvFl-mCXRQ" parameterName="permission"/>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_KUrktzSeEeal3vOMu7N_ww" entityName="ICheckOut"/>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_rvrU4DSeEeal3vOMu7N_ww" entityName="IInventory"/>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_8oRNJzSfEeal3vOMu7N_ww" entityName="IUserManager"/>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_ZImaFTSgEeal3vOMu7N_ww" entityName="ILoginManager"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_84OX5zSjEeal3vOMu7N_ww" entityName="IAuthenticator"/>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_942HaDSjEeal3vOMu7N_ww" entityName="IUserManager"/>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_SgdHyDSoEeal3vOMu7N_ww" entityName="IUserDataFactory"/>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_W0jaODSoEeal3vOMu7N_ww" entityName="IUserQuery"/>
@@ -1201,7 +2315,7 @@
       </parameter__EventType>
     </eventTypes__EventGroup>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_j8RD0NYgEeWrM-HnT5f_ug" entityName="IStoreQueryLocal.java.IStoreQueryLocal">
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_j8RD0NYgEeWrM-HnT5f_ug" entityName="IStoreQueryLocal">
     <signatures__OperationInterface id="_j8RD0dYgEeWrM-HnT5f_ug" entityName="queryStore" returnType__OperationSignature="_j8Rq4NYgEeWrM-HnT5f_ug">
       <parameters__OperationSignature parameterName="name">
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
@@ -1350,26 +2464,26 @@
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
       </parameters__OperationSignature>
     </signatures__OperationInterface>
-    <signatures__OperationInterface id="_j_Vl8NYgEeWrM-HnT5f_ug" entityName="getProductsWithLowStock">
+    <signatures__OperationInterface id="_j_Vl8NYgEeWrM-HnT5f_ug" entityName="getProductsWithLowStock" returnType__OperationSignature="_j_O4QNYgEeWrM-HnT5f_ug">
       <parameters__OperationSignature parameterName="storeID">
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
       </parameters__OperationSignature>
     </signatures__OperationInterface>
-    <signatures__OperationInterface id="_j_Vl8dYgEeWrM-HnT5f_ug" entityName="getAllProducts">
+    <signatures__OperationInterface id="_j_Vl8dYgEeWrM-HnT5f_ug" entityName="getAllProducts" returnType__OperationSignature="_5u--DFsOEearYq_-H-4Gow">
       <parameters__OperationSignature parameterName="storeID">
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
       </parameters__OperationSignature>
     </signatures__OperationInterface>
-    <signatures__OperationInterface id="_j_Vl8tYgEeWrM-HnT5f_ug" entityName="getProductsWithStockItems">
+    <signatures__OperationInterface id="_j_Vl8tYgEeWrM-HnT5f_ug" entityName="getProductsWithStockItems" returnType__OperationSignature="_LIx7YFsPEearYq_-H-4Gow">
       <parameters__OperationSignature parameterName="storeID">
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
       </parameters__OperationSignature>
     </signatures__OperationInterface>
-    <signatures__OperationInterface id="_j_Vl89YgEeWrM-HnT5f_ug" entityName="orderProducts">
+    <signatures__OperationInterface id="_j_Vl89YgEeWrM-HnT5f_ug" entityName="orderProducts" returnType__OperationSignature="_mTiLjFlZEeafw8jrX0KOKw">
       <parameters__OperationSignature parameterName="storeID">
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
       </parameters__OperationSignature>
-      <parameters__OperationSignature dataType__Parameter="_j_Vl9NYgEeWrM-HnT5f_ug" parameterName="complexOrder"/>
+      <parameters__OperationSignature dataType__Parameter="_j_Vl9NYgEeWrM-HnT5f_ug" parameterName="complexOrderTO"/>
     </signatures__OperationInterface>
     <signatures__OperationInterface id="_j_joYNYgEeWrM-HnT5f_ug" entityName="getOrder" returnType__OperationSignature="_j_Vl9NYgEeWrM-HnT5f_ug">
       <parameters__OperationSignature parameterName="storeID">
@@ -1379,7 +2493,7 @@
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
       </parameters__OperationSignature>
     </signatures__OperationInterface>
-    <signatures__OperationInterface id="_j_joYdYgEeWrM-HnT5f_ug" entityName="getOutstandingOrders">
+    <signatures__OperationInterface id="_j_joYdYgEeWrM-HnT5f_ug" entityName="getOutstandingOrders" returnType__OperationSignature="_mTiLjFlZEeafw8jrX0KOKw">
       <parameters__OperationSignature parameterName="storeID">
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
       </parameters__OperationSignature>
@@ -1484,200 +2598,36 @@
       </parameters__OperationSignature>
     </signatures__OperationInterface>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_kAT2UdYgEeWrM-HnT5f_ug" entityName="IPersistenceContextLocal.java.IPersistenceContextLocal">
-    <signatures__OperationInterface id="_kAT2UtYgEeWrM-HnT5f_ug" entityName="createEntity_productOrder">
-      <parameters__OperationSignature dataType__Parameter="_j9Cf49YgEeWrM-HnT5f_ug" parameterName="productOrder"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kAT2U9YgEeWrM-HnT5f_ug" entityName="updateEntity_productOrder">
-      <parameters__OperationSignature dataType__Parameter="_j9Cf49YgEeWrM-HnT5f_ug" parameterName="productOrder"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kAT2VNYgEeWrM-HnT5f_ug" entityName="createEntity_stockItem">
-      <parameters__OperationSignature dataType__Parameter="_j8vk8tYgEeWrM-HnT5f_ug" parameterName="stockItem"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kAT2VdYgEeWrM-HnT5f_ug" entityName="updateEntity_stockItem">
-      <parameters__OperationSignature dataType__Parameter="_j8vk8tYgEeWrM-HnT5f_ug" parameterName="stockItem"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kAT2VtYgEeWrM-HnT5f_ug" entityName="createEntity_enterprise">
-      <parameters__OperationSignature dataType__Parameter="_j8fGQNYgEeWrM-HnT5f_ug" parameterName="enterprise"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kAT2V9YgEeWrM-HnT5f_ug" entityName="updateEntity_enterprise">
-      <parameters__OperationSignature dataType__Parameter="_j8fGQNYgEeWrM-HnT5f_ug" parameterName="enterprise"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kAT2WNYgEeWrM-HnT5f_ug" entityName="createEntity_store">
-      <parameters__OperationSignature dataType__Parameter="_j8Rq4NYgEeWrM-HnT5f_ug" parameterName="store"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kAT2WdYgEeWrM-HnT5f_ug" entityName="updateEntity_store">
-      <parameters__OperationSignature dataType__Parameter="_j8Rq4NYgEeWrM-HnT5f_ug" parameterName="store"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kAT2WtYgEeWrM-HnT5f_ug" entityName="createEntity_supplier">
-      <parameters__OperationSignature dataType__Parameter="_j88ZQNYgEeWrM-HnT5f_ug" parameterName="supplier"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kAUdYNYgEeWrM-HnT5f_ug" entityName="updateEntity_supplier">
-      <parameters__OperationSignature dataType__Parameter="_j88ZQNYgEeWrM-HnT5f_ug" parameterName="supplier"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kAUdYdYgEeWrM-HnT5f_ug" entityName="createEntity_product">
-      <parameters__OperationSignature dataType__Parameter="_j83gwNYgEeWrM-HnT5f_ug" parameterName="product"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kAUdYtYgEeWrM-HnT5f_ug" entityName="updateEntity_product">
-      <parameters__OperationSignature dataType__Parameter="_j83gwNYgEeWrM-HnT5f_ug" parameterName="product"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kAUdY9YgEeWrM-HnT5f_ug" entityName="createEntity_customer">
-      <parameters__OperationSignature dataType__Parameter="_VYnS-A3gEeaNfMfZ20wdnQ" parameterName="customer"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kAUdZNYgEeWrM-HnT5f_ug" entityName="updateEntity_customer">
-      <parameters__OperationSignature dataType__Parameter="_VYnS-A3gEeaNfMfZ20wdnQ" parameterName="customer"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_O5-PwEQ_EeaKq8TkC7OS4w" entityName="createEntity_user">
-      <parameters__OperationSignature dataType__Parameter="_kXSy8tYgEeWrM-HnT5f_ug" parameterName="user"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_Pl8k8EQ_EeaKq8TkC7OS4w" entityName="updateEntity_user">
-      <parameters__OperationSignature dataType__Parameter="_kXSy8tYgEeWrM-HnT5f_ug" parameterName="user"/>
-    </signatures__OperationInterface>
-  </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_kAYu0NYgEeWrM-HnT5f_ug" entityName="IEnterpriseQueryLocal.java.IEnterpriseQueryLocal">
-    <signatures__OperationInterface id="_kAYu0dYgEeWrM-HnT5f_ug" entityName="queryEnterpriseById" returnType__OperationSignature="_j8fGQNYgEeWrM-HnT5f_ug">
-      <parameters__OperationSignature parameterName="enterpriseID">
-        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
-      </parameters__OperationSignature>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kAYu0tYgEeWrM-HnT5f_ug" entityName="queryStoresByEnterpriseId">
-      <parameters__OperationSignature parameterName="enterpriseID">
-        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
-      </parameters__OperationSignature>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kAYu09YgEeWrM-HnT5f_ug" entityName="queryStoreByEnterprise" returnType__OperationSignature="_j8Rq4NYgEeWrM-HnT5f_ug">
-      <parameters__OperationSignature parameterName="enterpriseID">
-        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
-      </parameters__OperationSignature>
-      <parameters__OperationSignature parameterName="storeID">
-        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
-      </parameters__OperationSignature>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kAYu1NYgEeWrM-HnT5f_ug" entityName="queryEnterpriseByName" returnType__OperationSignature="_j8fGQNYgEeWrM-HnT5f_ug">
-      <parameters__OperationSignature parameterName="enterpriseName">
-        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
-      </parameters__OperationSignature>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kAYu1dYgEeWrM-HnT5f_ug" entityName="getMeanTimeToDelivery">
-      <parameters__OperationSignature dataType__Parameter="_j88ZQNYgEeWrM-HnT5f_ug" parameterName="supplier"/>
-      <parameters__OperationSignature dataType__Parameter="_j8fGQNYgEeWrM-HnT5f_ug" parameterName="enterprise"/>
-      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kAYu1tYgEeWrM-HnT5f_ug" entityName="queryAllProducts">
-      <parameters__OperationSignature parameterName="enterpriseID">
-        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
-      </parameters__OperationSignature>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kAYu19YgEeWrM-HnT5f_ug" entityName="queryAllProducts_1"/>
-    <signatures__OperationInterface id="_kAYu2NYgEeWrM-HnT5f_ug" entityName="queryProductByID" returnType__OperationSignature="_j83gwNYgEeWrM-HnT5f_ug">
-      <parameters__OperationSignature parameterName="productID">
-        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
-      </parameters__OperationSignature>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kAYu2dYgEeWrM-HnT5f_ug" entityName="queryProductByBarcode" returnType__OperationSignature="_j83gwNYgEeWrM-HnT5f_ug">
-      <parameters__OperationSignature dataType__Parameter="_jVQ-HUdGEeaL399ofOJboA" parameterName="productBarcode"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kAZV4NYgEeWrM-HnT5f_ug" entityName="querySuppliers">
-      <parameters__OperationSignature parameterName="enterpriseID">
-        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
-      </parameters__OperationSignature>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kAZV4dYgEeWrM-HnT5f_ug" entityName="querySupplierByID" returnType__OperationSignature="_j88ZQNYgEeWrM-HnT5f_ug">
-      <parameters__OperationSignature parameterName="supplierID">
-        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
-      </parameters__OperationSignature>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kAZV4tYgEeWrM-HnT5f_ug" entityName="querySupplierForProduct" returnType__OperationSignature="_j88ZQNYgEeWrM-HnT5f_ug">
-      <parameters__OperationSignature parameterName="enterpriseID">
-        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
-      </parameters__OperationSignature>
-      <parameters__OperationSignature dataType__Parameter="_jVQ-HUdGEeaL399ofOJboA" parameterName="productBarcode"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kAZV49YgEeWrM-HnT5f_ug" entityName="queryProductsBySupplier">
-      <parameters__OperationSignature parameterName="enterpriseID">
-        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
-      </parameters__OperationSignature>
-      <parameters__OperationSignature parameterName="productSupplierID">
-        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
-      </parameters__OperationSignature>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_kAZV5NYgEeWrM-HnT5f_ug" entityName="queryAllEnterprises"/>
-  </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_xp7VaAbuEeaw45Je4nSaaQ" entityName="IStoreDataFactory">
-    <signatures__OperationInterface id="_jTQpIAhfEeav9ZCsCxP2FQ" entityName="getNewOrderEntry" returnType__OperationSignature="_j_-fI9YgEeWrM-HnT5f_ug"/>
-    <signatures__OperationInterface id="_y7x2IAhfEeav9ZCsCxP2FQ" entityName="getNewStockItem" returnType__OperationSignature="_j8vk8tYgEeWrM-HnT5f_ug"/>
-    <signatures__OperationInterface id="_7rkQwAhfEeav9ZCsCxP2FQ" entityName="getNewProductOrder" returnType__OperationSignature="_j9Cf49YgEeWrM-HnT5f_ug"/>
-    <signatures__OperationInterface id="_PElT4AhgEeav9ZCsCxP2FQ" entityName="getNewStore" returnType__OperationSignature="_j8Rq4NYgEeWrM-HnT5f_ug"/>
-    <signatures__OperationInterface id="_ZOMBIAhgEeav9ZCsCxP2FQ" entityName="convertToOrderEntry" returnType__OperationSignature="_j_-fI9YgEeWrM-HnT5f_ug">
-      <parameters__OperationSignature dataType__Parameter="_j_ZQUdYgEeWrM-HnT5f_ug" parameterName="ComplexOrderEntryTO"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_MIA_oAhhEeav9ZCsCxP2FQ" entityName="fillComplexOrderEntryTO" returnType__OperationSignature="_j_ZQUdYgEeWrM-HnT5f_ug">
-      <parameters__OperationSignature dataType__Parameter="_j_-fI9YgEeWrM-HnT5f_ug" parameterName="orderEntry"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_ZQB-wAhhEeav9ZCsCxP2FQ" entityName="convertToProductOrder" returnType__OperationSignature="_j9Cf49YgEeWrM-HnT5f_ug">
-      <parameters__OperationSignature dataType__Parameter="_j_Vl9NYgEeWrM-HnT5f_ug" parameterName="orderTo"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_-skRsAhhEeav9ZCsCxP2FQ" entityName="fillComplexOrderTO" returnType__OperationSignature="_j_Vl9NYgEeWrM-HnT5f_ug">
-      <parameters__OperationSignature dataType__Parameter="_j9Cf49YgEeWrM-HnT5f_ug" parameterName="productOrder"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_fHNYEAhiEeav9ZCsCxP2FQ" entityName="convertToStockItem" returnType__OperationSignature="_j8vk8tYgEeWrM-HnT5f_ug">
-      <parameters__OperationSignature dataType__Parameter="_j4pvINYgEeWrM-HnT5f_ug" parameterName="stockItemTO"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_0YqjgAhiEeav9ZCsCxP2FQ" entityName="fillStockItemTO" returnType__OperationSignature="_j4pvINYgEeWrM-HnT5f_ug">
-      <parameters__OperationSignature dataType__Parameter="_j8vk8tYgEeWrM-HnT5f_ug" parameterName="stockItem"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_AdQ90AhjEeav9ZCsCxP2FQ" entityName="convertToStore" returnType__OperationSignature="_j8Rq4NYgEeWrM-HnT5f_ug">
-      <parameters__OperationSignature dataType__Parameter="_jE1R_ghnEeav9ZCsCxP2FQ" parameterName="storeTO"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_yJMT4AhlEeav9ZCsCxP2FQ" entityName="fillStoreTO" returnType__OperationSignature="_jE1R_ghnEeav9ZCsCxP2FQ">
-      <parameters__OperationSignature dataType__Parameter="_j8Rq4NYgEeWrM-HnT5f_ug" parameterName="store"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_MhmyEAhmEeav9ZCsCxP2FQ" entityName="fillOrderEntryTO" returnType__OperationSignature="_kAElw9YgEeWrM-HnT5f_ug">
-      <parameters__OperationSignature dataType__Parameter="_j_-fI9YgEeWrM-HnT5f_ug" parameterName="orderEntry"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_QJZ_MAhmEeav9ZCsCxP2FQ" entityName="fillOrderTO" returnType__OperationSignature="_kAIQIdYgEeWrM-HnT5f_ug">
-      <parameters__OperationSignature dataType__Parameter="_j9Cf49YgEeWrM-HnT5f_ug" parameterName="productOrder"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_zlkV0AhmEeav9ZCsCxP2FQ" entityName="fillProductWithStockItemTO" returnType__OperationSignature="_j4lds9YgEeWrM-HnT5f_ug">
-      <parameters__OperationSignature dataType__Parameter="_j8vk8tYgEeWrM-HnT5f_ug" parameterName="stockItem"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_DuaosAhnEeav9ZCsCxP2FQ" entityName="fillProductWithSupplierAndStockItemTO" returnType__OperationSignature="_kALTcNYgEeWrM-HnT5f_ug">
-      <parameters__OperationSignature dataType__Parameter="_j8vk8tYgEeWrM-HnT5f_ug" parameterName="stockItem"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_TjN-MAhnEeav9ZCsCxP2FQ" entityName="fillStoreWithEnterpriseTO" returnType__OperationSignature="_j_O4QtYgEeWrM-HnT5f_ug">
-      <parameters__OperationSignature dataType__Parameter="_j8Rq4NYgEeWrM-HnT5f_ug" parameterName="store"/>
-    </signatures__OperationInterface>
-  </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_GiPOyAb0EeaWztvthg0dUA" entityName="ITradingEnterprise">
-    <signatures__OperationInterface id="_O45JkAuHEeavOKEBhe9hQA" entityName="initTradingEnterprise"/>
-    <signatures__OperationInterface id="_hprIAAuHEeavOKEBhe9hQA" entityName="getId">
-      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_ly_GwAuHEeavOKEBhe9hQA" entityName="setId">
-      <parameters__OperationSignature parameterName="id">
-        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
-      </parameters__OperationSignature>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_u9OowAuHEeavOKEBhe9hQA" entityName="getName">
-      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_zz7R8AuHEeavOKEBhe9hQA" entityName="setName">
-      <parameters__OperationSignature parameterName="name">
-        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
-      </parameters__OperationSignature>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_6L45kAuHEeavOKEBhe9hQA" entityName="getStores" returnType__OperationSignature="_j3mmSdYgEeWrM-HnT5f_ug"/>
-    <signatures__OperationInterface id="_vS3FEAuIEeavOKEBhe9hQA" entityName="setStores">
-      <parameters__OperationSignature dataType__Parameter="_j3mmSdYgEeWrM-HnT5f_ug" parameterName="list_store"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_3mbdwAuIEeavOKEBhe9hQA" entityName="getSuppliers" returnType__OperationSignature="_FQHmnAuJEeavOKEBhe9hQA"/>
-    <signatures__OperationInterface id="_SKEUgAuJEeavOKEBhe9hQA" entityName="setSuppliers">
-      <parameters__OperationSignature dataType__Parameter="_FQHmnAuJEeavOKEBhe9hQA" parameterName="list_productSupplier"/>
-    </signatures__OperationInterface>
-  </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_wKcmE2CHEeaftfO-M3V5YQ" entityName="ICheckOutWebAccess"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_EyIbx2CIEeaftfO-M3V5YQ" entityName="IShoppingCartWebAccess"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IiXzN2CIEeaftfO-M3V5YQ" entityName="IUserManagerWebAccess"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_m9E7bmUYEead_5QKkcGuDg" entityName="NavigationElement">
+    <innerDeclaration_CompositeDataType entityName="NavOutcome">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="DisplayText">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="RequiredPermission">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </innerDeclaration_CompositeDataType>
+  </dataTypes__Repository>
+  <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_4Q6avGUYEead_5QKkcGuDg" entityName="List_NavigationElement" innerType_CollectionDataType="_m9E7bmUYEead_5QKkcGuDg"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_qTt7w2SDEeaYxPjtCxykSQ" entityName="LoginEvent">
+    <innerDeclaration_CompositeDataType entityName="user" datatype_InnerDeclaration="_kXSy8tYgEeWrM-HnT5f_ug"/>
+    <innerDeclaration_CompositeDataType entityName="role" datatype_InnerDeclaration="_2iFXzQ3sEeaNfMfZ20wdnQ"/>
+    <innerDeclaration_CompositeDataType entityName="storeID">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+    </innerDeclaration_CompositeDataType>
+  </dataTypes__Repository>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_m80D0F_BEea_gvFl-mCXRQ" entityName="NavigationViewStates"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_m86xgF_BEea_gvFl-mCXRQ" entityName="StoreManager">
+    <innerDeclaration_CompositeDataType entityName="ProductWithStockItemTO" datatype_InnerDeclaration="_j4lds9YgEeWrM-HnT5f_ug"/>
+    <innerDeclaration_CompositeDataType entityName="StoreWithEnterpriseTO" datatype_InnerDeclaration="_j_O4QtYgEeWrM-HnT5f_ug"/>
+    <innerDeclaration_CompositeDataType entityName="List_ProductWithStockItemTO" datatype_InnerDeclaration="_j_O4QNYgEeWrM-HnT5f_ug"/>
+    <innerDeclaration_CompositeDataType entityName="List_ProductWithSupplierTO" datatype_InnerDeclaration="_5u--DFsOEearYq_-H-4Gow"/>
+    <innerDeclaration_CompositeDataType entityName="List_ProductWithSupplierAndStockItemTO" datatype_InnerDeclaration="_LIx7YFsPEearYq_-H-4Gow"/>
+    <innerDeclaration_CompositeDataType entityName="List_ComplexOrderTO" datatype_InnerDeclaration="_mTiLjFlZEeafw8jrX0KOKw"/>
+    <innerDeclaration_CompositeDataType entityName="ComplexOrderTO" datatype_InnerDeclaration="_j_Vl9NYgEeWrM-HnT5f_ug"/>
+    <innerDeclaration_CompositeDataType entityName="ComplexOrderEntryTOList" datatype_InnerDeclaration="_j_7b0dYgEeWrM-HnT5f_ug"/>
+  </dataTypes__Repository>
   <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_ytVnPkc5EeaL399ofOJboA" entityName="productAmountTO">
     <innerDeclaration_CompositeDataType entityName="__amount">
       <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
@@ -1708,6 +2658,29 @@
       <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
     </innerDeclaration_CompositeDataType>
     <innerDeclaration_CompositeDataType entityName="type" datatype_InnerDeclaration="_-jdZ_Q38EeaNfMfZ20wdnQ"/>
+  </dataTypes__Repository>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_m8qS0V_BEea_gvFl-mCXRQ" entityName="ICredential">
+    <innerDeclaration_CompositeDataType entityName="credentialString">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </innerDeclaration_CompositeDataType>
+  </dataTypes__Repository>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_m8pEsV_BEea_gvFl-mCXRQ" entityName="IUser">
+    <innerDeclaration_CompositeDataType entityName="Username">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="Credential" datatype_InnerDeclaration="_m8qS0V_BEea_gvFl-mCXRQ"/>
+    <innerDeclaration_CompositeDataType entityName="Permission" datatype_InnerDeclaration="_m8q54V_BEea_gvFl-mCXRQ"/>
+  </dataTypes__Repository>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_m8q54V_BEea_gvFl-mCXRQ" entityName="IPermission">
+    <innerDeclaration_CompositeDataType entityName="Name">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </innerDeclaration_CompositeDataType>
+  </dataTypes__Repository>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_m9G-xF_BEea_gvFl-mCXRQ" entityName="OrderItem">
+    <innerDeclaration_CompositeDataType entityName="product" datatype_InnerDeclaration="_m9DUYl_BEea_gvFl-mCXRQ"/>
+    <innerDeclaration_CompositeDataType entityName="amount">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+    </innerDeclaration_CompositeDataType>
   </dataTypes__Repository>
   <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_JsOTnA38EeaNfMfZ20wdnQ" entityName="list_credentialTO" innerType_CollectionDataType="_GY-aLQ38EeaNfMfZ20wdnQ"/>
   <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_39pW3A3sEeaNfMfZ20wdnQ" entityName="list_roles" innerType_CollectionDataType="_2iFXzQ3sEeaNfMfZ20wdnQ"/>
@@ -1845,6 +2818,11 @@
       <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
     </innerDeclaration_CompositeDataType>
     <innerDeclaration_CompositeDataType entityName="credentialType" datatype_InnerDeclaration="_-jdZ_Q38EeaNfMfZ20wdnQ"/>
+  </dataTypes__Repository>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_kWs1E1YgEeWrM-HnT5f_ug" entityName="credential.web.data.login">
+    <innerDeclaration_CompositeDataType entityName="password">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </innerDeclaration_CompositeDataType>
   </dataTypes__Repository>
   <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_j5rC0tYgEeWrM-HnT5f_ug" entityName="MessageKind"/>
   <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_j5tfE9YgEeWrM-HnT5f_ug" entityName="Sale">
@@ -1988,7 +2966,7 @@
     <innerDeclaration_CompositeDataType entityName="__date" datatype_InnerDeclaration="_j5v7UNYgEeWrM-HnT5f_ug"/>
     <innerDeclaration_CompositeDataType entityName="__productTOs" datatype_InnerDeclaration="_j_O4QNYgEeWrM-HnT5f_ug"/>
   </dataTypes__Repository>
-  <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_j_O4QNYgEeWrM-HnT5f_ug" entityName="List___productTOs" innerType_CollectionDataType="_j4lds9YgEeWrM-HnT5f_ug"/>
+  <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_j_O4QNYgEeWrM-HnT5f_ug" entityName="List_ProductWithStockItemTO" innerType_CollectionDataType="_j4lds9YgEeWrM-HnT5f_ug"/>
   <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_j_O4QtYgEeWrM-HnT5f_ug" entityName="StoreWithEnterpriseTO">
     <innerDeclaration_CompositeDataType entityName="serialVersionUID">
       <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
@@ -2017,7 +2995,7 @@
     <innerDeclaration_CompositeDataType entityName="serialVersionUID">
       <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
     </innerDeclaration_CompositeDataType>
-    <innerDeclaration_CompositeDataType entityName="__productTO" datatype_InnerDeclaration="_j_bskNYgEeWrM-HnT5f_ug"/>
+    <innerDeclaration_CompositeDataType entityName="_ProductWithSupplierTO" datatype_InnerDeclaration="_j_bskNYgEeWrM-HnT5f_ug"/>
   </dataTypes__Repository>
   <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_j_bskNYgEeWrM-HnT5f_ug" entityName="ProductWithSupplierTO">
     <innerDeclaration_CompositeDataType entityName="serialVersionUID">
@@ -2113,8 +3091,81 @@
   <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_kA-ksdYgEeWrM-HnT5f_ug" entityName="List_uniqueStockItems" innerType_CollectionDataType="_j8vk8tYgEeWrM-HnT5f_ug"/>
   <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_kA-kstYgEeWrM-HnT5f_ug" entityName="List_productOrders" innerType_CollectionDataType="_j9Cf49YgEeWrM-HnT5f_ug"/>
   <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_kA-ks9YgEeWrM-HnT5f_ug" entityName="List_orderEntries" innerType_CollectionDataType="_j_-fI9YgEeWrM-HnT5f_ug"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_kW6Yc9YgEeWrM-HnT5f_ug" entityName="IPermission"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_kW6Yc9YgEeWrM-HnT5f_ug" entityName="IPermission">
+    <innerDeclaration_CompositeDataType entityName="name">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </innerDeclaration_CompositeDataType>
+  </dataTypes__Repository>
   <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_kRVU4tYgEeWrM-HnT5f_ug" entityName="STRINGList">
     <innerType_CollectionDataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+  </dataTypes__Repository>
+  <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_mTiLjFlZEeafw8jrX0KOKw" entityName="List_ComplexOrderTO" innerType_CollectionDataType="_j_Vl9NYgEeWrM-HnT5f_ug"/>
+  <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_5u--DFsOEearYq_-H-4Gow" entityName="List_ProductWithSupplierTO" innerType_CollectionDataType="_j_bskNYgEeWrM-HnT5f_ug"/>
+  <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_LIx7YFsPEearYq_-H-4Gow" entityName="List_ProductWithSupplierAndStockItemTO" innerType_CollectionDataType="_kALTcNYgEeWrM-HnT5f_ug"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_m9DUYl_BEea_gvFl-mCXRQ" entityName="ProductWrapper">
+    <innerDeclaration_CompositeDataType entityName="description">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="originStore" datatype_InnerDeclaration="_m87YlF_BEea_gvFl-mCXRQ"/>
+    <innerDeclaration_CompositeDataType entityName="editingEnabled">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="newSalesPrice">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.3"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="newAmount">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="newMinAmount">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="newMaxAmount">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="inCurrentOrder">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </innerDeclaration_CompositeDataType>
+  </dataTypes__Repository>
+  <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_WQtHLGSIEeaYxPjtCxykSQ" entityName="List_ProductWrapper" innerType_CollectionDataType="_m9DUYl_BEea_gvFl-mCXRQ"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_m9Qvw1_BEea_gvFl-mCXRQ" entityName="Enterprise">
+    <innerDeclaration_CompositeDataType entityName="id">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="name">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </innerDeclaration_CompositeDataType>
+  </dataTypes__Repository>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_m87YlF_BEea_gvFl-mCXRQ" entityName="Store.web.data.storedata.Store">
+    <innerDeclaration_CompositeDataType entityName="id">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="name">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="location">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="editingEnabled">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="newName">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="newLocation">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </innerDeclaration_CompositeDataType>
+  </dataTypes__Repository>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_m9OTgF_BEea_gvFl-mCXRQ" entityName="List_OrderItem">
+    <innerDeclaration_CompositeDataType entityName="OrderItem" datatype_InnerDeclaration="_m9G-xF_BEea_gvFl-mCXRQ"/>
+  </dataTypes__Repository>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_GV1_zXEnEealN4hqWFYWog" entityName="RFID">
+    <innerDeclaration_CompositeDataType entityName="code">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+    </innerDeclaration_CompositeDataType>
+  </dataTypes__Repository>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_MHsprXEnEealN4hqWFYWog" entityName="QRCode">
+    <innerDeclaration_CompositeDataType entityName="code">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+    </innerDeclaration_CompositeDataType>
   </dataTypes__Repository>
 </repository:Repository>
