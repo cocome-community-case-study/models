@@ -38,7 +38,7 @@
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:SourceRole" id="_g9m4Fjh9Eealadqw2jBWqw" entityName="firePaymentModeSelectedEvent" eventGroup__SourceRole="_ekoTRurFEeW7M_vBrFkmVw"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:SourceRole" id="_JijpRjiFEealadqw2jBWqw" entityName="fireSaleFinishedEvent" eventGroup__SourceRole="_nCR_lurGEeW7M_vBrFkmVw"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_eK2pYOwaEeW_LdalkgkVnQ" entityName="org.cocome.cloud.webservice.cashdeskline.cashdesk.CashDesk">
+  <components__Repository xsi:type="repository:BasicComponent" id="_eK2pYOwaEeW_LdalkgkVnQ" entityName="org.cocome.cloud.logic.webservice.cashdeskline.cashdesk.CashDesk">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_qZnFQewaEeW_LdalkgkVnQ" entityName="ICashDesk" providedInterface__OperationProvidedRole="_h5yZUOwaEeW_LdalkgkVnQ"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_1oCslewaEeW_LdalkgkVnQ" entityName="ICashDeskModelLocal" requiredInterface__OperationRequiredRole="_j2DHENYgEeWrM-HnT5f_ug"/>
   </components__Repository>
@@ -176,7 +176,7 @@
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_G_CGIdbpEeWn1fcBwCRaXA" entityName="ICardReader" providedInterface__OperationProvidedRole="_zoOe99bnEeWn1fcBwCRaXA"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_gMS91db_EeWn1fcBwCRaXA" entityName="ICardReaderLocal" requiredInterface__OperationRequiredRole="_j159IdYgEeWrM-HnT5f_ug"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_OKawANY_EeW73vtlcwkhxw" entityName="org.cocome.cloud.webservice.inventory.Store">
+  <components__Repository xsi:type="repository:BasicComponent" id="_OKawANY_EeW73vtlcwkhxw" entityName="org.cocome.cloud.logic.webservice.store.StoreManager">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_bwxoIRdSEeaR2IIRs9mD-g" entityName="IStoreManager" providedInterface__OperationProvidedRole="_kIbQgtYgEeWrM-HnT5f_ug"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_s46NxRdSEeaR2IIRs9mD-g" entityName="IStoreInventoryLocal" requiredInterface__OperationRequiredRole="_j4ldsdYgEeWrM-HnT5f_ug"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_zGLoVRdSEeaR2IIRs9mD-g" entityName="IStoreInventoryManagerLocal" requiredInterface__OperationRequiredRole="_j_McAdYgEeWrM-HnT5f_ug"/>
@@ -317,16 +317,14 @@
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_xjaKuWSFEeaYxPjtCxykSQ" entityName="org.cocome.cloud.web.frontend.cashdesk">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_GuzbQWVTEead_5QKkcGuDg" entityName="ICashDeskView" providedInterface__OperationProvidedRole="_iS-YcGVHEead_5QKkcGuDg"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_3WQTFWSFEeaYxPjtCxykSQ" entityName="ICashDeskQuery" requiredInterface__OperationRequiredRole="_lEOnEF_AEeavmo6nsNCw2Q"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_DugpNWSGEeaYxPjtCxykSQ" entityName="ICashDesk" requiredInterface__OperationRequiredRole="_8JvPEGRrEeaYxPjtCxykSQ"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_TGkYVWSGEeaYxPjtCxykSQ" entityName="IStoreInformation" requiredInterface__OperationRequiredRole="_kngqGGSHEeaYxPjtCxykSQ"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_nH4j1aZsEea90o6iaEaVPw" entityName="ICashDeskDAO" requiredInterface__OperationRequiredRole="_5atmgaZiEea90o6iaEaVPw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_DugpNWSGEeaYxPjtCxykSQ" entityName="ICashDesk" requiredInterface__OperationRequiredRole="_8JvPEGRrEeaYxPjtCxykSQ"/>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_WslVaWSJEeaYxPjtCxykSQ" entityName="org.cocome.cloud.web.frontend.enterprise">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_wR4UkWSJEeaYxPjtCxykSQ" entityName="IEnterpriseInformation" providedInterface__OperationProvidedRole="_m9nVFF_BEea_gvFl-mCXRQ"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_eFGbFWSJEeaYxPjtCxykSQ" entityName="IEnterpriseQuery" requiredInterface__OperationRequiredRole="_m9L3QF_BEea_gvFl-mCXRQ"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_qS-m1aZsEea90o6iaEaVPw" entityName="IEnterpriseDAO" requiredInterface__OperationRequiredRole="_EebyqKZjEea90o6iaEaVPw"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__mx7paZsEea90o6iaEaVPw" entityName="storeDAO" requiredInterface__OperationRequiredRole="_HwyUOKZjEea90o6iaEaVPw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_qS-m1aZsEea90o6iaEaVPw" entityName="IEnterpriseDAO" requiredInterface__OperationRequiredRole="_EebyqKZjEea90o6iaEaVPw"/>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_MqE5MGSKEeaYxPjtCxykSQ" entityName="org.cocome.cloud.web.frontend.login">
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_Oc9MFWSKEeaYxPjtCxykSQ" entityName="IAuthenticator" requiredInterface__OperationRequiredRole="_m8odoF_BEea_gvFl-mCXRQ"/>
@@ -352,12 +350,10 @@
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_C05V8WYNEeamEr6y5T9PEQ" entityName="IstockOrderView" providedInterface__OperationProvidedRole="_ydLWIGYLEeamEr6y5T9PEQ"/>
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_j4-6kWYQEeamEr6y5T9PEQ" entityName="IReceiveOrderView" providedInterface__OperationProvidedRole="__nooaGYPEeamEr6y5T9PEQ"/>
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_-tqMEWYSEeamEr6y5T9PEQ" entityName="IShowReportView" providedInterface__OperationProvidedRole="_Jg3FaGYSEeamEr6y5T9PEQ"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_dSEm9WUeEead_5QKkcGuDg" entityName="IStoreQuery" requiredInterface__OperationRequiredRole="_m9TMAl_BEea_gvFl-mCXRQ"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_oQdAFWUeEead_5QKkcGuDg" entityName="IEnterpriseQuery" requiredInterface__OperationRequiredRole="_m9L3QF_BEea_gvFl-mCXRQ"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:SourceRole" id="_Tar1pmUfEead_5QKkcGuDg" entityName="fireChangeViewEvent" eventGroup__SourceRole="_S7kUJmSEEeaYxPjtCxykSQ"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_unDEFaZsEea90o6iaEaVPw" entityName="IEnterpriseDAO" requiredInterface__OperationRequiredRole="_EebyqKZjEea90o6iaEaVPw"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_9IRR1aZsEea90o6iaEaVPw" entityName="IStoreDAO" requiredInterface__OperationRequiredRole="_HwyUOKZjEea90o6iaEaVPw"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_E7QQdacyEea6yqnnpazPHg" entityName="IStorePersistence" requiredInterface__OperationRequiredRole="_m9UaI1_BEea_gvFl-mCXRQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:SourceRole" id="_Tar1pmUfEead_5QKkcGuDg" entityName="fireChangeViewEvent" eventGroup__SourceRole="_S7kUJmSEEeaYxPjtCxykSQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_unDEFaZsEea90o6iaEaVPw" entityName="IEnterpriseDAO" requiredInterface__OperationRequiredRole="_EebyqKZjEea90o6iaEaVPw"/>
   </components__Repository>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_5atmgaZiEea90o6iaEaVPw" entityName="ICashDeskDAO">
     <signatures__OperationInterface id="_K5a5EKZjEea90o6iaEaVPw" entityName="startSale">
@@ -929,6 +925,7 @@
     </signatures__OperationInterface>
     <signatures__OperationInterface id="_m9UaJl_BEea_gvFl-mCXRQ" entityName="updateStockItem">
       <parameters__OperationSignature dataType__Parameter="_m9DUYl_BEea_gvFl-mCXRQ" parameterName="stockItem"/>
+      <parameters__OperationSignature dataType__Parameter="_m87YlF_BEea_gvFl-mCXRQ" parameterName="store"/>
       <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
     </signatures__OperationInterface>
     <signatures__OperationInterface id="_cMe7QKcyEea6yqnnpazPHg" entityName="orderProducts">
@@ -939,6 +936,11 @@
     <signatures__OperationInterface id="_c90igKc7Eea6yqnnpazPHg" entityName="rollInOrder">
       <parameters__OperationSignature dataType__Parameter="_j_Vl9NYgEeWrM-HnT5f_ug" parameterName="ComplexOrderTO"/>
       <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_8qiQAKf4Eea4BuXfbkGDAQ" entityName="createStockItem">
+      <parameters__OperationSignature dataType__Parameter="_m9DUYl_BEea_gvFl-mCXRQ" parameterName="ProductWrapper"/>
+      <parameters__OperationSignature dataType__Parameter="_m87YlF_BEea_gvFl-mCXRQ" parameterName="store"/>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
     </signatures__OperationInterface>
   </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_m9L3QF_BEea_gvFl-mCXRQ" entityName="IEnterpriseQuery">
