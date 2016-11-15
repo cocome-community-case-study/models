@@ -3,7 +3,7 @@
   <assemblyContexts__ComposedStructure id="__Bo6gBkPEeaIeLbO8-hHwA" entityName="org.cocome.tradingsystem.inventory.application.Reporting">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TUM8ANY5EeW73vtlcwkhxw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_XkR_ABzjEea8GbPCfF3wlg" entityName="org.cocome.cloud.logic.webservice.cashdeskline.cashdesk.CashDesk">
+  <assemblyContexts__ComposedStructure id="_XkR_ABzjEea8GbPCfF3wlg" entityName="org.cocome.logic.webservice.cashdeskline.cashdeskservice">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_eK2pYOwaEeW_LdalkgkVnQ"/>
   </assemblyContexts__ComposedStructure>
   <assemblyContexts__ComposedStructure id="_bnUhgBkQEeaIeLbO8-hHwA" entityName="org.cocome.tradingsystem.cashdeskline.cashdesk.BarcodeScanner">
@@ -27,10 +27,10 @@
   <assemblyContexts__ComposedStructure id="_90My0BkWEeaIeLbO8-hHwA" entityName="org.cocome.tradingsystem.cashdeskline.cashdesk.CashDesk">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_OI60AOnvEeW6PZF57gri4A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ENzWABkTEeaIeLbO8-hHwA" entityName="org.cocome.cloud.webservice.cashdesk.CashBox">
+  <assemblyContexts__ComposedStructure id="_ENzWABkTEeaIeLbO8-hHwA" entityName="org.cocome.logic.webservice.cashdeskline.cashdeskservice.cashboxservice">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_hI0F8NY6EeW73vtlcwkhxw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_PJgOkBkTEeaIeLbO8-hHwA" entityName="org.cocome.cloud.webservice.cashdesk.ExpressLight">
+  <assemblyContexts__ComposedStructure id="_PJgOkBkTEeaIeLbO8-hHwA" entityName="org.cocome.logic.webservice.cashdeskline.cashdeskservice.expresslightservice">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_kJ9iwNY6EeW73vtlcwkhxw"/>
   </assemblyContexts__ComposedStructure>
   <assemblyContexts__ComposedStructure id="_bG3YcBkTEeaIeLbO8-hHwA" entityName="org.cocome.tradingsystem.cashdeskline.cashdesk.ExpressLightEventHandler">
@@ -63,7 +63,7 @@
   <assemblyContexts__ComposedStructure id="_1WemcGqVEeaAnZVBu2pnYQ" entityName="org.cocome.cloud.web.frontend.navigation">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_t06IKWUTEead_5QKkcGuDg"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_UjG7EBkUEeaIeLbO8-hHwA" entityName="org.cocome.cloud.webservice.cashdesk.Printer">
+  <assemblyContexts__ComposedStructure id="_UjG7EBkUEeaIeLbO8-hHwA" entityName="org.cocome.logic.webservice.cashdeskline.cashdeskservice.printerservice">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_noNyUNY6EeW73vtlcwkhxw"/>
   </assemblyContexts__ComposedStructure>
   <assemblyContexts__ComposedStructure id="_gydz4BkUEeaIeLbO8-hHwA" entityName="org.cocome.tradingsystem.inventory.data.Persistence">
@@ -78,16 +78,16 @@
   <assemblyContexts__ComposedStructure id="_6QjTwGqVEeaAnZVBu2pnYQ" entityName="org.cocome.cloud.web.frontend.store">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_uCE9SWUaEead_5QKkcGuDg"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_yl2V8BkUEeaIeLbO8-hHwA" entityName="org.cocome.cloud.webservice.cashdesk.UserDisplay">
+  <assemblyContexts__ComposedStructure id="_yl2V8BkUEeaIeLbO8-hHwA" entityName="org.cocome.logic.webservice.cashdeskline.cashdeskservice.userdisplayservice">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_p-4uwNY6EeW73vtlcwkhxw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_4ZJxUBkUEeaIeLbO8-hHwA" entityName="org.cocome.cloud.webservice.cashdesk.BarcodeScanner">
+  <assemblyContexts__ComposedStructure id="_4ZJxUBkUEeaIeLbO8-hHwA" entityName="org.cocome.logic.webservice.cashdeskline.cashdeskservice.barcodescannerservice">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_kIFSQtYgEeWrM-HnT5f_ug"/>
   </assemblyContexts__ComposedStructure>
   <assemblyContexts__ComposedStructure id="_96fS8BkUEeaIeLbO8-hHwA" entityName="org.cocome.tradingsystem.inventory.application.ProductDispatcher">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_j_LN6dYgEeWrM-HnT5f_ug"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_Lp5pQBkVEeaIeLbO8-hHwA" entityName="org.cocome.cloud.webservice.cashdesk.CardReader">
+  <assemblyContexts__ComposedStructure id="_Lp5pQBkVEeaIeLbO8-hHwA" entityName="org.cocome.logic.webservice.cashdeskline.cashdeskservice.cardreaderservice">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_tqxxsNY6EeW73vtlcwkhxw"/>
   </assemblyContexts__ComposedStructure>
   <assemblyContexts__ComposedStructure id="_pXcawBkWEeaIeLbO8-hHwA" entityName="org.cocome.cloud.logic.webservice.store.StoreManager">
@@ -177,22 +177,22 @@
   <eventChannel__ComposedStructure id="_EI6u8Gq1EeaAnZVBu2pnYQ" entityName="LoginEvent" eventChannelSourceConnector__EventChannel="_IqNI0Gq1EeaAnZVBu2pnYQ" eventChannelSinkConnector__EventChannel="_KTQxUGq1EeaAnZVBu2pnYQ _ZMnyQGq1EeaAnZVBu2pnYQ">
     <eventGroup__EventChannel href="cocome-cloud.repository#_hzxT_mSDEeaYxPjtCxykSQ"/>
   </eventChannel__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_XYDbhhzQEea8GbPCfF3wlg" entityName="IBarcodeScannerLocal" requiringAssemblyContext_AssemblyConnector="_4ZJxUBkUEeaIeLbO8-hHwA" providingAssemblyContext_AssemblyConnector="_bnUhgBkQEeaIeLbO8-hHwA">
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_XYDbhhzQEea8GbPCfF3wlg" entityName="IBarCodeScannerModel" requiringAssemblyContext_AssemblyConnector="_4ZJxUBkUEeaIeLbO8-hHwA" providingAssemblyContext_AssemblyConnector="_bnUhgBkQEeaIeLbO8-hHwA">
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_j15WE9YgEeWrM-HnT5f_ug"/>
     <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kIF5UNYgEeWrM-HnT5f_ug"/>
   </connectors__ComposedStructure>
   <connectors__ComposedStructure xsi:type="composition:EventChannelSourceConnector" id="_IqNI0Gq1EeaAnZVBu2pnYQ" assemblyContext__EventChannelSourceConnector="_wl_6AGqVEeaAnZVBu2pnYQ" eventChannel__EventChannelSourceConnector="_EI6u8Gq1EeaAnZVBu2pnYQ">
     <sourceRole__EventChannelSourceRole href="cocome-cloud.repository#_NxJ_JmUQEead_5QKkcGuDg"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_w0-lRhw1Eea23tyZwqz2AQ" entityName="ICashBoxLocal" requiringAssemblyContext_AssemblyConnector="_ENzWABkTEeaIeLbO8-hHwA" providingAssemblyContext_AssemblyConnector="_F1McgBkREeaIeLbO8-hHwA">
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_w0-lRhw1Eea23tyZwqz2AQ" entityName="ICashBoxModel" requiringAssemblyContext_AssemblyConnector="_ENzWABkTEeaIeLbO8-hHwA" providingAssemblyContext_AssemblyConnector="_F1McgBkREeaIeLbO8-hHwA">
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_mj52oewoEeW_LdalkgkVnQ"/>
     <requiredRole_AssemblyConnector href="cocome-cloud.repository#_JwG15dcFEeWn1fcBwCRaXA"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_1fczhhw5Eea23tyZwqz2AQ" entityName="ICashBoxLocal" requiringAssemblyContext_AssemblyConnector="_26IycBkQEeaIeLbO8-hHwA" providingAssemblyContext_AssemblyConnector="_F1McgBkREeaIeLbO8-hHwA">
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_1fczhhw5Eea23tyZwqz2AQ" entityName="ICashBoxModel" requiringAssemblyContext_AssemblyConnector="_26IycBkQEeaIeLbO8-hHwA" providingAssemblyContext_AssemblyConnector="_F1McgBkREeaIeLbO8-hHwA">
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_mj52oewoEeW_LdalkgkVnQ"/>
     <requiredRole_AssemblyConnector href="cocome-cloud.repository#_sPrGpewoEeW_LdalkgkVnQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_nRJcJhzFEea8GbPCfF3wlg" entityName="IExpressLightLocal" requiringAssemblyContext_AssemblyConnector="_PJgOkBkTEeaIeLbO8-hHwA" providingAssemblyContext_AssemblyConnector="_hS7SEBkTEeaIeLbO8-hHwA">
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_nRJcJhzFEea8GbPCfF3wlg" entityName="IExpressLightModel" requiringAssemblyContext_AssemblyConnector="_PJgOkBkTEeaIeLbO8-hHwA" providingAssemblyContext_AssemblyConnector="_hS7SEBkTEeaIeLbO8-hHwA">
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_lmRmMewnEeW_LdalkgkVnQ"/>
     <requiredRole_AssemblyConnector href="cocome-cloud.repository#_qZMS1dcDEeWn1fcBwCRaXA"/>
   </connectors__ComposedStructure>
@@ -200,33 +200,33 @@
     <sinkRole__AssemblyEventConnector href="cocome-cloud.repository#_TV844GUaEead_5QKkcGuDg"/>
     <sourceRole__AssemblyEventConnector href="cocome-cloud.repository#_wnycRmUPEead_5QKkcGuDg"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_jQ5ghhzKEea8GbPCfF3wlg" entityName="IExpressLightLocal" requiringAssemblyContext_AssemblyConnector="_bG3YcBkTEeaIeLbO8-hHwA" providingAssemblyContext_AssemblyConnector="_hS7SEBkTEeaIeLbO8-hHwA">
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_jQ5ghhzKEea8GbPCfF3wlg" entityName="IExpressLightModel" requiringAssemblyContext_AssemblyConnector="_bG3YcBkTEeaIeLbO8-hHwA" providingAssemblyContext_AssemblyConnector="_hS7SEBkTEeaIeLbO8-hHwA">
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_lmRmMewnEeW_LdalkgkVnQ"/>
     <requiredRole_AssemblyConnector href="cocome-cloud.repository#_ra0-xewnEeW_LdalkgkVnQ"/>
   </connectors__ComposedStructure>
   <connectors__ComposedStructure xsi:type="composition:EventChannelSinkConnector" id="_KTQxUGq1EeaAnZVBu2pnYQ" assemblyContext__EventChannelSinkConnector="_1WemcGqVEeaAnZVBu2pnYQ" eventChannel__EventChannelSinkConnector="_EI6u8Gq1EeaAnZVBu2pnYQ">
     <sinkRole__EventChannelSinkConnector href="cocome-cloud.repository#_WwKV8GUaEead_5QKkcGuDg"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_kvI0lhzUEea8GbPCfF3wlg" entityName="IPrinterLocal" requiringAssemblyContext_AssemblyConnector="_UjG7EBkUEeaIeLbO8-hHwA" providingAssemblyContext_AssemblyConnector="_0Hj1wBkTEeaIeLbO8-hHwA">
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_kvI0lhzUEea8GbPCfF3wlg" entityName="IPrinterModel" requiringAssemblyContext_AssemblyConnector="_UjG7EBkUEeaIeLbO8-hHwA" providingAssemblyContext_AssemblyConnector="_0Hj1wBkTEeaIeLbO8-hHwA">
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_0effAewkEeW_LdalkgkVnQ"/>
     <requiredRole_AssemblyConnector href="cocome-cloud.repository#_jOuVdewmEeW_LdalkgkVnQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IcLf1hzVEea8GbPCfF3wlg" entityName="IPrinterLocal" requiringAssemblyContext_AssemblyConnector="_tuYtMBkTEeaIeLbO8-hHwA" providingAssemblyContext_AssemblyConnector="_0Hj1wBkTEeaIeLbO8-hHwA">
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IcLf1hzVEea8GbPCfF3wlg" entityName="IPrinterModel" requiringAssemblyContext_AssemblyConnector="_tuYtMBkTEeaIeLbO8-hHwA" providingAssemblyContext_AssemblyConnector="_0Hj1wBkTEeaIeLbO8-hHwA">
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_0effAewkEeW_LdalkgkVnQ"/>
     <requiredRole_AssemblyConnector href="cocome-cloud.repository#_GNFLNewmEeW_LdalkgkVnQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_d5NpJhzVEea8GbPCfF3wlg" entityName="IUserDisplayLocal" requiringAssemblyContext_AssemblyConnector="_yl2V8BkUEeaIeLbO8-hHwA" providingAssemblyContext_AssemblyConnector="_-IknsBkTEeaIeLbO8-hHwA">
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_d5NpJhzVEea8GbPCfF3wlg" entityName="IUserDisplayModel" requiringAssemblyContext_AssemblyConnector="_yl2V8BkUEeaIeLbO8-hHwA" providingAssemblyContext_AssemblyConnector="_-IknsBkTEeaIeLbO8-hHwA">
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_ocslQewdEeW_LdalkgkVnQ"/>
     <requiredRole_AssemblyConnector href="cocome-cloud.repository#_4NROFdcAEeWn1fcBwCRaXA"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_DbwddhzWEea8GbPCfF3wlg" entityName="IUserDisplayLocal" requiringAssemblyContext_AssemblyConnector="_7V_LUBkTEeaIeLbO8-hHwA" providingAssemblyContext_AssemblyConnector="_-IknsBkTEeaIeLbO8-hHwA">
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_DbwddhzWEea8GbPCfF3wlg" entityName="IUserDisplayModel" requiringAssemblyContext_AssemblyConnector="_7V_LUBkTEeaIeLbO8-hHwA" providingAssemblyContext_AssemblyConnector="_-IknsBkTEeaIeLbO8-hHwA">
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_ocslQewdEeW_LdalkgkVnQ"/>
     <requiredRole_AssemblyConnector href="cocome-cloud.repository#_j5s4AtYgEeWrM-HnT5f_ug"/>
   </connectors__ComposedStructure>
   <connectors__ComposedStructure xsi:type="composition:EventChannelSinkConnector" id="_ZMnyQGq1EeaAnZVBu2pnYQ" assemblyContext__EventChannelSinkConnector="_6QjTwGqVEeaAnZVBu2pnYQ" eventChannel__EventChannelSinkConnector="_EI6u8Gq1EeaAnZVBu2pnYQ">
     <sinkRole__EventChannelSinkConnector href="cocome-cloud.repository#_chwH0GUfEead_5QKkcGuDg"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_KbUwRhzZEea8GbPCfF3wlg" entityName="ICardReaderLocal" requiringAssemblyContext_AssemblyConnector="_Lp5pQBkVEeaIeLbO8-hHwA" providingAssemblyContext_AssemblyConnector="_gqrGoBkQEeaIeLbO8-hHwA">
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_KbUwRhzZEea8GbPCfF3wlg" entityName="ICardReaderModel" requiringAssemblyContext_AssemblyConnector="_Lp5pQBkVEeaIeLbO8-hHwA" providingAssemblyContext_AssemblyConnector="_gqrGoBkQEeaIeLbO8-hHwA">
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_j159I9YgEeWrM-HnT5f_ug"/>
     <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gMS91db_EeWn1fcBwCRaXA"/>
   </connectors__ComposedStructure>
@@ -679,31 +679,31 @@
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_N2E90WSAEeaYxPjtCxykSQ"/>
     <requiredRole_AssemblyConnector href="cocome-cloud.repository#_NPlklWSLEeaYxPjtCxykSQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_bbgZwGq3EeaAnZVBu2pnYQ" entityName="Connector org.cocome.cloud.web.connector.cashdeskconnector -> org.cocome.cloud.webservice.cashdesk.CardReader" requiringAssemblyContext_AssemblyConnector="_9MwboGqUEeaAnZVBu2pnYQ" providingAssemblyContext_AssemblyConnector="_Lp5pQBkVEeaIeLbO8-hHwA">
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_bbgZwGq3EeaAnZVBu2pnYQ" entityName="Connector org.cocome.cloud.web.connector.cashdeskconnector -> org.cocome.logic.webservice.cashdeskline.cashdeskservice.cardreaderservice" requiringAssemblyContext_AssemblyConnector="_9MwboGqUEeaAnZVBu2pnYQ" providingAssemblyContext_AssemblyConnector="_Lp5pQBkVEeaIeLbO8-hHwA">
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_G_CGIdbpEeWn1fcBwCRaXA"/>
     <requiredRole_AssemblyConnector href="cocome-cloud.repository#_NDLIJV_IEeavmo6nsNCw2Q"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_c3pnoGq3EeaAnZVBu2pnYQ" entityName="Connector org.cocome.cloud.web.connector.cashdeskconnector -> org.cocome.cloud.webservice.cashdesk.BarcodeScanner" requiringAssemblyContext_AssemblyConnector="_9MwboGqUEeaAnZVBu2pnYQ" providingAssemblyContext_AssemblyConnector="_4ZJxUBkUEeaIeLbO8-hHwA">
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_c3pnoGq3EeaAnZVBu2pnYQ" entityName="Connector org.cocome.cloud.web.connector.cashdeskconnector -> org.cocome.logic.webservice.cashdeskline.cashdeskservice.barcodescannerservice" requiringAssemblyContext_AssemblyConnector="_9MwboGqUEeaAnZVBu2pnYQ" providingAssemblyContext_AssemblyConnector="_4ZJxUBkUEeaIeLbO8-hHwA">
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_Yzm6Adb0EeWn1fcBwCRaXA"/>
     <requiredRole_AssemblyConnector href="cocome-cloud.repository#_N7RKlV_EEeavmo6nsNCw2Q"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_jRdpYGq3EeaAnZVBu2pnYQ" entityName="Connector org.cocome.cloud.web.connector.cashdeskconnector -> org.cocome.cloud.webservice.cashdesk.ExpressLight" requiringAssemblyContext_AssemblyConnector="_9MwboGqUEeaAnZVBu2pnYQ" providingAssemblyContext_AssemblyConnector="_PJgOkBkTEeaIeLbO8-hHwA">
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_jRdpYGq3EeaAnZVBu2pnYQ" entityName="Connector org.cocome.cloud.web.connector.cashdeskconnector -> org.cocome.logic.webservice.cashdeskline.cashdeskservice.expresslightservice" requiringAssemblyContext_AssemblyConnector="_9MwboGqUEeaAnZVBu2pnYQ" providingAssemblyContext_AssemblyConnector="_PJgOkBkTEeaIeLbO8-hHwA">
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_XAObYdb1EeWn1fcBwCRaXA"/>
     <requiredRole_AssemblyConnector href="cocome-cloud.repository#_WrBzNV_IEeavmo6nsNCw2Q"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_p0IsMGq3EeaAnZVBu2pnYQ" entityName="Connector org.cocome.cloud.web.connector.cashdeskconnector -> org.cocome.cloud.webservice.cashdesk.CashBox" requiringAssemblyContext_AssemblyConnector="_9MwboGqUEeaAnZVBu2pnYQ" providingAssemblyContext_AssemblyConnector="_ENzWABkTEeaIeLbO8-hHwA">
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_p0IsMGq3EeaAnZVBu2pnYQ" entityName="Connector org.cocome.cloud.web.connector.cashdeskconnector -> org.cocome.logic.webservice.cashdeskline.cashdeskservice.cashboxservice" requiringAssemblyContext_AssemblyConnector="_9MwboGqUEeaAnZVBu2pnYQ" providingAssemblyContext_AssemblyConnector="_ENzWABkTEeaIeLbO8-hHwA">
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_9sFDUdcEEeWn1fcBwCRaXA"/>
     <requiredRole_AssemblyConnector href="cocome-cloud.repository#_PyNhRV_IEeavmo6nsNCw2Q"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_wG8HAGq3EeaAnZVBu2pnYQ" entityName="Connector org.cocome.cloud.web.connector.cashdeskconnector -> org.cocome.cloud.logic.webservice.cashdeskline.cashdesk.CashDesk" requiringAssemblyContext_AssemblyConnector="_9MwboGqUEeaAnZVBu2pnYQ" providingAssemblyContext_AssemblyConnector="_XkR_ABzjEea8GbPCfF3wlg">
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_wG8HAGq3EeaAnZVBu2pnYQ" entityName="Connector org.cocome.cloud.web.connector.cashdeskconnector -> org.cocome.logic.webservice.cashdeskline.cashdeskservice" requiringAssemblyContext_AssemblyConnector="_9MwboGqUEeaAnZVBu2pnYQ" providingAssemblyContext_AssemblyConnector="_XkR_ABzjEea8GbPCfF3wlg">
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_qZnFQewaEeW_LdalkgkVnQ"/>
     <requiredRole_AssemblyConnector href="cocome-cloud.repository#_SO-epV_IEeavmo6nsNCw2Q"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_zTuzIGq3EeaAnZVBu2pnYQ" entityName="Connector org.cocome.cloud.web.connector.cashdeskconnector -> org.cocome.cloud.webservice.cashdesk.Printer" requiringAssemblyContext_AssemblyConnector="_9MwboGqUEeaAnZVBu2pnYQ" providingAssemblyContext_AssemblyConnector="_UjG7EBkUEeaIeLbO8-hHwA">
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_zTuzIGq3EeaAnZVBu2pnYQ" entityName="Connector org.cocome.cloud.web.connector.cashdeskconnector -> org.cocome.logic.webservice.cashdeskline.cashdeskservice.printerservice" requiringAssemblyContext_AssemblyConnector="_9MwboGqUEeaAnZVBu2pnYQ" providingAssemblyContext_AssemblyConnector="_UjG7EBkUEeaIeLbO8-hHwA">
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_Q0arUdbzEeWn1fcBwCRaXA"/>
     <requiredRole_AssemblyConnector href="cocome-cloud.repository#_Y6fUZV_IEeavmo6nsNCw2Q"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_16h2QGq3EeaAnZVBu2pnYQ" entityName="Connector org.cocome.cloud.web.connector.cashdeskconnector -> org.cocome.cloud.webservice.cashdesk.UserDisplay" requiringAssemblyContext_AssemblyConnector="_9MwboGqUEeaAnZVBu2pnYQ" providingAssemblyContext_AssemblyConnector="_yl2V8BkUEeaIeLbO8-hHwA">
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_16h2QGq3EeaAnZVBu2pnYQ" entityName="Connector org.cocome.cloud.web.connector.cashdeskconnector -> org.cocome.logic.webservice.cashdeskline.cashdeskservice.userdisplayservice" requiringAssemblyContext_AssemblyConnector="_9MwboGqUEeaAnZVBu2pnYQ" providingAssemblyContext_AssemblyConnector="_yl2V8BkUEeaIeLbO8-hHwA">
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_diUosdbwEeWn1fcBwCRaXA"/>
     <requiredRole_AssemblyConnector href="cocome-cloud.repository#_hk9KJV_IEeavmo6nsNCw2Q"/>
   </connectors__ComposedStructure>

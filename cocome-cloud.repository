@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.1" id="_j1pecNYgEeWrM-HnT5f_ug" entityName="org.cocome.cloud">
   <components__Repository xsi:type="repository:BasicComponent" id="_j15WENYgEeWrM-HnT5f_ug" entityName=" org.cocome.tradingsystem.cashdeskline.cashdesk.BarcodeScanner">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_j15WE9YgEeWrM-HnT5f_ug" entityName="IBarcodeScannerLocal" providedInterface__OperationProvidedRole="_j15WEdYgEeWrM-HnT5f_ug"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_j15WE9YgEeWrM-HnT5f_ug" entityName="IBarcodeScannerModel" providedInterface__OperationProvidedRole="_j15WEdYgEeWrM-HnT5f_ug"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:SourceRole" id="_6jn6Nut0EeWsnI9iaMkITA" entityName="fireProductBarcodeScannedEvent" eventGroup__SourceRole="_7kdfpurFEeW7M_vBrFkmVw"/>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_j159INYgEeWrM-HnT5f_ug" entityName="org.cocome.tradingsystem.cashdeskline.cashdesk.CardReader">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_j159I9YgEeWrM-HnT5f_ug" entityName="ICardReaderLocal" providedInterface__OperationProvidedRole="_j159IdYgEeWrM-HnT5f_ug"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_j159I9YgEeWrM-HnT5f_ug" entityName="ICardReaderModel" providedInterface__OperationProvidedRole="_j159IdYgEeWrM-HnT5f_ug"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:SourceRole" id="_TkRUNut1EeWsnI9iaMkITA" entityName="fireCreditCardPinEnteredEvent" eventGroup__SourceRole="_mk-2Buq6EeW7M_vBrFkmVw"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:SourceRole" id="_Yi_4But1EeWsnI9iaMkITA" entityName="fireCreditCardScannedEvent" eventGroup__SourceRole="_RoiXpurCEeW7M_vBrFkmVw"/>
   </components__Repository>
@@ -27,10 +27,10 @@
   <components__Repository xsi:type="repository:BasicComponent" id="_j1-OkNYgEeWrM-HnT5f_ug" entityName="org.cocome.tradingsystem.cashdeskline.cashdesk.CashBoxEventHandler">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:SinkRole" id="_VWJ6wOw0EeW_LdalkgkVnQ" entityName="handleCashBoxClosedEvent" eventGroup__SinkRole="_GMLDBuq3EeW7M_vBrFkmVw"/>
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:SinkRole" id="_Z0ThEOw0EeW_LdalkgkVnQ" entityName="handleChangeAmountCalculatedEvent" eventGroup__SinkRole="_GueCVuq4EeW7M_vBrFkmVw"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_sPrGpewoEeW_LdalkgkVnQ" entityName="ICashBoxLocal" requiredInterface__OperationRequiredRole="_j16kMdYgEeWrM-HnT5f_ug"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_sPrGpewoEeW_LdalkgkVnQ" entityName="ICashBoxModel" requiredInterface__OperationRequiredRole="_j16kMdYgEeWrM-HnT5f_ug"/>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_gqSX6ewoEeW_LdalkgkVnQ" entityName="org.cocome.tradingsystem.cashdeskline.cashdesk.CashBox">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_mj52oewoEeW_LdalkgkVnQ" entityName="ICashBoxLocal" providedInterface__OperationProvidedRole="_j16kMdYgEeWrM-HnT5f_ug"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_mj52oewoEeW_LdalkgkVnQ" entityName="ICashBoxModel" providedInterface__OperationProvidedRole="_j16kMdYgEeWrM-HnT5f_ug"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:SourceRole" id="_hxl-9jhrEealadqw2jBWqw" entityName="fireCashBoxClosedEvent" eventGroup__SourceRole="_GMLDBuq3EeW7M_vBrFkmVw"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:SourceRole" id="_t4Ju1jhwEealadqw2jBWqw" entityName="fireCashAmountEnteredEvent" eventGroup__SourceRole="_qOBWFuq2EeW7M_vBrFkmVw"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:SourceRole" id="_Xq4whjhyEealadqw2jBWqw" entityName="fireCashBoxNumPadKeypressEvent" eventGroup__SourceRole="_bTJcxeq3EeW7M_vBrFkmVw"/>
@@ -38,25 +38,25 @@
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:SourceRole" id="_g9m4Fjh9Eealadqw2jBWqw" entityName="firePaymentModeSelectedEvent" eventGroup__SourceRole="_ekoTRurFEeW7M_vBrFkmVw"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:SourceRole" id="_JijpRjiFEealadqw2jBWqw" entityName="fireSaleFinishedEvent" eventGroup__SourceRole="_nCR_lurGEeW7M_vBrFkmVw"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_eK2pYOwaEeW_LdalkgkVnQ" entityName="org.cocome.cloud.logic.webservice.cashdeskline.cashdesk.CashDesk">
+  <components__Repository xsi:type="repository:BasicComponent" id="_eK2pYOwaEeW_LdalkgkVnQ" entityName="org.cocome.logic.webservice.cashdeskline.cashdeskservice">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_qZnFQewaEeW_LdalkgkVnQ" entityName="ICashDesk" providedInterface__OperationProvidedRole="_h5yZUOwaEeW_LdalkgkVnQ"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_1oCslewaEeW_LdalkgkVnQ" entityName="ICashDeskModelLocal" requiredInterface__OperationRequiredRole="_j2DHENYgEeWrM-HnT5f_ug"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_hI0F8NY6EeW73vtlcwkhxw" entityName="org.cocome.cloud.webservice.cashdesk.CashBox">
+  <components__Repository xsi:type="repository:BasicComponent" id="_hI0F8NY6EeW73vtlcwkhxw" entityName="org.cocome.logic.webservice.cashdeskline.cashdeskservice.cashboxservice">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_9sFDUdcEEeWn1fcBwCRaXA" entityName="ICashBox" providedInterface__OperationProvidedRole="_eJ3-p9b1EeWn1fcBwCRaXA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_JwG15dcFEeWn1fcBwCRaXA" entityName="ICashBoxLocal" requiredInterface__OperationRequiredRole="_j16kMdYgEeWrM-HnT5f_ug"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_JwG15dcFEeWn1fcBwCRaXA" entityName="ICashBoxModel" requiredInterface__OperationRequiredRole="_j16kMdYgEeWrM-HnT5f_ug"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_kJ9iwNY6EeW73vtlcwkhxw" entityName="org.cocome.cloud.webservice.cashdesk.ExpressLight">
+  <components__Repository xsi:type="repository:BasicComponent" id="_kJ9iwNY6EeW73vtlcwkhxw" entityName="org.cocome.logic.webservice.cashdeskline.cashdeskservice.expresslightservice">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_XAObYdb1EeWn1fcBwCRaXA" entityName="IExpressLight" providedInterface__OperationProvidedRole="_uhQ5R9b0EeWn1fcBwCRaXA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_qZMS1dcDEeWn1fcBwCRaXA" entityName="IExpressLightLocal" requiredInterface__OperationRequiredRole="_j5mxYNYgEeWrM-HnT5f_ug"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_qZMS1dcDEeWn1fcBwCRaXA" entityName="IExpressLightModel" requiredInterface__OperationRequiredRole="_j5mxYNYgEeWrM-HnT5f_ug"/>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_j5nYcdYgEeWrM-HnT5f_ug" entityName="org.cocome.tradingsystem.cashdeskline.cashdesk.ExpressLightEventHandler">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:SinkRole" id="_lJjiIOtwEeWsnI9iaMkITA" entityName="handleExpressModeEnabledEvent" eventGroup__SinkRole="_0yKz1urCEeW7M_vBrFkmVw"/>
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:SinkRole" id="_0og_8OtvEeWsnI9iaMkITA" entityName="handleExpressModeDisabledEvent" eventGroup__SinkRole="_t3drhurCEeW7M_vBrFkmVw"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ra0-xewnEeW_LdalkgkVnQ" entityName="IExpressLightLocal" requiredInterface__OperationRequiredRole="_j5mxYNYgEeWrM-HnT5f_ug"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ra0-xewnEeW_LdalkgkVnQ" entityName="IExpressLightModel" requiredInterface__OperationRequiredRole="_j5mxYNYgEeWrM-HnT5f_ug"/>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_cYEKOewnEeW_LdalkgkVnQ" entityName="org.cocome.tradingsystem.cashdeskline.cashdesk.ExpressLight">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_lmRmMewnEeW_LdalkgkVnQ" entityName="IExpressLightLocal" providedInterface__OperationProvidedRole="_j5mxYNYgEeWrM-HnT5f_ug"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_lmRmMewnEeW_LdalkgkVnQ" entityName="IExpressLightModel" providedInterface__OperationProvidedRole="_j5mxYNYgEeWrM-HnT5f_ug"/>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_kBcewNYgEeWrM-HnT5f_ug" entityName="org.cocome.tradingsystem.inventory.data.Store">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_kBdF0dYgEeWrM-HnT5f_ug" entityName="IStoreQueryLocal" providedInterface__OperationProvidedRole="_j8RD0NYgEeWrM-HnT5f_ug"/>
@@ -75,10 +75,10 @@
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:SinkRole" id="_OLgJcOtZEeWsnI9iaMkITA" entityName="handleCashAmountEnteredEvent" eventGroup__SinkRole="_qOBWFuq2EeW7M_vBrFkmVw"/>
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:SinkRole" id="_qd32EOtdEeWsnI9iaMkITA" entityName="handleChangeAmountCalculatedEvent" eventGroup__SinkRole="_GueCVuq4EeW7M_vBrFkmVw"/>
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:SinkRole" id="_F7dfsOt2EeWsnI9iaMkITA" entityName="handleRunningTotalChangedEventSaleSuccessEvent" eventGroup__SinkRole="_N2NYturGEeW7M_vBrFkmVw"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_GNFLNewmEeW_LdalkgkVnQ" entityName="IPrinterLocal" requiredInterface__OperationRequiredRole="_j5pNoNYgEeWrM-HnT5f_ug"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_GNFLNewmEeW_LdalkgkVnQ" entityName="IPrinterModel" requiredInterface__OperationRequiredRole="_j5pNoNYgEeWrM-HnT5f_ug"/>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_wDKjOewkEeW_LdalkgkVnQ" entityName="org.cocome.tradingsystem.cashdeskline.cashdesk.Printer">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0effAewkEeW_LdalkgkVnQ" entityName="IPrinterLocal" providedInterface__OperationProvidedRole="_j5pNoNYgEeWrM-HnT5f_ug"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0effAewkEeW_LdalkgkVnQ" entityName="IPrinterModel" providedInterface__OperationProvidedRole="_j5pNoNYgEeWrM-HnT5f_ug"/>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_j5qbxdYgEeWrM-HnT5f_ug" entityName="org.cocome.tradingsystem.cashdeskline.cashdesk.UserDisplayEventHandler">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:SinkRole" id="_OZL58Ot2EeWsnI9iaMkITA" entityName="handleRunningTotalChangedEventSaleSuccessEvent" eventGroup__SinkRole="_N2NYturGEeW7M_vBrFkmVw"/>
@@ -90,10 +90,10 @@
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:SinkRole" id="_syPKwOtwEeWsnI9iaMkITA" entityName="handleExpressModeEnabledEvent" eventGroup__SinkRole="_0yKz1urCEeW7M_vBrFkmVw"/>
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:SinkRole" id="_yfF4gOtzEeWsnI9iaMkITA" entityName="handleInvalidInputEvent" eventGroup__SinkRole="_7xmEFurCEeW7M_vBrFkmVw"/>
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:SinkRole" id="_kEASgOt0EeWsnI9iaMkITA" entityName="handlePaymentModeSelectedEvent" eventGroup__SinkRole="_ekoTRurFEeW7M_vBrFkmVw"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_j5s4AtYgEeWrM-HnT5f_ug" entityName="IUserDisplayLocal" requiredInterface__OperationRequiredRole="_j5rC0NYgEeWrM-HnT5f_ug"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_j5s4AtYgEeWrM-HnT5f_ug" entityName="IUserDisplayModel" requiredInterface__OperationRequiredRole="_j5rC0NYgEeWrM-HnT5f_ug"/>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_cje7mewdEeW_LdalkgkVnQ" entityName="org.cocome.tradingsystem.cashdeskline.cashdesk.UserDisplay">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ocslQewdEeW_LdalkgkVnQ" entityName="IUserDisplayLocal" providedInterface__OperationProvidedRole="_j5rC0NYgEeWrM-HnT5f_ug"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ocslQewdEeW_LdalkgkVnQ" entityName="IUserDisplayModel" providedInterface__OperationProvidedRole="_j5rC0NYgEeWrM-HnT5f_ug"/>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_kAif1dYgEeWrM-HnT5f_ug" entityName="org.cocome.tradingsystem.inventory.data.Enterprise">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_B1fJYQ4TEeaNfMfZ20wdnQ" entityName="IEnterpriseQueryLocal" providedInterface__OperationProvidedRole="_kAYu0NYgEeWrM-HnT5f_ug"/>
@@ -112,21 +112,9 @@
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_KuxbseuMEeWsnI9iaMkITA" entityName="ExpressModePolicy" providedInterface__OperationProvidedRole="_VGuuEOuMEeWsnI9iaMkITA"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:SourceRole" id="_OJyaxutwEeWsnI9iaMkITA" entityName="fireExpressModeEnabledEvent" eventGroup__SourceRole="_0yKz1urCEeW7M_vBrFkmVw"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_xN8AENbiEeWn1fcBwCRaXA" entityName="org.cocome.cloud.web.usecase">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_1FuxAdbiEeWn1fcBwCRaXA" entityName="IUseCases" providedInterface__OperationProvidedRole="_kYGrQ9YgEeWrM-HnT5f_ug"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_JwacFdb-EeWn1fcBwCRaXA" entityName="ICardReader" requiredInterface__OperationRequiredRole="_zoOe99bnEeWn1fcBwCRaXA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_NjQbldb-EeWn1fcBwCRaXA" entityName="IUserDisplay" requiredInterface__OperationRequiredRole="_qFHNJ9brEeWn1fcBwCRaXA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_OUtttdb-EeWn1fcBwCRaXA" entityName="IPrinter" requiredInterface__OperationRequiredRole="_G2Jyx9bwEeWn1fcBwCRaXA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_PBwZ5Nb-EeWn1fcBwCRaXA" entityName="IBarcodeScanner" requiredInterface__OperationRequiredRole="_iean59bzEeWn1fcBwCRaXA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_q8cjJdb-EeWn1fcBwCRaXA" entityName="IExpressLight" requiredInterface__OperationRequiredRole="_uhQ5R9b0EeWn1fcBwCRaXA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_sMyJpdb-EeWn1fcBwCRaXA" entityName="ICashBox" requiredInterface__OperationRequiredRole="_eJ3-p9b1EeWn1fcBwCRaXA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_MS0I1REREeaZraF8j4MsOw" entityName="IStoreManager" requiredInterface__OperationRequiredRole="_kIbQgtYgEeWrM-HnT5f_ug"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_mDIPxRESEeaZraF8j4MsOw" entityName="IEnterpriseManager" requiredInterface__OperationRequiredRole="_JWIwEA4WEeaNfMfZ20wdnQ"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_E8Wp5REXEeaZraF8j4MsOw" entityName="ICashDesk" requiredInterface__OperationRequiredRole="_h5yZUOwaEeW_LdalkgkVnQ"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_noNyUNY6EeW73vtlcwkhxw" entityName="org.cocome.cloud.webservice.cashdesk.Printer">
+  <components__Repository xsi:type="repository:BasicComponent" id="_noNyUNY6EeW73vtlcwkhxw" entityName="org.cocome.logic.webservice.cashdeskline.cashdeskservice.printerservice">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Q0arUdbzEeWn1fcBwCRaXA" entityName="IPrinter" providedInterface__OperationProvidedRole="_G2Jyx9bwEeWn1fcBwCRaXA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_jOuVdewmEeW_LdalkgkVnQ" entityName="IPrinterLocal" requiredInterface__OperationRequiredRole="_j5pNoNYgEeWrM-HnT5f_ug"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_jOuVdewmEeW_LdalkgkVnQ" entityName="IPrinterModel" requiredInterface__OperationRequiredRole="_j5pNoNYgEeWrM-HnT5f_ug"/>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_kBFSaNYgEeWrM-HnT5f_ug" entityName="org.cocome.tradingsystem.inventory.data.Persistence">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_kBPDYdYgEeWrM-HnT5f_ug" entityName="IPersistenceContextLocal" providedInterface__OperationProvidedRole="_kAT2UdYgEeWrM-HnT5f_ug"/>
@@ -152,13 +140,13 @@
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_j8OnkdYgEeWrM-HnT5f_ug" entityName="IBankLocal" providedInterface__OperationProvidedRole="_j4f-KNYgEeWrM-HnT5f_ug"/>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_llW0oNY4EeW73vtlcwkhxw" entityName="org.cocome.tradingsystem.inventory.data.persistence.ServiceAdapter"/>
-  <components__Repository xsi:type="repository:BasicComponent" id="_p-4uwNY6EeW73vtlcwkhxw" entityName="org.cocome.cloud.webservice.cashdesk.UserDisplay">
+  <components__Repository xsi:type="repository:BasicComponent" id="_p-4uwNY6EeW73vtlcwkhxw" entityName="org.cocome.logic.webservice.cashdeskline.cashdeskservice.userdisplayservice">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_diUosdbwEeWn1fcBwCRaXA" entityName="IUserDisplay" providedInterface__OperationProvidedRole="_qFHNJ9brEeWn1fcBwCRaXA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_4NROFdcAEeWn1fcBwCRaXA" entityName="IUserDisplayLocal" requiredInterface__OperationRequiredRole="_j5rC0NYgEeWrM-HnT5f_ug"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_4NROFdcAEeWn1fcBwCRaXA" entityName="IUserDisplayModel" requiredInterface__OperationRequiredRole="_j5rC0NYgEeWrM-HnT5f_ug"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_kIFSQtYgEeWrM-HnT5f_ug" entityName="org.cocome.cloud.webservice.cashdesk.BarcodeScanner">
+  <components__Repository xsi:type="repository:BasicComponent" id="_kIFSQtYgEeWrM-HnT5f_ug" entityName="org.cocome.logic.webservice.cashdeskline.cashdeskservice.barcodescannerservice">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Yzm6Adb0EeWn1fcBwCRaXA" entityName="IBarcodeScanner" providedInterface__OperationProvidedRole="_iean59bzEeWn1fcBwCRaXA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_kIF5UNYgEeWrM-HnT5f_ug" entityName="IBarcodeScannerLocal" requiredInterface__OperationRequiredRole="_j15WEdYgEeWrM-HnT5f_ug"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_kIF5UNYgEeWrM-HnT5f_ug" entityName="IBarcodeScannerModel" requiredInterface__OperationRequiredRole="_j15WEdYgEeWrM-HnT5f_ug"/>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_j_LN6dYgEeWrM-HnT5f_ug" entityName="org.cocome.tradingsystem.inventory.application.ProductDispatcher">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_j_8p8tYgEeWrM-HnT5f_ug" entityName="IProductDispatcherLocal" providedInterface__OperationProvidedRole="_j_8p8NYgEeWrM-HnT5f_ug"/>
@@ -172,9 +160,9 @@
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_bKuyNQbzEeaWztvthg0dUA" entityName="IStoreManager" requiredInterface__OperationRequiredRole="_kIbQgtYgEeWrM-HnT5f_ug"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_J51ctQb0EeaWztvthg0dUA" entityName="ITradingEnterprise" requiredInterface__OperationRequiredRole="_GiPOyAb0EeaWztvthg0dUA"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_tqxxsNY6EeW73vtlcwkhxw" entityName="org.cocome.cloud.webservice.cashdesk.CardReader">
+  <components__Repository xsi:type="repository:BasicComponent" id="_tqxxsNY6EeW73vtlcwkhxw" entityName="org.cocome.logic.webservice.cashdeskline.cashdeskservice.cardreaderservice">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_G_CGIdbpEeWn1fcBwCRaXA" entityName="ICardReader" providedInterface__OperationProvidedRole="_zoOe99bnEeWn1fcBwCRaXA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_gMS91db_EeWn1fcBwCRaXA" entityName="ICardReaderLocal" requiredInterface__OperationRequiredRole="_j159IdYgEeWrM-HnT5f_ug"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_gMS91db_EeWn1fcBwCRaXA" entityName="ICardReaderModel" requiredInterface__OperationRequiredRole="_j159IdYgEeWrM-HnT5f_ug"/>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_OKawANY_EeW73vtlcwkhxw" entityName="org.cocome.cloud.logic.webservice.store.StoreManager">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_bwxoIRdSEeaR2IIRs9mD-g" entityName="IStoreManager" providedInterface__OperationProvidedRole="_kIbQgtYgEeWrM-HnT5f_ug"/>
@@ -1748,16 +1736,16 @@
       <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
     </signatures__OperationInterface>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_j15WEdYgEeWrM-HnT5f_ug" entityName="IBarcodeScannerLocal">
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_j15WEdYgEeWrM-HnT5f_ug" entityName="IBarcodeScannerModel">
     <signatures__OperationInterface id="_xkWDANbkEeWn1fcBwCRaXA" entityName="sendProductBarcode">
       <parameters__OperationSignature dataType__Parameter="_jVQ-HUdGEeaL399ofOJboA" parameterName="barcode"/>
     </signatures__OperationInterface>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_j159IdYgEeWrM-HnT5f_ug" entityName="ICardReaderLocal">
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_j159IdYgEeWrM-HnT5f_ug" entityName="ICardReaderModel">
     <signatures__OperationInterface id="_xTiU8NbmEeWn1fcBwCRaXA" entityName="sendCreditCardInfo"/>
     <signatures__OperationInterface id="_0mq5oNbmEeWn1fcBwCRaXA" entityName="sendCreditCardPin"/>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_j16kMdYgEeWrM-HnT5f_ug" entityName="ICashBoxLocal">
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_j16kMdYgEeWrM-HnT5f_ug" entityName="ICashBoxModel">
     <signatures__OperationInterface id="_j16kMtYgEeWrM-HnT5f_ug" entityName="open"/>
     <signatures__OperationInterface id="_j16kM9YgEeWrM-HnT5f_ug" entityName="close"/>
     <signatures__OperationInterface id="_j16kNNYgEeWrM-HnT5f_ug" entityName="isOpen">
@@ -2109,7 +2097,7 @@
       <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
     </signatures__OperationInterface>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_j5mxYNYgEeWrM-HnT5f_ug" entityName="IExpressLightLocal">
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_j5mxYNYgEeWrM-HnT5f_ug" entityName="IExpressLightModel">
     <signatures__OperationInterface id="_j5mxYdYgEeWrM-HnT5f_ug" entityName="turnExpressLightOn"/>
     <signatures__OperationInterface id="_j5mxYtYgEeWrM-HnT5f_ug" entityName="turnExpressLightOff"/>
     <signatures__OperationInterface id="_j5mxY9YgEeWrM-HnT5f_ug" entityName="isOn">
@@ -2122,7 +2110,7 @@
     </eventTypes__EventGroup>
     <eventTypes__EventGroup id="_ji_1QOrGEeW7M_vBrFkmVw" entityName="SaleSuccessEvent"/>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_j5pNoNYgEeWrM-HnT5f_ug" entityName="IPrinterLocal">
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_j5pNoNYgEeWrM-HnT5f_ug" entityName="IPrinterModel">
     <signatures__OperationInterface id="_j5pNodYgEeWrM-HnT5f_ug" entityName="tearOffPrintout"/>
     <signatures__OperationInterface id="_j5pNotYgEeWrM-HnT5f_ug" entityName="printText">
       <parameters__OperationSignature parameterName="text">
@@ -2138,7 +2126,7 @@
       <parameter__EventType dataType__Parameter="_jVQ-HUdGEeaL399ofOJboA" parameterName="barcode"/>
     </eventTypes__EventGroup>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_j5rC0NYgEeWrM-HnT5f_ug" entityName="IUserDisplayLocal">
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_j5rC0NYgEeWrM-HnT5f_ug" entityName="IUserDisplayModel">
     <signatures__OperationInterface id="_j5rC0dYgEeWrM-HnT5f_ug" entityName="setContent">
       <parameters__OperationSignature dataType__Parameter="_j5rC0tYgEeWrM-HnT5f_ug" parameterName="messageKind"/>
       <parameters__OperationSignature parameterName="message">
