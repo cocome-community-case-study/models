@@ -1,7 +1,7 @@
 # Differences in CoCoME-Cloud and Tech-Report
 
 - Figure 5.9 Architecture Overview of the Hybrid Cloud-based Variant of CoCoME
-- Figure 5.2 First Part fo the Sequence Diagram of the Proces Sale UseCase
+- Figure 5.2 First Part of the Sequence Diagram of the Proces Sale UseCase
 
 - CDEIventBus from 5.2,5.9 is missing in model (cocome-cloud)
 - Model contains ICashBoxLocal but no ICashBox like 5.2,5.9 and vis versa
