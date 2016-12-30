@@ -5,7 +5,7 @@
     <styles xmi:type="notation:FontStyle" xmi:id="_bFQF0WhaEeaWxN-Fhs659g" fontName="Ubuntu"/>
     <styles xmi:type="notation:LineStyle" xmi:id="_bFQF0mhaEeaWxN-Fhs659g"/>
     <element xmi:type="seff:StartAction" href="cocome-cloud.repository#_bE2dMGhaEeaWxN-Fhs659g"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bFQF02haEeaWxN-Fhs659g" x="104" y="116"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bFQF02haEeaWxN-Fhs659g" x="108" y="120"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_hd4b0GhaEeaWxN-Fhs659g" type="2002" fontName="Ubuntu">
     <element xmi:type="seff:StopAction" href="cocome-cloud.repository#_hd0xcGhaEeaWxN-Fhs659g"/>
