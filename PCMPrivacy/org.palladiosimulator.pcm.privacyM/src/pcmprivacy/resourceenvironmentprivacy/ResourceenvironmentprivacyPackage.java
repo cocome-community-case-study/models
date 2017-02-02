@@ -20,6 +20,9 @@ import org.palladiosimulator.pcm.resourceenvironment.ResourceenvironmentPackage;
  *   <li>and each data type</li>
  * </ul>
  * <!-- end-user-doc -->
+ * <!-- begin-model-doc -->
+ * Package of entities representing the execution environment of a component based software system. Extended for privacy
+ * <!-- end-model-doc -->
  * @see pcmprivacy.resourceenvironmentprivacy.ResourceenvironmentprivacyFactory
  * @model kind="package"
  * @generated
@@ -119,8 +122,8 @@ public interface ResourceenvironmentprivacyPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	//TODO
-	int RESOURCE_ENVIRONMENT_PRIVACY_OPERATION_COUNT = 0; //ResourceenvironmentPackage.RESOURCE_ENVIRONMENT_OPERATION_COUNT + 0;
+	//TODO Better Fix
+	int RESOURCE_ENVIRONMENT_PRIVACY_OPERATION_COUNT = 0;//ResourceenvironmentPackage.RESOURCE_ENVIRONMENT_OPERATION_COUNT + 0; //ResourceenvironmentPackage.RESOURCE_ENVIRONMENT_OPERATION_COUNT + 0;
 
 
 	/**
