@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="pcmprivacy" nsURI="http://palladiosimulator.org/PalladioComponentModel/5.1/Privacy"
+    nsPrefix="pcmprivacy">
+  <eSubpackages name="resourceenvironmentprivacy" nsURI="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.1/Privacy"
+      nsPrefix="resourceenvironmentprivacy">
+    <eClassifiers xsi:type="ecore:EClass" name="ResourceEnvironmentPrivacy" eSuperTypes="../../org.palladiosimulator.pcm/model/pcm.ecore#//resourceenvironment/ResourceEnvironment">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="Geolocation" ordered="false"
+          unique="false" upperBound="-1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+          defaultValueLiteral="0"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="compositionprivacy" nsURI="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.1/Privacy"
+      nsPrefix="compositionprivacy">
+    <eClassifiers xsi:type="ecore:EEnum" name="DataPrivacyLvl">
+      <eLiterals name="Personal" literal="Personal"/>
+      <eLiterals name="Depersonalized" value="10" literal="Depersonalized"/>
+      <eLiterals name="Anonymized" value="20"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="AssemblyConnectorPrivacy" eSuperTypes="../../org.palladiosimulator.pcm/model/pcm.ecore#//core/composition/AssemblyConnector">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="PrivacyLevel" ordered="false"
+          unique="false" eType="#//compositionprivacy/DataPrivacyLvl" defaultValueLiteral="Personal"/>
+    </eClassifiers>
+  </eSubpackages>
+</ecore:EPackage>

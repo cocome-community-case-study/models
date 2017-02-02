@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xmi:id="_QJ5qwOfLEeaj1qfdo9JJZQ" version="11.1.0.201608251200">
+  <semanticResources>model/pcmprivacy.ecore</semanticResources>
+  <semanticResources>platform:/resource/org.palladiosimulator.pcm/model/pcm.ecore</semanticResources>
+  <semanticResources>http://www.eclipse.org/emf/2002/Ecore</semanticResources>
+  <semanticResources>platform:/plugin/de.uka.ipd.sdq.stoex/model/stoex.ecore</semanticResources>
+  <semanticResources>platform:/plugin/de.uka.ipd.sdq.identifier/model/identifier.ecore</semanticResources>
+  <semanticResources>platform:/plugin/de.uka.ipd.sdq.units/model/Units.ecore</semanticResources>
+  <semanticResources>platform:/plugin/de.uka.ipd.sdq.probfunction/model/ProbabilityFunction.ecore</semanticResources>
+  <semanticResources>model/privacy.genmodel</semanticResources>
+  <semanticResources>platform:/resource/org.palladiosimulator.pcm/model/pcm.genmodel</semanticResources>
+  <semanticResources>platform:/plugin/de.uka.ipd.sdq.identifier/model/identifier.genmodel</semanticResources>
+  <semanticResources>platform:/plugin/de.uka.ipd.sdq.probfunction/model/ProbabilityFunction.genmodel</semanticResources>
+  <semanticResources>platform:/plugin/de.uka.ipd.sdq.stoex/model/stoex.genmodel</semanticResources>
+  <semanticResources>platform:/plugin/de.uka.ipd.sdq.units/model/Units.genmodel</semanticResources>
+  <semanticResources>platform:/plugin/org.eclipse.emf.ecore/model/Ecore.genmodel</semanticResources>
+  <semanticResources>platform:/plugin/org.eclipse.emf.ecore/model/Ecore.ecore</semanticResources>
+</viewpoint:DAnalysis>
