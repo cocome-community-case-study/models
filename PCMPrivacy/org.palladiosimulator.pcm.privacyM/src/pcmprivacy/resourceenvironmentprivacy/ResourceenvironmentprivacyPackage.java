@@ -61,14 +61,23 @@ public interface ResourceenvironmentprivacyPackage extends EPackage {
 	ResourceenvironmentprivacyPackage eINSTANCE = pcmprivacy.resourceenvironmentprivacy.impl.ResourceenvironmentprivacyPackageImpl.init();
 
 	/**
-	 * The meta object id for the '{@link pcmprivacy.resourceenvironmentprivacy.impl.ResourceEnvironmentPrivacyImpl <em>Resource Environment Privacy</em>}' class.
+	 * The meta object id for the '{@link pcmprivacy.resourceenvironmentprivacy.impl.ResourceContainerPrivacyImpl <em>Resource Container Privacy</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see pcmprivacy.resourceenvironmentprivacy.impl.ResourceEnvironmentPrivacyImpl
-	 * @see pcmprivacy.resourceenvironmentprivacy.impl.ResourceenvironmentprivacyPackageImpl#getResourceEnvironmentPrivacy()
+	 * @see pcmprivacy.resourceenvironmentprivacy.impl.ResourceContainerPrivacyImpl
+	 * @see pcmprivacy.resourceenvironmentprivacy.impl.ResourceenvironmentprivacyPackageImpl#getResourceContainerPrivacy()
 	 * @generated
 	 */
-	int RESOURCE_ENVIRONMENT_PRIVACY = 0;
+	int RESOURCE_CONTAINER_PRIVACY = 0;
+
+	/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int RESOURCE_CONTAINER_PRIVACY__ID = ResourceenvironmentPackage.RESOURCE_CONTAINER__ID;
 
 	/**
 	 * The feature id for the '<em><b>Entity Name</b></em>' attribute.
@@ -77,75 +86,101 @@ public interface ResourceenvironmentprivacyPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int RESOURCE_ENVIRONMENT_PRIVACY__ENTITY_NAME = ResourceenvironmentPackage.RESOURCE_ENVIRONMENT__ENTITY_NAME;
+	int RESOURCE_CONTAINER_PRIVACY__ENTITY_NAME = ResourceenvironmentPackage.RESOURCE_CONTAINER__ENTITY_NAME;
 
 	/**
-	 * The feature id for the '<em><b>Linking Resources Resource Environment</b></em>' containment reference list.
+	 * The feature id for the '<em><b>Active Resource Specifications Resource Container</b></em>' containment reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int RESOURCE_ENVIRONMENT_PRIVACY__LINKING_RESOURCES_RESOURCE_ENVIRONMENT = ResourceenvironmentPackage.RESOURCE_ENVIRONMENT__LINKING_RESOURCES_RESOURCE_ENVIRONMENT;
+	int RESOURCE_CONTAINER_PRIVACY__ACTIVE_RESOURCE_SPECIFICATIONS_RESOURCE_CONTAINER = ResourceenvironmentPackage.RESOURCE_CONTAINER__ACTIVE_RESOURCE_SPECIFICATIONS_RESOURCE_CONTAINER;
 
 	/**
-	 * The feature id for the '<em><b>Resource Container Resource Environment</b></em>' containment reference list.
+	 * The feature id for the '<em><b>Resource Environment Resource Container</b></em>' container reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int RESOURCE_ENVIRONMENT_PRIVACY__RESOURCE_CONTAINER_RESOURCE_ENVIRONMENT = ResourceenvironmentPackage.RESOURCE_ENVIRONMENT__RESOURCE_CONTAINER_RESOURCE_ENVIRONMENT;
+	int RESOURCE_CONTAINER_PRIVACY__RESOURCE_ENVIRONMENT_RESOURCE_CONTAINER = ResourceenvironmentPackage.RESOURCE_CONTAINER__RESOURCE_ENVIRONMENT_RESOURCE_CONTAINER;
 
 	/**
-	 * The feature id for the '<em><b>Geolocation</b></em>' attribute list.
+	 * The feature id for the '<em><b>Nested Resource Containers Resource Container</b></em>' containment reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int RESOURCE_ENVIRONMENT_PRIVACY__GEOLOCATION = ResourceenvironmentPackage.RESOURCE_ENVIRONMENT_FEATURE_COUNT + 0;
+	int RESOURCE_CONTAINER_PRIVACY__NESTED_RESOURCE_CONTAINERS_RESOURCE_CONTAINER = ResourceenvironmentPackage.RESOURCE_CONTAINER__NESTED_RESOURCE_CONTAINERS_RESOURCE_CONTAINER;
 
 	/**
-	 * The number of structural features of the '<em>Resource Environment Privacy</em>' class.
+	 * The feature id for the '<em><b>Parent Resource Container Resource Container</b></em>' container reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int RESOURCE_ENVIRONMENT_PRIVACY_FEATURE_COUNT = ResourceenvironmentPackage.RESOURCE_ENVIRONMENT_FEATURE_COUNT + 1;
+	int RESOURCE_CONTAINER_PRIVACY__PARENT_RESOURCE_CONTAINER_RESOURCE_CONTAINER = ResourceenvironmentPackage.RESOURCE_CONTAINER__PARENT_RESOURCE_CONTAINER_RESOURCE_CONTAINER;
 
 	/**
-	 * The number of operations of the '<em>Resource Environment Privacy</em>' class.
+	 * The feature id for the '<em><b>Hdd Resource Specifications</b></em>' reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	//TODO Better Fix
-	int RESOURCE_ENVIRONMENT_PRIVACY_OPERATION_COUNT = 0;//ResourceenvironmentPackage.RESOURCE_ENVIRONMENT_OPERATION_COUNT + 0; //ResourceenvironmentPackage.RESOURCE_ENVIRONMENT_OPERATION_COUNT + 0;
+	int RESOURCE_CONTAINER_PRIVACY__HDD_RESOURCE_SPECIFICATIONS = ResourceenvironmentPackage.RESOURCE_CONTAINER__HDD_RESOURCE_SPECIFICATIONS;
+
+	/**
+	 * The feature id for the '<em><b>Geolocation</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int RESOURCE_CONTAINER_PRIVACY__GEOLOCATION = ResourceenvironmentPackage.RESOURCE_CONTAINER_FEATURE_COUNT + 0;
+
+	/**
+	 * The number of structural features of the '<em>Resource Container Privacy</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int RESOURCE_CONTAINER_PRIVACY_FEATURE_COUNT = ResourceenvironmentPackage.RESOURCE_CONTAINER_FEATURE_COUNT + 1;
+
+	/**
+	 * The number of operations of the '<em>Resource Container Privacy</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int RESOURCE_CONTAINER_PRIVACY_OPERATION_COUNT = 0; //ResourceenvironmentPackage.RESOURCE_CONTAINER_OPERATION_COUNT + 0;
 
 
 	/**
-	 * Returns the meta object for class '{@link pcmprivacy.resourceenvironmentprivacy.ResourceEnvironmentPrivacy <em>Resource Environment Privacy</em>}'.
+	 * Returns the meta object for class '{@link pcmprivacy.resourceenvironmentprivacy.ResourceContainerPrivacy <em>Resource Container Privacy</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Resource Environment Privacy</em>'.
-	 * @see pcmprivacy.resourceenvironmentprivacy.ResourceEnvironmentPrivacy
+	 * @return the meta object for class '<em>Resource Container Privacy</em>'.
+	 * @see pcmprivacy.resourceenvironmentprivacy.ResourceContainerPrivacy
 	 * @generated
 	 */
-	EClass getResourceEnvironmentPrivacy();
+	EClass getResourceContainerPrivacy();
 
 	/**
-	 * Returns the meta object for the attribute list '{@link pcmprivacy.resourceenvironmentprivacy.ResourceEnvironmentPrivacy#getGeolocation <em>Geolocation</em>}'.
+	 * Returns the meta object for the attribute '{@link pcmprivacy.resourceenvironmentprivacy.ResourceContainerPrivacy#getGeolocation <em>Geolocation</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute list '<em>Geolocation</em>'.
-	 * @see pcmprivacy.resourceenvironmentprivacy.ResourceEnvironmentPrivacy#getGeolocation()
-	 * @see #getResourceEnvironmentPrivacy()
+	 * @return the meta object for the attribute '<em>Geolocation</em>'.
+	 * @see pcmprivacy.resourceenvironmentprivacy.ResourceContainerPrivacy#getGeolocation()
+	 * @see #getResourceContainerPrivacy()
 	 * @generated
 	 */
-	EAttribute getResourceEnvironmentPrivacy_Geolocation();
+	EAttribute getResourceContainerPrivacy_Geolocation();
 
 	/**
 	 * Returns the factory that creates the instances of the model.
@@ -171,22 +206,22 @@ public interface ResourceenvironmentprivacyPackage extends EPackage {
 	 */
 	interface Literals {
 		/**
-		 * The meta object literal for the '{@link pcmprivacy.resourceenvironmentprivacy.impl.ResourceEnvironmentPrivacyImpl <em>Resource Environment Privacy</em>}' class.
+		 * The meta object literal for the '{@link pcmprivacy.resourceenvironmentprivacy.impl.ResourceContainerPrivacyImpl <em>Resource Container Privacy</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see pcmprivacy.resourceenvironmentprivacy.impl.ResourceEnvironmentPrivacyImpl
-		 * @see pcmprivacy.resourceenvironmentprivacy.impl.ResourceenvironmentprivacyPackageImpl#getResourceEnvironmentPrivacy()
+		 * @see pcmprivacy.resourceenvironmentprivacy.impl.ResourceContainerPrivacyImpl
+		 * @see pcmprivacy.resourceenvironmentprivacy.impl.ResourceenvironmentprivacyPackageImpl#getResourceContainerPrivacy()
 		 * @generated
 		 */
-		EClass RESOURCE_ENVIRONMENT_PRIVACY = eINSTANCE.getResourceEnvironmentPrivacy();
+		EClass RESOURCE_CONTAINER_PRIVACY = eINSTANCE.getResourceContainerPrivacy();
 
 		/**
-		 * The meta object literal for the '<em><b>Geolocation</b></em>' attribute list feature.
+		 * The meta object literal for the '<em><b>Geolocation</b></em>' attribute feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute RESOURCE_ENVIRONMENT_PRIVACY__GEOLOCATION = eINSTANCE.getResourceEnvironmentPrivacy_Geolocation();
+		EAttribute RESOURCE_CONTAINER_PRIVACY__GEOLOCATION = eINSTANCE.getResourceContainerPrivacy_Geolocation();
 
 	}
 

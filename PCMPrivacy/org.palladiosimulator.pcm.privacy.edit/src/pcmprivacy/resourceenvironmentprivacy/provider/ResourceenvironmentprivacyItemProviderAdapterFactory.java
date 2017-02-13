@@ -72,26 +72,26 @@ public class ResourceenvironmentprivacyItemProviderAdapterFactory extends Resour
 	}
 
 	/**
-	 * This keeps track of the one adapter used for all {@link pcmprivacy.resourceenvironmentprivacy.ResourceEnvironmentPrivacy} instances.
+	 * This keeps track of the one adapter used for all {@link pcmprivacy.resourceenvironmentprivacy.ResourceContainerPrivacy} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected ResourceEnvironmentPrivacyItemProvider resourceEnvironmentPrivacyItemProvider;
+	protected ResourceContainerPrivacyItemProvider resourceContainerPrivacyItemProvider;
 
 	/**
-	 * This creates an adapter for a {@link pcmprivacy.resourceenvironmentprivacy.ResourceEnvironmentPrivacy}.
+	 * This creates an adapter for a {@link pcmprivacy.resourceenvironmentprivacy.ResourceContainerPrivacy}.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
 	@Override
-	public Adapter createResourceEnvironmentPrivacyAdapter() {
-		if (resourceEnvironmentPrivacyItemProvider == null) {
-			resourceEnvironmentPrivacyItemProvider = new ResourceEnvironmentPrivacyItemProvider(this);
+	public Adapter createResourceContainerPrivacyAdapter() {
+		if (resourceContainerPrivacyItemProvider == null) {
+			resourceContainerPrivacyItemProvider = new ResourceContainerPrivacyItemProvider(this);
 		}
 
-		return resourceEnvironmentPrivacyItemProvider;
+		return resourceContainerPrivacyItemProvider;
 	}
 
 	/**
@@ -193,7 +193,7 @@ public class ResourceenvironmentprivacyItemProviderAdapterFactory extends Resour
 	 * @generated
 	 */
 	public void dispose() {
-		if (resourceEnvironmentPrivacyItemProvider != null) resourceEnvironmentPrivacyItemProvider.dispose();
+		if (resourceContainerPrivacyItemProvider != null) resourceContainerPrivacyItemProvider.dispose();
 	}
 
 }

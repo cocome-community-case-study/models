@@ -21,6 +21,9 @@ import org.palladiosimulator.pcm.core.composition.CompositionPackage;
  *   <li>and each data type</li>
  * </ul>
  * <!-- end-user-doc -->
+ * <!-- begin-model-doc -->
+ * A package holding all composable entities. Extended for privacy
+ * <!-- end-model-doc -->
  * @see pcmprivacy.compositionprivacy.CompositionprivacyFactory
  * @model kind="package"
  * @generated
@@ -156,18 +159,16 @@ public interface CompositionprivacyPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	//TODO Better Fix
-	int ASSEMBLY_CONNECTOR_PRIVACY___ASSEMBLY_CONNECTORS_REFERENCED_PROVIDED_ROLES_AND_CHILD_CONTEXT_MUST_MATCH__DIAGNOSTICCHAIN_MAP = 0;//CompositionPackage.ASSEMBLY_CONNECTOR___ASSEMBLY_CONNECTORS_REFERENCED_PROVIDED_ROLES_AND_CHILD_CONTEXT_MUST_MATCH__DIAGNOSTICCHAIN_MAP;//CompositionPackage.ASSEMBLY_CONNECTOR___ASSEMBLY_CONNECTORS_REFERENCED_PROVIDED_ROLES_AND_CHILD_CONTEXT_MUST_MATCH__DIAGNOSTICCHAIN_MAP;
+	int ASSEMBLY_CONNECTOR_PRIVACY___ASSEMBLY_CONNECTORS_REFERENCED_PROVIDED_ROLES_AND_CHILD_CONTEXT_MUST_MATCH__DIAGNOSTICCHAIN_MAP = 0; //CompositionPackage.ASSEMBLY_CONNECTOR___ASSEMBLY_CONNECTORS_REFERENCED_PROVIDED_ROLES_AND_CHILD_CONTEXT_MUST_MATCH__DIAGNOSTICCHAIN_MAP;
 
 	/**
 	 * The operation id for the '<em>Assembly Connectors Referenced Required Role And Child Context Must Match</em>' operation.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generatednot
 	 * @ordered
 	 */
-	//TODO Better Fix
-	int ASSEMBLY_CONNECTOR_PRIVACY___ASSEMBLY_CONNECTORS_REFERENCED_REQUIRED_ROLE_AND_CHILD_CONTEXT_MUST_MATCH__DIAGNOSTICCHAIN_MAP = 0;//CompositionPackage.ASSEMBLY_CONNECTOR___ASSEMBLY_CONNECTORS_REFERENCED_REQUIRED_ROLE_AND_CHILD_CONTEXT_MUST_MATCH__DIAGNOSTICCHAIN_MAP;//CompositionPackage.ASSEMBLY_CONNECTOR___ASSEMBLY_CONNECTORS_REFERENCED_REQUIRED_ROLE_AND_CHILD_CONTEXT_MUST_MATCH__DIAGNOSTICCHAIN_MAP;
+	int ASSEMBLY_CONNECTOR_PRIVACY___ASSEMBLY_CONNECTORS_REFERENCED_REQUIRED_ROLE_AND_CHILD_CONTEXT_MUST_MATCH__DIAGNOSTICCHAIN_MAP = 0; //CompositionPackage.ASSEMBLY_CONNECTOR___ASSEMBLY_CONNECTORS_REFERENCED_REQUIRED_ROLE_AND_CHILD_CONTEXT_MUST_MATCH__DIAGNOSTICCHAIN_MAP;
 
 	/**
 	 * The operation id for the '<em>Assembly Connectors Referenced Interfaces Must Match</em>' operation.
@@ -176,8 +177,7 @@ public interface CompositionprivacyPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	//TODO Better Fix
-	int ASSEMBLY_CONNECTOR_PRIVACY___ASSEMBLY_CONNECTORS_REFERENCED_INTERFACES_MUST_MATCH__DIAGNOSTICCHAIN_MAP = 0; //CompositionPackage.ASSEMBLY_CONNECTOR___ASSEMBLY_CONNECTORS_REFERENCED_INTERFACES_MUST_MATCH__DIAGNOSTICCHAIN_MAP;//CompositionPackage.ASSEMBLY_CONNECTOR___ASSEMBLY_CONNECTORS_REFERENCED_INTERFACES_MUST_MATCH__DIAGNOSTICCHAIN_MAP;
+	int ASSEMBLY_CONNECTOR_PRIVACY___ASSEMBLY_CONNECTORS_REFERENCED_INTERFACES_MUST_MATCH__DIAGNOSTICCHAIN_MAP = 0; //CompositionPackage.ASSEMBLY_CONNECTOR___ASSEMBLY_CONNECTORS_REFERENCED_INTERFACES_MUST_MATCH__DIAGNOSTICCHAIN_MAP;
 
 	/**
 	 * The number of operations of the '<em>Assembly Connector Privacy</em>' class.
@@ -186,8 +186,7 @@ public interface CompositionprivacyPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	//TODO Better Fix
-	int ASSEMBLY_CONNECTOR_PRIVACY_OPERATION_COUNT = 0;// CompositionPackage.ASSEMBLY_CONNECTOR_OPERATION_COUNT + 0;// CompositionPackage.ASSEMBLY_CONNECTOR_OPERATION_COUNT + 0;
+	int ASSEMBLY_CONNECTOR_PRIVACY_OPERATION_COUNT = 0; //CompositionPackage.ASSEMBLY_CONNECTOR_OPERATION_COUNT + 0;
 
 	/**
 	 * The meta object id for the '{@link pcmprivacy.compositionprivacy.DataPrivacyLvl <em>Data Privacy Lvl</em>}' enum.

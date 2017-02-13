@@ -19,7 +19,7 @@ import org.eclipse.emf.ecore.util.Diagnostician;
 
 import org.eclipse.emf.ecore.xmi.impl.XMIResourceFactoryImpl;
 
-import pcmprivacy.resourceenvironmentprivacy.ResourceEnvironmentPrivacy;
+import pcmprivacy.resourceenvironmentprivacy.ResourceContainerPrivacy;
 import pcmprivacy.resourceenvironmentprivacy.ResourceenvironmentprivacyFactory;
 import pcmprivacy.resourceenvironmentprivacy.ResourceenvironmentprivacyPackage;
 
@@ -60,7 +60,7 @@ public class ResourceenvironmentprivacyExample {
 			System.out.println("Enter a list of file paths or URIs that have content like this:");
 			try {
 				Resource resource = resourceSet.createResource(URI.createURI("http:///My.resourceenvironmentprivacy"));
-				ResourceEnvironmentPrivacy root = ResourceenvironmentprivacyFactory.eINSTANCE.createResourceEnvironmentPrivacy();
+				ResourceContainerPrivacy root = ResourceenvironmentprivacyFactory.eINSTANCE.createResourceContainerPrivacy();
 				resource.getContents().add(root);
 				resource.save(System.out, null);
 			}

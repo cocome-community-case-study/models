@@ -2,6 +2,8 @@
  */
 package pcmprivacy.resourceenvironmentprivacy.util;
 
+import de.uka.ipd.sdq.identifier.Identifier;
+
 import org.eclipse.emf.common.notify.Adapter;
 import org.eclipse.emf.common.notify.Notifier;
 
@@ -9,9 +11,10 @@ import org.eclipse.emf.common.notify.impl.AdapterFactoryImpl;
 
 import org.eclipse.emf.ecore.EObject;
 
+import org.palladiosimulator.pcm.core.entity.Entity;
 import org.palladiosimulator.pcm.core.entity.NamedElement;
 
-import org.palladiosimulator.pcm.resourceenvironment.ResourceEnvironment;
+import org.palladiosimulator.pcm.resourceenvironment.ResourceContainer;
 
 import pcmprivacy.resourceenvironmentprivacy.*;
 
@@ -72,16 +75,24 @@ public class ResourceenvironmentprivacyAdapterFactory extends AdapterFactoryImpl
 	protected ResourceenvironmentprivacySwitch<Adapter> modelSwitch =
 		new ResourceenvironmentprivacySwitch<Adapter>() {
 			@Override
-			public Adapter caseResourceEnvironmentPrivacy(ResourceEnvironmentPrivacy object) {
-				return createResourceEnvironmentPrivacyAdapter();
+			public Adapter caseResourceContainerPrivacy(ResourceContainerPrivacy object) {
+				return createResourceContainerPrivacyAdapter();
+			}
+			@Override
+			public Adapter caseIdentifier(Identifier object) {
+				return createIdentifierAdapter();
 			}
 			@Override
 			public Adapter caseNamedElement(NamedElement object) {
 				return createNamedElementAdapter();
 			}
 			@Override
-			public Adapter caseResourceEnvironment(ResourceEnvironment object) {
-				return createResourceEnvironmentAdapter();
+			public Adapter caseEntity(Entity object) {
+				return createEntityAdapter();
+			}
+			@Override
+			public Adapter caseResourceContainer(ResourceContainer object) {
+				return createResourceContainerAdapter();
 			}
 			@Override
 			public Adapter defaultCase(EObject object) {
@@ -104,16 +115,30 @@ public class ResourceenvironmentprivacyAdapterFactory extends AdapterFactoryImpl
 
 
 	/**
-	 * Creates a new adapter for an object of class '{@link pcmprivacy.resourceenvironmentprivacy.ResourceEnvironmentPrivacy <em>Resource Environment Privacy</em>}'.
+	 * Creates a new adapter for an object of class '{@link pcmprivacy.resourceenvironmentprivacy.ResourceContainerPrivacy <em>Resource Container Privacy</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see pcmprivacy.resourceenvironmentprivacy.ResourceEnvironmentPrivacy
+	 * @see pcmprivacy.resourceenvironmentprivacy.ResourceContainerPrivacy
 	 * @generated
 	 */
-	public Adapter createResourceEnvironmentPrivacyAdapter() {
+	public Adapter createResourceContainerPrivacyAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link de.uka.ipd.sdq.identifier.Identifier <em>Identifier</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see de.uka.ipd.sdq.identifier.Identifier
+	 * @generated
+	 */
+	public Adapter createIdentifierAdapter() {
 		return null;
 	}
 
@@ -132,16 +157,30 @@ public class ResourceenvironmentprivacyAdapterFactory extends AdapterFactoryImpl
 	}
 
 	/**
-	 * Creates a new adapter for an object of class '{@link org.palladiosimulator.pcm.resourceenvironment.ResourceEnvironment <em>Resource Environment</em>}'.
+	 * Creates a new adapter for an object of class '{@link org.palladiosimulator.pcm.core.entity.Entity <em>Entity</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see org.palladiosimulator.pcm.resourceenvironment.ResourceEnvironment
+	 * @see org.palladiosimulator.pcm.core.entity.Entity
 	 * @generated
 	 */
-	public Adapter createResourceEnvironmentAdapter() {
+	public Adapter createEntityAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link org.palladiosimulator.pcm.resourceenvironment.ResourceContainer <em>Resource Container</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see org.palladiosimulator.pcm.resourceenvironment.ResourceContainer
+	 * @generated
+	 */
+	public Adapter createResourceContainerAdapter() {
 		return null;
 	}
 

@@ -7,14 +7,24 @@
     <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
       <details key="documentation" value="Package of entities representing the execution environment of a component based software system. Extended for privacy"/>
     </eAnnotations>
-    <eClassifiers xsi:type="ecore:EClass" name="ResourceEnvironmentPrivacy" eSuperTypes="../../org.palladiosimulator.pcm/model/pcm.ecore#//resourceenvironment/ResourceEnvironment">
+    <eClassifiers xsi:type="ecore:EClass" name="ResourceContainerPrivacy" eSuperTypes="../../org.palladiosimulator.pcm/model/pcm.ecore#//resourceenvironment/ResourceContainer">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="documentation" value="UML-like&amp;nbsp;container&amp;nbsp;of&amp;nbsp;a&amp;nbsp;number&amp;nbsp;of&amp;nbsp;processing&amp;nbsp;resources (e.g. hardware server). Extended for Privacy with geolocation flag."/>
+      </eAnnotations>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="Geolocation" ordered="false"
-          unique="false" upperBound="-1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
-          defaultValueLiteral="0"/>
+          lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+          defaultValueLiteral="0">
+        <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+          <details key="documentation" value="&lt;p>&#xD;&#xA;    Specifies the the geolocation.&#xD;&#xA;&lt;/p>&#xD;&#xA;&lt;p>&#xD;&#xA;    Item is the ISO country code. A number between 0 and 999.&lt;br />&#xD;&#xA;&lt;/p>"/>
+        </eAnnotations>
+      </eStructuralFeatures>
     </eClassifiers>
   </eSubpackages>
   <eSubpackages name="compositionprivacy" nsURI="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.1/Privacy"
       nsPrefix="compositionprivacy">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+      <details key="documentation" value="A package holding all composable entities. Extended for privacy"/>
+    </eAnnotations>
     <eClassifiers xsi:type="ecore:EEnum" name="DataPrivacyLvl">
       <eLiterals name="Personal" literal="Personal"/>
       <eLiterals name="Depersonalized" value="10" literal="Depersonalized"/>

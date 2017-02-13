@@ -16,25 +16,28 @@ import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
 import org.eclipse.emf.edit.provider.ItemPropertyDescriptor;
 import org.eclipse.emf.edit.provider.ViewerNotification;
 
-import org.palladiosimulator.pcm.resourceenvironment.provider.ResourceEnvironmentItemProvider;
+import org.palladiosimulator.pcm.resourceenvironment.ResourceenvironmentPackage;
 
-import pcmprivacy.resourceenvironmentprivacy.ResourceEnvironmentPrivacy;
+import org.palladiosimulator.pcm.resourceenvironment.provider.ResourceContainerItemProvider;
+
+import pcmprivacy.resourceenvironmentprivacy.ResourceContainerPrivacy;
+import pcmprivacy.resourceenvironmentprivacy.ResourceenvironmentprivacyFactory;
 import pcmprivacy.resourceenvironmentprivacy.ResourceenvironmentprivacyPackage;
 
 /**
- * This is the item provider adapter for a {@link pcmprivacy.resourceenvironmentprivacy.ResourceEnvironmentPrivacy} object.
+ * This is the item provider adapter for a {@link pcmprivacy.resourceenvironmentprivacy.ResourceContainerPrivacy} object.
  * <!-- begin-user-doc -->
  * <!-- end-user-doc -->
  * @generated
  */
-public class ResourceEnvironmentPrivacyItemProvider extends ResourceEnvironmentItemProvider {
+public class ResourceContainerPrivacyItemProvider extends ResourceContainerItemProvider {
 	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public ResourceEnvironmentPrivacyItemProvider(AdapterFactory adapterFactory) {
+	public ResourceContainerPrivacyItemProvider(AdapterFactory adapterFactory) {
 		super(adapterFactory);
 	}
 
@@ -65,9 +68,9 @@ public class ResourceEnvironmentPrivacyItemProvider extends ResourceEnvironmentI
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_ResourceEnvironmentPrivacy_Geolocation_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_ResourceEnvironmentPrivacy_Geolocation_feature", "_UI_ResourceEnvironmentPrivacy_type"),
-				 ResourceenvironmentprivacyPackage.Literals.RESOURCE_ENVIRONMENT_PRIVACY__GEOLOCATION,
+				 getString("_UI_ResourceContainerPrivacy_Geolocation_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_ResourceContainerPrivacy_Geolocation_feature", "_UI_ResourceContainerPrivacy_type"),
+				 ResourceenvironmentprivacyPackage.Literals.RESOURCE_CONTAINER_PRIVACY__GEOLOCATION,
 				 true,
 				 false,
 				 false,
@@ -77,14 +80,14 @@ public class ResourceEnvironmentPrivacyItemProvider extends ResourceEnvironmentI
 	}
 
 	/**
-	 * This returns ResourceEnvironmentPrivacy.gif.
+	 * This returns ResourceContainerPrivacy.gif.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
 	@Override
 	public Object getImage(Object object) {
-		return overlayImage(object, getResourceLocator().getImage("full/obj16/ResourceEnvironmentPrivacy"));
+		return overlayImage(object, getResourceLocator().getImage("full/obj16/ResourceContainerPrivacy"));
 	}
 
 	/**
@@ -95,10 +98,10 @@ public class ResourceEnvironmentPrivacyItemProvider extends ResourceEnvironmentI
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((ResourceEnvironmentPrivacy)object).getEntityName();
+		String label = ((ResourceContainerPrivacy)object).getId();
 		return label == null || label.length() == 0 ?
-			getString("_UI_ResourceEnvironmentPrivacy_type") :
-			getString("_UI_ResourceEnvironmentPrivacy_type") + " " + label;
+			getString("_UI_ResourceContainerPrivacy_type") :
+			getString("_UI_ResourceContainerPrivacy_type") + " " + label;
 	}
 	
 
@@ -113,8 +116,8 @@ public class ResourceEnvironmentPrivacyItemProvider extends ResourceEnvironmentI
 	public void notifyChanged(Notification notification) {
 		updateChildren(notification);
 
-		switch (notification.getFeatureID(ResourceEnvironmentPrivacy.class)) {
-			case ResourceenvironmentprivacyPackage.RESOURCE_ENVIRONMENT_PRIVACY__GEOLOCATION:
+		switch (notification.getFeatureID(ResourceContainerPrivacy.class)) {
+			case ResourceenvironmentprivacyPackage.RESOURCE_CONTAINER_PRIVACY__GEOLOCATION:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;
 		}
@@ -131,6 +134,11 @@ public class ResourceEnvironmentPrivacyItemProvider extends ResourceEnvironmentI
 	@Override
 	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
+
+		newChildDescriptors.add
+			(createChildParameter
+				(ResourceenvironmentPackage.Literals.RESOURCE_CONTAINER__NESTED_RESOURCE_CONTAINERS_RESOURCE_CONTAINER,
+				 ResourceenvironmentprivacyFactory.eINSTANCE.createResourceContainerPrivacy()));
 	}
 
 	/**

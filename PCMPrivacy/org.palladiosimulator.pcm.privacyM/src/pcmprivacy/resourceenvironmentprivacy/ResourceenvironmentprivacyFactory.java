@@ -22,13 +22,13 @@ public interface ResourceenvironmentprivacyFactory extends EFactory {
 	ResourceenvironmentprivacyFactory eINSTANCE = pcmprivacy.resourceenvironmentprivacy.impl.ResourceenvironmentprivacyFactoryImpl.init();
 
 	/**
-	 * Returns a new object of class '<em>Resource Environment Privacy</em>'.
+	 * Returns a new object of class '<em>Resource Container Privacy</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Resource Environment Privacy</em>'.
+	 * @return a new object of class '<em>Resource Container Privacy</em>'.
 	 * @generated
 	 */
-	ResourceEnvironmentPrivacy createResourceEnvironmentPrivacy();
+	ResourceContainerPrivacy createResourceContainerPrivacy();
 
 	/**
 	 * Returns the package supported by this factory.

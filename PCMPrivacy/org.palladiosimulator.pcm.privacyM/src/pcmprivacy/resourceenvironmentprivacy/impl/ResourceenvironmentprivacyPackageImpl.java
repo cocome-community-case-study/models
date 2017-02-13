@@ -16,7 +16,7 @@ import pcmprivacy.compositionprivacy.CompositionprivacyPackage;
 
 import pcmprivacy.compositionprivacy.impl.CompositionprivacyPackageImpl;
 
-import pcmprivacy.resourceenvironmentprivacy.ResourceEnvironmentPrivacy;
+import pcmprivacy.resourceenvironmentprivacy.ResourceContainerPrivacy;
 import pcmprivacy.resourceenvironmentprivacy.ResourceenvironmentprivacyFactory;
 import pcmprivacy.resourceenvironmentprivacy.ResourceenvironmentprivacyPackage;
 
@@ -32,7 +32,7 @@ public class ResourceenvironmentprivacyPackageImpl extends EPackageImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	private EClass resourceEnvironmentPrivacyEClass = null;
+	private EClass resourceContainerPrivacyEClass = null;
 
 	/**
 	 * Creates an instance of the model <b>Package</b>, registered with
@@ -108,8 +108,8 @@ public class ResourceenvironmentprivacyPackageImpl extends EPackageImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getResourceEnvironmentPrivacy() {
-		return resourceEnvironmentPrivacyEClass;
+	public EClass getResourceContainerPrivacy() {
+		return resourceContainerPrivacyEClass;
 	}
 
 	/**
@@ -117,8 +117,8 @@ public class ResourceenvironmentprivacyPackageImpl extends EPackageImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getResourceEnvironmentPrivacy_Geolocation() {
-		return (EAttribute)resourceEnvironmentPrivacyEClass.getEStructuralFeatures().get(0);
+	public EAttribute getResourceContainerPrivacy_Geolocation() {
+		return (EAttribute)resourceContainerPrivacyEClass.getEStructuralFeatures().get(0);
 	}
 
 	/**
@@ -149,8 +149,8 @@ public class ResourceenvironmentprivacyPackageImpl extends EPackageImpl implemen
 		isCreated = true;
 
 		// Create classes and their features
-		resourceEnvironmentPrivacyEClass = createEClass(RESOURCE_ENVIRONMENT_PRIVACY);
-		createEAttribute(resourceEnvironmentPrivacyEClass, RESOURCE_ENVIRONMENT_PRIVACY__GEOLOCATION);
+		resourceContainerPrivacyEClass = createEClass(RESOURCE_CONTAINER_PRIVACY);
+		createEAttribute(resourceContainerPrivacyEClass, RESOURCE_CONTAINER_PRIVACY__GEOLOCATION);
 	}
 
 	/**
@@ -184,11 +184,11 @@ public class ResourceenvironmentprivacyPackageImpl extends EPackageImpl implemen
 		// Set bounds for type parameters
 
 		// Add supertypes to classes
-		resourceEnvironmentPrivacyEClass.getESuperTypes().add(theResourceenvironmentPackage.getResourceEnvironment());
+		resourceContainerPrivacyEClass.getESuperTypes().add(theResourceenvironmentPackage.getResourceContainer());
 
 		// Initialize classes, features, and operations; add parameters
-		initEClass(resourceEnvironmentPrivacyEClass, ResourceEnvironmentPrivacy.class, "ResourceEnvironmentPrivacy", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-		initEAttribute(getResourceEnvironmentPrivacy_Geolocation(), ecorePackage.getEInt(), "Geolocation", "0", 0, -1, ResourceEnvironmentPrivacy.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, !IS_UNIQUE, !IS_DERIVED, !IS_ORDERED);
+		initEClass(resourceContainerPrivacyEClass, ResourceContainerPrivacy.class, "ResourceContainerPrivacy", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEAttribute(getResourceContainerPrivacy_Geolocation(), ecorePackage.getEInt(), "Geolocation", "0", 1, 1, ResourceContainerPrivacy.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, !IS_ORDERED);
 
 		// Create resource
 		createResource(eNS_URI);

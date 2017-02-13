@@ -6,24 +6,24 @@ import junit.framework.TestCase;
 
 import junit.textui.TestRunner;
 
-import pcmprivacy.resourceenvironmentprivacy.ResourceEnvironmentPrivacy;
+import pcmprivacy.resourceenvironmentprivacy.ResourceContainerPrivacy;
 import pcmprivacy.resourceenvironmentprivacy.ResourceenvironmentprivacyFactory;
 
 /**
  * <!-- begin-user-doc -->
- * A test case for the model object '<em><b>Resource Environment Privacy</b></em>'.
+ * A test case for the model object '<em><b>Resource Container Privacy</b></em>'.
  * <!-- end-user-doc -->
  * @generated
  */
-public class ResourceEnvironmentPrivacyTest extends TestCase {
+public class ResourceContainerPrivacyTest extends TestCase {
 
 	/**
-	 * The fixture for this Resource Environment Privacy test case.
+	 * The fixture for this Resource Container Privacy test case.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected ResourceEnvironmentPrivacy fixture = null;
+	protected ResourceContainerPrivacy fixture = null;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -31,36 +31,36 @@ public class ResourceEnvironmentPrivacyTest extends TestCase {
 	 * @generated
 	 */
 	public static void main(String[] args) {
-		TestRunner.run(ResourceEnvironmentPrivacyTest.class);
+		TestRunner.run(ResourceContainerPrivacyTest.class);
 	}
 
 	/**
-	 * Constructs a new Resource Environment Privacy test case with the given name.
+	 * Constructs a new Resource Container Privacy test case with the given name.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public ResourceEnvironmentPrivacyTest(String name) {
+	public ResourceContainerPrivacyTest(String name) {
 		super(name);
 	}
 
 	/**
-	 * Sets the fixture for this Resource Environment Privacy test case.
+	 * Sets the fixture for this Resource Container Privacy test case.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected void setFixture(ResourceEnvironmentPrivacy fixture) {
+	protected void setFixture(ResourceContainerPrivacy fixture) {
 		this.fixture = fixture;
 	}
 
 	/**
-	 * Returns the fixture for this Resource Environment Privacy test case.
+	 * Returns the fixture for this Resource Container Privacy test case.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected ResourceEnvironmentPrivacy getFixture() {
+	protected ResourceContainerPrivacy getFixture() {
 		return fixture;
 	}
 
@@ -72,7 +72,7 @@ public class ResourceEnvironmentPrivacyTest extends TestCase {
 	 */
 	@Override
 	protected void setUp() throws Exception {
-		setFixture(ResourceenvironmentprivacyFactory.eINSTANCE.createResourceEnvironmentPrivacy());
+		setFixture(ResourceenvironmentprivacyFactory.eINSTANCE.createResourceContainerPrivacy());
 	}
 
 	/**
@@ -86,4 +86,4 @@ public class ResourceEnvironmentPrivacyTest extends TestCase {
 		setFixture(null);
 	}
 
-} //ResourceEnvironmentPrivacyTest
+} //ResourceContainerPrivacyTest

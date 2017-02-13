@@ -7,13 +7,13 @@
     operationReflection="true" importOrganizing="true">
   <foreignModel>pcmprivacy.ecore</foreignModel>
   <genPackages prefix="Pcmprivacy" disposableProviderFactory="true" ecorePackage="pcmprivacy.ecore#/">
-    <nestedGenPackages prefix="Resourceenvironmentprivacy" disposableProviderFactory="true"
-        ecorePackage="pcmprivacy.ecore#//resourceenvironmentprivacy">
-      <genClasses ecoreClass="pcmprivacy.ecore#//resourceenvironmentprivacy/ResourceEnvironmentPrivacy">
-        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute pcmprivacy.ecore#//resourceenvironmentprivacy/ResourceEnvironmentPrivacy/Geolocation"/>
+    <nestedGenPackages prefix="Resourceenvironmentprivacy" basePackage="pcmprivacy"
+        disposableProviderFactory="true" ecorePackage="pcmprivacy.ecore#//resourceenvironmentprivacy">
+      <genClasses ecoreClass="pcmprivacy.ecore#//resourceenvironmentprivacy/ResourceContainerPrivacy">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute pcmprivacy.ecore#//resourceenvironmentprivacy/ResourceContainerPrivacy/Geolocation"/>
       </genClasses>
     </nestedGenPackages>
-    <nestedGenPackages prefix="Compositionprivacy" disposableProviderFactory="true"
+    <nestedGenPackages prefix="Compositionprivacy" basePackage="pcmprivacy" disposableProviderFactory="true"
         ecorePackage="pcmprivacy.ecore#//compositionprivacy">
       <genEnums typeSafeEnumCompatible="false" ecoreEnum="pcmprivacy.ecore#//compositionprivacy/DataPrivacyLvl">
         <genEnumLiterals ecoreEnumLiteral="pcmprivacy.ecore#//compositionprivacy/DataPrivacyLvl/Personal"/>

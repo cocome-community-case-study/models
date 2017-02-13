@@ -2,14 +2,17 @@
  */
 package pcmprivacy.resourceenvironmentprivacy.util;
 
+import de.uka.ipd.sdq.identifier.Identifier;
+
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EPackage;
 
 import org.eclipse.emf.ecore.util.Switch;
 
+import org.palladiosimulator.pcm.core.entity.Entity;
 import org.palladiosimulator.pcm.core.entity.NamedElement;
 
-import org.palladiosimulator.pcm.resourceenvironment.ResourceEnvironment;
+import org.palladiosimulator.pcm.resourceenvironment.ResourceContainer;
 
 import pcmprivacy.resourceenvironmentprivacy.*;
 
@@ -70,11 +73,13 @@ public class ResourceenvironmentprivacySwitch<T> extends Switch<T> {
 	@Override
 	protected T doSwitch(int classifierID, EObject theEObject) {
 		switch (classifierID) {
-			case ResourceenvironmentprivacyPackage.RESOURCE_ENVIRONMENT_PRIVACY: {
-				ResourceEnvironmentPrivacy resourceEnvironmentPrivacy = (ResourceEnvironmentPrivacy)theEObject;
-				T result = caseResourceEnvironmentPrivacy(resourceEnvironmentPrivacy);
-				if (result == null) result = caseResourceEnvironment(resourceEnvironmentPrivacy);
-				if (result == null) result = caseNamedElement(resourceEnvironmentPrivacy);
+			case ResourceenvironmentprivacyPackage.RESOURCE_CONTAINER_PRIVACY: {
+				ResourceContainerPrivacy resourceContainerPrivacy = (ResourceContainerPrivacy)theEObject;
+				T result = caseResourceContainerPrivacy(resourceContainerPrivacy);
+				if (result == null) result = caseResourceContainer(resourceContainerPrivacy);
+				if (result == null) result = caseEntity(resourceContainerPrivacy);
+				if (result == null) result = caseIdentifier(resourceContainerPrivacy);
+				if (result == null) result = caseNamedElement(resourceContainerPrivacy);
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
@@ -83,17 +88,32 @@ public class ResourceenvironmentprivacySwitch<T> extends Switch<T> {
 	}
 
 	/**
-	 * Returns the result of interpreting the object as an instance of '<em>Resource Environment Privacy</em>'.
+	 * Returns the result of interpreting the object as an instance of '<em>Resource Container Privacy</em>'.
 	 * <!-- begin-user-doc -->
 	 * This implementation returns null;
 	 * returning a non-null result will terminate the switch.
 	 * <!-- end-user-doc -->
 	 * @param object the target of the switch.
-	 * @return the result of interpreting the object as an instance of '<em>Resource Environment Privacy</em>'.
+	 * @return the result of interpreting the object as an instance of '<em>Resource Container Privacy</em>'.
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseResourceEnvironmentPrivacy(ResourceEnvironmentPrivacy object) {
+	public T caseResourceContainerPrivacy(ResourceContainerPrivacy object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Identifier</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Identifier</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseIdentifier(Identifier object) {
 		return null;
 	}
 
@@ -113,17 +133,32 @@ public class ResourceenvironmentprivacySwitch<T> extends Switch<T> {
 	}
 
 	/**
-	 * Returns the result of interpreting the object as an instance of '<em>Resource Environment</em>'.
+	 * Returns the result of interpreting the object as an instance of '<em>Entity</em>'.
 	 * <!-- begin-user-doc -->
 	 * This implementation returns null;
 	 * returning a non-null result will terminate the switch.
 	 * <!-- end-user-doc -->
 	 * @param object the target of the switch.
-	 * @return the result of interpreting the object as an instance of '<em>Resource Environment</em>'.
+	 * @return the result of interpreting the object as an instance of '<em>Entity</em>'.
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseResourceEnvironment(ResourceEnvironment object) {
+	public T caseEntity(Entity object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Resource Container</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Resource Container</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseResourceContainer(ResourceContainer object) {
 		return null;
 	}
 

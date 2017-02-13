@@ -56,7 +56,7 @@ public class ResourceenvironmentprivacyFactoryImpl extends EFactoryImpl implemen
 	@Override
 	public EObject create(EClass eClass) {
 		switch (eClass.getClassifierID()) {
-			case ResourceenvironmentprivacyPackage.RESOURCE_ENVIRONMENT_PRIVACY: return createResourceEnvironmentPrivacy();
+			case ResourceenvironmentprivacyPackage.RESOURCE_CONTAINER_PRIVACY: return createResourceContainerPrivacy();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
 		}
@@ -67,9 +67,9 @@ public class ResourceenvironmentprivacyFactoryImpl extends EFactoryImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public ResourceEnvironmentPrivacy createResourceEnvironmentPrivacy() {
-		ResourceEnvironmentPrivacyImpl resourceEnvironmentPrivacy = new ResourceEnvironmentPrivacyImpl();
-		return resourceEnvironmentPrivacy;
+	public ResourceContainerPrivacy createResourceContainerPrivacy() {
+		ResourceContainerPrivacyImpl resourceContainerPrivacy = new ResourceContainerPrivacyImpl();
+		return resourceContainerPrivacy;
 	}
 
 	/**
