@@ -4,7 +4,7 @@
     editorDirectory="/de.fzi.pcm.decision.security.editor/src-gen" modelPluginID="de.fzi.pcm.decision.security"
     modelName="Security" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
     testsDirectory="/de.fzi.pcm.decision.security.tests/src-gen" importerID="org.eclipse.emf.importer.ecore"
-    complianceLevel="8.0" copyrightFields="false" usedGenPackages="../../de.uka.ipd.sdq.identifier/model/identifier.genmodel#//identifier ../../org.palladiosimulator.pcm/model/pcm.genmodel#//pcm ../../de.uka.ipd.sdq.probfunction/model/ProbabilityFunction.genmodel#//probfunction ../../de.uka.ipd.sdq.stoex/model/stoex.genmodel#//stoex ../../de.uka.ipd.sdq.units/model/Units.genmodel#//units"
+    complianceLevel="8.0" copyrightFields="false" usedGenPackages="../../de.uka.ipd.sdq.identifier/model/identifier.genmodel#//identifier"
     importOrganizing="true">
   <foreignModel>security.ecore</foreignModel>
   <genPackages prefix="Security" disposableProviderFactory="true" ecorePackage="security.ecore#/">
@@ -62,39 +62,7 @@
             ecoreFeature="ecore:EReference security.ecore#//securityPrerequisites/Prerequisite/attacks"/>
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
             ecoreFeature="ecore:EReference security.ecore#//securityPrerequisites/Prerequisite/matches"/>
-        <genFeatures notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference security.ecore#//securityPrerequisites/Prerequisite/technology"/>
         <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//securityPrerequisites/Prerequisite/timeStamp"/>
-      </genClasses>
-      <genClasses ecoreClass="security.ecore#//securityPrerequisites/SecurityPrerequisite">
-        <genFeatures notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference security.ecore#//securityPrerequisites/SecurityPrerequisite/relates"/>
-      </genClasses>
-      <genClasses ecoreClass="security.ecore#//securityPrerequisites/ComponentPrerequisite">
-        <genFeatures notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference security.ecore#//securityPrerequisites/ComponentPrerequisite/relates"/>
-      </genClasses>
-      <genClasses ecoreClass="security.ecore#//securityPrerequisites/SystemPrerequisite">
-        <genFeatures notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference security.ecore#//securityPrerequisites/SystemPrerequisite/relates"/>
-      </genClasses>
-      <genClasses ecoreClass="security.ecore#//securityPrerequisites/ResourcePrerequisite">
-        <genFeatures notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference security.ecore#//securityPrerequisites/ResourcePrerequisite/relates"/>
-      </genClasses>
-      <genClasses ecoreClass="security.ecore#//securityPrerequisites/UsagePrerequisite">
-        <genFeatures notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference security.ecore#//securityPrerequisites/UsagePrerequisite/relates"/>
-      </genClasses>
-      <genClasses ecoreClass="security.ecore#//securityPrerequisites/BusinessPrerequisite"/>
-      <genClasses ecoreClass="security.ecore#//securityPrerequisites/ConfigurationPrerequisite"/>
-      <genClasses ecoreClass="security.ecore#//securityPrerequisites/AttackerPrerequisite">
-        <genFeatures notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference security.ecore#//securityPrerequisites/AttackerPrerequisite/relates"/>
-      </genClasses>
-      <genClasses ecoreClass="security.ecore#//securityPrerequisites/TechnologyPrerequisite">
-        <genFeatures notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference security.ecore#//securityPrerequisites/TechnologyPrerequisite/depends"/>
       </genClasses>
     </nestedGenPackages>
     <nestedGenPackages prefix="SecurityThreats" basePackage="security" disposableProviderFactory="true"

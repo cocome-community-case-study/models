@@ -68,8 +68,6 @@
           eType="#//securityThreats/Attack" eOpposite="#//securityThreats/Attack/prerequisites"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="matches" upperBound="-1"
           eType="#//securityPrerequisites/Prerequisite"/>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="technology" upperBound="-1"
-          eType="#//securityPrerequisites/TechnologyPrerequisite" eOpposite="#//securityPrerequisites/TechnologyPrerequisite/depends"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="timeStamp" lowerBound="1"
           eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
     </eClassifiers>
@@ -77,36 +75,6 @@
       <eLiterals name="VALID"/>
       <eLiterals name="INVALID" value="1"/>
       <eLiterals name="DEPRECATED" value="2"/>
-    </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="SecurityPrerequisite" eSuperTypes="#//securityPrerequisites/Prerequisite">
-      <eStructuralFeatures xsi:type="ecore:EReference" name="relates" lowerBound="1"
-          upperBound="-1" eType="#//securityPatterns/SecurityPattern"/>
-    </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="ComponentPrerequisite" eSuperTypes="#//securityPrerequisites/Prerequisite">
-      <eStructuralFeatures xsi:type="ecore:EReference" name="relates" lowerBound="1"
-          upperBound="-1" eType="ecore:EClass ../../org.palladiosimulator.pcm/model/pcm.ecore#//repository/BasicComponent"/>
-    </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="SystemPrerequisite" eSuperTypes="#//securityPrerequisites/Prerequisite">
-      <eStructuralFeatures xsi:type="ecore:EReference" name="relates" lowerBound="1"
-          upperBound="-1" eType="ecore:EClass ../../org.palladiosimulator.pcm/model/pcm.ecore#//system/System"/>
-    </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="ResourcePrerequisite" eSuperTypes="#//securityPrerequisites/Prerequisite">
-      <eStructuralFeatures xsi:type="ecore:EReference" name="relates" lowerBound="1"
-          upperBound="-1" eType="ecore:EClass ../../org.palladiosimulator.pcm/model/pcm.ecore#//resourceenvironment/ResourceContainer"/>
-    </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="UsagePrerequisite" eSuperTypes="#//securityPrerequisites/Prerequisite">
-      <eStructuralFeatures xsi:type="ecore:EReference" name="relates" lowerBound="1"
-          upperBound="-1" eType="ecore:EClass ../../org.palladiosimulator.pcm/model/pcm.ecore#//usagemodel/UsageScenario"/>
-    </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="BusinessPrerequisite" eSuperTypes="#//securityPrerequisites/Prerequisite"/>
-    <eClassifiers xsi:type="ecore:EClass" name="ConfigurationPrerequisite" eSuperTypes="#//securityPrerequisites/Prerequisite"/>
-    <eClassifiers xsi:type="ecore:EClass" name="AttackerPrerequisite" eSuperTypes="#//securityPrerequisites/Prerequisite">
-      <eStructuralFeatures xsi:type="ecore:EReference" name="relates" lowerBound="1"
-          upperBound="-1" eType="#//securityThreats/AttackerClass" eOpposite="#//securityThreats/AttackerClass/prerequisites"/>
-    </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="TechnologyPrerequisite" eSuperTypes="#//securityPrerequisites/Prerequisite">
-      <eStructuralFeatures xsi:type="ecore:EReference" name="depends" lowerBound="1"
-          upperBound="-1" eType="#//securityPrerequisites/Prerequisite" eOpposite="#//securityPrerequisites/Prerequisite/technology"/>
     </eClassifiers>
   </eSubpackages>
   <eSubpackages name="securityThreats" nsURI="http://www.fzi.de/pcm/security/securityThreats"
@@ -129,7 +97,7 @@
       <eStructuralFeatures xsi:type="ecore:EReference" name="attackCapabilities" lowerBound="1"
           upperBound="-1" eType="#//securityThreats/Attack" eOpposite="#//securityThreats/Attack/attacker"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="prerequisites" lowerBound="1"
-          upperBound="-1" eType="#//securityPrerequisites/AttackerPrerequisite" eOpposite="#//securityPrerequisites/AttackerPrerequisite/relates"/>
+          upperBound="-1" eType="#//securityPrerequisites/Prerequisite"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="activity" lowerBound="1"
           eType="#//securityThreats/enums/Activity"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="focus" lowerBound="1"

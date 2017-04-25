@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:de.fzi.decision.security.profile.pcm.threat="http://de.fzi.decision.security.profile.pcm.threat/0.1.0" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:security="http://www.fzi.de/pcm/security" xmlns:securityPatterns="http://www.fzi.de/pcm/security/securityPatterns" xmlns:securityPrerequisites="http://www.fzi.de/pcm/security/securityPrerequisites" xmlns:securityThreats="http://www.fzi.de/pcm/security/securityThreats">
+  <security:Container id="_H6-LMCmaEeeSu70OAq_aAQ">
+    <contains xsi:type="securityPrerequisites:PrerequisiteCatalog" id="_IanUkCmaEeeSu70OAq_aAQ">
+      <prerequisites id="_J73E4CmaEeeSu70OAq_aAQ"/>
+    </contains>
+    <contains xsi:type="securityPatterns:PatternCatalog" id="_JH54YCmaEeeSu70OAq_aAQ">
+      <securityPatterns id="_Lr-3UCmdEeeSu70OAq_aAQ"/>
+    </contains>
+    <contains xsi:type="securityThreats:ThreatCatalog" id="_JeNfkimaEeeSu70OAq_aAQ">
+      <attackers id="_MM8PUCmdEeeSu70OAq_aAQ"/>
+      <attackTypes id="_MoXAASmdEeeSu70OAq_aAQ"/>
+    </contains>
+  </security:Container>
+  <emfprofileapplication:ProfileApplication>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.threat:ResourceTarget" appliedTo="_MoXAASmdEeeSu70OAq_aAQ">
+      <extension href="../../../plugin/de.fzi.decision.security.profile.pcm.threat/profile.emfprofile_diagram#_wSlA0CjZEeej_OeKU9TMbQ"/>
+    </stereotypeApplications>
+    <importedProfiles nsURI="http://de.fzi.decision.security.profile.pcm.pattern/0.1.0" location="platform:/plugin/de.fzi.decision.security.profile.pcm.pattern/profile.emfprofile_diagram"/>
+    <importedProfiles nsURI="http://de.fzi.decision.security.profile.pcm.prerequisite/0.1.0" location="platform:/plugin/de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram"/>
+    <importedProfiles nsURI="http://de.fzi.decision.security.profile.pcm.threat/0.1.0" location="platform:/plugin/de.fzi.decision.security.profile.pcm.threat/profile.emfprofile_diagram"/>
+  </emfprofileapplication:ProfileApplication>
+</xmi:XMI>
