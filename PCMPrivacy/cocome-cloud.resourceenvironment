@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="ASCII"?>
 <resourceenvironment:ResourceEnvironment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.1" xmlns:resourceenvironmentprivacy="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.1/Privacy">
-  <resourceContainer_ResourceEnvironment xsi:type="resourceenvironmentprivacy:ResourceContainerPrivacy" id="_78qo4K2UEeaxN4gXuIkS2A" entityName="adapter-1" Geolocation="10">
+  <resourceContainer_ResourceEnvironment xsi:type="resourceenvironmentprivacy:ResourceContainerPrivacy" id="_78qo4K2UEeaxN4gXuIkS2A" entityName="adapter-1" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_Q-Z9UK2VEeaxN4gXuIkS2A">
       <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
       <processingRate_ProcessingResourceSpecification specification="1.0"/>
     </activeResourceSpecifications_ResourceContainer>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="resourceenvironmentprivacy:ResourceContainerPrivacy" id="_-5Q84K2UEeaxN4gXuIkS2A" entityName="enterprise-1" Geolocation="30">
+  <resourceContainer_ResourceEnvironment xsi:type="resourceenvironmentprivacy:ResourceContainerPrivacy" id="_-5Q84K2UEeaxN4gXuIkS2A" entityName="enterprise-1" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_TboNsK2VEeaxN4gXuIkS2A">
       <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
       <processingRate_ProcessingResourceSpecification specification="1.0"/>
     </activeResourceSpecifications_ResourceContainer>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="resourceenvironmentprivacy:ResourceContainerPrivacy" id="_BgmykK2VEeaxN4gXuIkS2A" entityName="store-1" Geolocation="30">
+  <resourceContainer_ResourceEnvironment xsi:type="resourceenvironmentprivacy:ResourceContainerPrivacy" id="_BgmykK2VEeaxN4gXuIkS2A" entityName="store-1" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_U0oA8K2VEeaxN4gXuIkS2A">
       <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
       <processingRate_ProcessingResourceSpecification specification="1.0"/>
     </activeResourceSpecifications_ResourceContainer>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="resourceenvironmentprivacy:ResourceContainerPrivacy" id="_FM6FMK2VEeaxN4gXuIkS2A" entityName="server" Geolocation="40">
-    <activeResourceSpecifications_ResourceContainer id="_WV4YUK2VEeaxN4gXuIkS2A" numberOfReplicas="2">
+  <resourceContainer_ResourceEnvironment xsi:type="resourceenvironmentprivacy:ResourceContainerPrivacy" id="_FM6FMK2VEeaxN4gXuIkS2A" entityName="server" Geolocation="840">
+    <activeResourceSpecifications_ResourceContainer id="_WV4YUK2VEeaxN4gXuIkS2A">
       <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
       <processingRate_ProcessingResourceSpecification specification="1.0"/>
