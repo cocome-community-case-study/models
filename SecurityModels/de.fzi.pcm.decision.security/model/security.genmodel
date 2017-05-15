@@ -39,6 +39,13 @@
             ecoreFeature="ecore:EReference security.ecore#//securityPatterns/SecurityPattern/prerequisites"/>
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
             ecoreFeature="ecore:EReference security.ecore#//securityPatterns/SecurityPattern/subSecurityPatterns"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference security.ecore#//securityPatterns/SecurityPattern/roles"/>
+      </genClasses>
+      <genClasses ecoreClass="security.ecore#//securityPatterns/Role">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//securityPatterns/Role/name"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//securityPatterns/Role/description"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference security.ecore#//securityPatterns/Role/interactsWith"/>
       </genClasses>
     </nestedGenPackages>
     <nestedGenPackages prefix="SecurityPrerequisites" basePackage="security" disposableProviderFactory="true"
