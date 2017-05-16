@@ -39,7 +39,7 @@
       <eStructuralFeatures xsi:type="ecore:EReference" name="prerequisites" upperBound="-1"
           eType="#//securityPrerequisites/Prerequisite" eOpposite="#//securityPrerequisites/Prerequisite/securityPatterns"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="mitigatedAttackPrerequisites"
-          lowerBound="1" upperBound="-1"/>
+          lowerBound="1" upperBound="-1" eType="#//securityPrerequisites/Prerequisite"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="subSecurityPatterns"
           lowerBound="1" upperBound="-1" eType="#//securityPatterns/SecurityPattern"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="roles" lowerBound="1"
