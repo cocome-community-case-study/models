@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:de.fzi.decision.security.profile.pcm.pattern="http://de.fzi.decision.security.profile.pcm.pattern/0.1.0" xmlns:de.fzi.decision.security.profile.pcm.threat="http://de.fzi.decision.security.profile.pcm.threat/0.1.0" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:security="http://www.fzi.de/pcm/security" xmlns:securityPatterns="http://www.fzi.de/pcm/security/securityPatterns" xmlns:securityPrerequisites="http://www.fzi.de/pcm/security/securityPrerequisites" xmlns:securityThreats="http://www.fzi.de/pcm/security/securityThreats">
+  <security:Container id="_gLjkkCvnEeeBFJawWlgBXg">
+    <contains xsi:type="securityThreats:ThreatCatalog" id="_hLTxYivnEeeBFJawWlgBXg">
+      <attackers id="_pCMgMGFnEeaenr5P40YdvQ" name="ProfessionalHacker" description="A professional hacker who has a high level of security knowledge and is able to carry out sophisticated attacks." position="EXTERNAL" attackCapabilities="_yZTNgT1MEeaVk-W-mW-puA _DPedQj1JEeaC77dVaP0Eeg _XL2vUj1NEeaVk-W-mW-puA _zbUWEj1KEeaVk-W-mW-puA _gEjY5T1OEeaVk-W-mW-puA" stealth="STEALTHY"/>
+      <attackers id="_A2-kAGFoEeaenr5P40YdvQ" name="ScriptKiddie" description="A person with a low level of security knowledge who uses tools for his attacks which he or she does not understand." position="EXTERNAL" attackCapabilities="_yZTNgT1MEeaVk-W-mW-puA _DPedQj1JEeaC77dVaP0Eeg _zbUWEj1KEeaVk-W-mW-puA _XL2vUj1NEeaVk-W-mW-puA" focus="RANDOM" motivation="PERSONAL" timeConstraints="NONE" stealth="STEALTHY"/>
+      <attackers id="_ZiIPIGFoEeaenr5P40YdvQ" name="InternalAttacker" description="An attacker who is positioned inside the target system." focus="DIRECTED" stealth="STEALTHY"/>
+      <attackers id="_iPckkGFoEeaenr5P40YdvQ" name="Company" description="A whole company with a high level of financial resources and financially motivated goals." position="EXTERNAL" attackCapabilities="_yZTNgT1MEeaVk-W-mW-puA _DPedQj1JEeaC77dVaP0Eeg _XL2vUj1NEeaVk-W-mW-puA _zbUWEj1KEeaVk-W-mW-puA _gEjY5T1OEeaVk-W-mW-puA" focus="DIRECTED" motivation="FINANCIAL" timeConstraints="SOFT" stealth="STEALTHY"/>
+      <attackers id="_6mm8sGFoEeaenr5P40YdvQ" name="Government" description="The government in the form of an intelligence agency or police with nearly unlimited resources and information gathering as their main goal." position="EXTERNAL" attackCapabilities="_yZTNgT1MEeaVk-W-mW-puA _XL2vUj1NEeaVk-W-mW-puA _gEjY5T1OEeaVk-W-mW-puA" focus="DIRECTED" motivation="POLITICAL" timeConstraints="SOFT" stealth="STEALTHY"/>
+      <attackers id="_gzjY4GFpEeaenr5P40YdvQ" name="Terrorists" description="The main goal is to create damage at the target system." position="EXTERNAL" attackCapabilities="_yZTNgT1MEeaVk-W-mW-puA _DPedQj1JEeaC77dVaP0Eeg _XL2vUj1NEeaVk-W-mW-puA _zbUWEj1KEeaVk-W-mW-puA _gEjY5T1OEeaVk-W-mW-puA" motivation="POLITICAL"/>
+      <attackers id="_r5aTAGFpEeaenr5P40YdvQ" name="CuriousEmployee" description="Insider at the target system with the goal of simple information gathering." activity="PASSIVE" focus="DIRECTED" motivation="PERSONAL" timeConstraints="NONE" stealth="STEALTHY"/>
+      <attackers id="_4K5SwGFpEeaenr5P40YdvQ" name="CuriousUser" description="User of the target system with the goal of simple information gathering." position="EXTERNAL" focus="RANDOM" motivation="PERSONAL" timeConstraints="NONE" stealth="STEALTHY"/>
+      <attackers id="_CZhp8GFqEeaenr5P40YdvQ" name="OrdinaryEmployee" description="Insider at the target system who is mislead into executing malicious actions." intention="NONMALICIOUS" focus="DIRECTED" timeConstraints="NONE"/>
+      <attackers id="_R5xEsGFqEeaenr5P40YdvQ" name="OrdinaryUser" description="An ordinary user of the target system who is mislead into malicious actions." position="EXTERNAL" intention="NONMALICIOUS" attackCapabilities="_DPedQj1JEeaC77dVaP0Eeg _zbUWEj1KEeaVk-W-mW-puA" focus="DIRECTED" timeConstraints="NONE"/>
+      <attackTypes id="_DPedQj1JEeaC77dVaP0Eeg" name="HTTPFlooding" description="The attacker issues an enormous amount of HTTP requests to produce a denial of service at the web server (the exploitation of bugs does not play a role), often described simply as DDoS." timeStamp="2016-08-17T00:00:00.000+0200" attacker="_pCMgMGFnEeaenr5P40YdvQ _A2-kAGFoEeaenr5P40YdvQ _iPckkGFoEeaenr5P40YdvQ _gzjY4GFpEeaenr5P40YdvQ _R5xEsGFqEeaenr5P40YdvQ" prerequisites="_Myt4qD1KEeaVk-W-mW-puA _WZhQQj1JEeaC77dVaP0Eeg _g5Xd1z1KEeaVk-W-mW-puA" stealth="STEALTHY">
+        <securityViolations>AVAILABILITY</securityViolations>
+      </attackTypes>
+      <attackTypes id="_zbUWEj1KEeaVk-W-mW-puA" name="TCPSYNFlooding" description="The attacker opens lots of TCP connections with the server, but suppresses the final ACK of the handshake procedure, so that every connection stays half-open and uses resources of the server to finally produce a denial of service." timeStamp="2016-08-17T00:00:00.000+0200" attacker="_pCMgMGFnEeaenr5P40YdvQ _A2-kAGFoEeaenr5P40YdvQ _iPckkGFoEeaenr5P40YdvQ _gzjY4GFpEeaenr5P40YdvQ _R5xEsGFqEeaenr5P40YdvQ" prerequisites="_GBmUuD1LEeaVk-W-mW-puA _WZhQQj1JEeaC77dVaP0Eeg _g5Xd1z1KEeaVk-W-mW-puA" stealth="STEALTHY">
+        <securityViolations>AVAILABILITY</securityViolations>
+      </attackTypes>
+      <attackTypes id="_yZTNgT1MEeaVk-W-mW-puA" name="SQLInjection" description="The attacker injects malicious SQL code in parameters that are passed into SQL commands unchecked which leads to the execution of malicious SQL commands." timeStamp="2016-08-17T00:00:00.000+0200" attacker="_pCMgMGFnEeaenr5P40YdvQ _A2-kAGFoEeaenr5P40YdvQ _iPckkGFoEeaenr5P40YdvQ _6mm8sGFoEeaenr5P40YdvQ _gzjY4GFpEeaenr5P40YdvQ" prerequisites="_K3GZKD1NEeaVk-W-mW-puA _BvpFYT1NEeaVk-W-mW-puA _WZhQQj1JEeaC77dVaP0Eeg" stealth="STEALTHY">
+        <securityViolations>CONFIDENTIALITY</securityViolations>
+        <securityViolations>INTEGRITY</securityViolations>
+        <securityViolations>NONREPUDIATION</securityViolations>
+      </attackTypes>
+      <attackTypes id="_XL2vUj1NEeaVk-W-mW-puA" name="PersistentCrossSiteScripting" description="The attacker passes malicious code to the system that is persisted (e.g. in the database), later the the system passes the malicious code to a user where it is executed in the browser." timeStamp="2016-08-17T00:00:00.000+0200" attacker="_pCMgMGFnEeaenr5P40YdvQ _iPckkGFoEeaenr5P40YdvQ _6mm8sGFoEeaenr5P40YdvQ _gzjY4GFpEeaenr5P40YdvQ _A2-kAGFoEeaenr5P40YdvQ" prerequisites="_M0bySGSOEeaBdfha1Hk-SA _WZhQQj1JEeaC77dVaP0Eeg" stealth="STEALTHY">
+        <securityViolations>CONFIDENTIALITY</securityViolations>
+        <securityViolations>INTEGRITY</securityViolations>
+        <securityViolations>AUTHENTICATION</securityViolations>
+      </attackTypes>
+      <attackTypes id="_gEjY5T1OEeaVk-W-mW-puA" name="CrossSiteRequestForgery" description="The attacker misleads a user of a web application who is logged in to open a link that contains a malicious command which is then executed with the rights of the user." timeStamp="2016-08-17T00:00:00.000+0200" attacker="_pCMgMGFnEeaenr5P40YdvQ _iPckkGFoEeaenr5P40YdvQ _6mm8sGFoEeaenr5P40YdvQ _gzjY4GFpEeaenr5P40YdvQ" prerequisites="_Myt4qD1KEeaVk-W-mW-puA _WZhQQj1JEeaC77dVaP0Eeg _w4tQsmfOEeat05QRYoj_vQ _uZh6Yj1OEeaVk-W-mW-puA" stealth="STEALTHY">
+        <securityViolations>AUTHENTICATION</securityViolations>
+      </attackTypes>
+      <attackTypes id="_NDr_kTsAEeeH5NLqZO_B_w" name="Floodingv2" prerequisites="_g5Xd1z1KEeaVk-W-mW-puA _Myt4qD1KEeaVk-W-mW-puA _WZhQQj1JEeaC77dVaP0Eeg _w4tQsmfOEeat05QRYoj_vQ"/>
+    </contains>
+    <contains xsi:type="securityPatterns:PatternCatalog" id="_gwSCQCvnEeeBFJawWlgBXg">
+      <securityPatterns id="_IVr20C60Eeee4Ma0GzGF8w" name="Authenticator" description="The authenticator veryfies the identity of the user. To do so It receives provided autentication information from the user, compares it with expected authentication information and, on equality, creates and returns a proof of identity to the user." stakeholder="">
+        <roles id="_6ntp8DEvEeejp9Ll7O-qTg" name="Authenticator" description="Component checking a clients claim of identity by comparing provided identifaction information with expected one. Hands out proof of identification in case of equality." requires="_435fEDPVEeedIemevWrvFg" usedBy="_XuOBEDPYEeedIemevWrvFg"/>
+        <roles id="_435fEDPVEeedIemevWrvFg" name="Authentication Information" description="Information required to establish the identity of users." usedBy="_6ntp8DEvEeejp9Ll7O-qTg"/>
+        <roles id="_XuOBEDPYEeedIemevWrvFg" name="Proof of Identity" description="Created by the authenticator, may be used to proof identy without repeated identification through authenticator." requires="_6ntp8DEvEeejp9Ll7O-qTg"/>
+      </securityPatterns>
+      <securityPatterns id="_K7yWYC60Eeee4Ma0GzGF8w" name="Role-Based Access Control" description="Role base access control allows giving allowing and denying access for groups of users. Users have the rights that are the union of the rights of the groups they belong to.">
+        <roles id="_p8ZRQDExEeejp9Ll7O-qTg" name="Protected Interface" description="Interface that may only be accessed by roles with corresponding rights." usedBy="_y5o5EDExEeejp9Ll7O-qTg"/>
+        <roles id="_y5o5EDExEeejp9Ll7O-qTg" name="Authorizator" description="Component looking up a users roles and that roles' rights and granting or denying access accordingly." requires="_p8ZRQDExEeejp9Ll7O-qTg _5P6eoDExEeejp9Ll7O-qTg _tGYhADExEeejp9Ll7O-qTg"/>
+        <roles id="_5P6eoDExEeejp9Ll7O-qTg" name="User Role Mapping" description="Information about which roles a user belongs to." usedBy="_y5o5EDExEeejp9Ll7O-qTg"/>
+        <roles id="_tGYhADExEeejp9Ll7O-qTg" name="Role Right Mapping" description="Definition of rights a role is given." usedBy="_y5o5EDExEeejp9Ll7O-qTg"/>
+      </securityPatterns>
+      <securityPatterns id="_OH2CsC60Eeee4Ma0GzGF8w" name="Packet Filter Firewall" description="A packet filter firewall allows the definition and enforcement of rules at IP level for allowing and denying ingoing and outgoing network trafic." mitigatedAttackPrerequisites="_WZhQQj1JEeaC77dVaP0Eeg _g5Xd1z1KEeaVk-W-mW-puA _Myt4qD1KEeaVk-W-mW-puA">
+        <roles id="_nnMFgDODEeedIemevWrvFg" name="Firewall" description="Firewall component checking ingoing and outgoing traffic against rule base and enforcing those rules." requires="_vM-2kDEwEeejp9Ll7O-qTg _MS0ZwDEwEeejp9Ll7O-qTg _APZrMDEwEeejp9Ll7O-qTg"/>
+        <roles id="_APZrMDEwEeejp9Ll7O-qTg" name="External Interface" description="Interface facing to the untrusted partition of the network." usedBy="_nnMFgDODEeedIemevWrvFg"/>
+        <roles id="_MS0ZwDEwEeejp9Ll7O-qTg" name="Internal Interface" description="Interface facing the trusted partition of the network." usedBy="_nnMFgDODEeedIemevWrvFg"/>
+        <roles id="_vM-2kDEwEeejp9Ll7O-qTg" name="Rule Base" description="Rule definitions at IP level for network access over the interfaces of the firewall." usedBy="_nnMFgDODEeedIemevWrvFg"/>
+      </securityPatterns>
+    </contains>
+    <contains xsi:type="securityPrerequisites:PrerequisiteCatalog" id="_heSXwSvnEeeBFJawWlgBXg">
+      <prerequisites id="_WZhQQj1JEeaC77dVaP0Eeg" name="WebApplication" description="The system is a web application." attacks="_DPedQj1JEeaC77dVaP0Eeg _zbUWEj1KEeaVk-W-mW-puA _yZTNgT1MEeaVk-W-mW-puA _XL2vUj1NEeaVk-W-mW-puA _gEjY5T1OEeaVk-W-mW-puA _NDr_kTsAEeeH5NLqZO_B_w" timeStamp="2016-08-17T00:00:00.000+0200"/>
+      <prerequisites id="_Myt4qD1KEeaVk-W-mW-puA" name="HTTPUsage" description="The system uses HTTP to fulfill its tasks as a web server." attacks="_DPedQj1JEeaC77dVaP0Eeg _gEjY5T1OEeaVk-W-mW-puA _NDr_kTsAEeeH5NLqZO_B_w" timeStamp="2016-08-17T00:00:00.000+0200"/>
+      <prerequisites id="_g5Xd1z1KEeaVk-W-mW-puA" name="BotNetAvailability" description="The attacker has a bot net under his control." attacks="_DPedQj1JEeaC77dVaP0Eeg _zbUWEj1KEeaVk-W-mW-puA _NDr_kTsAEeeH5NLqZO_B_w" timeStamp="2016-08-17T00:00:00.000+0200"/>
+      <prerequisites id="_GBmUuD1LEeaVk-W-mW-puA" name="TCPUsage" description="The system uses TCP as a transport protocol to enable the use of HTTP and fulfill its tasks as a web server." attacks="_zbUWEj1KEeaVk-W-mW-puA" timeStamp="2016-08-17T00:00:00.000+0200"/>
+      <prerequisites id="_BvpFYT1NEeaVk-W-mW-puA" name="Interpreter" description="The component is an interpreter that can execute code." attacks="_yZTNgT1MEeaVk-W-mW-puA" timeStamp="2016-08-17T00:00:00.000+0200"/>
+      <prerequisites id="_K3GZKD1NEeaVk-W-mW-puA" name="SQLDatabase" description="The database uses SQL for access." attacks="_yZTNgT1MEeaVk-W-mW-puA" timeStamp="2016-08-17T00:00:00.000+0200"/>
+      <prerequisites id="_M0bySGSOEeaBdfha1Hk-SA" name="HTMLWithScripting" description="HTML with scripting (e.g. JavaScript) is used." attacks="_XL2vUj1NEeaVk-W-mW-puA" timeStamp="2016-08-17T00:00:00.000+0200"/>
+      <prerequisites id="_uZh6Yj1OEeaVk-W-mW-puA" name="CarelessLinkOpening" description="The user carelessly clicks on unknown links." attacks="_gEjY5T1OEeaVk-W-mW-puA" timeStamp="2016-08-17T00:00:00.000+0200"/>
+      <prerequisites id="_w4tQsmfOEeat05QRYoj_vQ" name="LoginRequired" description="The user has to log in before using the system." attacks="_gEjY5T1OEeaVk-W-mW-puA _NDr_kTsAEeeH5NLqZO_B_w" timeStamp="2016-08-21T00:00:00.000+0200"/>
+    </contains>
+  </security:Container>
+  <emfprofileapplication:ProfileApplication>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.pattern:ComponentRole" appliedTo="_K7yWYC60Eeee4Ma0GzGF8w">
+      <extension href="../../../plugin/de.fzi.decision.security.profile.pcm.pattern/profile.emfprofile_diagram#_mqq98B6-EeeUrKcC5_85Xg"/>
+      <basicComponentRole href="../../cocomePcmModel/cocome.repository#_-3VggNCgEduC9O_qbthgAg"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.threat:SystemTarget" appliedTo="_DPedQj1JEeaC77dVaP0Eeg" name="">
+      <extension href="../../../plugin/de.fzi.decision.security.profile.pcm.threat/profile.emfprofile_diagram#_wSlA0CjZEeej_OeKU9TMbQ"/>
+      <system href="../../cocomePcmModel/cocome.system#_3Sgb8FcmEd23wcZsd06DZg"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.threat:UsageTarget" appliedTo="_zbUWEj1KEeaVk-W-mW-puA">
+      <extension href="../../../plugin/de.fzi.decision.security.profile.pcm.threat/profile.emfprofile_diagram#_wSlA0CjZEeej_OeKU9TMbQ"/>
+    </stereotypeApplications>
+    <importedProfiles nsURI="http://de.fzi.decision.security.profile.pcm.pattern/0.1.0" location="platform:/plugin/de.fzi.decision.security.profile.pcm.pattern/profile.emfprofile_diagram"/>
+    <importedProfiles nsURI="http://de.fzi.decision.security.profile.pcm.prerequisite/0.1.0" location="platform:/plugin/de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram"/>
+    <importedProfiles nsURI="http://de.fzi.decision.security.profile.pcm.threat/0.1.0" location="platform:/plugin/de.fzi.decision.security.profile.pcm.threat/profile.emfprofile_diagram"/>
+  </emfprofileapplication:ProfileApplication>
+</xmi:XMI>
