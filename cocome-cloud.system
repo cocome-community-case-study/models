@@ -18,6 +18,9 @@
   <assemblyContexts__ComposedStructure id="_1ac2wLF-EeaCwqxzEIieVA" entityName="Assembly_org.cocome.tradingsystem.external.Bank &lt;org.cocome.tradingsystem.external.Bank>">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_j8OAg9YgEeWrM-HnT5f_ug"/>
   </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_4r6qkEWGEeeqI7dNnUWMow" entityName="Assembly_PacketFilterFirewall &lt;PacketFilterFirewall>">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="cocome-cloud.repository#_16skUEV_EeeKFrBBYV799w"/>
+  </assemblyContexts__ComposedStructure>
   <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_39vS4LF-EeaCwqxzEIieVA" entityName="Connector Assembly_org.cocome.tradingsystem.cashdeskline &lt;org.cocome.tradingsystem.cashdeskline> -> Assembly_org.cocome.tradingsystem.external.Bank &lt;org.cocome.tradingsystem.external.Bank>" requiringAssemblyContext_AssemblyConnector="_C_Y34LF-EeaCwqxzEIieVA" providingAssemblyContext_AssemblyConnector="_1ac2wLF-EeaCwqxzEIieVA">
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_j8OnkdYgEeWrM-HnT5f_ug"/>
     <requiredRole_AssemblyConnector href="cocome-cloud.repository#_5SuawLF8EeaCwqxzEIieVA"/>
@@ -99,19 +102,19 @@
     <requiredRole_AssemblyConnector href="cocome-cloud.repository#_SabzMLDGEea4bqS8ZK-LhA"/>
   </connectors__ComposedStructure>
   <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_7_k7MLF_EeaCwqxzEIieVA" entityName="ProvDelegation Provided_IShowStockView -> Provided_IShowStockView" outerProvidedRole_ProvidedDelegationConnector="_4POPALF_EeaCwqxzEIieVA" assemblyContext_ProvidedDelegationConnector="_GY2HALF-EeaCwqxzEIieVA">
-    <innerProvidedRole_ProvidedDelegationConnector href="cocome-cloud.repository#_v-gIULC2Eea4bqS8ZK-LhA"/>
+    <innerProvidedRole_ProvidedDelegationConnector href="cocome-cloud.repository#_Msj9IEWBEeeKFrBBYV799w"/>
   </connectors__ComposedStructure>
   <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_9YvtkLF_EeaCwqxzEIieVA" entityName="ProvDelegation Provided_IstockOrderView -> Provided_IstockOrderView" outerProvidedRole_ProvidedDelegationConnector="_1LJaALF_EeaCwqxzEIieVA" assemblyContext_ProvidedDelegationConnector="_GY2HALF-EeaCwqxzEIieVA">
-    <innerProvidedRole_ProvidedDelegationConnector href="cocome-cloud.repository#_uJ4JALC2Eea4bqS8ZK-LhA"/>
+    <innerProvidedRole_ProvidedDelegationConnector href="cocome-cloud.repository#_K7yjEEWBEeeKFrBBYV799w"/>
   </connectors__ComposedStructure>
   <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_-FEoELF_EeaCwqxzEIieVA" entityName="ProvDelegation Provided_IReceiveOrderView -> Provided_IReceiveOrderView" outerProvidedRole_ProvidedDelegationConnector="_z7GHYLF_EeaCwqxzEIieVA" assemblyContext_ProvidedDelegationConnector="_GY2HALF-EeaCwqxzEIieVA">
-    <innerProvidedRole_ProvidedDelegationConnector href="cocome-cloud.repository#_rWXfkLC2Eea4bqS8ZK-LhA"/>
+    <innerProvidedRole_ProvidedDelegationConnector href="cocome-cloud.repository#_GUOiEEWBEeeKFrBBYV799w"/>
   </connectors__ComposedStructure>
   <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_-rrVELF_EeaCwqxzEIieVA" entityName="ProvDelegation Provided_ICashDeskView -> Provided_ICashDeskView" outerProvidedRole_ProvidedDelegationConnector="_yo-_QLF_EeaCwqxzEIieVA" assemblyContext_ProvidedDelegationConnector="_GY2HALF-EeaCwqxzEIieVA">
-    <innerProvidedRole_ProvidedDelegationConnector href="cocome-cloud.repository#_omnUwLC2Eea4bqS8ZK-LhA"/>
+    <innerProvidedRole_ProvidedDelegationConnector href="cocome-cloud.repository#_DP3ZMEWBEeeKFrBBYV799w"/>
   </connectors__ComposedStructure>
   <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="__ZbL4LF_EeaCwqxzEIieVA" entityName="ProvDelegation Provided_IShowReportView -> Provided_IShowReportView" outerProvidedRole_ProvidedDelegationConnector="_xKiEQLF_EeaCwqxzEIieVA" assemblyContext_ProvidedDelegationConnector="_GY2HALF-EeaCwqxzEIieVA">
-    <innerProvidedRole_ProvidedDelegationConnector href="cocome-cloud.repository#_gB13ULC2Eea4bqS8ZK-LhA"/>
+    <innerProvidedRole_ProvidedDelegationConnector href="cocome-cloud.repository#_95290EWAEeeKFrBBYV799w"/>
   </connectors__ComposedStructure>
   <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_OBawALGAEeaCwqxzEIieVA" entityName="Connector Assembly_org.cocome.cloud.webservice.inventory &lt;org.cocome.cloud.webservice.inventory> -> Assembly_org.cocome.tradingsystem.inventory &lt;org.cocome.tradingsystem.inventory>" requiringAssemblyContext_AssemblyConnector="_A6MF8LF-EeaCwqxzEIieVA" providingAssemblyContext_AssemblyConnector="_17KzoLF9EeaCwqxzEIieVA">
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_I4fuYLGAEeaCwqxzEIieVA"/>
@@ -160,6 +163,26 @@
   <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_6uATsLGBEeaCwqxzEIieVA" entityName="Connector Assembly_org.cocome.cloud.webservice.inventory &lt;org.cocome.cloud.webservice.inventory> -> Assembly_org.cocome.tradingsystem.inventory &lt;org.cocome.tradingsystem.inventory>" requiringAssemblyContext_AssemblyConnector="_A6MF8LF-EeaCwqxzEIieVA" providingAssemblyContext_AssemblyConnector="_17KzoLF9EeaCwqxzEIieVA">
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_u9hvQLGBEeaCwqxzEIieVA"/>
     <requiredRole_AssemblyConnector href="cocome-cloud.repository#_0T62ILDGEea4bqS8ZK-LhA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_criTkEWHEeeqI7dNnUWMow" entityName="Connector Assembly_PacketFilterFirewall &lt;PacketFilterFirewall> -> Assembly_org.cocome.cloud.web &lt;org.cocome.cloud.web>" requiringAssemblyContext_AssemblyConnector="_4r6qkEWGEeeqI7dNnUWMow" providingAssemblyContext_AssemblyConnector="_GY2HALF-EeaCwqxzEIieVA">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_rWXfkLC2Eea4bqS8ZK-LhA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_nyoLgEWBEeeKFrBBYV799w"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_e_O0gEWHEeeqI7dNnUWMow" entityName="Connector Assembly_PacketFilterFirewall &lt;PacketFilterFirewall> -> Assembly_org.cocome.cloud.web &lt;org.cocome.cloud.web>" requiringAssemblyContext_AssemblyConnector="_4r6qkEWGEeeqI7dNnUWMow" providingAssemblyContext_AssemblyConnector="_GY2HALF-EeaCwqxzEIieVA">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_v-gIULC2Eea4bqS8ZK-LhA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_sDqi4EWBEeeKFrBBYV799w"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_gipvEEWHEeeqI7dNnUWMow" entityName="Connector Assembly_PacketFilterFirewall &lt;PacketFilterFirewall> -> Assembly_org.cocome.cloud.web &lt;org.cocome.cloud.web>" requiringAssemblyContext_AssemblyConnector="_4r6qkEWGEeeqI7dNnUWMow" providingAssemblyContext_AssemblyConnector="_GY2HALF-EeaCwqxzEIieVA">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_omnUwLC2Eea4bqS8ZK-LhA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_i8TVwEWBEeeKFrBBYV799w"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_hXfFUEWHEeeqI7dNnUWMow" entityName="Connector Assembly_PacketFilterFirewall &lt;PacketFilterFirewall> -> Assembly_org.cocome.cloud.web &lt;org.cocome.cloud.web>" requiringAssemblyContext_AssemblyConnector="_4r6qkEWGEeeqI7dNnUWMow" providingAssemblyContext_AssemblyConnector="_GY2HALF-EeaCwqxzEIieVA">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_gB13ULC2Eea4bqS8ZK-LhA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_hmpKYEWBEeeKFrBBYV799w"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_h1DLEEWHEeeqI7dNnUWMow" entityName="Connector Assembly_PacketFilterFirewall &lt;PacketFilterFirewall> -> Assembly_org.cocome.cloud.web &lt;org.cocome.cloud.web>" requiringAssemblyContext_AssemblyConnector="_4r6qkEWGEeeqI7dNnUWMow" providingAssemblyContext_AssemblyConnector="_GY2HALF-EeaCwqxzEIieVA">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_uJ4JALC2Eea4bqS8ZK-LhA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_qEECoEWBEeeKFrBBYV799w"/>
   </connectors__ComposedStructure>
   <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_xKiEQLF_EeaCwqxzEIieVA" entityName="Provided_IShowReportView">
     <providedInterface__OperationProvidedRole href="cocome-cloud.repository#_Jg3FaGYSEeamEr6y5T9PEQ"/>
