@@ -22,11 +22,13 @@
   <emfprofileapplication:ProfileApplication>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.pattern:ComponentRole" appliedTo="_6ntp8DEvEeejp9Ll7O-qTg">
       <extension href="../../../plugin/de.fzi.decision.security.profile.pcm.pattern/profile.emfprofile_diagram#_gLgA0D7YEeed_q4Zmriy8w"/>
-      <componentRole href="../../models/cocome-cloud.repository#_Nq59uWSCEeaYxPjtCxykSQ"/>
-    </stereotypeApplications>
-    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.pattern:ComponentRole" appliedTo="_435fEDPVEeedIemevWrvFg">
-      <extension href="../../../plugin/de.fzi.decision.security.profile.pcm.pattern/profile.emfprofile_diagram#_gLgA0D7YEeed_q4Zmriy8w"/>
+      <componentRole href="../../models/cocome-cloud.repository#_iQEYEDSkEeal3vOMu7N_ww"/>
       <componentRole href="../../models/cocome-cloud.repository#_62NbiWR0EeaYxPjtCxykSQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.pattern:DataRole" appliedTo="_435fEDPVEeedIemevWrvFg">
+      <extension href="../../../plugin/de.fzi.decision.security.profile.pcm.pattern/profile.emfprofile_diagram#_jvpI8EVaEee2A4vpip5z0Q"/>
+      <dataRole xsi:type="repository:CompositeDataType" href="../../models/cocome-cloud.repository#_m8pEsV_BEea_gvFl-mCXRQ"/>
+      <dataRole xsi:type="repository:CompositeDataType" href="../../models/cocome-cloud.repository#_kXSy8tYgEeWrM-HnT5f_ug"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.pattern:DataRole" appliedTo="_XuOBEDPYEeedIemevWrvFg">
       <extension href="../../../plugin/de.fzi.decision.security.profile.pcm.pattern/profile.emfprofile_diagram#_jvpI8EVaEee2A4vpip5z0Q"/>
