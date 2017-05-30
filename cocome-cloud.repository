@@ -866,7 +866,8 @@
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_-ouLxUV8EeeKFrBBYV799w" entityName="Required_IRuleBase" requiredInterface__OperationRequiredRole="_lwa1gEV8EeeKFrBBYV799w"/>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_IV0_uUV8EeeKFrBBYV799w" entityName="RuleBase">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_WApw8UV8EeeKFrBBYV799w" entityName="IRuleBase" providedInterface__OperationProvidedRole="_lwa1gEV8EeeKFrBBYV799w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_WApw8UV8EeeKFrBBYV799w" entityName="IRuleBaseQuery" providedInterface__OperationProvidedRole="_lwa1gEV8EeeKFrBBYV799w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_uC3csUWQEeeqI7dNnUWMow" entityName="IRuleBaseModification" providedInterface__OperationProvidedRole="_iqvG2EWQEeeqI7dNnUWMow"/>
   </components__Repository>
   <components__Repository xsi:type="repository:CompositeComponent" id="_16skUEV_EeeKFrBBYV799w" entityName="PacketFilterFirewall">
     <assemblyContexts__ComposedStructure id="_-FusEEV_EeeKFrBBYV799w" entityName="Assembly_PacketFilter &lt;PacketFilter>" encapsulatedComponent__AssemblyContext="_7sc4UERSEeefet9i0SX6fA"/>
@@ -898,7 +899,10 @@
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_qEECoEWBEeeKFrBBYV799w" entityName="Required_IstockOrderView" requiredInterface__OperationRequiredRole="_ydLWIGYLEeamEr6y5T9PEQ"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_sDqi4EWBEeeKFrBBYV799w" entityName="Required_IShowStockView" requiredInterface__OperationRequiredRole="_zV_Y-GYBEeamEr6y5T9PEQ"/>
   </components__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_lwa1gEV8EeeKFrBBYV799w" entityName="IRuleBase">
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_lwa1gEV8EeeKFrBBYV799w" entityName="IQueryRuleBase">
+    <signatures__OperationInterface id="_Wj8UIEWQEeeqI7dNnUWMow" entityName="getRules" returnType__OperationSignature="_KS-43EWQEeeqI7dNnUWMow"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_iqvG2EWQEeeqI7dNnUWMow" entityName="IRuleBaseModification">
     <signatures__OperationInterface id="_rbYNIEV8EeeKFrBBYV799w" entityName="addRule">
       <parameters__OperationSignature dataType__Parameter="_VXwIfUV9EeeKFrBBYV799w" parameterName="rule"/>
     </signatures__OperationInterface>
@@ -3733,4 +3737,5 @@
     </innerDeclaration_CompositeDataType>
   </dataTypes__Repository>
   <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_VXwIfUV9EeeKFrBBYV799w" entityName="PacketFilterFirewallRule"/>
+  <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_KS-43EWQEeeqI7dNnUWMow" entityName="List_PacketFilterFirewallRule" innerType_CollectionDataType="_VXwIfUV9EeeKFrBBYV799w"/>
 </repository:Repository>
