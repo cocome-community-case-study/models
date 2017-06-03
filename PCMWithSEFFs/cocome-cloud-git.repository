@@ -84,6 +84,10 @@
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_wDKjOewkEeW_LdalkgkVnQ" entityName="org.cocome.tradingsystem.cashdeskline.cashdesk.Printer">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0effAewkEeW_LdalkgkVnQ" entityName="IPrinterModel" providedInterface__OperationProvidedRole="_j5pNoNYgEeWrM-HnT5f_ug"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_K6OekEh7EeeMOLPfsTcI_A" describedService__SEFF="_j5pNo9YgEeWrM-HnT5f_ug">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_LuBTAEh7EeeMOLPfsTcI_A" successor_AbstractAction="_LuBTAUh7EeeMOLPfsTcI_A"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_LuBTAUh7EeeMOLPfsTcI_A" predecessor_AbstractAction="_LuBTAEh7EeeMOLPfsTcI_A"/>
+    </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_j5qbxdYgEeWrM-HnT5f_ug" entityName="org.cocome.tradingsystem.cashdeskline.cashdesk.UserDisplayEventHandler">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:SinkRole" id="_OZL58Ot2EeWsnI9iaMkITA" entityName="handleRunningTotalChangedEventSaleSuccessEvent" eventGroup__SinkRole="_N2NYturGEeW7M_vBrFkmVw"/>
@@ -99,6 +103,10 @@
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_cje7mewdEeW_LdalkgkVnQ" entityName="org.cocome.tradingsystem.cashdeskline.cashdesk.UserDisplay">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ocslQewdEeW_LdalkgkVnQ" entityName="IUserDisplayModel" providedInterface__OperationProvidedRole="_j5rC0NYgEeWrM-HnT5f_ug"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="__x6_UEh4EeeMOLPfsTcI_A" describedService__SEFF="_j5s4ANYgEeWrM-HnT5f_ug">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_Ar6iYEh5EeeMOLPfsTcI_A" successor_AbstractAction="_Ar6iYUh5EeeMOLPfsTcI_A"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_Ar6iYUh5EeeMOLPfsTcI_A" predecessor_AbstractAction="_Ar6iYEh5EeeMOLPfsTcI_A"/>
+    </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_kAif1dYgEeWrM-HnT5f_ug" entityName="org.cocome.tradingsystem.inventory.data.Enterprise">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_B1fJYQ4TEeaNfMfZ20wdnQ" entityName="org.cocome.tradingsystem.inventory.data.enterprise.IEnterpriseQuery" providedInterface__OperationProvidedRole="_kAYu0NYgEeWrM-HnT5f_ug"/>
@@ -120,6 +128,11 @@
   <components__Repository xsi:type="repository:BasicComponent" id="_noNyUNY6EeW73vtlcwkhxw" entityName="org.cocome.cloud.logic.webservice.cashdeskline.cashdeskservice.printer">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Q0arUdbzEeWn1fcBwCRaXA" entityName="IPrinter" providedInterface__OperationProvidedRole="_G2Jyx9bwEeWn1fcBwCRaXA"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_jOuVdewmEeW_LdalkgkVnQ" entityName="IPrinterModel" requiredInterface__OperationRequiredRole="_j5pNoNYgEeWrM-HnT5f_ug"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="__f030Eh6EeeMOLPfsTcI_A" describedService__SEFF="_C4AFsNbxEeWn1fcBwCRaXA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_AFRHMEh7EeeMOLPfsTcI_A" successor_AbstractAction="_DKOF8Eh7EeeMOLPfsTcI_A"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_AFRHMUh7EeeMOLPfsTcI_A" predecessor_AbstractAction="_DKOF8Eh7EeeMOLPfsTcI_A"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_DKOF8Eh7EeeMOLPfsTcI_A" entityName="PrinterModel.getCurrentPrintout" predecessor_AbstractAction="_AFRHMEh7EeeMOLPfsTcI_A" successor_AbstractAction="_AFRHMUh7EeeMOLPfsTcI_A" calledService_ExternalService="_j5pNo9YgEeWrM-HnT5f_ug" role_ExternalService="_jOuVdewmEeW_LdalkgkVnQ"/>
+    </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_kBFSaNYgEeWrM-HnT5f_ug" entityName="org.cocome.tradingsystem.inventory.data.Persistence">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_kBPDYdYgEeWrM-HnT5f_ug" entityName="IPersistenceContext" providedInterface__OperationProvidedRole="_kAT2UdYgEeWrM-HnT5f_ug"/>
@@ -148,6 +161,11 @@
   <components__Repository xsi:type="repository:BasicComponent" id="_p-4uwNY6EeW73vtlcwkhxw" entityName="org.cocome.cloud.logic.webservice.cashdeskline.cashdeskservice.userdisplay">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_diUosdbwEeWn1fcBwCRaXA" entityName="IUserDisplay" providedInterface__OperationProvidedRole="_qFHNJ9brEeWn1fcBwCRaXA"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_4NROFdcAEeWn1fcBwCRaXA" entityName="IUserDisplayModel" requiredInterface__OperationRequiredRole="_j5rC0NYgEeWrM-HnT5f_ug"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_dmnMkEh4EeeMOLPfsTcI_A" describedService__SEFF="_g-B3YNbsEeWn1fcBwCRaXA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_fRFKUEh4EeeMOLPfsTcI_A" successor_AbstractAction="_kMi-wEh4EeeMOLPfsTcI_A"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_fRFKUUh4EeeMOLPfsTcI_A" predecessor_AbstractAction="_kMi-wEh4EeeMOLPfsTcI_A"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_kMi-wEh4EeeMOLPfsTcI_A" entityName="UserDisplayModel.getMessage" predecessor_AbstractAction="_fRFKUEh4EeeMOLPfsTcI_A" successor_AbstractAction="_fRFKUUh4EeeMOLPfsTcI_A" calledService_ExternalService="_j5s4ANYgEeWrM-HnT5f_ug" role_ExternalService="_4NROFdcAEeWn1fcBwCRaXA"/>
+    </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_kIFSQtYgEeWrM-HnT5f_ug" entityName="org.cocome.cloud.logic.webservice.cashdeskline.cashdeskservice.barcodescanner">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Yzm6Adb0EeWn1fcBwCRaXA" entityName="IBarcodeScanner" providedInterface__OperationProvidedRole="_iean59bzEeWn1fcBwCRaXA"/>
@@ -284,6 +302,16 @@
       <steps_Behaviour xsi:type="seff:StopAction" id="_CyG7ATcvEeeZDv7WA-Oq_Q" predecessor_AbstractAction="_JDOo4DcxEeeZDv7WA-Oq_Q"/>
       <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_JDOo4DcxEeeZDv7WA-Oq_Q" entityName="CashDesk.startSale" predecessor_AbstractAction="_CyG7ADcvEeeZDv7WA-Oq_Q" successor_AbstractAction="_CyG7ATcvEeeZDv7WA-Oq_Q" calledService_ExternalService="_21xUQBEXEeaZraF8j4MsOw" role_ExternalService="_NDLIJV_IEeavmo6nsNCw2Q"/>
     </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_fUO24Eh2EeeMOLPfsTcI_A" describedService__SEFF="_vIQQsF_AEeavmo6nsNCw2Q">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_gapFUEh2EeeMOLPfsTcI_A" successor_AbstractAction="_xSiPgEh2EeeMOLPfsTcI_A"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_gapFUUh2EeeMOLPfsTcI_A" predecessor_AbstractAction="_xSiPgEh2EeeMOLPfsTcI_A"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_xSiPgEh2EeeMOLPfsTcI_A" entityName="IUserDisplay.getMessage" predecessor_AbstractAction="_gapFUEh2EeeMOLPfsTcI_A" successor_AbstractAction="_gapFUUh2EeeMOLPfsTcI_A" calledService_ExternalService="_g-B3YNbsEeWn1fcBwCRaXA" role_ExternalService="_NDLIJV_IEeavmo6nsNCw2Q"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_xjhKcEh5EeeMOLPfsTcI_A" describedService__SEFF="_xjVzEF_AEeavmo6nsNCw2Q">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_zkwpcEh5EeeMOLPfsTcI_A" successor_AbstractAction="_vvvDMEh6EeeMOLPfsTcI_A"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_zkwpcUh5EeeMOLPfsTcI_A" predecessor_AbstractAction="_vvvDMEh6EeeMOLPfsTcI_A"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_vvvDMEh6EeeMOLPfsTcI_A" entityName="IPrinter.getCurrentPrintout" predecessor_AbstractAction="_zkwpcEh5EeeMOLPfsTcI_A" successor_AbstractAction="_zkwpcUh5EeeMOLPfsTcI_A" calledService_ExternalService="_C4AFsNbxEeWn1fcBwCRaXA" role_ExternalService="_NDLIJV_IEeavmo6nsNCw2Q"/>
+    </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_y0NvkWCFEeazuKfW7hgDjA" entityName="org.cocome.cloud.web.connector.enterpriseconnector">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_E0NKQWCGEeazuKfW7hgDjA" entityName="org.cocome.cloud.web.connector.enterpriseconnector.IEnterpriseQuery" providedInterface__OperationProvidedRole="_m9L3QF_BEea_gvFl-mCXRQ"/>
@@ -303,6 +331,16 @@
       <steps_Behaviour xsi:type="seff:StartAction" id="_-kmOMDctEeeZDv7WA-Oq_Q" successor_AbstractAction="_Ci_9cDcuEeeZDv7WA-Oq_Q"/>
       <steps_Behaviour xsi:type="seff:StopAction" id="_-kmOMTctEeeZDv7WA-Oq_Q" predecessor_AbstractAction="_Ci_9cDcuEeeZDv7WA-Oq_Q"/>
       <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_Ci_9cDcuEeeZDv7WA-Oq_Q" entityName="CashDeskQuery.startSale" predecessor_AbstractAction="_-kmOMDctEeeZDv7WA-Oq_Q" successor_AbstractAction="_-kmOMTctEeeZDv7WA-Oq_Q" calledService_ExternalService="_nxKuYF_AEeavmo6nsNCw2Q" role_ExternalService="_wEQhlaZvEea90o6iaEaVPw"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_73vwIEh1EeeMOLPfsTcI_A" describedService__SEFF="_QNHAQKZjEea90o6iaEaVPw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_Am94UEh2EeeMOLPfsTcI_A" successor_AbstractAction="_P7fLQEh2EeeMOLPfsTcI_A"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_Am94UUh2EeeMOLPfsTcI_A" predecessor_AbstractAction="_P7fLQEh2EeeMOLPfsTcI_A"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_P7fLQEh2EeeMOLPfsTcI_A" entityName="CashDeskQuery.getDisplayMessage" predecessor_AbstractAction="_Am94UEh2EeeMOLPfsTcI_A" successor_AbstractAction="_Am94UUh2EeeMOLPfsTcI_A" calledService_ExternalService="_vIQQsF_AEeavmo6nsNCw2Q" role_ExternalService="_wEQhlaZvEea90o6iaEaVPw"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_WwzgcEh6EeeMOLPfsTcI_A" describedService__SEFF="_SyK-AKZjEea90o6iaEaVPw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_dG44wEh6EeeMOLPfsTcI_A" successor_AbstractAction="_gSfSEEh6EeeMOLPfsTcI_A"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_dG44wUh6EeeMOLPfsTcI_A" predecessor_AbstractAction="_gSfSEEh6EeeMOLPfsTcI_A"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_gSfSEEh6EeeMOLPfsTcI_A" entityName="CashDeskQuery.getPrinterOutput" predecessor_AbstractAction="_dG44wEh6EeeMOLPfsTcI_A" successor_AbstractAction="_dG44wUh6EeeMOLPfsTcI_A" calledService_ExternalService="_xjVzEF_AEeavmo6nsNCw2Q" role_ExternalService="_wEQhlaZvEea90o6iaEaVPw"/>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_iW_F2WRvEeaYxPjtCxykSQ" entityName="org.cocome.cloud.web.data.enterprisedata">
@@ -331,13 +369,19 @@
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_DugpNWSGEeaYxPjtCxykSQ" entityName="org.cocome.logic.webservice.cashdeskline.cashdeskservice.ICashDesk" requiredInterface__OperationRequiredRole="_8JvPEGRrEeaYxPjtCxykSQ"/>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YFZhMDcpEeeZDv7WA-Oq_Q" describedService__SEFF="_uz4TMGVSEead_5QKkcGuDg">
       <steps_Behaviour xsi:type="seff:StartAction" id="_aad7IDcpEeeZDv7WA-Oq_Q" successor_AbstractAction="_epQPwDcpEeeZDv7WA-Oq_Q"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_aad7ITcpEeeZDv7WA-Oq_Q" predecessor_AbstractAction="_i56XMDcqEeeZDv7WA-Oq_Q"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_aad7ITcpEeeZDv7WA-Oq_Q" predecessor_AbstractAction="_qqI0oEh1EeeMOLPfsTcI_A"/>
       <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_epQPwDcpEeeZDv7WA-Oq_Q" entityName="CashDeskViewData.getCashDeskName" predecessor_AbstractAction="_aad7IDcpEeeZDv7WA-Oq_Q" successor_AbstractAction="_q-gVMDcpEeeZDv7WA-Oq_Q" calledService_ExternalService="_BK1KUGRsEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
       <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_q-gVMDcpEeeZDv7WA-Oq_Q" entityName="StoreInformation.getActiveStore" predecessor_AbstractAction="_epQPwDcpEeeZDv7WA-Oq_Q" successor_AbstractAction="_CPJKIDcqEeeZDv7WA-Oq_Q" calledService_ExternalService="_vLls0GSHEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
       <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_CPJKIDcqEeeZDv7WA-Oq_Q" entityName="CashDeskDAO.startSale" predecessor_AbstractAction="_q-gVMDcpEeeZDv7WA-Oq_Q" successor_AbstractAction="_QBMkwDcqEeeZDv7WA-Oq_Q" calledService_ExternalService="_K5a5EKZjEea90o6iaEaVPw" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
-      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_QBMkwDcqEeeZDv7WA-Oq_Q" entityName="CashDeskViewData.setBarcode" predecessor_AbstractAction="_CPJKIDcqEeeZDv7WA-Oq_Q" successor_AbstractAction="_ZtiHMDcqEeeZDv7WA-Oq_Q" calledService_ExternalService="_sM9-YGRtEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
-      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_ZtiHMDcqEeeZDv7WA-Oq_Q" entityName="CashDeskDAO.getPrinterOutput" predecessor_AbstractAction="_QBMkwDcqEeeZDv7WA-Oq_Q" successor_AbstractAction="_i56XMDcqEeeZDv7WA-Oq_Q" calledService_ExternalService="_SyK-AKZjEea90o6iaEaVPw" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
-      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_i56XMDcqEeeZDv7WA-Oq_Q" entityName="CashDeskDAO.getDisplayMessage" predecessor_AbstractAction="_ZtiHMDcqEeeZDv7WA-Oq_Q" successor_AbstractAction="_aad7ITcpEeeZDv7WA-Oq_Q" calledService_ExternalService="_QNHAQKZjEea90o6iaEaVPw" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_QBMkwDcqEeeZDv7WA-Oq_Q" entityName="CashDeskViewData.setBarcode" predecessor_AbstractAction="_CPJKIDcqEeeZDv7WA-Oq_Q" successor_AbstractAction="_Du16IEh0EeeMOLPfsTcI_A" calledService_ExternalService="_sM9-YGRtEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_ZtiHMDcqEeeZDv7WA-Oq_Q" entityName="CashDeskDAO.getPrinterOutput" predecessor_AbstractAction="_eirTkEh1EeeMOLPfsTcI_A" successor_AbstractAction="_qqI0oEh1EeeMOLPfsTcI_A" calledService_ExternalService="_SyK-AKZjEea90o6iaEaVPw" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_i56XMDcqEeeZDv7WA-Oq_Q" entityName="CashDeskDAO.getDisplayMessage" predecessor_AbstractAction="_zdFGYEh0EeeMOLPfsTcI_A" successor_AbstractAction="_LDSisEh1EeeMOLPfsTcI_A" calledService_ExternalService="_QNHAQKZjEea90o6iaEaVPw" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_Du16IEh0EeeMOLPfsTcI_A" entityName="CashDeskViewData.getCashDeskName" predecessor_AbstractAction="_QBMkwDcqEeeZDv7WA-Oq_Q" successor_AbstractAction="_zdFGYEh0EeeMOLPfsTcI_A" calledService_ExternalService="_BK1KUGRsEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_zdFGYEh0EeeMOLPfsTcI_A" entityName="StoreInformation.getActiveStoreId" predecessor_AbstractAction="_Du16IEh0EeeMOLPfsTcI_A" successor_AbstractAction="_i56XMDcqEeeZDv7WA-Oq_Q" calledService_ExternalService="_vLls0GSHEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_LDSisEh1EeeMOLPfsTcI_A" entityName="CashDeskViewData.setDisplayMessage" predecessor_AbstractAction="_i56XMDcqEeeZDv7WA-Oq_Q" successor_AbstractAction="_X1iGIEh1EeeMOLPfsTcI_A" calledService_ExternalService="_szFYoGRsEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_X1iGIEh1EeeMOLPfsTcI_A" entityName="CashDeskViewData.getCashDeskName" predecessor_AbstractAction="_LDSisEh1EeeMOLPfsTcI_A" successor_AbstractAction="_eirTkEh1EeeMOLPfsTcI_A" calledService_ExternalService="_BK1KUGRsEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_eirTkEh1EeeMOLPfsTcI_A" entityName="StoreInformation.getActiveStoreId" predecessor_AbstractAction="_X1iGIEh1EeeMOLPfsTcI_A" successor_AbstractAction="_ZtiHMDcqEeeZDv7WA-Oq_Q" calledService_ExternalService="_vLls0GSHEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_qqI0oEh1EeeMOLPfsTcI_A" entityName="CashDeskViewData.SetPrinterOutput" predecessor_AbstractAction="_ZtiHMDcqEeeZDv7WA-Oq_Q" successor_AbstractAction="_aad7ITcpEeeZDv7WA-Oq_Q" calledService_ExternalService="_X4aVgGRsEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_WslVaWSJEeaYxPjtCxykSQ" entityName="org.cocome.cloud.web.frontend.enterprise">
