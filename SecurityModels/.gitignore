@@ -3,3 +3,4 @@
 *.tests/
 **/bin/
 **/src-gen/
+/.project
