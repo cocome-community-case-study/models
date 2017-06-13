@@ -5026,46 +5026,88 @@
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_rvrU4DSeEeal3vOMu7N_ww" entityName="IInventory"/>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_8oRNJzSfEeal3vOMu7N_ww" entityName="IUserManager"/>
   <interfaces__Repository xsi:type="repository:EventGroup" id="_Te2kIE-kEeeOMbxr3TEZOQ" entityName="LoginEvent">
-    <eventTypes__EventGroup id="_WLsk4E-kEeeOMbxr3TEZOQ" entityName="LoginEvent"/>
+    <eventTypes__EventGroup id="_WLsk4E-kEeeOMbxr3TEZOQ" entityName="LoginEvent">
+      <parameter__EventType dataType__Parameter="_qTt7w2SDEeaYxPjtCxykSQ" parameterName="userRoleStoreID"/>
+    </eventTypes__EventGroup>
   </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:EventGroup" id="_9QIpwE-kEeeOMbxr3TEZOQ" entityName="LogoutEvent">
-    <eventTypes__EventGroup id="_AEJpgE-lEeeOMbxr3TEZOQ" entityName="LogoutEvent"/>
+    <eventTypes__EventGroup id="_AEJpgE-lEeeOMbxr3TEZOQ" entityName="LogoutEvent">
+      <parameter__EventType dataType__Parameter="_kXSy8tYgEeWrM-HnT5f_ug" parameterName="user"/>
+    </eventTypes__EventGroup>
   </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:EventGroup" id="_WnxAYE-lEeeOMbxr3TEZOQ" entityName="ChangeViewEvent">
-    <eventTypes__EventGroup id="_Y3sboE-lEeeOMbxr3TEZOQ" entityName="ChangeViewEvent"/>
+    <eventTypes__EventGroup id="_Y3sboE-lEeeOMbxr3TEZOQ" entityName="ChangeViewEvent">
+      <parameter__EventType dataType__Parameter="_m80D0F_BEea_gvFl-mCXRQ" parameterName="NavigationViewStates"/>
+    </eventTypes__EventGroup>
   </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:EventGroup" id="_rvt_oE-nEeeOMbxr3TEZOQ" entityName="CreditCardScannedEvent">
-    <eventTypes__EventGroup id="_vYcZ0E-nEeeOMbxr3TEZOQ" entityName="CreditCardScannedEvent"/>
+    <eventTypes__EventGroup id="_vYcZ0E-nEeeOMbxr3TEZOQ" entityName="CreditCardScannedEvent">
+      <parameter__EventType parameterName="creditCardInformation">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameter__EventType>
+    </eventTypes__EventGroup>
   </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:EventGroup" id="_yH5psE-nEeeOMbxr3TEZOQ" entityName="CreditCardPinEnteredEvent">
-    <eventTypes__EventGroup id="_1kaz4E-nEeeOMbxr3TEZOQ" entityName="CreditCardPinEnteredEvent"/>
+    <eventTypes__EventGroup id="_1kaz4E-nEeeOMbxr3TEZOQ" entityName="CreditCardPinEnteredEvent">
+      <parameter__EventType parameterName="__pin">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameter__EventType>
+    </eventTypes__EventGroup>
   </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:EventGroup" id="_3s6xcE-nEeeOMbxr3TEZOQ" entityName="RunningTotalChangedEventSaleSuccessEvent">
-    <eventTypes__EventGroup id="_9FpwsE-nEeeOMbxr3TEZOQ" entityName="RunningTotalChangedEvent"/>
+    <eventTypes__EventGroup id="_9FpwsE-nEeeOMbxr3TEZOQ" entityName="RunningTotalChangedEvent">
+      <parameter__EventType dataType__Parameter="_J3pLHun6EeW6PZF57gri4A" parameterName="RunningTotalChangedEventDataType"/>
+    </eventTypes__EventGroup>
     <eventTypes__EventGroup id="_r78HoE-wEeeOMbxr3TEZOQ" entityName="SaleSuccessEvent"/>
   </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:EventGroup" id="_B0Gc0E-oEeeOMbxr3TEZOQ" entityName="ChangeAmountCalculatedEvent">
-    <eventTypes__EventGroup id="_Fi7fAE-oEeeOMbxr3TEZOQ" entityName="ChangeAmountCalculatedEvent"/>
+    <eventTypes__EventGroup id="_Fi7fAE-oEeeOMbxr3TEZOQ" entityName="ChangeAmountCalculatedEvent">
+      <parameter__EventType parameterName="changeAmount">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.3"/>
+      </parameter__EventType>
+    </eventTypes__EventGroup>
   </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:EventGroup" id="_Hmc18E-oEeeOMbxr3TEZOQ" entityName="InvalidInputEvent">
-    <eventTypes__EventGroup id="_KRA-wE-oEeeOMbxr3TEZOQ" entityName="InsufficientCashAmountEvent"/>
-    <eventTypes__EventGroup id="_KbqIgE-oEeeOMbxr3TEZOQ" entityName="InvalidCreditCardEvent"/>
-    <eventTypes__EventGroup id="_KjeAsE-oEeeOMbxr3TEZOQ" entityName="InvalidProductBarcodeEvent"/>
-    <eventTypes__EventGroup id="_KrIH4E-oEeeOMbxr3TEZOQ" entityName="PaymentModeRejectedEvent"/>
+    <eventTypes__EventGroup id="_KRA-wE-oEeeOMbxr3TEZOQ" entityName="InsufficientCashAmountEvent">
+      <parameter__EventType dataType__Parameter="_rTCxjerDEeW7M_vBrFkmVw" parameterName="InsufficientCashAmountEventDataType"/>
+    </eventTypes__EventGroup>
+    <eventTypes__EventGroup id="_KbqIgE-oEeeOMbxr3TEZOQ" entityName="InvalidCreditCardEvent">
+      <parameter__EventType parameterName="cardInfo">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameter__EventType>
+    </eventTypes__EventGroup>
+    <eventTypes__EventGroup id="_KjeAsE-oEeeOMbxr3TEZOQ" entityName="InvalidProductBarcodeEvent">
+      <parameter__EventType dataType__Parameter="_jVQ-HUdGEeaL399ofOJboA" parameterName="invalidBarcode"/>
+    </eventTypes__EventGroup>
+    <eventTypes__EventGroup id="_KrIH4E-oEeeOMbxr3TEZOQ" entityName="PaymentModeRejectedEvent">
+      <parameter__EventType dataType__Parameter="_j2DuINYgEeWrM-HnT5f_ug" parameterName="PaymentModeRejectedEventDataType"/>
+    </eventTypes__EventGroup>
   </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:EventGroup" id="_SZ2uIE-oEeeOMbxr3TEZOQ" entityName="CashAmountEnteredEventSaleStartedEvent">
-    <eventTypes__EventGroup id="_VMl7gE-oEeeOMbxr3TEZOQ" entityName="CashAmountEnteredEvent"/>
+    <eventTypes__EventGroup id="_VMl7gE-oEeeOMbxr3TEZOQ" entityName="CashAmountEnteredEvent">
+      <parameter__EventType parameterName="amount">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.3"/>
+      </parameter__EventType>
+    </eventTypes__EventGroup>
     <eventTypes__EventGroup id="_xmz_wE-wEeeOMbxr3TEZOQ" entityName="SaleStartedEvent"/>
   </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:EventGroup" id="_aHyqME-oEeeOMbxr3TEZOQ" entityName="ExpressModeEnableEvent">
-    <eventTypes__EventGroup id="_eU8AEE-oEeeOMbxr3TEZOQ" entityName="ExpressModeEnableEvent"/>
+    <eventTypes__EventGroup id="_eU8AEE-oEeeOMbxr3TEZOQ" entityName="ExpressModeEnableEvent">
+      <parameter__EventType parameterName="cashdesk">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameter__EventType>
+    </eventTypes__EventGroup>
   </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:EventGroup" id="_geXKsE-oEeeOMbxr3TEZOQ" entityName="SaleFinishedEvent"/>
   <interfaces__Repository xsi:type="repository:EventGroup" id="_kQMdkE-oEeeOMbxr3TEZOQ" entityName="PaymentModeSelectedEvent">
-    <eventTypes__EventGroup id="_nmSPoE-oEeeOMbxr3TEZOQ" entityName="PaymentModeSelectedEvent"/>
+    <eventTypes__EventGroup id="_nmSPoE-oEeeOMbxr3TEZOQ" entityName="PaymentModeSelectedEvent">
+      <parameter__EventType dataType__Parameter="_j2DuINYgEeWrM-HnT5f_ug" parameterName="PaymentModeSelectedEventDataType"/>
+    </eventTypes__EventGroup>
   </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:EventGroup" id="_p8qRIE-oEeeOMbxr3TEZOQ" entityName="CashBoxNumPadKeypressEvent">
-    <eventTypes__EventGroup id="_rHBLcE-oEeeOMbxr3TEZOQ" entityName="CashBoxNumPadKeypressEvent"/>
+    <eventTypes__EventGroup id="_rHBLcE-oEeeOMbxr3TEZOQ" entityName="CashBoxNumPadKeypressEvent">
+      <parameter__EventType dataType__Parameter="_j17yUdYgEeWrM-HnT5f_ug" parameterName="keystroke"/>
+    </eventTypes__EventGroup>
   </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:EventGroup" id="_s1gGgE-oEeeOMbxr3TEZOQ" entityName="ExpressModeDisabledEvent">
     <eventTypes__EventGroup id="_vp5gwE-oEeeOMbxr3TEZOQ" entityName="ExpressModeDisabledEvent"/>
@@ -5074,13 +5116,19 @@
     <eventTypes__EventGroup id="_4tIb0E-oEeeOMbxr3TEZOQ" entityName="CashBoxClosedEvent"/>
   </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:EventGroup" id="_0-N6EE-oEeeOMbxr3TEZOQ" entityName="ProductBarcodeScannedEvent">
-    <eventTypes__EventGroup id="_2oV5kE-oEeeOMbxr3TEZOQ" entityName="ProductBarcodeScannedEvent"/>
+    <eventTypes__EventGroup id="_2oV5kE-oEeeOMbxr3TEZOQ" entityName="ProductBarcodeScannedEvent">
+      <parameter__EventType dataType__Parameter="_jVQ-HUdGEeaL399ofOJboA" parameterName="barcode"/>
+    </eventTypes__EventGroup>
   </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:EventGroup" id="_8Au6kE-oEeeOMbxr3TEZOQ" entityName="AccountSaleEvent">
-    <eventTypes__EventGroup id="_-gapEE-oEeeOMbxr3TEZOQ" entityName="AccountSaleEvent"/>
+    <eventTypes__EventGroup id="_-gapEE-oEeeOMbxr3TEZOQ" entityName="AccountSaleEvent">
+      <parameter__EventType dataType__Parameter="_kAOWxNYgEeWrM-HnT5f_ug" parameterName="AccountSaleEventDataType"/>
+    </eventTypes__EventGroup>
   </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:EventGroup" id="_EfPX8E-pEeeOMbxr3TEZOQ" entityName="SaleRegisteredEvent">
-    <eventTypes__EventGroup id="_HP3FcE-pEeeOMbxr3TEZOQ" entityName="SaleRegisteredEvent"/>
+    <eventTypes__EventGroup id="_HP3FcE-pEeeOMbxr3TEZOQ" entityName="SaleRegisteredEvent">
+      <parameter__EventType dataType__Parameter="_Di7XXutQEeWsnI9iaMkITA" parameterName="SaleRegisteredEventDataType"/>
+    </eventTypes__EventGroup>
   </interfaces__Repository>
   <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_m9E7bmUYEead_5QKkcGuDg" entityName="NavigationElement">
     <innerDeclaration_CompositeDataType entityName="NavOutcome">
