@@ -44,6 +44,7 @@
           lowerBound="1" upperBound="-1" eType="#//securityPatterns/SecurityPattern"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="roles" lowerBound="1"
           upperBound="-1" eType="#//securityPatterns/Role" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="implemented" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EEnum" name="Status">
       <eLiterals name="VALID"/>
@@ -86,8 +87,6 @@
           eType="#//securityPatterns/SecurityPattern" eOpposite="#//securityPatterns/SecurityPattern/prerequisites"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="attacks" upperBound="-1"
           eType="#//securityThreats/Attack" eOpposite="#//securityThreats/Attack/prerequisites"/>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="matches" upperBound="-1"
-          eType="#//securityPrerequisites/Prerequisite"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="timeStamp" lowerBound="1"
           eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
     </eClassifiers>
