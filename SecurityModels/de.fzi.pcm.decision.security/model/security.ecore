@@ -36,8 +36,7 @@
     <eClassifiers xsi:type="ecore:EClass" name="SecurityPattern" eSuperTypes="#//NamedDescribedEntity">
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="stakeholder" lowerBound="1"
           eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="status" lowerBound="1"
-          eType="#//securityPatterns/Status"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="valid" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="prerequisites" upperBound="-1"
           eType="#//securityPrerequisites/Prerequisite" eOpposite="#//securityPrerequisites/Prerequisite/securityPatterns"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="mitigatedThreatPrerequisites"
@@ -51,10 +50,6 @@
     <eClassifiers xsi:type="ecore:EClass" name="RoleWithRules" eSuperTypes="#//securityPatterns/Role">
       <eStructuralFeatures xsi:type="ecore:EReference" name="rules" lowerBound="1"
           upperBound="-1" eType="#//securityPatterns/Rule" containment="true"/>
-    </eClassifiers>
-    <eClassifiers xsi:type="ecore:EEnum" name="Status">
-      <eLiterals name="VALID"/>
-      <eLiterals name="INVALID" value="1"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Role" eSuperTypes="#//NamedDescribedEntity">
       <eStructuralFeatures xsi:type="ecore:EReference" name="requires" upperBound="-1"
