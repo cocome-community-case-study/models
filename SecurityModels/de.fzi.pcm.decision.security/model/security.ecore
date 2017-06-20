@@ -7,10 +7,7 @@
   <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
     <details value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
   </eAnnotations>
-  <eClassifiers xsi:type="ecore:EClass" name="Container" eSuperTypes="../../de.uka.ipd.sdq.identifier/model/identifier.ecore#//Identifier">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" lowerBound="1"
-        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Container" eSuperTypes="#//NamedDescribedEntity">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="timeStamp" lowerBound="1"
         eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="contains" upperBound="-1"
@@ -18,27 +15,25 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="references" upperBound="-1"
         eType="#//Catalog"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Catalog" abstract="true" eSuperTypes="../../de.uka.ipd.sdq.identifier/model/identifier.ecore#//Identifier">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" lowerBound="1"
-        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Catalog" abstract="true" eSuperTypes="#//NamedDescribedEntity">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="timeStamp" lowerBound="1"
         eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="createdBy" lowerBound="1"
         eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="NamedDescribedEntity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="NamedDescribedEntity" abstract="true"
+      interface="true" eSuperTypes="../../de.uka.ipd.sdq.identifier/model/identifier.ecore#//Identifier">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
   <eSubpackages name="securityPatterns" nsURI="http://www.fzi.de/pcm/security/securityPatterns"
       nsPrefix="securityPatterns">
     <eClassifiers xsi:type="ecore:EClass" name="PatternCatalog" eSuperTypes="#//Catalog">
       <eStructuralFeatures xsi:type="ecore:EReference" name="securityPatterns" upperBound="-1"
           eType="#//securityPatterns/SecurityPattern" containment="true"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="SecurityPattern" eSuperTypes="../../de.uka.ipd.sdq.identifier/model/identifier.ecore#//Identifier">
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
-          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" lowerBound="1"
-          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eClassifiers xsi:type="ecore:EClass" name="SecurityPattern" eSuperTypes="#//NamedDescribedEntity">
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="stakeholder" lowerBound="1"
           eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="status" lowerBound="1"
@@ -61,17 +56,13 @@
       <eLiterals name="VALID"/>
       <eLiterals name="INVALID" value="1"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="Role" eSuperTypes="../../de.uka.ipd.sdq.identifier/model/identifier.ecore#//Identifier">
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Role" eSuperTypes="#//NamedDescribedEntity">
       <eStructuralFeatures xsi:type="ecore:EReference" name="requires" upperBound="-1"
           eType="#//securityPatterns/Role" eOpposite="#//securityPatterns/Role/usedBy"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="usedBy" upperBound="-1"
           eType="#//securityPatterns/Role" eOpposite="#//securityPatterns/Role/requires"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="Rule" eSuperTypes="../../de.uka.ipd.sdq.identifier/model/identifier.ecore#//Identifier">
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Rule" eSuperTypes="#//NamedDescribedEntity">
       <eStructuralFeatures xsi:type="ecore:EReference" name="mitigatedThreatPrerequisites"
           lowerBound="1" upperBound="-1" eType="#//securityPrerequisites/Prerequisite"/>
     </eClassifiers>
@@ -82,11 +73,7 @@
       <eStructuralFeatures xsi:type="ecore:EReference" name="prerequisites" upperBound="-1"
           eType="#//securityPrerequisites/Prerequisite" containment="true"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="Prerequisite" eSuperTypes="../../de.uka.ipd.sdq.identifier/model/identifier.ecore#//Identifier">
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
-          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" lowerBound="1"
-          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Prerequisite" eSuperTypes="#//NamedDescribedEntity">
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="status" lowerBound="1"
           eType="#//securityPrerequisites/Status"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="statePositive" lowerBound="1"
@@ -117,11 +104,7 @@
       <eStructuralFeatures xsi:type="ecore:EReference" name="attackTypes" upperBound="-1"
           eType="#//securityThreats/Attack" containment="true"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="AttackerClass" eSuperTypes="../../de.uka.ipd.sdq.identifier/model/identifier.ecore#//Identifier">
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
-          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" lowerBound="1"
-          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eClassifiers xsi:type="ecore:EClass" name="AttackerClass" eSuperTypes="#//NamedDescribedEntity">
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="position" lowerBound="1"
           eType="#//securityThreats/enums/Position"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="intention" lowerBound="1"
@@ -141,11 +124,7 @@
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="stealth" lowerBound="1"
           eType="#//securityThreats/enums/Stealth"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="Attack" eSuperTypes="../../de.uka.ipd.sdq.identifier/model/identifier.ecore#//Identifier">
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
-          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" lowerBound="1"
-          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Attack" eSuperTypes="#//NamedDescribedEntity">
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="activity" lowerBound="1"
           eType="#//securityThreats/enums/Activity"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="timeStamp" lowerBound="1"
