@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="security" nsURI="http://www.fzi.de/pcm/security" nsPrefix="security">
-  <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
     <details key="documentation" value=""/>
   </eAnnotations>
-  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
-    <details value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
-  </eAnnotations>
+  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore"/>
   <eClassifiers xsi:type="ecore:EClass" name="Container" eSuperTypes="#//NamedDescribedEntity">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="timeStamp" lowerBound="1"
         eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="contains" upperBound="-1"
@@ -16,6 +15,10 @@
         eType="#//Catalog"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Catalog" abstract="true" eSuperTypes="#//NamedDescribedEntity">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+    <details key="documentation" value=""/>
+  </eAnnotations>
+  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="timeStamp" lowerBound="1"
         eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="createdBy" lowerBound="1"
@@ -23,17 +26,30 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="NamedDescribedEntity" abstract="true"
       interface="true" eSuperTypes="../../de.uka.ipd.sdq.identifier/model/identifier.ecore#//Identifier">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" lowerBound="1"
         eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eSubpackages name="securityPatterns" nsURI="http://www.fzi.de/pcm/security/securityPatterns"
       nsPrefix="securityPatterns">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+    <details key="documentation" value=""/>
+  </eAnnotations>
+  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore"/>
     <eClassifiers xsi:type="ecore:EClass" name="PatternCatalog" eSuperTypes="#//Catalog">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+    <details key="documentation" value=""/>
+  </eAnnotations>
+  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="securityPatterns" upperBound="-1"
           eType="#//securityPatterns/SecurityPattern" containment="true"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="SecurityPattern" eSuperTypes="#//NamedDescribedEntity">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+    <details key="documentation" value=""/>
+  </eAnnotations>
+  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="stakeholder" lowerBound="1"
           eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="valid" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
@@ -48,10 +64,18 @@
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="implemented" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="RoleWithRules" eSuperTypes="#//securityPatterns/Role">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+    <details key="documentation" value=""/>
+  </eAnnotations>
+  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="rules" lowerBound="1"
           upperBound="-1" eType="#//securityPatterns/Rule" containment="true"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Role" eSuperTypes="#//NamedDescribedEntity">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+    <details key="documentation" value=""/>
+  </eAnnotations>
+  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="requires" upperBound="-1"
           eType="#//securityPatterns/Role" eOpposite="#//securityPatterns/Role/usedBy"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="usedBy" upperBound="-1"
@@ -64,11 +88,23 @@
   </eSubpackages>
   <eSubpackages name="securityPrerequisites" nsURI="http://www.fzi.de/pcm/security/securityPrerequisites"
       nsPrefix="securityPrerequisites">
+            <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+    <details key="documentation" value=""/>
+  </eAnnotations>
+  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore"/>
     <eClassifiers xsi:type="ecore:EClass" name="PrerequisiteCatalog" eSuperTypes="#//Catalog">
+          <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+    <details key="documentation" value=""/>
+  </eAnnotations>
+  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="prerequisites" upperBound="-1"
           eType="#//securityPrerequisites/Prerequisite" containment="true"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Prerequisite" eSuperTypes="#//NamedDescribedEntity">
+          <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+    <details key="documentation" value=""/>
+  </eAnnotations>
+  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="status" lowerBound="1"
           eType="#//securityPrerequisites/Status"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="statePositive" lowerBound="1"
@@ -86,6 +122,10 @@
           eType="#//securityPrerequisites/Prerequisite" eOpposite="#//securityPrerequisites/Prerequisite/subPrerequisites"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EEnum" name="Status">
+          <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+    <details key="documentation" value=""/>
+  </eAnnotations>
+  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore"/>
       <eLiterals name="VALID"/>
       <eLiterals name="INVALID" value="1"/>
       <eLiterals name="DEPRECATED" value="2"/>
@@ -93,13 +133,25 @@
   </eSubpackages>
   <eSubpackages name="securityThreats" nsURI="http://www.fzi.de/pcm/security/securityThreats"
       nsPrefix="securityThreats">
+            <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+    <details key="documentation" value=""/>
+  </eAnnotations>
+  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore"/>
     <eClassifiers xsi:type="ecore:EClass" name="ThreatCatalog" eSuperTypes="#//Catalog">
+          <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+    <details key="documentation" value=""/>
+  </eAnnotations>
+  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="attackers" upperBound="-1"
           eType="#//securityThreats/AttackerClass" containment="true"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="attackTypes" upperBound="-1"
           eType="#//securityThreats/Attack" containment="true"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="AttackerClass" eSuperTypes="#//NamedDescribedEntity">
+          <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+    <details key="documentation" value=""/>
+  </eAnnotations>
+  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="position" lowerBound="1"
           eType="#//securityThreats/enums/Position"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="intention" lowerBound="1"
@@ -120,6 +172,10 @@
           eType="#//securityThreats/enums/Stealth"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Attack" eSuperTypes="#//NamedDescribedEntity">
+          <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+    <details key="documentation" value=""/>
+  </eAnnotations>
+  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="activity" lowerBound="1"
           eType="#//securityThreats/enums/Activity"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="timeStamp" lowerBound="1"
@@ -137,40 +193,76 @@
     </eClassifiers>
     <eSubpackages name="enums" nsURI="http://www.fzi.de/pcm/security/securityThreats/enums"
         nsPrefix="enums">
+              <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+    <details key="documentation" value=""/>
+  </eAnnotations>
+  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore"/>
       <eClassifiers xsi:type="ecore:EEnum" name="Activity">
+            <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+    <details key="documentation" value=""/>
+  </eAnnotations>
+  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore"/>
         <eLiterals name="ACTIVE"/>
         <eLiterals name="PASSIVE" value="1"/>
       </eClassifiers>
       <eClassifiers xsi:type="ecore:EEnum" name="Position">
+            <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+    <details key="documentation" value=""/>
+  </eAnnotations>
+  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore"/>
         <eLiterals name="INTERNAL" literal="INTERNAL"/>
         <eLiterals name="EXTERNAL" value="1"/>
       </eClassifiers>
       <eClassifiers xsi:type="ecore:EEnum" name="Intention">
+            <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+    <details key="documentation" value=""/>
+  </eAnnotations>
+  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore"/>
         <eLiterals name="MALICIOUS"/>
         <eLiterals name="NONMALICIOUS" value="1"/>
       </eClassifiers>
       <eClassifiers xsi:type="ecore:EEnum" name="Focus">
+            <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+    <details key="documentation" value=""/>
+  </eAnnotations>
+  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore"/>
         <eLiterals name="UNDEFINED"/>
         <eLiterals name="DIRECTED" value="1"/>
         <eLiterals name="RANDOM" value="2"/>
       </eClassifiers>
       <eClassifiers xsi:type="ecore:EEnum" name="Motivation">
+            <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+    <details key="documentation" value=""/>
+  </eAnnotations>
+  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore"/>
         <eLiterals name="UNDEFINED"/>
         <eLiterals name="PERSONAL" value="1"/>
         <eLiterals name="FINANCIAL" value="2"/>
         <eLiterals name="POLITICAL" value="3"/>
       </eClassifiers>
       <eClassifiers xsi:type="ecore:EEnum" name="TimeConstraints">
+            <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+    <details key="documentation" value=""/>
+  </eAnnotations>
+  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore"/>
         <eLiterals name="UNDEFINED"/>
         <eLiterals name="NONE" value="1"/>
         <eLiterals name="SOFT" value="2"/>
         <eLiterals name="HARD" value="3"/>
       </eClassifiers>
       <eClassifiers xsi:type="ecore:EEnum" name="Stealth">
+            <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+    <details key="documentation" value=""/>
+  </eAnnotations>
+  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore"/>
         <eLiterals name="NONSTEALTHY"/>
         <eLiterals name="STEALTHY" value="1"/>
       </eClassifiers>
       <eClassifiers xsi:type="ecore:EEnum" name="SecurityViolation">
+            <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+    <details key="documentation" value=""/>
+  </eAnnotations>
+  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore"/>
         <eLiterals name="UNDEFINED"/>
         <eLiterals name="CONFIDENTIALITY" value="1"/>
         <eLiterals name="INTEGRITY" value="2" literal="INTEGRITY"/>
