@@ -76,6 +76,15 @@
         <target xmi:type="ecore:EClass" href="http://www.fzi.de/pcm/security#//securityPatterns/Role"/>
       </extensions>
     </eClassifiers>
+    <eClassifiers xmi:type="emfprofile:Stereotype" xmi:id="_SeBtIFBQEeeGxJau36XqoA" name="RoleWithRules">
+      <eSuperTypes xmi:type="ecore:EClass" href="http://www.modelversioning.org/emfprofile/application/1.1#//StereotypeApplication"/>
+      <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_VcgQcFBQEeeGxJau36XqoA" name="activeRules" upperBound="-1" containment="true">
+        <eType xmi:type="ecore:EClass" href="http://www.fzi.de/pcm/security#//securityPatterns/Rule"/>
+      </eStructuralFeatures>
+      <extensions xmi:type="emfprofile:Extension" xmi:id="_UPLhsFBQEeeGxJau36XqoA">
+        <target xmi:type="ecore:EClass" href="http://www.fzi.de/pcm/security#//securityPatterns/RoleWithRules"/>
+      </extensions>
+    </eClassifiers>
   </emfprofile:Profile>
   <notation:Diagram xmi:id="_cWZn8RuAEeehI8BhT1UuNQ" type="EMFProfile" element="_cWZn8BuAEeehI8BhT1UuNQ" name="profile.emfprofile_diagram" measurementUnit="Pixel">
     <children xmi:type="notation:Node" xmi:id="_ZkZEQBuJEeeuQYoiy7iQJA" type="2006" element="_ZkVZ4BuJEeeuQYoiy7iQJA">
@@ -338,6 +347,52 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_cwygckVaEee2A4vpip5z0Q" fontName="Ubuntu"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cwygc0VaEee2A4vpip5z0Q" x="847" y="148"/>
     </children>
+    <children xmi:type="notation:Node" xmi:id="_Er6oIFBQEeeGxJau36XqoA" type="2002">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EsQmYFBQEeeGxJau36XqoA" source="Shortcut">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EsQmYVBQEeeGxJau36XqoA" key="modelID" value="EMFProfile"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_EsOxMFBQEeeGxJau36XqoA" type="5002"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_EsOxMVBQEeeGxJau36XqoA" type="7004">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_EsOxMlBQEeeGxJau36XqoA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_EsOxM1BQEeeGxJau36XqoA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_EsPYQFBQEeeGxJau36XqoA" type="7005">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_EsPYQVBQEeeGxJau36XqoA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_EsPYQlBQEeeGxJau36XqoA"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_Er6oIVBQEeeGxJau36XqoA"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Er6oIlBQEeeGxJau36XqoA" fontName="Ubuntu"/>
+      <element xmi:type="ecore:EClass" href="http://www.fzi.de/pcm/security#//securityPatterns/RoleWithRules"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Er6oI1BQEeeGxJau36XqoA" x="420" y="12"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_PIeGkFBQEeeGxJau36XqoA" type="2002">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PIf7wVBQEeeGxJau36XqoA" source="Shortcut">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PIf7wlBQEeeGxJau36XqoA" key="modelID" value="EMFProfile"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_PIfUsFBQEeeGxJau36XqoA" type="5002"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_PIfUsVBQEeeGxJau36XqoA" type="7004">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_PIfUslBQEeeGxJau36XqoA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_PIfUs1BQEeeGxJau36XqoA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_PIfUtFBQEeeGxJau36XqoA" type="7005">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_PIfUtVBQEeeGxJau36XqoA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_PIf7wFBQEeeGxJau36XqoA"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_PIetoFBQEeeGxJau36XqoA"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_PIetoVBQEeeGxJau36XqoA" fontName="Ubuntu"/>
+      <element xmi:type="ecore:EClass" href="http://www.fzi.de/pcm/security#//securityPatterns/Rule"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PIetolBQEeeGxJau36XqoA" x="456" y="252"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_SeFXgFBQEeeGxJau36XqoA" type="2006" element="_SeBtIFBQEeeGxJau36XqoA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_SeF-kFBQEeeGxJau36XqoA" type="5008"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_SeGloFBQEeeGxJau36XqoA" type="7008">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_SeGloVBQEeeGxJau36XqoA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_SeGlolBQEeeGxJau36XqoA"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_SeFXgVBQEeeGxJau36XqoA"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_SeFXglBQEeeGxJau36XqoA" fontName="Ubuntu"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SeFXg1BQEeeGxJau36XqoA" x="463" y="135"/>
+    </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_cWZn8huAEeehI8BhT1UuNQ"/>
     <edges xmi:type="notation:Edge" xmi:id="_XlyqYCA7EeeUrKcC5_85Xg" type="4003" element="_XlwOICA7EeeUrKcC5_85Xg" source="_bQsrUCA6EeeUrKcC5_85Xg" target="_SW-cICA7EeeUrKcC5_85Xg">
       <children xmi:type="notation:DecorationNode" xmi:id="_XlzRcCA7EeeUrKcC5_85Xg" type="6001">
@@ -515,6 +570,26 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_k4Q94UVaEee2A4vpip5z0Q"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_k4Q94kVaEee2A4vpip5z0Q" fontName="Ubuntu"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_k4Q940VaEee2A4vpip5z0Q" points="[7, 21, 9, -71]$[7, 72, 9, -20]"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_UPRBQFBQEeeGxJau36XqoA" type="4005" element="_UPLhsFBQEeeGxJau36XqoA" source="_SeFXgFBQEeeGxJau36XqoA" target="_Er6oIFBQEeeGxJau36XqoA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_UPRoUFBQEeeGxJau36XqoA" type="6004">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_UPRoUVBQEeeGxJau36XqoA" x="10" y="10"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_UPRBQVBQEeeGxJau36XqoA"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_UPRBQlBQEeeGxJau36XqoA" fontName="Ubuntu"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UPRBQ1BQEeeGxJau36XqoA" points="[-5, -6, 61, 103]$[-116, -110, -50, -1]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UPZkIFBQEeeGxJau36XqoA" id="(0.7352941176470589,0.16279069767441862)"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_VcozUFBQEeeGxJau36XqoA" type="4003" element="_VcgQcFBQEeeGxJau36XqoA" source="_SeFXgFBQEeeGxJau36XqoA" target="_PIeGkFBQEeeGxJau36XqoA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_VcpaYFBQEeeGxJau36XqoA" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VcpaYVBQEeeGxJau36XqoA" x="-10" y="-10"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_VcpaYlBQEeeGxJau36XqoA" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VcpaY1BQEeeGxJau36XqoA" x="10" y="10"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_VcozUVBQEeeGxJau36XqoA"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_VcozUlBQEeeGxJau36XqoA" fontName="Ubuntu"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VcozU1BQEeeGxJau36XqoA" points="[-16, 21, 27, -48]$[-46, 49, -3, -20]"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>

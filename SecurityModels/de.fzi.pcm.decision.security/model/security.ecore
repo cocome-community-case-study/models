@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="security" nsURI="http://www.fzi.de/pcm/security" nsPrefix="security">
+  <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+    <details key="documentation" value=""/>
+  </eAnnotations>
+  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+    <details value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+  </eAnnotations>
   <eClassifiers xsi:type="ecore:EClass" name="Container" eSuperTypes="../../de.uka.ipd.sdq.identifier/model/identifier.ecore#//Identifier">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" lowerBound="1"
@@ -21,6 +27,7 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="createdBy" lowerBound="1"
         eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NamedDescribedEntity"/>
   <eSubpackages name="securityPatterns" nsURI="http://www.fzi.de/pcm/security/securityPatterns"
       nsPrefix="securityPatterns">
     <eClassifiers xsi:type="ecore:EClass" name="PatternCatalog" eSuperTypes="#//Catalog">
@@ -38,13 +45,17 @@
           eType="#//securityPatterns/Status"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="prerequisites" upperBound="-1"
           eType="#//securityPrerequisites/Prerequisite" eOpposite="#//securityPrerequisites/Prerequisite/securityPatterns"/>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="mitigatedAttackPrerequisites"
+      <eStructuralFeatures xsi:type="ecore:EReference" name="mitigatedThreatPrerequisites"
           upperBound="-1" eType="#//securityPrerequisites/Prerequisite"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="subSecurityPatterns"
           lowerBound="1" upperBound="-1" eType="#//securityPatterns/SecurityPattern"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="roles" lowerBound="1"
           upperBound="-1" eType="#//securityPatterns/Role" containment="true"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="implemented" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="RoleWithRules" eSuperTypes="#//securityPatterns/Role">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="rules" lowerBound="1"
+          upperBound="-1" eType="#//securityPatterns/Rule" containment="true"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EEnum" name="Status">
       <eLiterals name="VALID"/>
@@ -57,14 +68,12 @@
           eType="#//securityPatterns/Role" eOpposite="#//securityPatterns/Role/usedBy"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="usedBy" upperBound="-1"
           eType="#//securityPatterns/Role" eOpposite="#//securityPatterns/Role/requires"/>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="rules" upperBound="-1"
-          eType="#//securityPatterns/Rule" containment="true"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Rule" eSuperTypes="../../de.uka.ipd.sdq.identifier/model/identifier.ecore#//Identifier">
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="mitigatedAttackPrerequisites"
-          upperBound="-1" eType="#//securityPrerequisites/Prerequisite"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="mitigatedThreatPrerequisites"
+          lowerBound="1" upperBound="-1" eType="#//securityPrerequisites/Prerequisite"/>
     </eClassifiers>
   </eSubpackages>
   <eSubpackages name="securityPrerequisites" nsURI="http://www.fzi.de/pcm/security/securityPrerequisites"
@@ -89,6 +98,10 @@
           eType="#//securityThreats/Attack" eOpposite="#//securityThreats/Attack/prerequisites"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="timeStamp" lowerBound="1"
           eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="subPrerequisites" upperBound="-1"
+          eType="#//securityPrerequisites/Prerequisite" eOpposite="#//securityPrerequisites/Prerequisite/requiredBy"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="requiredBy" upperBound="-1"
+          eType="#//securityPrerequisites/Prerequisite" eOpposite="#//securityPrerequisites/Prerequisite/subPrerequisites"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EEnum" name="Status">
       <eLiterals name="VALID"/>
