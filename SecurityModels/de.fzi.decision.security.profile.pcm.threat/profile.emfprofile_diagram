@@ -14,31 +14,31 @@
       <eSuperTypes xmi:type="emfprofile:Stereotype" href="#_s6HQMCjZEeej_OeKU9TMbQ"/>
       <eSuperTypes xmi:type="ecore:EClass" href="http://www.modelversioning.org/emfprofile/application/1.1#//StereotypeApplication"/>
       <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="__pdrQCjZEeej_OeKU9TMbQ" name="basicComponent" lowerBound="1" upperBound="-1">
-        <eType xmi:type="ecore:EClass" href="http://palladiosimulator.org/PalladioComponentModel/5.1#//repository/BasicComponent"/>
+        <eType xmi:type="ecore:EClass" href="http://palladiosimulator.org/PalladioComponentModel/5.2#//repository/BasicComponent"/>
       </eStructuralFeatures>
     </eClassifiers>
     <eClassifiers xmi:type="emfprofile:Stereotype" xmi:id="_zW5tcCjZEeej_OeKU9TMbQ" name="SystemTarget">
       <eSuperTypes xmi:type="emfprofile:Stereotype" href="#_s6HQMCjZEeej_OeKU9TMbQ"/>
       <eSuperTypes xmi:type="ecore:EClass" href="http://www.modelversioning.org/emfprofile/application/1.1#//StereotypeApplication"/>
       <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_HHuzoCjaEeej_OeKU9TMbQ" name="system" lowerBound="1" upperBound="-1">
-        <eType xmi:type="ecore:EClass" href="http://palladiosimulator.org/PalladioComponentModel/5.1#//system/System"/>
+        <eType xmi:type="ecore:EClass" href="http://palladiosimulator.org/PalladioComponentModel/5.2#//system/System"/>
       </eStructuralFeatures>
     </eClassifiers>
     <eClassifiers xmi:type="emfprofile:Stereotype" xmi:id="_0ZSXgCjZEeej_OeKU9TMbQ" name="ResourceTarget">
       <eSuperTypes xmi:type="emfprofile:Stereotype" href="#_s6HQMCjZEeej_OeKU9TMbQ"/>
       <eSuperTypes xmi:type="ecore:EClass" href="http://www.modelversioning.org/emfprofile/application/1.1#//StereotypeApplication"/>
       <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_i9e9ECjbEeej_OeKU9TMbQ" name="resourceContainer" upperBound="-1">
-        <eType xmi:type="ecore:EClass" href="http://palladiosimulator.org/PalladioComponentModel/5.1#//resourceenvironment/ResourceContainer"/>
+        <eType xmi:type="ecore:EClass" href="http://palladiosimulator.org/PalladioComponentModel/5.2#//resourceenvironment/ResourceContainer"/>
       </eStructuralFeatures>
       <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_p7G2gCjbEeej_OeKU9TMbQ" name="linkingResource" upperBound="-1">
-        <eType xmi:type="ecore:EClass" href="http://palladiosimulator.org/PalladioComponentModel/5.1#//resourceenvironment/LinkingResource"/>
+        <eType xmi:type="ecore:EClass" href="http://palladiosimulator.org/PalladioComponentModel/5.2#//resourceenvironment/LinkingResource"/>
       </eStructuralFeatures>
     </eClassifiers>
     <eClassifiers xmi:type="emfprofile:Stereotype" xmi:id="_3nMd8CjZEeej_OeKU9TMbQ" name="UsageTarget">
       <eSuperTypes xmi:type="emfprofile:Stereotype" href="#_s6HQMCjZEeej_OeKU9TMbQ"/>
       <eSuperTypes xmi:type="ecore:EClass" href="http://www.modelversioning.org/emfprofile/application/1.1#//StereotypeApplication"/>
       <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_x08gkCjbEeej_OeKU9TMbQ" name="usageScenario" lowerBound="1" upperBound="-1">
-        <eType xmi:type="ecore:EClass" href="http://palladiosimulator.org/PalladioComponentModel/5.1#//usagemodel/UsageScenario"/>
+        <eType xmi:type="ecore:EClass" href="http://palladiosimulator.org/PalladioComponentModel/5.2#//usagemodel/UsageScenario"/>
       </eStructuralFeatures>
     </eClassifiers>
   </emfprofile:Profile>
@@ -129,7 +129,7 @@
       </children>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_-u0A4SjZEeej_OeKU9TMbQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_-u0A4ijZEeej_OeKU9TMbQ" fontName="Segoe UI"/>
-      <element xmi:type="ecore:EClass" href="http://palladiosimulator.org/PalladioComponentModel/5.1#//repository/BasicComponent"/>
+      <element xmi:type="ecore:EClass" href="http://palladiosimulator.org/PalladioComponentModel/5.2#//repository/BasicComponent"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-u0A4yjZEeej_OeKU9TMbQ" x="72" y="504"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_DjWG4CjaEeej_OeKU9TMbQ" type="2002">
@@ -147,7 +147,7 @@
       </children>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_DjWG4SjaEeej_OeKU9TMbQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_DjWG4ijaEeej_OeKU9TMbQ" fontName="Segoe UI"/>
-      <element xmi:type="ecore:EClass" href="http://palladiosimulator.org/PalladioComponentModel/5.1#//system/System"/>
+      <element xmi:type="ecore:EClass" href="http://palladiosimulator.org/PalladioComponentModel/5.2#//system/System"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DjWG4yjaEeej_OeKU9TMbQ" x="276" y="492"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_hssqoCjbEeej_OeKU9TMbQ" type="2002">
@@ -165,7 +165,7 @@
       </children>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_hssqoSjbEeej_OeKU9TMbQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_hssqoijbEeej_OeKU9TMbQ" fontName="Segoe UI"/>
-      <element xmi:type="ecore:EClass" href="http://palladiosimulator.org/PalladioComponentModel/5.1#//resourceenvironment/ResourceContainer"/>
+      <element xmi:type="ecore:EClass" href="http://palladiosimulator.org/PalladioComponentModel/5.2#//resourceenvironment/ResourceContainer"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hssqoyjbEeej_OeKU9TMbQ" x="432" y="492"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_o5HOACjbEeej_OeKU9TMbQ" type="2002">
@@ -183,7 +183,7 @@
       </children>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_o5HOASjbEeej_OeKU9TMbQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_o5HOAijbEeej_OeKU9TMbQ" fontName="Segoe UI"/>
-      <element xmi:type="ecore:EClass" href="http://palladiosimulator.org/PalladioComponentModel/5.1#//resourceenvironment/LinkingResource"/>
+      <element xmi:type="ecore:EClass" href="http://palladiosimulator.org/PalladioComponentModel/5.2#//resourceenvironment/LinkingResource"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o5HOAyjbEeej_OeKU9TMbQ" x="600" y="492"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_xE48oCjbEeej_OeKU9TMbQ" type="2002">
@@ -201,7 +201,7 @@
       </children>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_xE48oSjbEeej_OeKU9TMbQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_xE48oijbEeej_OeKU9TMbQ" fontName="Segoe UI"/>
-      <element xmi:type="ecore:EClass" href="http://palladiosimulator.org/PalladioComponentModel/5.1#//usagemodel/UsageScenario"/>
+      <element xmi:type="ecore:EClass" href="http://palladiosimulator.org/PalladioComponentModel/5.2#//usagemodel/UsageScenario"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xE48oyjbEeej_OeKU9TMbQ" x="768" y="492"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_eOV_USjZEeej_OeKU9TMbQ"/>
