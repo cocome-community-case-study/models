@@ -3,8 +3,11 @@
   <emfprofile:Profile xmi:id="_cWZn8BuAEeehI8BhT1UuNQ" name="SecurePatternsPCM" nsURI="http://de.fzi.decision.security.profile.pcm.pattern/0.1.0" nsPrefix="de.fzi.decision.security.profile.pcm.pattern">
     <eClassifiers xmi:type="emfprofile:Stereotype" xmi:id="_ZkVZ4BuJEeeuQYoiy7iQJA" name="ComponentRole">
       <eSuperTypes xmi:type="ecore:EClass" href="http://www.modelversioning.org/emfprofile/application/1.1#//StereotypeApplication"/>
-      <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_fnrvsEVHEee-v_cvq5FiuQ" name="componentRole" lowerBound="1" upperBound="-1">
+      <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_fnrvsEVHEee-v_cvq5FiuQ" name="componentRole" upperBound="-1">
         <eType xmi:type="ecore:EClass" href="http://palladiosimulator.org/PalladioComponentModel/5.2#//repository/BasicComponent"/>
+      </eStructuralFeatures>
+      <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_7JN88FdtEeeuoKL7E5TtVw" name="compositeComponent" upperBound="-1">
+        <eType xmi:type="ecore:EClass" href="http://palladiosimulator.org/PalladioComponentModel/5.2#//repository/CompositeComponent"/>
       </eStructuralFeatures>
       <extensions xmi:type="emfprofile:Extension" xmi:id="_gLgA0D7YEeed_q4Zmriy8w">
         <target xmi:type="ecore:EClass" href="http://www.fzi.de/pcm/security#//securityPatterns/Role"/>
@@ -78,7 +81,7 @@
     </eClassifiers>
     <eClassifiers xmi:type="emfprofile:Stereotype" xmi:id="_SeBtIFBQEeeGxJau36XqoA" name="RoleWithRules">
       <eSuperTypes xmi:type="ecore:EClass" href="http://www.modelversioning.org/emfprofile/application/1.1#//StereotypeApplication"/>
-      <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_VcgQcFBQEeeGxJau36XqoA" name="activeRules" upperBound="-1" containment="true">
+      <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_VcgQcFBQEeeGxJau36XqoA" name="activeRules" lowerBound="1" upperBound="-1" containment="true">
         <eType xmi:type="ecore:EClass" href="http://www.fzi.de/pcm/security#//securityPatterns/Rule"/>
       </eStructuralFeatures>
       <extensions xmi:type="emfprofile:Extension" xmi:id="_UPLhsFBQEeeGxJau36XqoA">
@@ -317,7 +320,7 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_eGJrgUVHEee-v_cvq5FiuQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_eGJrgkVHEee-v_cvq5FiuQ" fontName="Ubuntu"/>
       <element xmi:type="ecore:EClass" href="http://palladiosimulator.org/PalladioComponentModel/5.2#//repository/BasicComponent"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eGJrg0VHEee-v_cvq5FiuQ" x="636" y="252"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eGJrg0VHEee-v_cvq5FiuQ" x="528" y="240"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_Nza-sEVZEee2A4vpip5z0Q" type="2002">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Nz1OYEVZEee2A4vpip5z0Q" source="Shortcut">
@@ -381,7 +384,7 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_PIetoFBQEeeGxJau36XqoA"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_PIetoVBQEeeGxJau36XqoA" fontName="Ubuntu"/>
       <element xmi:type="ecore:EClass" href="http://www.fzi.de/pcm/security#//securityPatterns/Rule"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PIetolBQEeeGxJau36XqoA" x="456" y="252"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PIetolBQEeeGxJau36XqoA" x="408" y="240"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_SeFXgFBQEeeGxJau36XqoA" type="2006" element="_SeBtIFBQEeeGxJau36XqoA">
       <children xmi:type="notation:DecorationNode" xmi:id="_SeF-kFBQEeeGxJau36XqoA" type="5008"/>
@@ -391,7 +394,25 @@
       </children>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_SeFXgVBQEeeGxJau36XqoA"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_SeFXglBQEeeGxJau36XqoA" fontName="Ubuntu"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SeFXg1BQEeeGxJau36XqoA" x="463" y="135"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SeFXg1BQEeeGxJau36XqoA" x="420" y="132"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_3ADIIFdtEeeuoKL7E5TtVw" type="2002">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3AGLcFdtEeeuoKL7E5TtVw" source="Shortcut">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3AGLcVdtEeeuoKL7E5TtVw" key="modelID" value="EMFProfile"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_3AFkYFdtEeeuoKL7E5TtVw" type="5002"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_3AFkYVdtEeeuoKL7E5TtVw" type="7004">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_3AFkYldtEeeuoKL7E5TtVw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_3AFkY1dtEeeuoKL7E5TtVw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_3AFkZFdtEeeuoKL7E5TtVw" type="7005">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_3AFkZVdtEeeuoKL7E5TtVw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_3AFkZldtEeeuoKL7E5TtVw"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_3ADIIVdtEeeuoKL7E5TtVw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_3ADIIldtEeeuoKL7E5TtVw" fontName="Ubuntu"/>
+      <element xmi:type="ecore:EClass" href="http://palladiosimulator.org/PalladioComponentModel/5.2#//repository/CompositeComponent"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3ADII1dtEeeuoKL7E5TtVw" x="672" y="240"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_cWZn8huAEeehI8BhT1UuNQ"/>
     <edges xmi:type="notation:Edge" xmi:id="_XlyqYCA7EeeUrKcC5_85Xg" type="4003" element="_XlwOICA7EeeUrKcC5_85Xg" source="_bQsrUCA6EeeUrKcC5_85Xg" target="_SW-cICA7EeeUrKcC5_85Xg">
@@ -590,6 +611,17 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_VcozUVBQEeeGxJau36XqoA"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_VcozUlBQEeeGxJau36XqoA" fontName="Ubuntu"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VcozU1BQEeeGxJau36XqoA" points="[-16, 21, 27, -48]$[-46, 49, -3, -20]"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_7JPLEFdtEeeuoKL7E5TtVw" type="4003" element="_7JN88FdtEeeuoKL7E5TtVw" source="_ZkZEQBuJEeeuQYoiy7iQJA" target="_3ADIIFdtEeeuoKL7E5TtVw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_7JPyIFdtEeeuoKL7E5TtVw" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7JPyIVdtEeeuoKL7E5TtVw" x="-10" y="-10"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_7JPyIldtEeeuoKL7E5TtVw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7JPyI1dtEeeuoKL7E5TtVw" x="10" y="10"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_7JPLEVdtEeeuoKL7E5TtVw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_7JPLEldtEeeuoKL7E5TtVw" fontName="Ubuntu"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7JPLE1dtEeeuoKL7E5TtVw" points="[11, 21, -27, -86]$[109, 104, 71, -3]"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>
