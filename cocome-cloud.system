@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.1" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.1" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.1" id="_yBTmILF9EeaCwqxzEIieVA" entityName="CoCoME-Cloud">
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_yBTmILF9EeaCwqxzEIieVA" entityName="CoCoME-Cloud">
   <assemblyContexts__ComposedStructure id="_17KzoLF9EeaCwqxzEIieVA" entityName="Assembly_org.cocome.tradingsystem.inventory &lt;org.cocome.tradingsystem.inventory>">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="cocome-cloud.repository#_nrE4ra_9Eeal2oK95oef3A"/>
   </assemblyContexts__ComposedStructure>
