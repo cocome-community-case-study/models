@@ -852,7 +852,7 @@
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ZvBT0LAFEeal2oK95oef3A" entityName="Required_IStoreQuery" requiredInterface__OperationRequiredRole="_m9TMAl_BEea_gvFl-mCXRQ"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_b5PIoLAFEeal2oK95oef3A" entityName="Required_IEnterpriseQuery" requiredInterface__OperationRequiredRole="_m9L3QF_BEea_gvFl-mCXRQ"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_7sc4UERSEeefet9i0SX6fA" entityName="PacketFilter">
+  <components__Repository xsi:type="repository:BasicComponent" id="_7sc4UERSEeefet9i0SX6fA" entityName="Proxy">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_uJ4JALC2Eea4bqS8ZK-LhA" entityName="Provided_IstockOrderView" providedInterface__OperationProvidedRole="_ydLWIGYLEeamEr6y5T9PEQ"/>
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gB13ULC2Eea4bqS8ZK-LhA" entityName="Provided_IShowReportView" providedInterface__OperationProvidedRole="_Jg3FaGYSEeamEr6y5T9PEQ"/>
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_omnUwLC2Eea4bqS8ZK-LhA" entityName="Provided_ICashDeskView" providedInterface__OperationProvidedRole="_iS-YcGVHEead_5QKkcGuDg"/>
@@ -869,7 +869,7 @@
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_WApw8UV8EeeKFrBBYV799w" entityName="IRuleBaseQuery" providedInterface__OperationProvidedRole="_lwa1gEV8EeeKFrBBYV799w"/>
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_uC3csUWQEeeqI7dNnUWMow" entityName="IRuleBaseModification" providedInterface__OperationProvidedRole="_iqvG2EWQEeeqI7dNnUWMow"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:CompositeComponent" id="_16skUEV_EeeKFrBBYV799w" entityName="PacketFilterFirewall">
+  <components__Repository xsi:type="repository:CompositeComponent" id="_16skUEV_EeeKFrBBYV799w" entityName="ProxyBaseFirewall">
     <assemblyContexts__ComposedStructure id="_-FusEEV_EeeKFrBBYV799w" entityName="Assembly_PacketFilter &lt;PacketFilter>" encapsulatedComponent__AssemblyContext="_7sc4UERSEeefet9i0SX6fA"/>
     <assemblyContexts__ComposedStructure id="_DRlF4EWAEeeKFrBBYV799w" entityName="Assembly_RuleBase &lt;RuleBase>" encapsulatedComponent__AssemblyContext="_IV0_uUV8EeeKFrBBYV799w"/>
     <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_7v_HQEWAEeeKFrBBYV799w" entityName="Connector Assembly_PacketFilter &lt;PacketFilter> -> Assembly_RuleBase &lt;RuleBase>" requiringAssemblyContext_AssemblyConnector="_-FusEEV_EeeKFrBBYV799w" providingAssemblyContext_AssemblyConnector="_DRlF4EWAEeeKFrBBYV799w" providedRole_AssemblyConnector="_WApw8UV8EeeKFrBBYV799w" requiredRole_AssemblyConnector="_-ouLxUV8EeeKFrBBYV799w"/>
