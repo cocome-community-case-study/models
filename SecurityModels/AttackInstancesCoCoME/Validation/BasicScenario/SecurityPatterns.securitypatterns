@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:securityPatterns="http://www.fzi.de/pcm/security/securityPatterns">
+  <securityPatterns:PatternCatalog id="_HzP4IC60Eeee4Ma0GzGF8w" name="Security Patterns" description="This catalog contains a selection of security patterns." createdBy="Christian Busch"/>
+  <emfprofileapplication:ProfileApplication>
+    <importedProfiles nsURI="http://de.fzi.decision.security.profile.pcm.pattern/0.1.0" location="platform:/plugin/de.fzi.decision.security.profile.pcm.pattern/profile.emfprofile_diagram"/>
+  </emfprofileapplication:ProfileApplication>
+</xmi:XMI>
