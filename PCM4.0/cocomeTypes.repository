@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.1" id="_09C7MNFcEducE6dFyopUlg" entityName="cocomeTypes">
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" id="_09C7MNFcEducE6dFyopUlg" entityName="cocomeTypes">
   <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_43Fu5tFcEducE6dFyopUlg" entityName="org.cocome.tradingsystem.inventory.data.enterprise.TradingEnterprise"/>
   <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_C72_dtFdEducE6dFyopUlg" entityName="org.cocome.tradingsystem.inventory.data.persistence.PersistenceContext"/>
   <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_HzcZdtFdEducE6dFyopUlg" entityName="org.cocome.tradingsystem.inventory.data.enterprise.ProductSupplier"/>
