@@ -56,20 +56,12 @@
       <eStructuralFeatures xsi:type="ecore:EReference" name="prerequisites" upperBound="-1"
           eType="#//securityPrerequisites/Prerequisite"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="mitigatedThreatPrerequisites"
-          upperBound="-1" eType="#//securityPrerequisites/Prerequisite"/>
+          lowerBound="1" upperBound="-1" eType="#//securityPrerequisites/Prerequisite"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="subSecurityPatterns"
           lowerBound="1" upperBound="-1" eType="#//securityPatterns/SecurityPattern"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="roles" lowerBound="1"
           upperBound="-1" eType="#//securityPatterns/Role" containment="true"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="implemented" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
-    </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="RoleWithRules" eSuperTypes="#//securityPatterns/Role">
-      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
-        <details key="documentation" value=""/>
-      </eAnnotations>
-      <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore"/>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="rules" lowerBound="1"
-          upperBound="-1" eType="#//securityPatterns/Rule" containment="true"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Role" eSuperTypes="#//NamedDescribedEntity">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
@@ -80,10 +72,6 @@
           eType="#//securityPatterns/Role" eOpposite="#//securityPatterns/Role/usedBy"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="usedBy" upperBound="-1"
           eType="#//securityPatterns/Role" eOpposite="#//securityPatterns/Role/requires"/>
-    </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="Rule" eSuperTypes="#//NamedDescribedEntity">
-      <eStructuralFeatures xsi:type="ecore:EReference" name="mitigatedThreatPrerequisites"
-          lowerBound="1" upperBound="-1" eType="#//securityPrerequisites/Prerequisite"/>
     </eClassifiers>
   </eSubpackages>
   <eSubpackages name="securityPrerequisites" nsURI="http://www.fzi.de/pcm/security/securityPrerequisites"

@@ -13,17 +13,17 @@
   </securityPrerequisites:PrerequisiteCatalog>
   <emfprofileapplication:ProfileApplication>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:SystemPrerequisite" appliedTo="_WZhQQj1JEeaC77dVaP0Eeg">
-      <extension href="../../../../plugin/de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
-      <system href="../../../models/cocome-cloud.system#_yBTmILF9EeaCwqxzEIieVA"/>
+      <extension href="../../../../../../plugin/de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+      <system href="../../../../../models/cocome-cloud.system#_yBTmILF9EeaCwqxzEIieVA"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_BvpFYT1NEeaVk-W-mW-puA">
-      <extension href="../../../../plugin/de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
-      <basicComponent href="../../../models/cocome-cloud.repository#_kBFSaNYgEeWrM-HnT5f_ug"/>
-      <basicComponent href="../../../models/cocome-cloud.repository#_llW0oNY4EeW73vtlcwkhxw"/>
+      <extension href="../../../../../../plugin/de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+      <basicComponent href="../../../../../models/cocome-cloud.repository#_kBFSaNYgEeWrM-HnT5f_ug"/>
+      <basicComponent href="../../../../../models/cocome-cloud.repository#_llW0oNY4EeW73vtlcwkhxw"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_w4tQsmfOEeat05QRYoj_vQ">
-      <extension href="../../../../plugin/de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
-      <basicComponent href="../../../models/cocome-cloud.repository#_oFfIwDSjEeal3vOMu7N_ww"/>
+      <extension href="../../../../../../plugin/de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+      <basicComponent href="../../../../../models/cocome-cloud.repository#_oFfIwDSjEeal3vOMu7N_ww"/>
     </stereotypeApplications>
     <importedProfiles nsURI="http://de.fzi.decision.security.profile.pcm.prerequisite/0.1.0" location="platform:/plugin/de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram"/>
   </emfprofileapplication:ProfileApplication>
