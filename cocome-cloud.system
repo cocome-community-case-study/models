@@ -18,7 +18,7 @@
   <assemblyContexts__ComposedStructure id="_1ac2wLF-EeaCwqxzEIieVA" entityName="Assembly_org.cocome.tradingsystem.external.Bank &lt;org.cocome.tradingsystem.external.Bank>">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_j8OAg9YgEeWrM-HnT5f_ug"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_4r6qkEWGEeeqI7dNnUWMow" entityName="Assembly_PacketFilterFirewall &lt;PacketFilterFirewall>">
+  <assemblyContexts__ComposedStructure id="_4r6qkEWGEeeqI7dNnUWMow" entityName="Assembly_ProxyBasedFirewall &lt;ProxyBasedFirewall>">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="cocome-cloud.repository#_16skUEV_EeeKFrBBYV799w"/>
   </assemblyContexts__ComposedStructure>
   <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_39vS4LF-EeaCwqxzEIieVA" entityName="Connector Assembly_org.cocome.tradingsystem.cashdeskline &lt;org.cocome.tradingsystem.cashdeskline> -> Assembly_org.cocome.tradingsystem.external.Bank &lt;org.cocome.tradingsystem.external.Bank>" requiringAssemblyContext_AssemblyConnector="_C_Y34LF-EeaCwqxzEIieVA" providingAssemblyContext_AssemblyConnector="_1ac2wLF-EeaCwqxzEIieVA">
