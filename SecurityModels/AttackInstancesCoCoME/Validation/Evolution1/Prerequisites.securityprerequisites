@@ -10,20 +10,23 @@
     <prerequisites id="_M0bySGSOEeaBdfha1Hk-SA" name="HTMLWithScripting" description="HTML with scripting (e.g. JavaScript) is used." timeStamp="2016-08-17T00:00:00.000+0200"/>
     <prerequisites id="_uZh6Yj1OEeaVk-W-mW-puA" name="CarelessLinkOpening" description="The user carelessly clicks on unknown links." timeStamp="2016-08-17T00:00:00.000+0200"/>
     <prerequisites id="_w4tQsmfOEeat05QRYoj_vQ" name="LoginRequired" description="The user has to log in before using the system." timeStamp="2016-08-21T00:00:00.000+0200"/>
+    <prerequisites id="_DvoQAGCsEeeRzNEobj9d0Q" name="ImproperWebPageInputNeutralization" description="Improper Neutralization of Input During Web Page Generation  (CWE-79)" timeStamp="2017-07-04T00:00:00.000+0200"/>
+    <prerequisites id="_VR0UYGCsEeeRzNEobj9d0Q" name="ImproperInputValidation" description="Improper Input Validation  (CWE-20)" timeStamp="2017-07-04T00:00:00.000+0200"/>
+    <prerequisites id="_nb44IGCsEeeRzNEobj9d0Q" name="UserInputPersistence" description="User-provided input is persisted."/>
   </securityPrerequisites:PrerequisiteCatalog>
   <emfprofileapplication:ProfileApplication>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:SystemPrerequisite" appliedTo="_WZhQQj1JEeaC77dVaP0Eeg">
       <extension href="../../../../../../plugin/de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
-      <system href="../../../../../models/cocome-cloud.system#_yBTmILF9EeaCwqxzEIieVA"/>
+      <system href="../../../../cocome-cloud.system#_yBTmILF9EeaCwqxzEIieVA"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_BvpFYT1NEeaVk-W-mW-puA">
       <extension href="../../../../../../plugin/de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
-      <basicComponent href="../../../../../models/cocome-cloud.repository#_kBFSaNYgEeWrM-HnT5f_ug"/>
-      <basicComponent href="../../../../../models/cocome-cloud.repository#_llW0oNY4EeW73vtlcwkhxw"/>
+      <basicComponent href="../../../../cocome-cloud.repository#_kBFSaNYgEeWrM-HnT5f_ug"/>
+      <basicComponent href="../../../../cocome-cloud.repository#_llW0oNY4EeW73vtlcwkhxw"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_w4tQsmfOEeat05QRYoj_vQ">
       <extension href="../../../../../../plugin/de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
-      <basicComponent href="../../../../../models/cocome-cloud.repository#_oFfIwDSjEeal3vOMu7N_ww"/>
+      <basicComponent href="../../../../cocome-cloud.repository#_oFfIwDSjEeal3vOMu7N_ww"/>
     </stereotypeApplications>
     <importedProfiles nsURI="http://de.fzi.decision.security.profile.pcm.prerequisite/0.1.0" location="platform:/plugin/de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram"/>
   </emfprofileapplication:ProfileApplication>

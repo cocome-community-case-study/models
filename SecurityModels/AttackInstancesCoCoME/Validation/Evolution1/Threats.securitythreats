@@ -42,6 +42,9 @@
     <attackTypes id="_XL2vUj1NEeaVk-W-mW-puA" name="PersistentCrossSiteScripting" description="The attacker passes malicious code to the system that is persisted (e.g. in the database), later the the system passes the malicious code to a user where it is executed in the browser." timeStamp="2016-08-17T00:00:00.000+0200" attacker="_pCMgMGFnEeaenr5P40YdvQ _iPckkGFoEeaenr5P40YdvQ _6mm8sGFoEeaenr5P40YdvQ _gzjY4GFpEeaenr5P40YdvQ _A2-kAGFoEeaenr5P40YdvQ" stealth="STEALTHY">
       <prerequisites href="Prerequisites.securityprerequisites#_M0bySGSOEeaBdfha1Hk-SA"/>
       <prerequisites href="Prerequisites.securityprerequisites#_WZhQQj1JEeaC77dVaP0Eeg"/>
+      <prerequisites href="Prerequisites.securityprerequisites#_nb44IGCsEeeRzNEobj9d0Q"/>
+      <prerequisites href="Prerequisites.securityprerequisites#_VR0UYGCsEeeRzNEobj9d0Q"/>
+      <prerequisites href="Prerequisites.securityprerequisites#_DvoQAGCsEeeRzNEobj9d0Q"/>
       <securityViolations>CONFIDENTIALITY</securityViolations>
       <securityViolations>INTEGRITY</securityViolations>
       <securityViolations>AUTHENTICATION</securityViolations>
