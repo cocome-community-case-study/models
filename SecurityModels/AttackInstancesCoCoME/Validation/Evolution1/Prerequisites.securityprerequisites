@@ -18,15 +18,29 @@
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:SystemPrerequisite" appliedTo="_WZhQQj1JEeaC77dVaP0Eeg">
       <extension href="../../../../../../plugin/de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
       <system href="../../../../cocome-cloud.system#_yBTmILF9EeaCwqxzEIieVA"/>
+      <providedRole href="../../../../cocome-cloud.system#_4POPALF_EeaCwqxzEIieVA"/>
     </stereotypeApplications>
-    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_BvpFYT1NEeaVk-W-mW-puA">
-      <extension href="../../../../../../plugin/de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
-      <basicComponent href="../../../../cocome-cloud.repository#_kBFSaNYgEeWrM-HnT5f_ug"/>
-      <basicComponent href="../../../../cocome-cloud.repository#_llW0oNY4EeW73vtlcwkhxw"/>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:SystemPrerequisite" appliedTo="_M0bySGSOEeaBdfha1Hk-SA">
+      <extension href="../../../../../../plugin/de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_csSsoFvwEeeyfvu_tDc-kQ"/>
+      <system href="../../../../cocome-cloud.system#_yBTmILF9EeaCwqxzEIieVA"/>
+      <providedRole href="../../../../cocome-cloud.system#_4POPALF_EeaCwqxzEIieVA"/>
     </stereotypeApplications>
-    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_w4tQsmfOEeat05QRYoj_vQ">
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_VR0UYGCsEeeRzNEobj9d0Q">
       <extension href="../../../../../../plugin/de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
-      <basicComponent href="../../../../cocome-cloud.repository#_oFfIwDSjEeal3vOMu7N_ww"/>
+      <compositeComponent href="../../../../cocome-cloud.repository#_WxsrWK_-Eeal2oK95oef3A"/>
+      <operationProvidedRole href="../../../../cocome-cloud.system#_4POPALF_EeaCwqxzEIieVA"/>
+      <operationProvidedRole href="../../../../cocome-cloud.repository#_UG6GoLDHEea4bqS8ZK-LhA"/>
+      <operationProvidedRole href="../../../../cocome-cloud.repository#_yCX1wLGAEeaCwqxzEIieVA"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_DvoQAGCsEeeRzNEobj9d0Q">
+      <extension href="../../../../../../plugin/de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+      <compositeComponent href="../../../../cocome-cloud.repository#_WxsrWK_-Eeal2oK95oef3A"/>
+      <operationProvidedRole href="../../../../cocome-cloud.system#_4POPALF_EeaCwqxzEIieVA"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_nb44IGCsEeeRzNEobj9d0Q">
+      <extension href="../../../../../../plugin/de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+      <compositeComponent href="../../../../cocome-cloud.repository#_nrE4ra_9Eeal2oK95oef3A"/>
+      <operationProvidedRole href="../../../../cocome-cloud.repository#_yCX1wLGAEeaCwqxzEIieVA"/>
     </stereotypeApplications>
     <importedProfiles nsURI="http://de.fzi.decision.security.profile.pcm.prerequisite/0.1.0" location="platform:/plugin/de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram"/>
   </emfprofileapplication:ProfileApplication>

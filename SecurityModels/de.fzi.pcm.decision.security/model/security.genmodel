@@ -9,15 +9,15 @@
   <foreignModel>security.ecore</foreignModel>
   <genPackages prefix="Security" disposableProviderFactory="true" ecorePackage="security.ecore#/">
     <genClasses ecoreClass="security.ecore#//Container">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//Container/name"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//Container/description"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//NamedDescribedEntity/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//NamedDescribedEntity/description"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//Container/timeStamp"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference security.ecore#//Container/contains"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference security.ecore#//Container/references"/>
     </genClasses>
     <genClasses image="false" ecoreClass="security.ecore#//Catalog">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//Catalog/name"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//Catalog/description"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//NamedDescribedEntity/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//NamedDescribedEntity/description"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//Catalog/timeStamp"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//Catalog/createdBy"/>
     </genClasses>
@@ -31,8 +31,8 @@
         <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference security.ecore#//securityPatterns/PatternCatalog/securityPatterns"/>
       </genClasses>
       <genClasses image="false" ecoreClass="security.ecore#//securityPatterns/SecurityPattern">
-        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//securityPatterns/SecurityPattern/name"/>
-        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//securityPatterns/SecurityPattern/description"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//NamedDescribedEntity/name"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//NamedDescribedEntity/description"/>
         <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//securityPatterns/SecurityPattern/stakeholder"/>
         <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//securityPatterns/SecurityPattern/status"/>
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
@@ -42,8 +42,8 @@
         <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference security.ecore#//securityPatterns/SecurityPattern/roles"/>
       </genClasses>
       <genClasses ecoreClass="security.ecore#//securityPatterns/Role">
-        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//securityPatterns/Role/name"/>
-        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//securityPatterns/Role/description"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//NamedDescribedEntity/name"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//NamedDescribedEntity/description"/>
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
             ecoreFeature="ecore:EReference security.ecore#//securityPatterns/Role/interactsWith"/>
       </genClasses>
@@ -59,8 +59,8 @@
         <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference security.ecore#//securityPrerequisites/PrerequisiteCatalog/prerequisites"/>
       </genClasses>
       <genClasses image="false" ecoreClass="security.ecore#//securityPrerequisites/Prerequisite">
-        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//securityPrerequisites/Prerequisite/name"/>
-        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//securityPrerequisites/Prerequisite/description"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//NamedDescribedEntity/name"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//NamedDescribedEntity/description"/>
         <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//securityPrerequisites/Prerequisite/status"/>
         <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//securityPrerequisites/Prerequisite/statePositive"/>
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
@@ -79,8 +79,8 @@
         <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference security.ecore#//securityThreats/ThreatCatalog/attackTypes"/>
       </genClasses>
       <genClasses ecoreClass="security.ecore#//securityThreats/AttackerClass">
-        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//securityThreats/AttackerClass/name"/>
-        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//securityThreats/AttackerClass/description"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//NamedDescribedEntity/name"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//NamedDescribedEntity/description"/>
         <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//securityThreats/AttackerClass/position"/>
         <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//securityThreats/AttackerClass/intention"/>
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
@@ -94,8 +94,8 @@
         <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//securityThreats/AttackerClass/stealth"/>
       </genClasses>
       <genClasses ecoreClass="security.ecore#//securityThreats/Attack">
-        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//securityThreats/Attack/name"/>
-        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//securityThreats/Attack/description"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//NamedDescribedEntity/name"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//NamedDescribedEntity/description"/>
         <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//securityThreats/Attack/activity"/>
         <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//securityThreats/Attack/timeStamp"/>
         <genFeatures notify="false" createChild="false" propertySortChoices="true"

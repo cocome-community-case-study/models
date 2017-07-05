@@ -58,7 +58,7 @@
       <eStructuralFeatures xsi:type="ecore:EReference" name="mitigatedThreatPrerequisites"
           lowerBound="1" upperBound="-1" eType="#//securityPrerequisites/Prerequisite"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="subSecurityPatterns"
-          lowerBound="1" upperBound="-1" eType="#//securityPatterns/SecurityPattern"/>
+          upperBound="-1" eType="#//securityPatterns/SecurityPattern"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="roles" lowerBound="1"
           upperBound="-1" eType="#//securityPatterns/Role" containment="true"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="implemented" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
