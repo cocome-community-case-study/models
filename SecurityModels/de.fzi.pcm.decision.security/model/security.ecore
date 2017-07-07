@@ -165,7 +165,7 @@
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="timeStamp" lowerBound="1"
           eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="subAttacks" upperBound="-1"
-          eType="#//securityThreats/Attack"/>
+          eType="#//securityThreats/Attack" containment="true"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="attacker" lowerBound="1"
           upperBound="-1" eType="#//securityThreats/AttackerClass" eOpposite="#//securityThreats/AttackerClass/attackCapabilities"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="prerequisites" upperBound="-1"

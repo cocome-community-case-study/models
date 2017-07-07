@@ -852,9 +852,9 @@
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ZvBT0LAFEeal2oK95oef3A" entityName="Required_IStoreQuery" requiredInterface__OperationRequiredRole="_m9TMAl_BEea_gvFl-mCXRQ"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_b5PIoLAFEeal2oK95oef3A" entityName="Required_IEnterpriseQuery" requiredInterface__OperationRequiredRole="_m9L3QF_BEea_gvFl-mCXRQ"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_IV0_uUV8EeeKFrBBYV799w" entityName="RuleBase">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_WApw8UV8EeeKFrBBYV799w" entityName="IRuleBaseQuery" providedInterface__OperationProvidedRole="_lwa1gEV8EeeKFrBBYV799w"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_uC3csUWQEeeqI7dNnUWMow" entityName="IRuleBaseModification" providedInterface__OperationProvidedRole="_iqvG2EWQEeeqI7dNnUWMow"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_8pP20GNWEeewVMCtsoppRA" entityName="ProxyBasedFirewall">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__RPMwWNWEeewVMCtsoppRA" entityName="Provided_IShowStockView" providedInterface__OperationProvidedRole="_zV_Y-GYBEeamEr6y5T9PEQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_AMBaBGNXEeewVMCtsoppRA" entityName="Required_IShowStockView" requiredInterface__OperationRequiredRole="_zV_Y-GYBEeamEr6y5T9PEQ"/>
   </components__Repository>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_lwa1gEV8EeeKFrBBYV799w" entityName="IQueryRuleBase">
     <signatures__OperationInterface id="_Wj8UIEWQEeeqI7dNnUWMow" entityName="getRules" returnType__OperationSignature="_KS-43EWQEeeqI7dNnUWMow"/>

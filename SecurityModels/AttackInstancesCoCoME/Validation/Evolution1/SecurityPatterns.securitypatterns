@@ -12,7 +12,7 @@
       <roles id="_5P6eoDExEeejp9Ll7O-qTg" name="User Role Mapping" description="Information about which roles a user belongs to." usedBy="_y5o5EDExEeejp9Ll7O-qTg"/>
       <roles id="_tGYhADExEeejp9Ll7O-qTg" name="Role Right Mapping" description="Definition of rights a role is given." usedBy="_y5o5EDExEeejp9Ll7O-qTg"/>
     </securityPatterns>
-    <securityPatterns id="_OH2CsC60Eeee4Ma0GzGF8w" name="Proxy-based Filter Firewall" description="A packet filter firewall allows the definition and enforcement of rules at the application layer for restricting ingoing and outgoing network trafic as well as ananlysis and modification of payload..">
+    <securityPatterns id="_OH2CsC60Eeee4Ma0GzGF8w" name="Proxy-based Firewall" description="A proxy-based firewall allows the definition and enforcement of rules at the application and lower layers for restricting ingoing and outgoing network trafic as well as ananlysis and modification of payload..">
       <mitigatedThreatPrerequisites href="Prerequisites.securityprerequisites#_VR0UYGCsEeeRzNEobj9d0Q"/>
       <mitigatedThreatPrerequisites href="Prerequisites.securityprerequisites#_DvoQAGCsEeeRzNEobj9d0Q"/>
       <roles id="_nnMFgDODEeedIemevWrvFg" name="Proxy" description="Firewall component acting as a proxy for a specific service; checking ingoing and outgoing traffic up to application layer against rule base and enforcing those rules." requires="_MS0ZwDEwEeejp9Ll7O-qTg _APZrMDEwEeejp9Ll7O-qTg"/>
