@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:de.fzi.decision.security.profile.pcm.pattern="http://de.fzi.decision.security.profile.pcm.pattern/0.1.0" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:securityPatterns="http://www.fzi.de/pcm/security/securityPatterns">
   <securityPatterns:PatternCatalog id="_HzP4IC60Eeee4Ma0GzGF8w" name="Security Patterns" description="This catalog contains a selection of security patterns." createdBy="Christian Busch">
-    <securityPatterns id="_IVr20C60Eeee4Ma0GzGF8w" name="Authenticator" description="The authenticator veryfies the identity of the user. To do so It receives provided autentication information from the user, compares it with expected authentication information and, on equality, creates and returns a proof of identity to the user." stakeholder="">
-      <roles id="_6ntp8DEvEeejp9Ll7O-qTg" name="Authenticator" description="Component checking a clients claim of identity by comparing provided identifaction information with expected one. Hands out proof of identification in case of equality." requires="_435fEDPVEeedIemevWrvFg" usedBy="_XuOBEDPYEeedIemevWrvFg"/>
-      <roles id="_435fEDPVEeedIemevWrvFg" name="Authentication Information" description="Information required to establish the identity of users." usedBy="_6ntp8DEvEeejp9Ll7O-qTg"/>
-      <roles id="_XuOBEDPYEeedIemevWrvFg" name="Proof of Identity" description="Created by the authenticator, may be used to proof identy without repeated identification through authenticator." requires="_6ntp8DEvEeejp9Ll7O-qTg"/>
-    </securityPatterns>
-    <securityPatterns id="_K7yWYC60Eeee4Ma0GzGF8w" name="Role-Based Access Control" description="Role base access control allows giving allowing and denying access for groups of users. Users have the rights that are the union of the rights of the groups they belong to.">
-      <roles id="_p8ZRQDExEeejp9Ll7O-qTg" name="Protected Interface" description="Interface that may only be accessed by roles with corresponding rights." requires="_y5o5EDExEeejp9Ll7O-qTg"/>
-      <roles id="_y5o5EDExEeejp9Ll7O-qTg" name="Authorizator" description="Component looking up a users roles and that roles' rights and granting or denying access accordingly." requires="_5P6eoDExEeejp9Ll7O-qTg _tGYhADExEeejp9Ll7O-qTg" usedBy="_p8ZRQDExEeejp9Ll7O-qTg"/>
-      <roles id="_5P6eoDExEeejp9Ll7O-qTg" name="User Role Mapping" description="Information about which roles a user belongs to." usedBy="_y5o5EDExEeejp9Ll7O-qTg"/>
-      <roles id="_tGYhADExEeejp9Ll7O-qTg" name="Role Right Mapping" description="Definition of rights a role is given." usedBy="_y5o5EDExEeejp9Ll7O-qTg"/>
-    </securityPatterns>
-    <securityPatterns id="_OH2CsC60Eeee4Ma0GzGF8w" name="Proxy-based Firewall" description="A proxy-based firewall allows the definition and enforcement of rules at the application and lower layers for restricting ingoing and outgoing network trafic as well as ananlysis and modification of payload..">
+    <securityPatterns id="_OH2CsC60Eeee4Ma0GzGF8w" name="Proxy-based Firewall" description="A proxy-based firewall allows the definition and enforcement of rules at the application and lower layers for restricting ingoing and outgoing network trafic as well as ananlysis and modification of payload.." stakeholder="">
       <mitigatedThreatPrerequisites href="Prerequisites.securityprerequisites#_VR0UYGCsEeeRzNEobj9d0Q"/>
       <mitigatedThreatPrerequisites href="Prerequisites.securityprerequisites#_DvoQAGCsEeeRzNEobj9d0Q"/>
       <roles id="_nnMFgDODEeedIemevWrvFg" name="Proxy" description="Firewall component acting as a proxy for a specific service; checking ingoing and outgoing traffic up to application layer against rule base and enforcing those rules." requires="_MS0ZwDEwEeejp9Ll7O-qTg _APZrMDEwEeejp9Ll7O-qTg"/>
@@ -21,54 +10,17 @@
     </securityPatterns>
   </securityPatterns:PatternCatalog>
   <emfprofileapplication:ProfileApplication>
-    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.pattern:ComponentRole" appliedTo="_6ntp8DEvEeejp9Ll7O-qTg">
-      <extension href="../../../../../../plugin/de.fzi.decision.security.profile.pcm.pattern/profile.emfprofile_diagram#_gLgA0D7YEeed_q4Zmriy8w"/>
-      <componentRole href="../../../../cocome-cloud.repository#_iQEYEDSkEeal3vOMu7N_ww"/>
-      <componentRole href="../../../../cocome-cloud.repository#_62NbiWR0EeaYxPjtCxykSQ"/>
-    </stereotypeApplications>
-    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.pattern:OperationProvidedRole" appliedTo="_435fEDPVEeedIemevWrvFg">
-      <extension href="../../../../../../plugin/de.fzi.decision.security.profile.pcm.pattern/profile.emfprofile_diagram#_f2XeUD7YEeed_q4Zmriy8w"/>
-      <operationProvidedRole href="../../../../cocome-cloud.repository#_mrsB8WR_EeaYxPjtCxykSQ"/>
-    </stereotypeApplications>
-    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.pattern:OperationProvidedRole" appliedTo="_XuOBEDPYEeedIemevWrvFg">
-      <extension href="../../../../../../plugin/de.fzi.decision.security.profile.pcm.pattern/profile.emfprofile_diagram#_f2XeUD7YEeed_q4Zmriy8w"/>
-      <operationProvidedRole href="../../../../cocome-cloud.repository#_mrsB8WR_EeaYxPjtCxykSQ"/>
-    </stereotypeApplications>
-    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.pattern:OperationProvidedRole" appliedTo="_p8ZRQDExEeejp9Ll7O-qTg">
-      <extension href="../../../../../../plugin/de.fzi.decision.security.profile.pcm.pattern/profile.emfprofile_diagram#_f2XeUD7YEeed_q4Zmriy8w"/>
-      <operationProvidedRole href="../../../../cocome-cloud.repository#_ug8wUTSjEeal3vOMu7N_ww"/>
-    </stereotypeApplications>
-    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.pattern:ComponentRole" appliedTo="_y5o5EDExEeejp9Ll7O-qTg">
-      <extension href="../../../../../../plugin/de.fzi.decision.security.profile.pcm.pattern/profile.emfprofile_diagram#_gLgA0D7YEeed_q4Zmriy8w"/>
-      <componentRole href="../../../../cocome-cloud.repository#_oFfIwDSjEeal3vOMu7N_ww"/>
-    </stereotypeApplications>
-    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.pattern:ComponentRole" appliedTo="_tGYhADExEeejp9Ll7O-qTg">
-      <extension href="../../../../../../plugin/de.fzi.decision.security.profile.pcm.pattern/profile.emfprofile_diagram#_gLgA0D7YEeed_q4Zmriy8w"/>
-      <componentRole href="../../../../cocome-cloud.repository#_oFfIwDSjEeal3vOMu7N_ww"/>
-    </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.pattern:ComponentRole" appliedTo="_nnMFgDODEeedIemevWrvFg">
       <extension href="../../../../../../plugin/de.fzi.decision.security.profile.pcm.pattern/profile.emfprofile_diagram#_gLgA0D7YEeed_q4Zmriy8w"/>
-      <componentRole href="../../../../cocome-cloud.repository#_7sc4UERSEeefet9i0SX6fA"/>
-    </stereotypeApplications>
-    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.pattern:OperationProvidedRole" appliedTo="_nnMFgDODEeedIemevWrvFg">
-      <extension href="../../../../../../plugin/de.fzi.decision.security.profile.pcm.pattern/profile.emfprofile_diagram#_f2XeUD7YEeed_q4Zmriy8w"/>
-      <operationProvidedRole href="../../../../cocome-cloud.repository#_WApw8UV8EeeKFrBBYV799w"/>
+      <componentRole href="../../../../cocome-cloud.repository#_8pP20GNWEeewVMCtsoppRA"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.pattern:OperationProvidedRole" appliedTo="_APZrMDEwEeejp9Ll7O-qTg">
       <extension href="../../../../../../plugin/de.fzi.decision.security.profile.pcm.pattern/profile.emfprofile_diagram#_f2XeUD7YEeed_q4Zmriy8w"/>
-      <operationProvidedRole href="../../../../cocome-cloud.repository#_95290EWAEeeKFrBBYV799w"/>
-      <operationProvidedRole href="../../../../cocome-cloud.repository#_DP3ZMEWBEeeKFrBBYV799w"/>
-      <operationProvidedRole href="../../../../cocome-cloud.repository#_GUOiEEWBEeeKFrBBYV799w"/>
-      <operationProvidedRole href="../../../../cocome-cloud.repository#_K7yjEEWBEeeKFrBBYV799w"/>
-      <operationProvidedRole href="../../../../cocome-cloud.repository#_Msj9IEWBEeeKFrBBYV799w"/>
+      <operationProvidedRole href="../../../../cocome-cloud.repository#__RPMwWNWEeewVMCtsoppRA"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.pattern:OperationRequiredRole" appliedTo="_MS0ZwDEwEeejp9Ll7O-qTg">
       <extension href="../../../../../../plugin/de.fzi.decision.security.profile.pcm.pattern/profile.emfprofile_diagram#_z3ezMEUuEeefet9i0SX6fA"/>
-      <operationRequiredRole href="../../../../cocome-cloud.repository#_hmpKYEWBEeeKFrBBYV799w"/>
-      <operationRequiredRole href="../../../../cocome-cloud.repository#_i8TVwEWBEeeKFrBBYV799w"/>
-      <operationRequiredRole href="../../../../cocome-cloud.repository#_nyoLgEWBEeeKFrBBYV799w"/>
-      <operationRequiredRole href="../../../../cocome-cloud.repository#_qEECoEWBEeeKFrBBYV799w"/>
-      <operationRequiredRole href="../../../../cocome-cloud.repository#_sDqi4EWBEeeKFrBBYV799w"/>
+      <operationRequiredRole href="../../../../cocome-cloud.repository#_AMBaBGNXEeewVMCtsoppRA"/>
     </stereotypeApplications>
     <importedProfiles nsURI="http://de.fzi.decision.security.profile.pcm.pattern/0.1.0" location="platform:/plugin/de.fzi.decision.security.profile.pcm.pattern/profile.emfprofile_diagram"/>
   </emfprofileapplication:ProfileApplication>

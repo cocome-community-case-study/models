@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xsi:schemaLocation="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//core/composition http://palladiosimulator.org/PalladioComponentModel/Repository/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//repository" xmi:id="_ah3PsGDCEeeRzNEobj9d0Q" type="CompositeModel" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_a7BWkGDCEeeRzNEobj9d0Q" type="2002" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_a7BWkmDCEeeRzNEobj9d0Q" type="5012"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_a7BWk2DCEeeRzNEobj9d0Q" type="7002">
+      <children xmi:type="notation:Shape" xmi:id="_a7FA8GDCEeeRzNEobj9d0Q" type="3006" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_a7FoAGDCEeeRzNEobj9d0Q" type="5009"/>
+        <children xmi:type="notation:Shape" xmi:id="_a7JSYGDCEeeRzNEobj9d0Q" type="3007" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7J5cGDCEeeRzNEobj9d0Q" type="5007">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7J5cWDCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationProvidedRole" href="cocome-cloud.repository#_csEVsLCzEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7JSYWDCEeeRzNEobj9d0Q" x="109" y="-29"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_a7J5cmDCEeeRzNEobj9d0Q" type="3007" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7KggGDCEeeRzNEobj9d0Q" type="5007">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7KggWDCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationProvidedRole" href="cocome-cloud.repository#_edsrYLCzEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7J5c2DCEeeRzNEobj9d0Q" x="213" y="12"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_a7KggmDCEeeRzNEobj9d0Q" type="3007" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7KghGDCEeeRzNEobj9d0Q" type="5007">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7KghWDCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationProvidedRole" href="cocome-cloud.repository#_jGbxELCzEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7Kgg2DCEeeRzNEobj9d0Q" x="217" y="-29"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_a7KghmDCEeeRzNEobj9d0Q" type="3008" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7LHkGDCEeeRzNEobj9d0Q" type="5008">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7LHkWDCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationRequiredRole" href="cocome-cloud.repository#_-swpULCyEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7Kgh2DCEeeRzNEobj9d0Q" x="127" y="108"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_a7LHkmDCEeeRzNEobj9d0Q" type="3008" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7LHlGDCEeeRzNEobj9d0Q" type="5008">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7LHlWDCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationRequiredRole" href="cocome-cloud.repository#_A8U4MLCzEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7LHk2DCEeeRzNEobj9d0Q" x="79" y="120"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_a7LHlmDCEeeRzNEobj9d0Q" type="3008" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7LHmGDCEeeRzNEobj9d0Q" type="5008">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7LHmWDCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationRequiredRole" href="cocome-cloud.repository#_FCcZALCzEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7LHl2DCEeeRzNEobj9d0Q" x="7" y="120"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_a7LHmmDCEeeRzNEobj9d0Q" type="3008" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7LuoGDCEeeRzNEobj9d0Q" type="5008">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7LuoWDCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationRequiredRole" href="cocome-cloud.repository#_HfJE8LCzEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7LHm2DCEeeRzNEobj9d0Q" x="-29" y="90"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_a7LuomDCEeeRzNEobj9d0Q" type="3008" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7LupGDCEeeRzNEobj9d0Q" type="5008">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7LupWDCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationRequiredRole" href="cocome-cloud.repository#_Jtt1ULCzEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7Luo2DCEeeRzNEobj9d0Q" x="-29" y="48"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_a7LupmDCEeeRzNEobj9d0Q" type="3008" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7LuqGDCEeeRzNEobj9d0Q" type="5008">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7LuqWDCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationRequiredRole" href="cocome-cloud.repository#_LOlLILCzEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7Lup2DCEeeRzNEobj9d0Q" x="-29" y="12"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_a7LuqmDCEeeRzNEobj9d0Q" type="3008" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7LurGDCEeeRzNEobj9d0Q" type="5008">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7LurWDCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationRequiredRole" href="cocome-cloud.repository#_N0zmgLCzEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7Luq2DCEeeRzNEobj9d0Q" x="18" y="-29"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_a7MVsGDCEeeRzNEobj9d0Q" type="3008" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7MVsmDCEeeRzNEobj9d0Q" type="5008">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7MVs2DCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationRequiredRole" href="cocome-cloud.repository#_PXJjALCzEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7MVsWDCEeeRzNEobj9d0Q"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_a7MVtGDCEeeRzNEobj9d0Q" type="3008" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7MVtmDCEeeRzNEobj9d0Q" type="5008">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7MVt2DCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationRequiredRole" href="cocome-cloud.repository#_Q6xR4LCzEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7MVtWDCEeeRzNEobj9d0Q" x="247" y="90"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_a7MVuGDCEeeRzNEobj9d0Q" type="3008" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7MVumDCEeeRzNEobj9d0Q" type="5008">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7MVu2DCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationRequiredRole" href="cocome-cloud.repository#_a96x0LCzEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7MVuWDCEeeRzNEobj9d0Q" x="175" y="108"/>
+        </children>
+        <element xmi:type="composition:AssemblyContext" href="cocome-cloud.repository#_7v9rkLCzEea4bqS8ZK-LhA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7FA8WDCEeeRzNEobj9d0Q" x="85" y="288" width="248" height="121"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_a7FoAWDCEeeRzNEobj9d0Q" type="3006" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_a7FoA2DCEeeRzNEobj9d0Q" type="5009"/>
+        <children xmi:type="notation:Shape" xmi:id="_a7mlYGDCEeeRzNEobj9d0Q" type="3007" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7mlYmDCEeeRzNEobj9d0Q" type="5007">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7mlY2DCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationProvidedRole" href="cocome-cloud.repository#_KPDvMLCwEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7mlYWDCEeeRzNEobj9d0Q" x="14" y="-29"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_a7mlZGDCEeeRzNEobj9d0Q" type="3007" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7nMcGDCEeeRzNEobj9d0Q" type="5007">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7nMcWDCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationProvidedRole" href="cocome-cloud.repository#_TI3ogLCwEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7mlZWDCEeeRzNEobj9d0Q" x="194" y="-29"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_a7nMcmDCEeeRzNEobj9d0Q" type="3007" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7nMdGDCEeeRzNEobj9d0Q" type="5007">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7nMdWDCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationProvidedRole" href="cocome-cloud.repository#_VdFG0LCwEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7nMc2DCEeeRzNEobj9d0Q" x="-29" y="36"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_a7nMdmDCEeeRzNEobj9d0Q" type="3007" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7nMeGDCEeeRzNEobj9d0Q" type="5007">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7nMeWDCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationProvidedRole" href="cocome-cloud.repository#_XHy8MLCwEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7nMd2DCEeeRzNEobj9d0Q" x="-29" y="74"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_a7nMemDCEeeRzNEobj9d0Q" type="3007" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7nzgGDCEeeRzNEobj9d0Q" type="5007">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7nzgWDCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationProvidedRole" href="cocome-cloud.repository#_pceNcLCwEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7nMe2DCEeeRzNEobj9d0Q" x="134" y="-29"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_a7nzgmDCEeeRzNEobj9d0Q" type="3007" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7nzhGDCEeeRzNEobj9d0Q" type="5007">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7nzhWDCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationProvidedRole" href="cocome-cloud.repository#_azTkoLCwEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7nzg2DCEeeRzNEobj9d0Q" x="-29" y="108"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_a7nzhmDCEeeRzNEobj9d0Q" type="3007" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7nziGDCEeeRzNEobj9d0Q" type="5007">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7nziWDCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationProvidedRole" href="cocome-cloud.repository#_dj5c8LCwEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7nzh2DCEeeRzNEobj9d0Q" x="-29" y="1"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_a7nzimDCEeeRzNEobj9d0Q" type="3007" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7nzjGDCEeeRzNEobj9d0Q" type="5007">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7oakGDCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationProvidedRole" href="cocome-cloud.repository#_f1PNcLCwEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7nzi2DCEeeRzNEobj9d0Q" x="170" y="-29"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_a7oakWDCEeeRzNEobj9d0Q" type="3007" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7oak2DCEeeRzNEobj9d0Q" type="5007">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7oalGDCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationProvidedRole" href="cocome-cloud.repository#_kgIPQLCwEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7oakmDCEeeRzNEobj9d0Q" x="86" y="-29"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_a7oalWDCEeeRzNEobj9d0Q" type="3008" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7oal2DCEeeRzNEobj9d0Q" type="5008">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7oamGDCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationRequiredRole" href="cocome-cloud.repository#_u9aGcLCwEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7oalmDCEeeRzNEobj9d0Q" x="109" y="79"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_a7oamWDCEeeRzNEobj9d0Q" type="3008" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7oam2DCEeeRzNEobj9d0Q" type="5008">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7oanGDCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationRequiredRole" href="cocome-cloud.repository#_xkYIsLCwEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7oammDCEeeRzNEobj9d0Q"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_a7oanWDCEeeRzNEobj9d0Q" type="3008" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7pBoGDCEeeRzNEobj9d0Q" type="5008">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7pBoWDCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationRequiredRole" href="cocome-cloud.repository#_MSpiILCxEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7oanmDCEeeRzNEobj9d0Q"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_a7pBomDCEeeRzNEobj9d0Q" type="3008" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7pBpGDCEeeRzNEobj9d0Q" type="5008">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7pBpWDCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationRequiredRole" href="cocome-cloud.repository#_1PgWoLCwEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7pBo2DCEeeRzNEobj9d0Q"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_a7pBpmDCEeeRzNEobj9d0Q" type="3008" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7pBqGDCEeeRzNEobj9d0Q" type="5008">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7pBqWDCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationRequiredRole" href="cocome-cloud.repository#_QPH-wLCxEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7pBp2DCEeeRzNEobj9d0Q"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_a7pBqmDCEeeRzNEobj9d0Q" type="3008" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7posGDCEeeRzNEobj9d0Q" type="5008">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7posWDCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationRequiredRole" href="cocome-cloud.repository#_41toULCwEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7pBq2DCEeeRzNEobj9d0Q"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_a7posmDCEeeRzNEobj9d0Q" type="3008" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7potGDCEeeRzNEobj9d0Q" type="5008">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7potWDCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationRequiredRole" href="cocome-cloud.repository#_ACuBkLCxEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7pos2DCEeeRzNEobj9d0Q"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_a7potmDCEeeRzNEobj9d0Q" type="3008" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7pouGDCEeeRzNEobj9d0Q" type="5008">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7pouWDCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationRequiredRole" href="cocome-cloud.repository#_SddekLCxEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7pot2DCEeeRzNEobj9d0Q" x="319" y="132"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_a7poumDCEeeRzNEobj9d0Q" type="3008" fontName="Ubuntu">
+          <children xmi:type="notation:DecorationNode" xmi:id="_a7qPwGDCEeeRzNEobj9d0Q" type="5008">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7qPwWDCEeeRzNEobj9d0Q" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationRequiredRole" href="cocome-cloud.repository#_Gjb8kLCxEea4bqS8ZK-LhA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7pou2DCEeeRzNEobj9d0Q" x="338" y="132"/>
+        </children>
+        <element xmi:type="composition:AssemblyContext" href="cocome-cloud.repository#_9a1R8LCzEea4bqS8ZK-LhA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7FoAmDCEeeRzNEobj9d0Q" x="200" width="378" height="157"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_a7FoBGDCEeeRzNEobj9d0Q" type="3006" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_a7FoBmDCEeeRzNEobj9d0Q" type="5009"/>
+        <element xmi:type="composition:AssemblyContext" href="cocome-cloud.repository#_eR_8QLC0Eea4bqS8ZK-LhA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7FoBWDCEeeRzNEobj9d0Q" x="571" y="216" width="193" height="97"/>
+      </children>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_a89QQGDCEeeRzNEobj9d0Q" type="3011" fontName="Ubuntu">
+      <children xmi:type="notation:DecorationNode" xmi:id="_a893UGDCEeeRzNEobj9d0Q" type="5013">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_a893UWDCEeeRzNEobj9d0Q" y="5"/>
+      </children>
+      <element xmi:type="repository:OperationProvidedRole" href="cocome-cloud.repository#_gB13ULC2Eea4bqS8ZK-LhA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a89QQWDCEeeRzNEobj9d0Q" x="-1" y="1"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_a893UmDCEeeRzNEobj9d0Q" type="3011" fontName="Ubuntu">
+      <children xmi:type="notation:DecorationNode" xmi:id="_a893VGDCEeeRzNEobj9d0Q" type="5013">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_a893VWDCEeeRzNEobj9d0Q" y="5"/>
+      </children>
+      <element xmi:type="repository:OperationProvidedRole" href="cocome-cloud.repository#_omnUwLC2Eea4bqS8ZK-LhA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a893U2DCEeeRzNEobj9d0Q" x="1" y="-1"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_a893VmDCEeeRzNEobj9d0Q" type="3011" fontName="Ubuntu">
+      <children xmi:type="notation:DecorationNode" xmi:id="_a8-eYGDCEeeRzNEobj9d0Q" type="5013">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_a8-eYWDCEeeRzNEobj9d0Q" y="5"/>
+      </children>
+      <element xmi:type="repository:OperationProvidedRole" href="cocome-cloud.repository#_rWXfkLC2Eea4bqS8ZK-LhA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a893V2DCEeeRzNEobj9d0Q" x="-59" y="1"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_a8-eYmDCEeeRzNEobj9d0Q" type="3011" fontName="Ubuntu">
+      <children xmi:type="notation:DecorationNode" xmi:id="_a8-eZGDCEeeRzNEobj9d0Q" type="5013">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_a8-eZWDCEeeRzNEobj9d0Q" y="5"/>
+      </children>
+      <element xmi:type="repository:OperationProvidedRole" href="cocome-cloud.repository#_uJ4JALC2Eea4bqS8ZK-LhA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a8-eY2DCEeeRzNEobj9d0Q" x="1" y="-1"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_a8-eZmDCEeeRzNEobj9d0Q" type="3011" fontName="Ubuntu">
+      <children xmi:type="notation:DecorationNode" xmi:id="_a8-eaGDCEeeRzNEobj9d0Q" type="5013">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_a8_FcGDCEeeRzNEobj9d0Q" y="5"/>
+      </children>
+      <element xmi:type="repository:OperationProvidedRole" href="cocome-cloud.repository#_v-gIULC2Eea4bqS8ZK-LhA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a8-eZ2DCEeeRzNEobj9d0Q" x="1" y="-1"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_a8_FcWDCEeeRzNEobj9d0Q" type="3012" fontName="Ubuntu">
+      <children xmi:type="notation:DecorationNode" xmi:id="_a8_Fc2DCEeeRzNEobj9d0Q" type="5014">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_a8_FdGDCEeeRzNEobj9d0Q" y="5"/>
+      </children>
+      <element xmi:type="repository:OperationRequiredRole" href="cocome-cloud.repository#_tf_wcLC0Eea4bqS8ZK-LhA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a8_FcmDCEeeRzNEobj9d0Q" x="1" y="-1"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_a8_FdWDCEeeRzNEobj9d0Q" type="3012" fontName="Ubuntu">
+      <children xmi:type="notation:DecorationNode" xmi:id="_a8_Fd2DCEeeRzNEobj9d0Q" type="5014">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_a8_sgGDCEeeRzNEobj9d0Q" y="5"/>
+      </children>
+      <element xmi:type="repository:OperationRequiredRole" href="cocome-cloud.repository#_1xtvALC0Eea4bqS8ZK-LhA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a8_FdmDCEeeRzNEobj9d0Q" x="1" y="-1"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_a8_sgWDCEeeRzNEobj9d0Q" type="3012" fontName="Ubuntu">
+      <children xmi:type="notation:DecorationNode" xmi:id="_a8_sg2DCEeeRzNEobj9d0Q" type="5014">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_a8_shGDCEeeRzNEobj9d0Q" y="5"/>
+      </children>
+      <element xmi:type="repository:OperationRequiredRole" href="cocome-cloud.repository#_3yjlYLC0Eea4bqS8ZK-LhA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a8_sgmDCEeeRzNEobj9d0Q" x="1" y="-1"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_a8_shWDCEeeRzNEobj9d0Q" type="3012" fontName="Ubuntu">
+      <children xmi:type="notation:DecorationNode" xmi:id="_a8_sh2DCEeeRzNEobj9d0Q" type="5014">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_a8_siGDCEeeRzNEobj9d0Q" y="5"/>
+      </children>
+      <element xmi:type="repository:OperationRequiredRole" href="cocome-cloud.repository#_5yW58LC0Eea4bqS8ZK-LhA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a8_shmDCEeeRzNEobj9d0Q" x="1" y="-1"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_a8_siWDCEeeRzNEobj9d0Q" type="3012" fontName="Ubuntu">
+      <children xmi:type="notation:DecorationNode" xmi:id="_a8_si2DCEeeRzNEobj9d0Q" type="5014">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_a8_sjGDCEeeRzNEobj9d0Q" y="5"/>
+      </children>
+      <element xmi:type="repository:OperationRequiredRole" href="cocome-cloud.repository#_8l1HILC0Eea4bqS8ZK-LhA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a8_simDCEeeRzNEobj9d0Q" x="108" y="499"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_a9ATkGDCEeeRzNEobj9d0Q" type="3012" fontName="Ubuntu">
+      <children xmi:type="notation:DecorationNode" xmi:id="_a9ATkmDCEeeRzNEobj9d0Q" type="5014">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_a9ATk2DCEeeRzNEobj9d0Q" y="5"/>
+      </children>
+      <element xmi:type="repository:OperationRequiredRole" href="cocome-cloud.repository#__uN0YLC0Eea4bqS8ZK-LhA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9ATkWDCEeeRzNEobj9d0Q" x="180" y="499"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_a9ATlGDCEeeRzNEobj9d0Q" type="3012" fontName="Ubuntu">
+      <children xmi:type="notation:DecorationNode" xmi:id="_a9ATlmDCEeeRzNEobj9d0Q" type="5014">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_a9ATl2DCEeeRzNEobj9d0Q" y="5"/>
+      </children>
+      <element xmi:type="repository:OperationRequiredRole" href="cocome-cloud.repository#_CMZHALC1Eea4bqS8ZK-LhA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9ATlWDCEeeRzNEobj9d0Q" x="312" y="499"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_a9ATmGDCEeeRzNEobj9d0Q" type="3012" fontName="Ubuntu">
+      <children xmi:type="notation:DecorationNode" xmi:id="_a9ATmmDCEeeRzNEobj9d0Q" type="5014">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_a9A6oGDCEeeRzNEobj9d0Q" y="5"/>
+      </children>
+      <element xmi:type="repository:OperationRequiredRole" href="cocome-cloud.repository#_GlhqcLC1Eea4bqS8ZK-LhA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9ATmWDCEeeRzNEobj9d0Q" x="516" y="499"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_a9A6oWDCEeeRzNEobj9d0Q" type="3012" fontName="Ubuntu">
+      <children xmi:type="notation:DecorationNode" xmi:id="_a9A6o2DCEeeRzNEobj9d0Q" type="5014">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_a9A6pGDCEeeRzNEobj9d0Q" y="5"/>
+      </children>
+      <element xmi:type="repository:OperationRequiredRole" href="cocome-cloud.repository#_IVsnkLC1Eea4bqS8ZK-LhA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9A6omDCEeeRzNEobj9d0Q" x="624" y="499"/>
+    </children>
+    <element xmi:type="repository:CompositeComponent" href="cocome-cloud.repository#_WxsrWK_-Eeal2oK95oef3A"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7BWkWDCEeeRzNEobj9d0Q" width="889" height="565"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_ah3PsWDCEeeRzNEobj9d0Q"/>
+  <element xmi:type="repository:CompositeComponent" href="cocome-cloud.repository#_WxsrWK_-Eeal2oK95oef3A"/>
+</notation:Diagram>
