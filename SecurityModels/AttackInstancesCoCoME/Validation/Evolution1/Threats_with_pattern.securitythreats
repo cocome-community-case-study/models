@@ -107,6 +107,9 @@
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.threat:ComponentTarget" appliedTo="_gEjY5T1OEeaVk-W-mW-puA">
       <extension href="../../../../../../plugin/de.fzi.decision.security.profile.pcm.threat/profile.emfprofile_diagram#_hwwmwFsZEeevfoqMg0nzsw"/>
       <basicComponent href="../../../../cocome-cloud.repository#_8pP20GNWEeewVMCtsoppRA"/>
+      <requiredRole xsi:type="repository:OperationRequiredRole" href="../../../../cocome-cloud.repository#_AMBaBGNXEeewVMCtsoppRA"/>
+      <providedRole xsi:type="repository:OperationProvidedRole" href="../../../../cocome-cloud.repository#__RPMwWNWEeewVMCtsoppRA"/>
+      <providedRole xsi:type="repository:OperationProvidedRole" href="../../../../cocome-cloud.repository#_v-gIULC2Eea4bqS8ZK-LhA"/>
     </stereotypeApplications>
     <importedProfiles nsURI="http://de.fzi.decision.security.profile.pcm.threat/0.1.0" location="platform:/plugin/de.fzi.decision.security.profile.pcm.threat/profile.emfprofile_diagram"/>
   </emfprofileapplication:ProfileApplication>
