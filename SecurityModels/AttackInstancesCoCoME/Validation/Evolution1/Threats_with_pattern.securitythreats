@@ -56,8 +56,8 @@
     <attackTypes id="_gEjY5T1OEeaVk-W-mW-puA" name="CrossSiteRequestForgery" description="The attacker misleads a user of a web application who is logged in to open a link that contains a malicious command which is then executed with the rights of the user." timeStamp="2016-08-17T00:00:00.000+0200" attacker="_pCMgMGFnEeaenr5P40YdvQ _iPckkGFoEeaenr5P40YdvQ _6mm8sGFoEeaenr5P40YdvQ _gzjY4GFpEeaenr5P40YdvQ" stealth="STEALTHY">
       <prerequisites href="Prerequisites.securityprerequisites#_WZhQQj1JEeaC77dVaP0Eeg"/>
       <prerequisites href="Prerequisites.securityprerequisites#_Myt4qD1KEeaVk-W-mW-puA"/>
-      <prerequisites href="Prerequisites.securityprerequisites#_uZh6Yj1OEeaVk-W-mW-puA"/>
       <prerequisites href="Prerequisites.securityprerequisites#_w4tQsmfOEeat05QRYoj_vQ"/>
+      <prerequisites href="Prerequisites.securityprerequisites#_4Z09YGU1EeewVMCtsoppRA"/>
       <securityViolations>AUTHENTICATION</securityViolations>
     </attackTypes>
   </securityThreats:ThreatCatalog>
@@ -98,6 +98,15 @@
       <extension href="../../../../../../plugin/de.fzi.decision.security.profile.pcm.threat/profile.emfprofile_diagram#_jfBfYFsZEeevfoqMg0nzsw"/>
       <system href="../../../../cocome-cloud.system#_yBTmILF9EeaCwqxzEIieVA"/>
       <providedRole href="../../../../cocome-cloud.repository#_yCX1wLGAEeaCwqxzEIieVA"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.threat:SystemTarget" appliedTo="_gEjY5T1OEeaVk-W-mW-puA">
+      <extension href="../../../../../../plugin/de.fzi.decision.security.profile.pcm.threat/profile.emfprofile_diagram#_jfBfYFsZEeevfoqMg0nzsw"/>
+      <system href="../../../../cocome-cloud.system#_yBTmILF9EeaCwqxzEIieVA"/>
+      <providedRole href="../../../../cocome-cloud.system#_4POPALF_EeaCwqxzEIieVA"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.threat:ComponentTarget" appliedTo="_gEjY5T1OEeaVk-W-mW-puA">
+      <extension href="../../../../../../plugin/de.fzi.decision.security.profile.pcm.threat/profile.emfprofile_diagram#_hwwmwFsZEeevfoqMg0nzsw"/>
+      <basicComponent href="../../../../cocome-cloud.repository#_8pP20GNWEeewVMCtsoppRA"/>
     </stereotypeApplications>
     <importedProfiles nsURI="http://de.fzi.decision.security.profile.pcm.threat/0.1.0" location="platform:/plugin/de.fzi.decision.security.profile.pcm.threat/profile.emfprofile_diagram"/>
   </emfprofileapplication:ProfileApplication>

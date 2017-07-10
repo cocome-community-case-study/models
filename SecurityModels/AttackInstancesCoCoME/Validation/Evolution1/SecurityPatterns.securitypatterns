@@ -4,9 +4,21 @@
     <securityPatterns id="_OH2CsC60Eeee4Ma0GzGF8w" name="Proxy-based Firewall" description="A proxy-based firewall allows the definition and enforcement of rules at the application and lower layers for restricting ingoing and outgoing network trafic as well as ananlysis and modification of payload.." stakeholder="">
       <mitigatedThreatPrerequisites href="Prerequisites.securityprerequisites#_VR0UYGCsEeeRzNEobj9d0Q"/>
       <mitigatedThreatPrerequisites href="Prerequisites.securityprerequisites#_DvoQAGCsEeeRzNEobj9d0Q"/>
+      <mitigatedThreatPrerequisites href="Prerequisites.securityprerequisites#_4Z09YGU1EeewVMCtsoppRA"/>
       <roles id="_nnMFgDODEeedIemevWrvFg" name="Proxy" description="Firewall component acting as a proxy for a specific service; checking ingoing and outgoing traffic up to application layer against rule base and enforcing those rules." requires="_MS0ZwDEwEeejp9Ll7O-qTg _APZrMDEwEeejp9Ll7O-qTg"/>
       <roles id="_APZrMDEwEeejp9Ll7O-qTg" name="External Interface" description="Interface facing to the untrusted partition of the network." usedBy="_nnMFgDODEeedIemevWrvFg"/>
       <roles id="_MS0ZwDEwEeejp9Ll7O-qTg" name="Internal Interface" description="Interface facing the trusted partition of the network." usedBy="_nnMFgDODEeedIemevWrvFg"/>
+    </securityPatterns>
+    <securityPatterns id="_IVr20C60Eeee4Ma0GzGF8w" name="Authenticator" description="The authenticator veryfies the identity of the user. To do so It receives provided autentication information from the user, compares it with expected authentication information and, on equality, creates and returns a proof of identity to the user." stakeholder="">
+      <roles id="_6ntp8DEvEeejp9Ll7O-qTg" name="Authenticator" description="Component checking a clients claim of identity by comparing provided identifaction information with expected one. Hands out proof of identification in case of equality." requires="_435fEDPVEeedIemevWrvFg" usedBy="_XuOBEDPYEeedIemevWrvFg"/>
+      <roles id="_435fEDPVEeedIemevWrvFg" name="Authentication Information" description="Information required to establish the identity of users." usedBy="_6ntp8DEvEeejp9Ll7O-qTg"/>
+      <roles id="_XuOBEDPYEeedIemevWrvFg" name="Proof of Identity" description="Created by the authenticator, may be used to proof identy without repeated identification through authenticator." requires="_6ntp8DEvEeejp9Ll7O-qTg"/>
+    </securityPatterns>
+    <securityPatterns id="_K7yWYC60Eeee4Ma0GzGF8w" name="Role-Based Access Control" description="Role base access control allows giving allowing and denying access for groups of users. Users have the rights that are the union of the rights of the groups they belong to.">
+      <roles id="_p8ZRQDExEeejp9Ll7O-qTg" name="Protected Interface" description="Interface that may only be accessed by roles with corresponding rights." requires="_y5o5EDExEeejp9Ll7O-qTg"/>
+      <roles id="_y5o5EDExEeejp9Ll7O-qTg" name="Authorizator" description="Component looking up a users roles and that roles' rights and granting or denying access accordingly." requires="_5P6eoDExEeejp9Ll7O-qTg _tGYhADExEeejp9Ll7O-qTg" usedBy="_p8ZRQDExEeejp9Ll7O-qTg"/>
+      <roles id="_5P6eoDExEeejp9Ll7O-qTg" name="User Role Mapping" description="Information about which roles a user belongs to." usedBy="_y5o5EDExEeejp9Ll7O-qTg"/>
+      <roles id="_tGYhADExEeejp9Ll7O-qTg" name="Role Right Mapping" description="Definition of rights a role is given." usedBy="_y5o5EDExEeejp9Ll7O-qTg"/>
     </securityPatterns>
   </securityPatterns:PatternCatalog>
   <emfprofileapplication:ProfileApplication>

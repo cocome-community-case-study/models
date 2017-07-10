@@ -12,7 +12,8 @@
     <prerequisites id="_w4tQsmfOEeat05QRYoj_vQ" name="LoginRequired" description="The user has to log in before using the system." timeStamp="2016-08-21T00:00:00.000+0200"/>
     <prerequisites id="_DvoQAGCsEeeRzNEobj9d0Q" name="ImproperWebPageInputNeutralization" description="Improper Neutralization of Input During Web Page Generation  (CWE-79)" timeStamp="2017-07-04T00:00:00.000+0200"/>
     <prerequisites id="_VR0UYGCsEeeRzNEobj9d0Q" name="ImproperInputValidation" description="Improper Input Validation  (CWE-20)" timeStamp="2017-07-04T00:00:00.000+0200"/>
-    <prerequisites id="_nb44IGCsEeeRzNEobj9d0Q" name="UserInputPersistence" description="User-provided input is persisted."/>
+    <prerequisites id="_nb44IGCsEeeRzNEobj9d0Q" name="UserInputPersistence" description="User-provided input is persisted." timeStamp="2017-07-04T00:00:00.000+0200"/>
+    <prerequisites id="_4Z09YGU1EeewVMCtsoppRA" name="ImproperRequestAuthenticityValidation" description="An attacker can execute a request on a logged in user's behalf." timeStamp="2017-07-07T00:00:00.000+0200"/>
   </securityPrerequisites:PrerequisiteCatalog>
   <emfprofileapplication:ProfileApplication>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:SystemPrerequisite" appliedTo="_WZhQQj1JEeaC77dVaP0Eeg">
@@ -41,6 +42,11 @@
       <extension href="../../../../../../plugin/de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
       <compositeComponent href="../../../../cocome-cloud.repository#_nrE4ra_9Eeal2oK95oef3A"/>
       <operationProvidedRole href="../../../../cocome-cloud.repository#_yCX1wLGAEeaCwqxzEIieVA"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_4Z09YGU1EeewVMCtsoppRA">
+      <extension href="../../../../../../plugin/de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+      <compositeComponent href="../../../../cocome-cloud.repository#_WxsrWK_-Eeal2oK95oef3A"/>
+      <operationProvidedRole href="../../../../cocome-cloud.system#_4POPALF_EeaCwqxzEIieVA"/>
     </stereotypeApplications>
     <importedProfiles nsURI="http://de.fzi.decision.security.profile.pcm.prerequisite/0.1.0" location="platform:/plugin/de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram"/>
   </emfprofileapplication:ProfileApplication>
