@@ -6,7 +6,7 @@
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_zvIGZ0h5Eee76qhR2wvsFA" describedService__SEFF="_xkWDANbkEeWn1fcBwCRaXA">
       <steps_Behaviour xsi:type="seff:StartAction" id="_AwLZgkiIEee76qhR2wvsFA" successor_AbstractAction="_Vxe7EGAsEeevodg-1rfI6A"/>
       <steps_Behaviour xsi:type="seff:StopAction" id="_Bj8YwEiIEee76qhR2wvsFA" predecessor_AbstractAction="_Vxe7EGAsEeevodg-1rfI6A"/>
-      <steps_Behaviour xsi:type="seff:EmitEventAction" id="_Vxe7EGAsEeevodg-1rfI6A" entityName="EmitEventlAction1" predecessor_AbstractAction="_AwLZgkiIEee76qhR2wvsFA" successor_AbstractAction="_Bj8YwEiIEee76qhR2wvsFA" eventType__EmitEventAction="_2oV5kE-oEeeOMbxr3TEZOQ" sourceRole__EmitEventAction="_9GiSwE-tEeeOMbxr3TEZOQ"/>
+      <steps_Behaviour xsi:type="seff:EmitEventAction" id="_Vxe7EGAsEeevodg-1rfI6A" entityName="fireProductBarcodeScannedEvent" predecessor_AbstractAction="_AwLZgkiIEee76qhR2wvsFA" successor_AbstractAction="_Bj8YwEiIEee76qhR2wvsFA" eventType__EmitEventAction="_2oV5kE-oEeeOMbxr3TEZOQ" sourceRole__EmitEventAction="_9GiSwE-tEeeOMbxr3TEZOQ"/>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_j159INYgEeWrM-HnT5f_ug" entityName="org.cocome.tradingsystem.cashdeskline.cashdesk.CardReader">
@@ -16,12 +16,12 @@
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_NVp0pUh6Eee76qhR2wvsFA" describedService__SEFF="_xTiU8NbmEeWn1fcBwCRaXA">
       <steps_Behaviour xsi:type="seff:StartAction" id="_wVMtcEiKEeeAK9a9NwDLow" successor_AbstractAction="_Xvc4QGeuEeeya_49uhYfRw"/>
       <steps_Behaviour xsi:type="seff:StopAction" id="_wgEgsEiKEeeAK9a9NwDLow" predecessor_AbstractAction="_Xvc4QGeuEeeya_49uhYfRw"/>
-      <steps_Behaviour xsi:type="seff:EmitEventAction" id="_Xvc4QGeuEeeya_49uhYfRw" entityName="EmitEventlAction1" predecessor_AbstractAction="_wVMtcEiKEeeAK9a9NwDLow" successor_AbstractAction="_wgEgsEiKEeeAK9a9NwDLow" eventType__EmitEventAction="_vYcZ0E-nEeeOMbxr3TEZOQ" sourceRole__EmitEventAction="_7JetAE-pEeeOMbxr3TEZOQ"/>
+      <steps_Behaviour xsi:type="seff:EmitEventAction" id="_Xvc4QGeuEeeya_49uhYfRw" entityName="fireCreditCardScanneEvent" predecessor_AbstractAction="_wVMtcEiKEeeAK9a9NwDLow" successor_AbstractAction="_wgEgsEiKEeeAK9a9NwDLow" eventType__EmitEventAction="_vYcZ0E-nEeeOMbxr3TEZOQ" sourceRole__EmitEventAction="_7JetAE-pEeeOMbxr3TEZOQ"/>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hzJzl0h6Eee76qhR2wvsFA" describedService__SEFF="_0mq5oNbmEeWn1fcBwCRaXA">
       <steps_Behaviour xsi:type="seff:StartAction" id="_yAWnskiKEeeAK9a9NwDLow" successor_AbstractAction="_bTeYoGeuEeeya_49uhYfRw"/>
       <steps_Behaviour xsi:type="seff:StopAction" id="_yAWns0iKEeeAK9a9NwDLow" predecessor_AbstractAction="_bTeYoGeuEeeya_49uhYfRw"/>
-      <steps_Behaviour xsi:type="seff:EmitEventAction" id="_bTeYoGeuEeeya_49uhYfRw" entityName="EmitEventlAction1" predecessor_AbstractAction="_yAWnskiKEeeAK9a9NwDLow" successor_AbstractAction="_yAWns0iKEeeAK9a9NwDLow" eventType__EmitEventAction="_1kaz4E-nEeeOMbxr3TEZOQ" sourceRole__EmitEventAction="_7JetAE-pEeeOMbxr3TEZOQ"/>
+      <steps_Behaviour xsi:type="seff:EmitEventAction" id="_bTeYoGeuEeeya_49uhYfRw" entityName="FireCreditCardPinEnteredEvent" predecessor_AbstractAction="_yAWnskiKEeeAK9a9NwDLow" successor_AbstractAction="_yAWns0iKEeeAK9a9NwDLow" eventType__EmitEventAction="_1kaz4E-nEeeOMbxr3TEZOQ" sourceRole__EmitEventAction="_7JetAE-pEeeOMbxr3TEZOQ"/>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_R_7B8NY_EeW73vtlcwkhxw" entityName="org.cocome.cloud.webservice.enterpriseservice.reporting">
@@ -1385,8 +1385,9 @@
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:SinkRole" id="_jpNuYE-uEeeOMbxr3TEZOQ" entityName="handleAccountSaleEvent" eventGroup__SinkRole="_8Au6kE-oEeeOMbxr3TEZOQ"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_4ksodTkdEea5ce_j36rGrw" entityName="IStoreInventoryManagerLocal" requiredInterface__OperationRequiredRole="_j_McAdYgEeWrM-HnT5f_ug"/>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_jpNuYU-uEeeOMbxr3TEZOQ" describedService__SEFF="_-gapEE-oEeeOMbxr3TEZOQ">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_jpNuYk-uEeeOMbxr3TEZOQ" successor_AbstractAction="_jpNuY0-uEeeOMbxr3TEZOQ"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_jpNuY0-uEeeOMbxr3TEZOQ" predecessor_AbstractAction="_jpNuYk-uEeeOMbxr3TEZOQ"/>
+      <steps_Behaviour xsi:type="seff:StartAction" id="_jpNuYk-uEeeOMbxr3TEZOQ" successor_AbstractAction="_nUcXsGfQEeeIq7luhFbPJw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_jpNuY0-uEeeOMbxr3TEZOQ" predecessor_AbstractAction="_nUcXsGfQEeeIq7luhFbPJw"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_nUcXsGfQEeeIq7luhFbPJw" entityName="IStoreInventoryManagerLoca.accountSale" predecessor_AbstractAction="_jpNuYk-uEeeOMbxr3TEZOQ" successor_AbstractAction="_jpNuY0-uEeeOMbxr3TEZOQ" calledService_ExternalService="_j_McAtYgEeWrM-HnT5f_ug" role_ExternalService="_4ksodTkdEea5ce_j36rGrw"/>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_OI60AOnvEeW6PZF57gri4A" entityName="org.cocome.tradingsystem.cashdeskline.cashdesk.CashDesk">
@@ -1441,14 +1442,15 @@
       <steps_Behaviour xsi:type="seff:EmitEventAction" id="_EG-iMGfBEeeya_49uhYfRw" entityName="fireSaleFinishedEvent" predecessor_AbstractAction="_yAejz0iKEeeAK9a9NwDLow" successor_AbstractAction="_yAej0EiKEeeAK9a9NwDLow" eventType__EmitEventAction="_l6FqoFaaEeeJY7d6iKM31g" sourceRole__EmitEventAction="_TuWmcE-pEeeOMbxr3TEZOQ"/>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_edQjPkiHEeepDoRoYh6rjA" seffTypeID="_edRJ8EiHEeepDoRoYh6rjA" describedService__SEFF="_j2DHF9YgEeWrM-HnT5f_ug">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_yAej00iKEeeAK9a9NwDLow" successor_AbstractAction="_yAej1EiKEeeAK9a9NwDLow"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_yAej1EiKEeeAK9a9NwDLow" predecessor_AbstractAction="_yAej00iKEeeAK9a9NwDLow"/>
+      <steps_Behaviour xsi:type="seff:StartAction" id="_yAej00iKEeeAK9a9NwDLow" successor_AbstractAction="_gFrmwGfXEeeIq7luhFbPJw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_yAej1EiKEeeAK9a9NwDLow" predecessor_AbstractAction="_gFrmwGfXEeeIq7luhFbPJw"/>
+      <steps_Behaviour xsi:type="seff:EmitEventAction" id="_gFrmwGfXEeeIq7luhFbPJw" entityName="FirePaymentModeSelectedEvent" predecessor_AbstractAction="_yAej00iKEeeAK9a9NwDLow" successor_AbstractAction="_yAej1EiKEeeAK9a9NwDLow" eventType__EmitEventAction="_nmSPoE-oEeeOMbxr3TEZOQ" sourceRole__EmitEventAction="_TuWmcE-pEeeOMbxr3TEZOQ"/>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_edRJ8UiHEeepDoRoYh6rjA" seffTypeID="_edRJ8kiHEeepDoRoYh6rjA" describedService__SEFF="_j2E8QNYgEeWrM-HnT5f_ug">
       <steps_Behaviour xsi:type="seff:StartAction" id="_yAej10iKEeeAK9a9NwDLow" successor_AbstractAction="_CXPAgGA6EeeBd92_04LgdQ"/>
       <steps_Behaviour xsi:type="seff:StopAction" id="_yAej2EiKEeeAK9a9NwDLow" predecessor_AbstractAction="_IgbMUGA6EeeBd92_04LgdQ"/>
       <steps_Behaviour xsi:type="seff:EmitEventAction" id="_CXPAgGA6EeeBd92_04LgdQ" entityName="fireCashAmountEnteredEvent" predecessor_AbstractAction="_yAej10iKEeeAK9a9NwDLow" successor_AbstractAction="_IgbMUGA6EeeBd92_04LgdQ" eventType__EmitEventAction="_VMl7gE-oEeeOMbxr3TEZOQ" sourceRole__EmitEventAction="_TuWmcE-pEeeOMbxr3TEZOQ"/>
-      <steps_Behaviour xsi:type="seff:EmitEventAction" id="_IgbMUGA6EeeBd92_04LgdQ" entityName="EmitEventlAction2" predecessor_AbstractAction="_CXPAgGA6EeeBd92_04LgdQ" successor_AbstractAction="_yAej2EiKEeeAK9a9NwDLow" eventType__EmitEventAction="_Fi7fAE-oEeeOMbxr3TEZOQ" sourceRole__EmitEventAction="_TuWmcE-pEeeOMbxr3TEZOQ"/>
+      <steps_Behaviour xsi:type="seff:EmitEventAction" id="_IgbMUGA6EeeBd92_04LgdQ" entityName="FireChangeAmountCalculatedEvent" predecessor_AbstractAction="_CXPAgGA6EeeBd92_04LgdQ" successor_AbstractAction="_yAej2EiKEeeAK9a9NwDLow" eventType__EmitEventAction="_Fi7fAE-oEeeOMbxr3TEZOQ" sourceRole__EmitEventAction="_TuWmcE-pEeeOMbxr3TEZOQ"/>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_edRJ80iHEeepDoRoYh6rjA" seffTypeID="_edRJ9EiHEeepDoRoYh6rjA" describedService__SEFF="_j2E8QdYgEeWrM-HnT5f_ug">
       <steps_Behaviour xsi:type="seff:StartAction" id="_yAej20iKEeeAK9a9NwDLow" successor_AbstractAction="_prRcQGe8Eeeya_49uhYfRw"/>
