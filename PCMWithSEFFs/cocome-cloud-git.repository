@@ -2245,8 +2245,12 @@
       <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_iiCFgGe4Eeeya_49uhYfRw" entityName="CashDeskViewData.setInExpressMode" predecessor_AbstractAction="_f2ly8Ge4Eeeya_49uhYfRw" successor_AbstractAction="_yAhAR0iKEeeAK9a9NwDLow" calledService_ExternalService="_zoIk4GRsEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_edS_M0iHEeepDoRoYh6rjA" seffTypeID="_edS_NEiHEeepDoRoYh6rjA" describedService__SEFF="_uHAiAKaAEea90o6iaEaVPw">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_yAhASkiKEeeAK9a9NwDLow" successor_AbstractAction="_yAhAS0iKEeeAK9a9NwDLow"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_yAhAS0iKEeeAK9a9NwDLow" predecessor_AbstractAction="_yAhASkiKEeeAK9a9NwDLow"/>
+      <steps_Behaviour xsi:type="seff:StartAction" id="_yAhASkiKEeeAK9a9NwDLow" successor_AbstractAction="_2Bd5sGe4Eeeya_49uhYfRw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_yAhAS0iKEeeAK9a9NwDLow" predecessor_AbstractAction="__cGBEGe4Eeeya_49uhYfRw"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_2Bd5sGe4Eeeya_49uhYfRw" entityName="CashDeskviewData.getCashDeskName" predecessor_AbstractAction="_yAhASkiKEeeAK9a9NwDLow" successor_AbstractAction="_5BmC0Ge4Eeeya_49uhYfRw" calledService_ExternalService="_BK1KUGRsEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_5BmC0Ge4Eeeya_49uhYfRw" entityName="StoreInformation.getActiveStoreId" predecessor_AbstractAction="_2Bd5sGe4Eeeya_49uhYfRw" successor_AbstractAction="_8bFuMGe4Eeeya_49uhYfRw" calledService_ExternalService="_vLls0GSHEeaYxPjtCxykSQ" role_ExternalService="_TGkYVWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_8bFuMGe4Eeeya_49uhYfRw" entityName="CashDeskDAO.getDisplayMessage" predecessor_AbstractAction="_5BmC0Ge4Eeeya_49uhYfRw" successor_AbstractAction="__cGBEGe4Eeeya_49uhYfRw" calledService_ExternalService="_QNHAQKZjEea90o6iaEaVPw" role_ExternalService="_nH4j1aZsEea90o6iaEaVPw"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="__cGBEGe4Eeeya_49uhYfRw" entityName="CashDeskViewData.setDisplayMessage" predecessor_AbstractAction="_8bFuMGe4Eeeya_49uhYfRw" successor_AbstractAction="_yAhAS0iKEeeAK9a9NwDLow" calledService_ExternalService="_szFYoGRsEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_WslVaWSJEeaYxPjtCxykSQ" entityName="org.cocome.cloud.web.frontend.enterprise">
