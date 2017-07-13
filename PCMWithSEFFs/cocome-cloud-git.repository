@@ -214,12 +214,14 @@
       <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_kAq8oGA3EeeBd92_04LgdQ" entityName="CashDeskModel.isInExpressMode" predecessor_AbstractAction="_yAXO3kiKEeeAK9a9NwDLow" successor_AbstractAction="_yAXO30iKEeeAK9a9NwDLow" calledService_ExternalService="_j2DHE9YgEeWrM-HnT5f_ug" role_ExternalService="_1oCslewaEeW_LdalkgkVnQ"/>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IRy8Z0h-Eee76qhR2wvsFA" describedService__SEFF="_D95oIBEYEeaZraF8j4MsOw">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_yAXO4kiKEeeAK9a9NwDLow" successor_AbstractAction="_yAXO40iKEeeAK9a9NwDLow"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_yAXO40iKEeeAK9a9NwDLow" predecessor_AbstractAction="_yAXO4kiKEeeAK9a9NwDLow"/>
+      <steps_Behaviour xsi:type="seff:StartAction" id="_yAXO4kiKEeeAK9a9NwDLow" successor_AbstractAction="_HBkggGfAEeeya_49uhYfRw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_yAXO40iKEeeAK9a9NwDLow" predecessor_AbstractAction="_HBkggGfAEeeya_49uhYfRw"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_HBkggGfAEeeya_49uhYfRw" entityName="CashDeskModel.finishSale" predecessor_AbstractAction="_yAXO4kiKEeeAK9a9NwDLow" successor_AbstractAction="_yAXO40iKEeeAK9a9NwDLow" calledService_ExternalService="_j2DHFtYgEeWrM-HnT5f_ug" role_ExternalService="_1oCslewaEeW_LdalkgkVnQ"/>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_K3CgV0h-Eee76qhR2wvsFA" describedService__SEFF="_Lm4LsBEYEeaZraF8j4MsOw">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_yAXO5kiKEeeAK9a9NwDLow" successor_AbstractAction="_yAXO50iKEeeAK9a9NwDLow"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_yAXO50iKEeeAK9a9NwDLow" predecessor_AbstractAction="_yAXO5kiKEeeAK9a9NwDLow"/>
+      <steps_Behaviour xsi:type="seff:StartAction" id="_yAXO5kiKEeeAK9a9NwDLow" successor_AbstractAction="_QNLUcGfAEeeya_49uhYfRw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_yAXO50iKEeeAK9a9NwDLow" predecessor_AbstractAction="_QNLUcGfAEeeya_49uhYfRw"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_QNLUcGfAEeeya_49uhYfRw" entityName="CashDeskModel.selectPaymentMode" predecessor_AbstractAction="_yAXO5kiKEeeAK9a9NwDLow" successor_AbstractAction="_yAXO50iKEeeAK9a9NwDLow" calledService_ExternalService="_j2DHF9YgEeWrM-HnT5f_ug" role_ExternalService="_1oCslewaEeW_LdalkgkVnQ"/>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_N028V0h-Eee76qhR2wvsFA" describedService__SEFF="_YRGbkBEYEeaZraF8j4MsOw">
       <steps_Behaviour xsi:type="seff:StartAction" id="_yAXO6kiKEeeAK9a9NwDLow" successor_AbstractAction="_YSGKwGA5EeeBd92_04LgdQ"/>
@@ -227,8 +229,9 @@
       <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_YSGKwGA5EeeBd92_04LgdQ" entityName="CashDeskModel.startCashPayment" predecessor_AbstractAction="_yAXO6kiKEeeAK9a9NwDLow" successor_AbstractAction="_yAXO60iKEeeAK9a9NwDLow" calledService_ExternalService="_j2E8QNYgEeWrM-HnT5f_ug" role_ExternalService="_1oCslewaEeW_LdalkgkVnQ"/>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_QNwtZ0h-Eee76qhR2wvsFA" describedService__SEFF="_1fEKkBEYEeaZraF8j4MsOw">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_yAXO7kiKEeeAK9a9NwDLow" successor_AbstractAction="_yAXO70iKEeeAK9a9NwDLow"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_yAXO70iKEeeAK9a9NwDLow" predecessor_AbstractAction="_yAXO7kiKEeeAK9a9NwDLow"/>
+      <steps_Behaviour xsi:type="seff:StartAction" id="_yAXO7kiKEeeAK9a9NwDLow" successor_AbstractAction="_tG98gGe7Eeeya_49uhYfRw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_yAXO70iKEeeAK9a9NwDLow" predecessor_AbstractAction="_tG98gGe7Eeeya_49uhYfRw"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_tG98gGe7Eeeya_49uhYfRw" entityName="CashDeskModel.finishCashPayment" predecessor_AbstractAction="_yAXO7kiKEeeAK9a9NwDLow" successor_AbstractAction="_yAXO70iKEeeAK9a9NwDLow" calledService_ExternalService="_j2E8QdYgEeWrM-HnT5f_ug" role_ExternalService="_1oCslewaEeW_LdalkgkVnQ"/>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_SSflR0h-Eee76qhR2wvsFA" describedService__SEFF="__3eI0BEYEeaZraF8j4MsOw">
       <steps_Behaviour xsi:type="seff:StartAction" id="_yAXO8kiKEeeAK9a9NwDLow" successor_AbstractAction="_yAXO80iKEeeAK9a9NwDLow"/>
@@ -1433,8 +1436,9 @@
       <steps_Behaviour xsi:type="seff:StopAction" id="_yAejzEiKEeeAK9a9NwDLow" predecessor_AbstractAction="_yAejy0iKEeeAK9a9NwDLow"/>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_edQjPEiHEeepDoRoYh6rjA" seffTypeID="_edQjPUiHEeepDoRoYh6rjA" describedService__SEFF="_j2DHFtYgEeWrM-HnT5f_ug">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_yAejz0iKEeeAK9a9NwDLow" successor_AbstractAction="_yAej0EiKEeeAK9a9NwDLow"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_yAej0EiKEeeAK9a9NwDLow" predecessor_AbstractAction="_yAejz0iKEeeAK9a9NwDLow"/>
+      <steps_Behaviour xsi:type="seff:StartAction" id="_yAejz0iKEeeAK9a9NwDLow" successor_AbstractAction="_EG-iMGfBEeeya_49uhYfRw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_yAej0EiKEeeAK9a9NwDLow" predecessor_AbstractAction="_EG-iMGfBEeeya_49uhYfRw"/>
+      <steps_Behaviour xsi:type="seff:EmitEventAction" id="_EG-iMGfBEeeya_49uhYfRw" entityName="fireSaleFinishedEvent" predecessor_AbstractAction="_yAejz0iKEeeAK9a9NwDLow" successor_AbstractAction="_yAej0EiKEeeAK9a9NwDLow" eventType__EmitEventAction="_l6FqoFaaEeeJY7d6iKM31g" sourceRole__EmitEventAction="_TuWmcE-pEeeOMbxr3TEZOQ"/>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_edQjPkiHEeepDoRoYh6rjA" seffTypeID="_edRJ8EiHEeepDoRoYh6rjA" describedService__SEFF="_j2DHF9YgEeWrM-HnT5f_ug">
       <steps_Behaviour xsi:type="seff:StartAction" id="_yAej00iKEeeAK9a9NwDLow" successor_AbstractAction="_yAej1EiKEeeAK9a9NwDLow"/>
@@ -1447,12 +1451,50 @@
       <steps_Behaviour xsi:type="seff:EmitEventAction" id="_IgbMUGA6EeeBd92_04LgdQ" entityName="EmitEventlAction2" predecessor_AbstractAction="_CXPAgGA6EeeBd92_04LgdQ" successor_AbstractAction="_yAej2EiKEeeAK9a9NwDLow" eventType__EmitEventAction="_Fi7fAE-oEeeOMbxr3TEZOQ" sourceRole__EmitEventAction="_TuWmcE-pEeeOMbxr3TEZOQ"/>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_edRJ80iHEeepDoRoYh6rjA" seffTypeID="_edRJ9EiHEeepDoRoYh6rjA" describedService__SEFF="_j2E8QdYgEeWrM-HnT5f_ug">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_yAej20iKEeeAK9a9NwDLow" successor_AbstractAction="_yAej3EiKEeeAK9a9NwDLow"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_yAej3EiKEeeAK9a9NwDLow" predecessor_AbstractAction="_yAej20iKEeeAK9a9NwDLow"/>
+      <steps_Behaviour xsi:type="seff:StartAction" id="_yAej20iKEeeAK9a9NwDLow" successor_AbstractAction="_prRcQGe8Eeeya_49uhYfRw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_yAej3EiKEeeAK9a9NwDLow" predecessor_AbstractAction="_2Yk1UGe8Eeeya_49uhYfRw"/>
+      <steps_Behaviour xsi:type="seff:EmitEventAction" id="_prRcQGe8Eeeya_49uhYfRw" entityName="fireAccountSaleEvent" predecessor_AbstractAction="_yAej20iKEeeAK9a9NwDLow" successor_AbstractAction="_titn4Ge8Eeeya_49uhYfRw" eventType__EmitEventAction="_-gapEE-oEeeOMbxr3TEZOQ" sourceRole__EmitEventAction="_TuWmcE-pEeeOMbxr3TEZOQ"/>
+      <steps_Behaviour xsi:type="seff:EmitEventAction" id="_titn4Ge8Eeeya_49uhYfRw" entityName="fireSaleSuccessEvent" predecessor_AbstractAction="_prRcQGe8Eeeya_49uhYfRw" successor_AbstractAction="_2Yk1UGe8Eeeya_49uhYfRw" eventType__EmitEventAction="_r78HoE-wEeeOMbxr3TEZOQ" sourceRole__EmitEventAction="_TuWmcE-pEeeOMbxr3TEZOQ"/>
+      <steps_Behaviour xsi:type="seff:EmitEventAction" id="_2Yk1UGe8Eeeya_49uhYfRw" entityName="fireSaleRegisteredEvents" predecessor_AbstractAction="_titn4Ge8Eeeya_49uhYfRw" successor_AbstractAction="_yAej3EiKEeeAK9a9NwDLow" eventType__EmitEventAction="_HP3FcE-pEeeOMbxr3TEZOQ" sourceRole__EmitEventAction="_TuWmcE-pEeeOMbxr3TEZOQ"/>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_edRJ9UiHEeepDoRoYh6rjA" seffTypeID="_edRJ9kiHEeepDoRoYh6rjA" describedService__SEFF="_j2E8QtYgEeWrM-HnT5f_ug">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_yAej30iKEeeAK9a9NwDLow" successor_AbstractAction="_yAej4EiKEeeAK9a9NwDLow"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_yAej4EiKEeeAK9a9NwDLow" predecessor_AbstractAction="_yAej30iKEeeAK9a9NwDLow"/>
+      <steps_Behaviour xsi:type="seff:StartAction" id="_yAej30iKEeeAK9a9NwDLow" successor_AbstractAction="_x4QdEGfCEeeIq7luhFbPJw"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_x4QdEGfCEeeIq7luhFbPJw" entityName="Bank.validateCard" predecessor_AbstractAction="_yAej30iKEeeAK9a9NwDLow" successor_AbstractAction="_7nW_oGfCEeeIq7luhFbPJw" calledService_ExternalService="_j4f-KdYgEeWrM-HnT5f_ug" role_ExternalService="_apvdBREPEeaZraF8j4MsOw"/>
+      <steps_Behaviour xsi:type="seff:BranchAction" id="_7nW_oGfCEeeIq7luhFbPJw" entityName="BranchAction1" predecessor_AbstractAction="_x4QdEGfCEeeIq7luhFbPJw" successor_AbstractAction="_Go7aMGfEEeeIq7luhFbPJw">
+        <branches_Branch xsi:type="seff:ProbabilisticBranchTransition" id="_Jjm4EGfDEeeIq7luhFbPJw" entityName="InvalidCreditCardBranch" branchProbability="0.5">
+          <branchBehaviour_BranchTransition id="_Jjp7YGfDEeeIq7luhFbPJw">
+            <steps_Behaviour xsi:type="seff:StartAction" id="_WcjgcGfDEeeIq7luhFbPJw" successor_AbstractAction="_9WI1oGfCEeeIq7luhFbPJw"/>
+            <steps_Behaviour xsi:type="seff:EmitEventAction" id="_9WI1oGfCEeeIq7luhFbPJw" entityName="fireInvalidCreditCardEvent" predecessor_AbstractAction="_WcjgcGfDEeeIq7luhFbPJw" successor_AbstractAction="_Hdqp0GfEEeeIq7luhFbPJw" eventType__EmitEventAction="_KbqIgE-oEeeOMbxr3TEZOQ" sourceRole__EmitEventAction="_TuWmcE-pEeeOMbxr3TEZOQ"/>
+            <steps_Behaviour xsi:type="seff:StopAction" id="_Hdqp0GfEEeeIq7luhFbPJw" predecessor_AbstractAction="_9WI1oGfCEeeIq7luhFbPJw"/>
+          </branchBehaviour_BranchTransition>
+        </branches_Branch>
+        <branches_Branch xsi:type="seff:ProbabilisticBranchTransition" id="_-yBoAGfGEeeIq7luhFbPJw" entityName="ValidCreditCardBranch" branchProbability="0.5">
+          <branchBehaviour_BranchTransition id="_-yBoAWfGEeeIq7luhFbPJw">
+            <steps_Behaviour xsi:type="seff:StartAction" id="_-yBoAmfGEeeIq7luhFbPJw" successor_AbstractAction="_Xg2SMGfHEeeIq7luhFbPJw"/>
+            <steps_Behaviour xsi:type="seff:StopAction" id="_-yBoA2fGEeeIq7luhFbPJw" predecessor_AbstractAction="_sWRo8GfHEeeIq7luhFbPJw"/>
+            <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_Xg2SMGfHEeeIq7luhFbPJw" entityName="Bank.debitCard" predecessor_AbstractAction="_-yBoAmfGEeeIq7luhFbPJw" successor_AbstractAction="_sWRo8GfHEeeIq7luhFbPJw" calledService_ExternalService="_j4jBcNYgEeWrM-HnT5f_ug" role_ExternalService="_apvdBREPEeaZraF8j4MsOw"/>
+            <steps_Behaviour xsi:type="seff:BranchAction" id="_sWRo8GfHEeeIq7luhFbPJw" entityName="BranchAction1" predecessor_AbstractAction="_Xg2SMGfHEeeIq7luhFbPJw" successor_AbstractAction="_-yBoA2fGEeeIq7luhFbPJw">
+              <branches_Branch xsi:type="seff:ProbabilisticBranchTransition" id="_xZww8GfHEeeIq7luhFbPJw" entityName="ProbabilisticBranchTransition1" branchProbability="0.3">
+                <branchBehaviour_BranchTransition id="_xZww8WfHEeeIq7luhFbPJw">
+                  <steps_Behaviour xsi:type="seff:StartAction" id="_xZww8mfHEeeIq7luhFbPJw" successor_AbstractAction="_-Wd38GfHEeeIq7luhFbPJw"/>
+                  <steps_Behaviour xsi:type="seff:StopAction" id="_xZww82fHEeeIq7luhFbPJw" predecessor_AbstractAction="_-Wd38GfHEeeIq7luhFbPJw"/>
+                  <steps_Behaviour xsi:type="seff:EmitEventAction" id="_-Wd38GfHEeeIq7luhFbPJw" entityName="fireInvalidCardEvent" predecessor_AbstractAction="_xZww8mfHEeeIq7luhFbPJw" successor_AbstractAction="_xZww82fHEeeIq7luhFbPJw" eventType__EmitEventAction="_KbqIgE-oEeeOMbxr3TEZOQ" sourceRole__EmitEventAction="_TuWmcE-pEeeOMbxr3TEZOQ"/>
+                </branchBehaviour_BranchTransition>
+              </branches_Branch>
+              <branches_Branch xsi:type="seff:ProbabilisticBranchTransition" id="_zQK48GfHEeeIq7luhFbPJw" entityName="ProbabilisticBranchTransition2" branchProbability="0.7">
+                <branchBehaviour_BranchTransition id="_zQLgAGfHEeeIq7luhFbPJw">
+                  <steps_Behaviour xsi:type="seff:StartAction" id="_zQLgAWfHEeeIq7luhFbPJw" successor_AbstractAction="_IWt04GfIEeeIq7luhFbPJw"/>
+                  <steps_Behaviour xsi:type="seff:StopAction" id="_zQLgAmfHEeeIq7luhFbPJw" predecessor_AbstractAction="_Q2NwwGfIEeeIq7luhFbPJw"/>
+                  <steps_Behaviour xsi:type="seff:EmitEventAction" id="_IWt04GfIEeeIq7luhFbPJw" entityName="fireAccountSaleEvent" predecessor_AbstractAction="_zQLgAWfHEeeIq7luhFbPJw" successor_AbstractAction="_JvXC0GfIEeeIq7luhFbPJw" eventType__EmitEventAction="_-gapEE-oEeeOMbxr3TEZOQ" sourceRole__EmitEventAction="_TuWmcE-pEeeOMbxr3TEZOQ"/>
+                  <steps_Behaviour xsi:type="seff:EmitEventAction" id="_JvXC0GfIEeeIq7luhFbPJw" entityName="fireSaleSuccessEvent" predecessor_AbstractAction="_IWt04GfIEeeIq7luhFbPJw" successor_AbstractAction="_Q2NwwGfIEeeIq7luhFbPJw" eventType__EmitEventAction="_r78HoE-wEeeOMbxr3TEZOQ" sourceRole__EmitEventAction="_TuWmcE-pEeeOMbxr3TEZOQ"/>
+                  <steps_Behaviour xsi:type="seff:EmitEventAction" id="_Q2NwwGfIEeeIq7luhFbPJw" entityName="fireSaleRegisteredEvent" predecessor_AbstractAction="_JvXC0GfIEeeIq7luhFbPJw" successor_AbstractAction="_zQLgAmfHEeeIq7luhFbPJw" eventType__EmitEventAction="_HP3FcE-pEeeOMbxr3TEZOQ" sourceRole__EmitEventAction="_TuWmcE-pEeeOMbxr3TEZOQ"/>
+                </branchBehaviour_BranchTransition>
+              </branches_Branch>
+            </steps_Behaviour>
+          </branchBehaviour_BranchTransition>
+        </branches_Branch>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_Go7aMGfEEeeIq7luhFbPJw" predecessor_AbstractAction="_7nW_oGfCEeeIq7luhFbPJw"/>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_edRJ90iHEeepDoRoYh6rjA" seffTypeID="_edRJ-EiHEeepDoRoYh6rjA" describedService__SEFF="_j2E8Q9YgEeWrM-HnT5f_ug">
       <steps_Behaviour xsi:type="seff:StartAction" id="_yAej40iKEeeAK9a9NwDLow" successor_AbstractAction="_yAej5EiKEeeAK9a9NwDLow"/>
@@ -1609,12 +1651,16 @@
       <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_qFkwcGetEeeya_49uhYfRw" entityName="CardReader.sendCreditCardPin" predecessor_AbstractAction="_ifyq0GetEeeya_49uhYfRw" successor_AbstractAction="_yAfKm0iKEeeAK9a9NwDLow" calledService_ExternalService="_EVY_0NboEeWn1fcBwCRaXA" role_ExternalService="_NDLIJV_IEeavmo6nsNCw2Q"/>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_edRKC0iHEeepDoRoYh6rjA" seffTypeID="_edRKDEiHEeepDoRoYh6rjA" describedService__SEFF="_85tOYF_AEeavmo6nsNCw2Q">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_yAfKnkiKEeeAK9a9NwDLow" successor_AbstractAction="_yAfKn0iKEeeAK9a9NwDLow"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_yAfKn0iKEeeAK9a9NwDLow" predecessor_AbstractAction="_yAfKnkiKEeeAK9a9NwDLow"/>
+      <steps_Behaviour xsi:type="seff:StartAction" id="_yAfKnkiKEeeAK9a9NwDLow" successor_AbstractAction="_69pN4Ge6Eeeya_49uhYfRw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_yAfKn0iKEeeAK9a9NwDLow" predecessor_AbstractAction="_E7RUoGe7Eeeya_49uhYfRw"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_69pN4Ge6Eeeya_49uhYfRw" entityName="CashDesk.finishSale" predecessor_AbstractAction="_yAfKnkiKEeeAK9a9NwDLow" successor_AbstractAction="_E7RUoGe7Eeeya_49uhYfRw" calledService_ExternalService="_D95oIBEYEeaZraF8j4MsOw" role_ExternalService="_SO-epV_IEeavmo6nsNCw2Q"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_E7RUoGe7Eeeya_49uhYfRw" entityName="CashDesk.SelectPaymentMode" predecessor_AbstractAction="_69pN4Ge6Eeeya_49uhYfRw" successor_AbstractAction="_yAfKn0iKEeeAK9a9NwDLow" calledService_ExternalService="_Lm4LsBEYEeaZraF8j4MsOw" role_ExternalService="_SO-epV_IEeavmo6nsNCw2Q"/>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_edRKDUiHEeepDoRoYh6rjA" seffTypeID="_edRKDkiHEeepDoRoYh6rjA" describedService__SEFF="_-V770F_AEeavmo6nsNCw2Q">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_yAfKokiKEeeAK9a9NwDLow" successor_AbstractAction="_yAfKo0iKEeeAK9a9NwDLow"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_yAfKo0iKEeeAK9a9NwDLow" predecessor_AbstractAction="_yAfKokiKEeeAK9a9NwDLow"/>
+      <steps_Behaviour xsi:type="seff:StartAction" id="_yAfKokiKEeeAK9a9NwDLow" successor_AbstractAction="_qfzwMGe_Eeeya_49uhYfRw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_yAfKo0iKEeeAK9a9NwDLow" predecessor_AbstractAction="_thXcsGe_Eeeya_49uhYfRw"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_qfzwMGe_Eeeya_49uhYfRw" entityName="CashDesk.FinishSale" predecessor_AbstractAction="_yAfKokiKEeeAK9a9NwDLow" successor_AbstractAction="_thXcsGe_Eeeya_49uhYfRw" calledService_ExternalService="_D95oIBEYEeaZraF8j4MsOw" role_ExternalService="_SO-epV_IEeavmo6nsNCw2Q"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_thXcsGe_Eeeya_49uhYfRw" entityName="CashDeskSelectPaymentMethod" predecessor_AbstractAction="_qfzwMGe_Eeeya_49uhYfRw" successor_AbstractAction="_yAfKo0iKEeeAK9a9NwDLow" calledService_ExternalService="_Lm4LsBEYEeaZraF8j4MsOw" role_ExternalService="_SO-epV_IEeavmo6nsNCw2Q"/>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_y0NvkWCFEeazuKfW7hgDjA" entityName="org.cocome.cloud.web.connector.enterpriseconnector">
@@ -1852,12 +1898,14 @@
       <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_Pb_CsGetEeeya_49uhYfRw" entityName="CashDeskQuery.enterCardInfo" predecessor_AbstractAction="_yAfx_kiKEeeAK9a9NwDLow" successor_AbstractAction="_yAfx_0iKEeeAK9a9NwDLow" calledService_ExternalService="_7aSqEF_AEeavmo6nsNCw2Q" role_ExternalService="_wEQhlaZvEea90o6iaEaVPw"/>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_edRxIkiHEeepDoRoYh6rjA" seffTypeID="_edRxI0iHEeepDoRoYh6rjA" describedService__SEFF="_6silUKZjEea90o6iaEaVPw">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_yAfyAkiKEeeAK9a9NwDLow" successor_AbstractAction="_yAfyA0iKEeeAK9a9NwDLow"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_yAfyA0iKEeeAK9a9NwDLow" predecessor_AbstractAction="_yAfyAkiKEeeAK9a9NwDLow"/>
+      <steps_Behaviour xsi:type="seff:StartAction" id="_yAfyAkiKEeeAK9a9NwDLow" successor_AbstractAction="_oQWoUGe6Eeeya_49uhYfRw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_yAfyA0iKEeeAK9a9NwDLow" predecessor_AbstractAction="_oQWoUGe6Eeeya_49uhYfRw"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_oQWoUGe6Eeeya_49uhYfRw" entityName="CashDeskQuery.startCashPayment" predecessor_AbstractAction="_yAfyAkiKEeeAK9a9NwDLow" successor_AbstractAction="_yAfyA0iKEeeAK9a9NwDLow" calledService_ExternalService="_85tOYF_AEeavmo6nsNCw2Q" role_ExternalService="_wEQhlaZvEea90o6iaEaVPw"/>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_edRxJEiHEeepDoRoYh6rjA" seffTypeID="_edRxJUiHEeepDoRoYh6rjA" describedService__SEFF="_88SaYKZjEea90o6iaEaVPw">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_yAgYskiKEeeAK9a9NwDLow" successor_AbstractAction="_yAgYs0iKEeeAK9a9NwDLow"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_yAgYs0iKEeeAK9a9NwDLow" predecessor_AbstractAction="_yAgYskiKEeeAK9a9NwDLow"/>
+      <steps_Behaviour xsi:type="seff:StartAction" id="_yAgYskiKEeeAK9a9NwDLow" successor_AbstractAction="_cyDmwGe_Eeeya_49uhYfRw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_yAgYs0iKEeeAK9a9NwDLow" predecessor_AbstractAction="_cyDmwGe_Eeeya_49uhYfRw"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_cyDmwGe_Eeeya_49uhYfRw" entityName="CashDeskQuery.startCreditCardPayment" predecessor_AbstractAction="_yAgYskiKEeeAK9a9NwDLow" successor_AbstractAction="_yAgYs0iKEeeAK9a9NwDLow" calledService_ExternalService="_-V770F_AEeavmo6nsNCw2Q" role_ExternalService="_wEQhlaZvEea90o6iaEaVPw"/>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_edRxJkiHEeepDoRoYh6rjA" seffTypeID="_edRxJ0iHEeepDoRoYh6rjA" describedService__SEFF="_-0RPsKZjEea90o6iaEaVPw">
       <steps_Behaviour xsi:type="seff:StartAction" id="_yAgYtkiKEeeAK9a9NwDLow" successor_AbstractAction="_x4LAUGApEeebge3YAP8Ifg"/>
@@ -2204,12 +2252,40 @@
       <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_JfJD4GAlEeebge3YAP8Ifg" entityName="CashDeskViewData.setPrinterOutput" predecessor_AbstractAction="_-B5kgGAkEeebge3YAP8Ifg" successor_AbstractAction="_0o_mUGAiEeebge3YAP8Ifg" calledService_ExternalService="_X4aVgGRsEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_edS_JUiHEeepDoRoYh6rjA" seffTypeID="_edS_JkiHEeepDoRoYh6rjA" describedService__SEFF="_9Kj6UGVREead_5QKkcGuDg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_yAhALkiKEeeAK9a9NwDLow" successor_AbstractAction="_yAhAL0iKEeeAK9a9NwDLow"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_yAhAL0iKEeeAK9a9NwDLow" predecessor_AbstractAction="_yAhALkiKEeeAK9a9NwDLow"/>
+      <steps_Behaviour xsi:type="seff:StartAction" id="_yAhALkiKEeeAK9a9NwDLow" successor_AbstractAction="_VIKr8Ge5Eeeya_49uhYfRw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_yAhAL0iKEeeAK9a9NwDLow" predecessor_AbstractAction="_WEgi8Ge6Eeeya_49uhYfRw"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_VIKr8Ge5Eeeya_49uhYfRw" entityName="CashDeskViewData.getCashDeskName" predecessor_AbstractAction="_yAhALkiKEeeAK9a9NwDLow" successor_AbstractAction="_Z7uhkGe5Eeeya_49uhYfRw" calledService_ExternalService="_BK1KUGRsEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_Z7uhkGe5Eeeya_49uhYfRw" entityName="StoreInformation.getActiveStoreId" predecessor_AbstractAction="_VIKr8Ge5Eeeya_49uhYfRw" successor_AbstractAction="_dTkAEGe5Eeeya_49uhYfRw" calledService_ExternalService="_vLls0GSHEeaYxPjtCxykSQ" role_ExternalService="_TGkYVWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_dTkAEGe5Eeeya_49uhYfRw" entityName="CashDeskDAO.startCashPayment" predecessor_AbstractAction="_Z7uhkGe5Eeeya_49uhYfRw" successor_AbstractAction="_h25BUGe5Eeeya_49uhYfRw" calledService_ExternalService="_6silUKZjEea90o6iaEaVPw" role_ExternalService="_nH4j1aZsEea90o6iaEaVPw"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_h25BUGe5Eeeya_49uhYfRw" entityName="CashDeskVIewData.setAllItemsRegistered" predecessor_AbstractAction="_dTkAEGe5Eeeya_49uhYfRw" successor_AbstractAction="_xvR2UGe5Eeeya_49uhYfRw" calledService_ExternalService="_g0YgEGRuEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_xvR2UGe5Eeeya_49uhYfRw" entityName="CashDeskViewData.setCashPayment" predecessor_AbstractAction="_h25BUGe5Eeeya_49uhYfRw" successor_AbstractAction="_29RlMGe5Eeeya_49uhYfRw" calledService_ExternalService="_sKLc4GXdEeamEr6y5T9PEQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_29RlMGe5Eeeya_49uhYfRw" entityName="CashDeskViewData.setCardPayment" predecessor_AbstractAction="_xvR2UGe5Eeeya_49uhYfRw" successor_AbstractAction="_99MksGe5Eeeya_49uhYfRw" calledService_ExternalService="_C2OqQGRuEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_99MksGe5Eeeya_49uhYfRw" entityName="CashDeskViewData.egtCashDeskName" predecessor_AbstractAction="_29RlMGe5Eeeya_49uhYfRw" successor_AbstractAction="_A5ldUGe6Eeeya_49uhYfRw" calledService_ExternalService="_BK1KUGRsEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_A5ldUGe6Eeeya_49uhYfRw" entityName="StoreInformation.getActiveStoreId" predecessor_AbstractAction="_99MksGe5Eeeya_49uhYfRw" successor_AbstractAction="_DZRy4Ge6Eeeya_49uhYfRw" calledService_ExternalService="_m1HxIGSHEeaYxPjtCxykSQ" role_ExternalService="_TGkYVWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_DZRy4Ge6Eeeya_49uhYfRw" entityName="CashDeskDAO.getDisplayMessage" predecessor_AbstractAction="_A5ldUGe6Eeeya_49uhYfRw" successor_AbstractAction="_F7MWAGe6Eeeya_49uhYfRw" calledService_ExternalService="_QNHAQKZjEea90o6iaEaVPw" role_ExternalService="_nH4j1aZsEea90o6iaEaVPw"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_F7MWAGe6Eeeya_49uhYfRw" entityName="CashDeskViewData.setDisplayMessage" predecessor_AbstractAction="_DZRy4Ge6Eeeya_49uhYfRw" successor_AbstractAction="_LgUygGe6Eeeya_49uhYfRw" calledService_ExternalService="_szFYoGRsEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_LgUygGe6Eeeya_49uhYfRw" entityName="CashDeskViewData.getCashDeskName" predecessor_AbstractAction="_F7MWAGe6Eeeya_49uhYfRw" successor_AbstractAction="_P8mJgGe6Eeeya_49uhYfRw" calledService_ExternalService="_BK1KUGRsEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_P8mJgGe6Eeeya_49uhYfRw" entityName="StoreInformation.getActiveStoreId" predecessor_AbstractAction="_LgUygGe6Eeeya_49uhYfRw" successor_AbstractAction="_SyO54Ge6Eeeya_49uhYfRw" calledService_ExternalService="_vLls0GSHEeaYxPjtCxykSQ" role_ExternalService="_TGkYVWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_SyO54Ge6Eeeya_49uhYfRw" entityName="CashDeskDAO.getPrinterOutput" predecessor_AbstractAction="_P8mJgGe6Eeeya_49uhYfRw" successor_AbstractAction="_WEgi8Ge6Eeeya_49uhYfRw" calledService_ExternalService="_SyK-AKZjEea90o6iaEaVPw" role_ExternalService="_nH4j1aZsEea90o6iaEaVPw"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_WEgi8Ge6Eeeya_49uhYfRw" entityName="CashDeskViewDAta.setPrinterOutput" predecessor_AbstractAction="_SyO54Ge6Eeeya_49uhYfRw" successor_AbstractAction="_yAhAL0iKEeeAK9a9NwDLow" calledService_ExternalService="_X4aVgGRsEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_edS_J0iHEeepDoRoYh6rjA" seffTypeID="_edS_KEiHEeepDoRoYh6rjA" describedService__SEFF="_gii7kGVSEead_5QKkcGuDg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_yAhAMkiKEeeAK9a9NwDLow" successor_AbstractAction="_yAhAM0iKEeeAK9a9NwDLow"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_yAhAM0iKEeeAK9a9NwDLow" predecessor_AbstractAction="_yAhAMkiKEeeAK9a9NwDLow"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_Z7uhkGe5Eeeya_49uhYfR2" entityName="StoreInformation.getActiveStoreId" predecessor_AbstractAction="_VIKr8Ge5Eeeya_49uhYfR2" successor_AbstractAction="_L_KRUGe_Eeeya_49uhYfRw" calledService_ExternalService="_vLls0GSHEeaYxPjtCxykSQ" role_ExternalService="_TGkYVWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_A5ldUGe6Eeeya_49uhYfR2" entityName="StoreInformation.getActiveStoreId" predecessor_AbstractAction="_99MksGe5Eeeya_49uhYfR2" successor_AbstractAction="_DZRy4Ge6Eeeya_49uhYfR2" calledService_ExternalService="_m1HxIGSHEeaYxPjtCxykSQ" role_ExternalService="_TGkYVWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_WEgi8Ge6Eeeya_49uhYfR2" entityName="CashDeskViewDAta.setPrinterOutput" predecessor_AbstractAction="_SyO54Ge6Eeeya_49uhYfR2" successor_AbstractAction="_yAhAL0iKEeeAK9a9NwDLo2" calledService_ExternalService="_X4aVgGRsEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_xvR2UGe5Eeeya_49uhYfR2" entityName="CashDeskViewData.setCashPayment" predecessor_AbstractAction="_h25BUGe5Eeeya_49uhYfR2" successor_AbstractAction="_29RlMGe5Eeeya_49uhYfR2" calledService_ExternalService="_sKLc4GXdEeamEr6y5T9PEQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_DZRy4Ge6Eeeya_49uhYfR2" entityName="CashDeskDAO.getDisplayMessage" predecessor_AbstractAction="_A5ldUGe6Eeeya_49uhYfR2" successor_AbstractAction="_F7MWAGe6Eeeya_49uhYfR2" calledService_ExternalService="_QNHAQKZjEea90o6iaEaVPw" role_ExternalService="_nH4j1aZsEea90o6iaEaVPw"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_29RlMGe5Eeeya_49uhYfR2" entityName="CashDeskViewData.setCardPayment" predecessor_AbstractAction="_xvR2UGe5Eeeya_49uhYfR2" successor_AbstractAction="_99MksGe5Eeeya_49uhYfR2" calledService_ExternalService="_C2OqQGRuEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_P8mJgGe6Eeeya_49uhYfR2" entityName="StoreInformation.getActiveStoreId" predecessor_AbstractAction="_LgUygGe6Eeeya_49uhYfR2" successor_AbstractAction="_SyO54Ge6Eeeya_49uhYfR2" calledService_ExternalService="_vLls0GSHEeaYxPjtCxykSQ" role_ExternalService="_TGkYVWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_VIKr8Ge5Eeeya_49uhYfR2" entityName="CashDeskViewData.getCashDeskName" predecessor_AbstractAction="_yAhALkiKEeeAK9a9NwDLo2" successor_AbstractAction="_Z7uhkGe5Eeeya_49uhYfR2" calledService_ExternalService="_BK1KUGRsEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_99MksGe5Eeeya_49uhYfR2" entityName="CashDeskViewData.egtCashDeskName" predecessor_AbstractAction="_29RlMGe5Eeeya_49uhYfR2" successor_AbstractAction="_A5ldUGe6Eeeya_49uhYfR2" calledService_ExternalService="_BK1KUGRsEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_F7MWAGe6Eeeya_49uhYfR2" entityName="CashDeskViewData.setDisplayMessage" predecessor_AbstractAction="_DZRy4Ge6Eeeya_49uhYfR2" successor_AbstractAction="_LgUygGe6Eeeya_49uhYfR2" calledService_ExternalService="_szFYoGRsEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:StartAction" id="_yAhALkiKEeeAK9a9NwDLo2" successor_AbstractAction="_VIKr8Ge5Eeeya_49uhYfR2"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_LgUygGe6Eeeya_49uhYfR2" entityName="CashDeskViewData.getCashDeskName" predecessor_AbstractAction="_F7MWAGe6Eeeya_49uhYfR2" successor_AbstractAction="_P8mJgGe6Eeeya_49uhYfR2" calledService_ExternalService="_BK1KUGRsEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_SyO54Ge6Eeeya_49uhYfR2" entityName="CashDeskDAO.getPrinterOutput" predecessor_AbstractAction="_P8mJgGe6Eeeya_49uhYfR2" successor_AbstractAction="_WEgi8Ge6Eeeya_49uhYfR2" calledService_ExternalService="_SyK-AKZjEea90o6iaEaVPw" role_ExternalService="_nH4j1aZsEea90o6iaEaVPw"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_h25BUGe5Eeeya_49uhYfR2" entityName="CashDeskVIewData.setAllItemsRegistered" predecessor_AbstractAction="_L_KRUGe_Eeeya_49uhYfRw" successor_AbstractAction="_xvR2UGe5Eeeya_49uhYfR2" calledService_ExternalService="_g0YgEGRuEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_yAhAL0iKEeeAK9a9NwDLo2" predecessor_AbstractAction="_WEgi8Ge6Eeeya_49uhYfR2"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_L_KRUGe_Eeeya_49uhYfRw" entityName="CashDeskDAO.startCreditCardPayment" predecessor_AbstractAction="_Z7uhkGe5Eeeya_49uhYfR2" successor_AbstractAction="_h25BUGe5Eeeya_49uhYfR2" calledService_ExternalService="_88SaYKZjEea90o6iaEaVPw" role_ExternalService="_nH4j1aZsEea90o6iaEaVPw"/>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_edS_KUiHEeepDoRoYh6rjA" seffTypeID="_edS_KkiHEeepDoRoYh6rjA" describedService__SEFF="_y7-SEGXjEeamEr6y5T9PEQ">
       <steps_Behaviour xsi:type="seff:StartAction" id="_yAhANkiKEeeAK9a9NwDLow" successor_AbstractAction="_e289sGAfEeebge3YAP8Ifg"/>
