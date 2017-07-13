@@ -2223,8 +2223,10 @@
       <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_a9Oe0GA6EeeBd92_04LgdQ" entityName="CashDeskViewData.clearBarcode" predecessor_AbstractAction="_yAhAOkiKEeeAK9a9NwDLow" successor_AbstractAction="_yAhAO0iKEeeAK9a9NwDLow" calledService_ExternalService="_sM9-YGRtEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_edS_LUiHEeepDoRoYh6rjA" seffTypeID="_edS_LkiHEeepDoRoYh6rjA" describedService__SEFF="_PktNEGXkEeamEr6y5T9PEQ">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_yAhAPkiKEeeAK9a9NwDLow" successor_AbstractAction="_yAhAP0iKEeeAK9a9NwDLow"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_yAhAP0iKEeeAK9a9NwDLow" predecessor_AbstractAction="_yAhAPkiKEeeAK9a9NwDLow"/>
+      <steps_Behaviour xsi:type="seff:StartAction" id="_yAhAPkiKEeeAK9a9NwDLow" successor_AbstractAction="_8RjjQGeuEeeya_49uhYfRw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_yAhAP0iKEeeAK9a9NwDLow" predecessor_AbstractAction="_DDoUAGevEeeya_49uhYfRw"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_8RjjQGeuEeeya_49uhYfRw" entityName="CashDeskViewData.getBarcode" predecessor_AbstractAction="_yAhAPkiKEeeAK9a9NwDLow" successor_AbstractAction="_DDoUAGevEeeya_49uhYfRw" calledService_ExternalService="_yCPvsGRtEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_DDoUAGevEeeya_49uhYfRw" entityName="CashDeskViewData.setBarcode" predecessor_AbstractAction="_8RjjQGeuEeeya_49uhYfRw" successor_AbstractAction="_yAhAP0iKEeeAK9a9NwDLow" calledService_ExternalService="_sM9-YGRtEeaYxPjtCxykSQ" role_ExternalService="_DugpNWSGEeaYxPjtCxykSQ"/>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_edS_L0iHEeepDoRoYh6rjA" seffTypeID="_edS_MEiHEeepDoRoYh6rjA" describedService__SEFF="_Z4vLMGrSEea_zK7OHEqi-g">
       <steps_Behaviour xsi:type="seff:StartAction" id="_yAhAQkiKEeeAK9a9NwDLow" successor_AbstractAction="_yAhAQ0iKEeeAK9a9NwDLow"/>
