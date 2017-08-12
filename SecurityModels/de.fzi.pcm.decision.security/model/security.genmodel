@@ -8,6 +8,14 @@
     importOrganizing="true">
   <foreignModel>security.ecore</foreignModel>
   <genPackages prefix="Security" disposableProviderFactory="true" ecorePackage="security.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="security.ecore#//CategoryType">
+      <genEnumLiterals ecoreEnumLiteral="security.ecore#//CategoryType/THREAT"/>
+      <genEnumLiterals ecoreEnumLiteral="security.ecore#//CategoryType/SECURITYPATTERN"/>
+    </genEnums>
+    <genClasses image="false" ecoreClass="security.ecore#//NamedDescribedEntity">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//NamedDescribedEntity/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//NamedDescribedEntity/description"/>
+    </genClasses>
     <genClasses ecoreClass="security.ecore#//Container">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//Container/timeStamp"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference security.ecore#//Container/contains"/>
@@ -16,10 +24,10 @@
     <genClasses image="false" ecoreClass="security.ecore#//Catalog">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//Catalog/timeStamp"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//Catalog/createdBy"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference security.ecore#//Catalog/categories"/>
     </genClasses>
-    <genClasses image="false" ecoreClass="security.ecore#//NamedDescribedEntity">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//NamedDescribedEntity/name"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//NamedDescribedEntity/description"/>
+    <genClasses ecoreClass="security.ecore#//Category">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//Category/categoryType"/>
     </genClasses>
     <nestedGenPackages prefix="SecurityPatterns" basePackage="security" disposableProviderFactory="true"
         ecorePackage="security.ecore#//securityPatterns">
@@ -37,6 +45,8 @@
             ecoreFeature="ecore:EReference security.ecore#//securityPatterns/SecurityPattern/subSecurityPatterns"/>
         <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference security.ecore#//securityPatterns/SecurityPattern/roles"/>
         <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//securityPatterns/SecurityPattern/implemented"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference security.ecore#//securityPatterns/SecurityPattern/categories"/>
       </genClasses>
       <genClasses ecoreClass="security.ecore#//securityPatterns/Role">
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
@@ -103,6 +113,8 @@
             ecoreFeature="ecore:EReference security.ecore#//securityThreats/Attack/prerequisites"/>
         <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//securityThreats/Attack/stealth"/>
         <genFeatures createChild="false" ecoreFeature="ecore:EAttribute security.ecore#//securityThreats/Attack/securityViolations"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference security.ecore#//securityThreats/Attack/categories"/>
       </genClasses>
       <nestedGenPackages prefix="Enums" basePackage="security.securityThreats" disposableProviderFactory="true"
           ecorePackage="security.ecore#//securityThreats/enums">
