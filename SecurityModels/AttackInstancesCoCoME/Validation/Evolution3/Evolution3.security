@@ -194,6 +194,267 @@
       <basicComponent href="../../../../cocome-cloud.repository#_kBFSaNYgEeWrM-HnT5f_ug"/>
       <basicComponent href="../../../../cocome-cloud.repository#_llW0oNY4EeW73vtlcwkhxw"/>
     </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite" appliedTo="_YGJIMFpAEeeDStyR4vdK8Q">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_L8XqcCmiEeeqDL-zCBq2ew"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:NetworkPrerequisite" appliedTo="_YGJIMFpAEeeDStyR4vdK8Q">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_L8XqcCmiEeeqDL-zCBq2ew"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_yuXHgFpBEeeDStyR4vdK8Q">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_L8XqcCmiEeeqDL-zCBq2ew"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite" appliedTo="_yuXHgFpBEeeDStyR4vdK8Q">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_L8XqcCmiEeeqDL-zCBq2ew"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ResourcePrerequisite">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_L8XqcCmiEeeqDL-zCBq2ew"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite" appliedTo="_XrUGAFpDEeeDStyR4vdK8Q">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_L8XqcCmiEeeqDL-zCBq2ew"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:TechnologyPrerequisite" appliedTo="_XrUGAFpDEeeDStyR4vdK8Q">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_L8XqcCmiEeeqDL-zCBq2ew"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite" appliedTo="_hlpTcFqLEee3Y7MWUzYKLA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_L8XqcCmiEeeqDL-zCBq2ew"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_hlpTcFqLEee3Y7MWUzYKLA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_L8XqcCmiEeeqDL-zCBq2ew"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_ZS2W0FqLEee3Y7MWUzYKLA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_L8XqcCmiEeeqDL-zCBq2ew"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite" appliedTo="_ZS2W0FqLEee3Y7MWUzYKLA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_L8XqcCmiEeeqDL-zCBq2ew"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:TechnologyPrerequisite" appliedTo="_M0bySGSOEeaBdfha1Hk-SA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_L8XqcCmiEeeqDL-zCBq2ew"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:TechnologyPrerequisite" appliedTo="_K3GZKD1NEeaVk-W-mW-puA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_L8XqcCmiEeeqDL-zCBq2ew"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_K3GZKD1NEeaVk-W-mW-puA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_L8XqcCmiEeeqDL-zCBq2ew"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:TechnologyPrerequisite" appliedTo="_GBmUuD1LEeaVk-W-mW-puA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_L8XqcCmiEeeqDL-zCBq2ew"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ResourcePrerequisite" appliedTo="_g5Xd1z1KEeaVk-W-mW-puA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_L8XqcCmiEeeqDL-zCBq2ew"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:TechnologyPrerequisite" appliedTo="_Myt4qD1KEeaVk-W-mW-puA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_L8XqcCmiEeeqDL-zCBq2ew"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:NetworkPrerequisite" appliedTo="_GBmUuD1LEeaVk-W-mW-puA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_L8XqcCmiEeeqDL-zCBq2ew"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:NetworkPrerequisite" appliedTo="_Myt4qD1KEeaVk-W-mW-puA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_L8XqcCmiEeeqDL-zCBq2ew"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:NetworkPrerequisite" appliedTo="_WZhQQj1JEeaC77dVaP0Eeg">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_L8XqcCmiEeeqDL-zCBq2ew"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite" appliedTo="_5whTUFqcEee3Y7MWUzYKLA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_L8XqcCmiEeeqDL-zCBq2ew"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_5whTUFqcEee3Y7MWUzYKLA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_L8XqcCmiEeeqDL-zCBq2ew"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:NetworkPrerequisite" appliedTo="_7HVqYHCXEeeuUeOpptM-yQ">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_duNcoFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:TechnologyPrerequisite" appliedTo="_7HVqYHCXEeeuUeOpptM-yQ">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_d_YFIFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:NetworkPrerequisite" appliedTo="_nOF1wHCcEeeuUeOpptM-yQ">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_duNcoFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:SystemPrerequisite" appliedTo="_nOF1wHCcEeeuUeOpptM-yQ">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_csSsoFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_3Qf3gHCeEeeuUeOpptM-yQ">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:NetworkPrerequisite" appliedTo="_Iv2DQHCfEeeuUeOpptM-yQ">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_duNcoFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_Iv2DQHCfEeeuUeOpptM-yQ">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite" appliedTo="_9CVoYHCgEeeuUeOpptM-yQ">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_efuZIFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_9CVoYHCgEeeuUeOpptM-yQ">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:TechnologyPrerequisite" appliedTo="_P9jo0HHsEee3t9O1wS03ow">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_d_YFIFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:SystemPrerequisite" appliedTo="_QCwv8HJPEeeUDOga6FjiIA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_csSsoFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_Z2AysHJPEeeUDOga6FjiIA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_P9jo0HHsEee3t9O1wS03ow">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_Z2AysHJPEeeUDOga6FjiIA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_Z2AysHJPEeeUDOga6FjiIA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_HcBuMHJQEeeUDOga6FjiIA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite" appliedTo="_HcBuMHJQEeeUDOga6FjiIA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_efuZIFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:SystemPrerequisite" appliedTo="_UHWxUHJQEeeUDOga6FjiIA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_csSsoFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_ThGCkHJQEeeUDOga6FjiIA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite" appliedTo="_ThGCkHJQEeeUDOga6FjiIA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_efuZIFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:NetworkPrerequisite" appliedTo="_UHWxUHJQEeeUDOga6FjiIA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_duNcoFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite" appliedTo="_MVlZIHdpEeeQ5rJ_Llc3NA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_efuZIFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_MVlZIHdpEeeQ5rJ_Llc3NA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_kp2D0HrCEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:NetworkPrerequisite" appliedTo="_l2BjEHrCEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_duNcoFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite" appliedTo="_l2BjEHrCEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_efuZIFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_l2BjEHrCEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:NetworkPrerequisite" appliedTo="_lEuB8HrCEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_duNcoFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite" appliedTo="_lEuB8HrCEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_efuZIFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite" appliedTo="_Tab_QHrHEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_efuZIFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:NetworkPrerequisite" appliedTo="_YEMYoHrHEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_duNcoFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_YEMYoHrHEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_lDKJcHrHEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:NetworkPrerequisite" appliedTo="_QnuKkHrIEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_duNcoFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_QnuKkHrIEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_fa98cHrIEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite" appliedTo="_fa98cHrIEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_efuZIFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:NetworkPrerequisite" appliedTo="_1HWJUHrIEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_duNcoFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite" appliedTo="_1HWJUHrIEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_efuZIFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_1HWJUHrIEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_CpPBAHrJEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite" appliedTo="_CpPBAHrJEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_efuZIFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_ItoMYHrJEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_YX33sHrJEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite" appliedTo="_YX33sHrJEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_efuZIFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:NetworkPrerequisite" appliedTo="_YX33sHrJEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_duNcoFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite" appliedTo="_mV-KQHrJEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_efuZIFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_mV-KQHrJEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_t-jVcYDNEeep_vGoYB1cZA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:SystemPrerequisite" appliedTo="_CibCIYDOEeep_vGoYB1cZA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_csSsoFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_XrUGAFpDEeeDStyR4vdK8Q">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_7HVqYHCXEeeuUeOpptM-yQ">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_HrR9AHChEeeuUeOpptM-yQ">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_IdkgIHCiEeeuUeOpptM-yQ">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_VpQeUHCiEeeuUeOpptM-yQ">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:SystemPrerequisite" appliedTo="_XlTvQHHqEee3t9O1wS03ow">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_csSsoFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_Z2AysHJPEeeUDOga6FjiIA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite" appliedTo="_Z2AysHJPEeeUDOga6FjiIA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_efuZIFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_Z2AysHJPEeeUDOga6FjiIA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:NetworkPrerequisite" appliedTo="_HcBuMHJQEeeUDOga6FjiIA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_duNcoFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite" appliedTo="_kp2D0HrCEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_efuZIFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_lEuB8HrCEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_Tab_QHrHEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:NetworkPrerequisite" appliedTo="_lDKJcHrHEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_duNcoFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:NetworkPrerequisite" appliedTo="_mV-KQHrJEeelLYMz0yOLCw">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_duNcoFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
     <importedProfiles nsURI="http://de.fzi.decision.security.profile.pcm.prerequisite/0.1.0" location="platform:/plugin/de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram"/>
     <importedProfiles nsURI="http://de.fzi.decision.security.profile.pcm.pattern/0.1.0" location="platform:/plugin/de.fzi.decision.security.profile.pcm.pattern/profile.emfprofile_diagram"/>
     <importedProfiles nsURI="http://de.fzi.decision.security.profile.pcm.threat/0.1.0" location="platform:/plugin/de.fzi.decision.security.profile.pcm.threat/profile.emfprofile_diagram"/>

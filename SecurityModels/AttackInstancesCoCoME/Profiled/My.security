@@ -10,8 +10,9 @@
       <securityPatterns id="_Lr-3UCmdEeeSu70OAq_aAQ"/>
     </contains>
     <contains xsi:type="securityThreats:ThreatCatalog" id="_JeNfkimaEeeSu70OAq_aAQ">
+      <categories id="_7ahtUH9XEeeXK_dlT3bDnQ" name="Example" description="exampleCategory"/>
       <attackers id="_MM8PUCmdEeeSu70OAq_aAQ"/>
-      <attackTypes id="_MoXAASmdEeeSu70OAq_aAQ" name="Test1" prerequisites="_J73E4CmaEeeSu70OAq_aAQ"/>
+      <attackTypes id="_MoXAASmdEeeSu70OAq_aAQ" name="Test1" prerequisites="_J73E4CmaEeeSu70OAq_aAQ" categories="_7ahtUH9XEeeXK_dlT3bDnQ"/>
       <attackTypes id="_d-yyUStIEeeBFJawWlgBXg" name="Test2" prerequisites="_ZPPS8CtIEeeBFJawWlgBXg"/>
     </contains>
   </security:Container>
@@ -24,7 +25,7 @@
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:NetworkPrerequisite" appliedTo="_ZPPS8CtIEeeBFJawWlgBXg">
       <extension href="../../../plugin/de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_L8XqcCmiEeeqDL-zCBq2ew"/>
-      <linlingResource href="../../cocomePcmModel/cocome.resourceenvironment#_EhhxElceEd23wcZsd06DZg"/>
+      <linkingResource href="../../cocomePcmModel/cocome.resourceenvironment#_EhhxElceEd23wcZsd06DZg"/>
     </stereotypeApplications>
     <importedProfiles nsURI="http://de.fzi.decision.security.profile.pcm.pattern/0.1.0" location="platform:/plugin/de.fzi.decision.security.profile.pcm.pattern/profile.emfprofile_diagram"/>
     <importedProfiles nsURI="http://de.fzi.decision.security.profile.pcm.prerequisite/0.1.0" location="platform:/plugin/de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram"/>
