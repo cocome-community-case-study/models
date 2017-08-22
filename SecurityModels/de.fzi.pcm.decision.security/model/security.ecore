@@ -28,16 +28,6 @@
     <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="timeStamp" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="createdBy" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="categories" upperBound="-1"
-        eType="#//Category" containment="true"/>
-  </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Category" eSuperTypes="#//NamedDescribedEntity">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="categoryType" lowerBound="1"
-        eType="#//CategoryType"/>
-  </eClassifiers>
-  <eClassifiers xsi:type="ecore:EEnum" name="CategoryType">
-    <eLiterals name="THREAT"/>
-    <eLiterals name="SECURITYPATTERN" value="1"/>
   </eClassifiers>
   <eSubpackages name="securityPatterns" nsURI="http://www.fzi.de/pcm/security/securityPatterns"
       nsPrefix="securityPatterns">
@@ -71,7 +61,7 @@
           upperBound="-1" eType="#//securityPatterns/Role" containment="true"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="implemented" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="categories" upperBound="-1"
-          eType="#//Category"/>
+          eType="#//categories/Category"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Role" eSuperTypes="#//NamedDescribedEntity">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
@@ -193,7 +183,7 @@
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="securityViolations" lowerBound="1"
           upperBound="-1" eType="#//securityThreats/enums/SecurityViolation"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="categories" upperBound="-1"
-          eType="#//Category"/>
+          eType="#//categories/Category"/>
     </eClassifiers>
     <eSubpackages name="enums" nsURI="http://www.fzi.de/pcm/security/securityThreats/enums"
         nsPrefix="enums">
@@ -275,5 +265,24 @@
         <eLiterals name="NONREPUDIATION" value="5"/>
       </eClassifiers>
     </eSubpackages>
+  </eSubpackages>
+  <eSubpackages name="categories" nsURI="http://www.fzi.de/pcm/security/categories"
+      nsPrefix="categories">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+      <details key="documentation" value=""/>
+    </eAnnotations>
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore"/>
+    <eClassifiers xsi:type="ecore:EClass" name="CategoryTable" eSuperTypes="#//Catalog">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="categories" upperBound="-1"
+          eType="#//categories/Category" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Category" eSuperTypes="#//NamedDescribedEntity">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="categoryType" lowerBound="1"
+          eType="#//categories/CategoryType"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="CategoryType">
+      <eLiterals name="THREAT"/>
+      <eLiterals name="SECURITYPATTERN" value="1"/>
+    </eClassifiers>
   </eSubpackages>
 </ecore:EPackage>
