@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:de.fzi.decision.security.profile.pcm.pattern="http://de.fzi.decision.security.profile.pcm.pattern/0.1.0" xmlns:de.fzi.decision.security.profile.pcm.prerequisite="http://de.fzi.decision.security.profile.pcm.prerequisite/0.1.0" xmlns:de.fzi.decision.security.profile.pcm.threat="http://de.fzi.decision.security.profile.pcm.threat/0.1.0" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:security="http://www.fzi.de/pcm/security" xmlns:securityPatterns="http://www.fzi.de/pcm/security/securityPatterns" xmlns:securityPrerequisites="http://www.fzi.de/pcm/security/securityPrerequisites" xmlns:securityThreats="http://www.fzi.de/pcm/security/securityThreats">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:categories="http://www.fzi.de/pcm/security/categories" xmlns:de.fzi.decision.security.profile.pcm.pattern="http://de.fzi.decision.security.profile.pcm.pattern/0.1.0" xmlns:de.fzi.decision.security.profile.pcm.prerequisite="http://de.fzi.decision.security.profile.pcm.prerequisite/0.1.0" xmlns:de.fzi.decision.security.profile.pcm.threat="http://de.fzi.decision.security.profile.pcm.threat/0.1.0" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:security="http://www.fzi.de/pcm/security" xmlns:securityPatterns="http://www.fzi.de/pcm/security/securityPatterns" xmlns:securityPrerequisites="http://www.fzi.de/pcm/security/securityPrerequisites" xmlns:securityThreats="http://www.fzi.de/pcm/security/securityThreats">
   <security:Container id="_gLjkkCvnEeeBFJawWlgBXg">
-    <contains xsi:type="securityThreats:ThreatCatalog" id="_hLTxYivnEeeBFJawWlgBXg">
+    <contains xsi:type="securityThreats:ThreatCatalog" id="_hLTxYivnEeeBFJawWlgBXg" name="Threats" description="" createdBy="Kevin Wiegratz">
       <attackers id="_pCMgMGFnEeaenr5P40YdvQ" name="ProfessionalHacker" description="A professional hacker who has a high level of security knowledge and is able to carry out sophisticated attacks." position="EXTERNAL" attackCapabilities="_yZTNgT1MEeaVk-W-mW-puA _DPedQj1JEeaC77dVaP0Eeg _XL2vUj1NEeaVk-W-mW-puA _zbUWEj1KEeaVk-W-mW-puA _gEjY5T1OEeaVk-W-mW-puA" prerequisites="_g5Xd1z1KEeaVk-W-mW-puA" stealth="STEALTHY"/>
       <attackers id="_A2-kAGFoEeaenr5P40YdvQ" name="ScriptKiddie" description="A person with a low level of security knowledge who uses tools for his attacks which he or she does not understand." position="EXTERNAL" attackCapabilities="_yZTNgT1MEeaVk-W-mW-puA _DPedQj1JEeaC77dVaP0Eeg _zbUWEj1KEeaVk-W-mW-puA _XL2vUj1NEeaVk-W-mW-puA" focus="RANDOM" motivation="PERSONAL" timeConstraints="NONE" stealth="STEALTHY"/>
       <attackers id="_ZiIPIGFoEeaenr5P40YdvQ" name="InternalAttacker" description="An attacker who is positioned inside the target system." focus="DIRECTED" stealth="STEALTHY"/>
@@ -12,28 +12,28 @@
       <attackers id="_4K5SwGFpEeaenr5P40YdvQ" name="CuriousUser" description="User of the target system with the goal of simple information gathering." position="EXTERNAL" focus="RANDOM" motivation="PERSONAL" timeConstraints="NONE" stealth="STEALTHY"/>
       <attackers id="_CZhp8GFqEeaenr5P40YdvQ" name="OrdinaryEmployee" description="Insider at the target system who is mislead into executing malicious actions." intention="NONMALICIOUS" focus="DIRECTED" timeConstraints="NONE"/>
       <attackers id="_R5xEsGFqEeaenr5P40YdvQ" name="OrdinaryUser" description="An ordinary user of the target system who is mislead into malicious actions." position="EXTERNAL" intention="NONMALICIOUS" attackCapabilities="_DPedQj1JEeaC77dVaP0Eeg _zbUWEj1KEeaVk-W-mW-puA" focus="DIRECTED" timeConstraints="NONE"/>
-      <attackTypes id="_DPedQj1JEeaC77dVaP0Eeg" name="HTTPFlooding" description="The attacker issues an enormous amount of HTTP requests to produce a denial of service at the web server (the exploitation of bugs does not play a role), often described simply as DDoS." timeStamp="2016-08-17T00:00:00.000+0200" attacker="_pCMgMGFnEeaenr5P40YdvQ _A2-kAGFoEeaenr5P40YdvQ _iPckkGFoEeaenr5P40YdvQ _gzjY4GFpEeaenr5P40YdvQ _R5xEsGFqEeaenr5P40YdvQ" prerequisites="_WZhQQj1JEeaC77dVaP0Eeg _Myt4qD1KEeaVk-W-mW-puA _g5Xd1z1KEeaVk-W-mW-puA _ZS2W0FqLEee3Y7MWUzYKLA _hlpTcFqLEee3Y7MWUzYKLA _9CVoYHCgEeeuUeOpptM-yQ" stealth="STEALTHY">
+      <attackTypes id="_DPedQj1JEeaC77dVaP0Eeg" name="HTTPFlooding" description="The attacker issues an enormous amount of HTTP requests to produce a denial of service at the web server (the exploitation of bugs does not play a role), often described simply as DDoS." timeStamp="2016-08-17T00:00:00.000+0200" attacker="_pCMgMGFnEeaenr5P40YdvQ _A2-kAGFoEeaenr5P40YdvQ _iPckkGFoEeaenr5P40YdvQ _gzjY4GFpEeaenr5P40YdvQ _R5xEsGFqEeaenr5P40YdvQ" prerequisites="_WZhQQj1JEeaC77dVaP0Eeg _Myt4qD1KEeaVk-W-mW-puA _g5Xd1z1KEeaVk-W-mW-puA _ZS2W0FqLEee3Y7MWUzYKLA _hlpTcFqLEee3Y7MWUzYKLA _9CVoYHCgEeeuUeOpptM-yQ" stealth="STEALTHY" categories="_v2lyAIdYEee-g4qoALnDSA _8ej_IIdYEee-g4qoALnDSA">
         <securityViolations>AVAILABILITY</securityViolations>
       </attackTypes>
       <attackTypes id="_zbUWEj1KEeaVk-W-mW-puA" name="TCPSYNFlooding" description="The attacker opens lots of TCP connections with the server, but suppresses the final ACK of the handshake procedure, so that every connection stays half-open and uses resources of the server to finally produce a denial of service." timeStamp="2016-08-17T00:00:00.000+0200" attacker="_pCMgMGFnEeaenr5P40YdvQ _A2-kAGFoEeaenr5P40YdvQ _iPckkGFoEeaenr5P40YdvQ _gzjY4GFpEeaenr5P40YdvQ _R5xEsGFqEeaenr5P40YdvQ" prerequisites="_WZhQQj1JEeaC77dVaP0Eeg _g5Xd1z1KEeaVk-W-mW-puA _GBmUuD1LEeaVk-W-mW-puA" stealth="STEALTHY">
         <securityViolations>AVAILABILITY</securityViolations>
       </attackTypes>
-      <attackTypes id="_yZTNgT1MEeaVk-W-mW-puA" name="SQLInjection" description="The attacker injects malicious SQL code in parameters that are passed into SQL commands unchecked which leads to the execution of malicious SQL commands." timeStamp="2016-08-17T00:00:00.000+0200" attacker="_pCMgMGFnEeaenr5P40YdvQ _A2-kAGFoEeaenr5P40YdvQ _iPckkGFoEeaenr5P40YdvQ _6mm8sGFoEeaenr5P40YdvQ _gzjY4GFpEeaenr5P40YdvQ" prerequisites="_WZhQQj1JEeaC77dVaP0Eeg _BvpFYT1NEeaVk-W-mW-puA _K3GZKD1NEeaVk-W-mW-puA _yuXHgFpBEeeDStyR4vdK8Q _XrUGAFpDEeeDStyR4vdK8Q _5whTUFqcEee3Y7MWUzYKLA _HrR9AHChEeeuUeOpptM-yQ _IdkgIHCiEeeuUeOpptM-yQ _VpQeUHCiEeeuUeOpptM-yQ _XlTvQHHqEee3t9O1wS03ow" stealth="STEALTHY">
+      <attackTypes id="_yZTNgT1MEeaVk-W-mW-puA" name="SQLInjection" description="The attacker injects malicious SQL code in parameters that are passed into SQL commands unchecked which leads to the execution of malicious SQL commands." timeStamp="2016-08-17T00:00:00.000+0200" attacker="_pCMgMGFnEeaenr5P40YdvQ _A2-kAGFoEeaenr5P40YdvQ _iPckkGFoEeaenr5P40YdvQ _6mm8sGFoEeaenr5P40YdvQ _gzjY4GFpEeaenr5P40YdvQ" prerequisites="_WZhQQj1JEeaC77dVaP0Eeg _BvpFYT1NEeaVk-W-mW-puA _K3GZKD1NEeaVk-W-mW-puA _yuXHgFpBEeeDStyR4vdK8Q _XrUGAFpDEeeDStyR4vdK8Q _5whTUFqcEee3Y7MWUzYKLA _HrR9AHChEeeuUeOpptM-yQ _IdkgIHCiEeeuUeOpptM-yQ _VpQeUHCiEeeuUeOpptM-yQ _XlTvQHHqEee3t9O1wS03ow" stealth="STEALTHY" categories="_uIwXMIdYEee-g4qoALnDSA _v2lyAIdYEee-g4qoALnDSA">
         <securityViolations>CONFIDENTIALITY</securityViolations>
         <securityViolations>INTEGRITY</securityViolations>
         <securityViolations>NONREPUDIATION</securityViolations>
       </attackTypes>
-      <attackTypes id="_XL2vUj1NEeaVk-W-mW-puA" name="PersistentCrossSiteScripting" description="The attacker passes malicious code to the system that is persisted (e.g. in the database), later the the system passes the malicious code to a user where it is executed in the browser." timeStamp="2016-08-17T00:00:00.000+0200" attacker="_pCMgMGFnEeaenr5P40YdvQ _iPckkGFoEeaenr5P40YdvQ _6mm8sGFoEeaenr5P40YdvQ _gzjY4GFpEeaenr5P40YdvQ _A2-kAGFoEeaenr5P40YdvQ" prerequisites="_WZhQQj1JEeaC77dVaP0Eeg _M0bySGSOEeaBdfha1Hk-SA _YGJIMFpAEeeDStyR4vdK8Q _yuXHgFpBEeeDStyR4vdK8Q _7HVqYHCXEeeuUeOpptM-yQ _VpQeUHCiEeeuUeOpptM-yQ _P9jo0HHsEee3t9O1wS03ow _t-jVcYDNEeep_vGoYB1cZA _CibCIYDOEeep_vGoYB1cZA" stealth="STEALTHY">
+      <attackTypes id="_XL2vUj1NEeaVk-W-mW-puA" name="PersistentCrossSiteScripting" description="The attacker passes malicious code to the system that is persisted (e.g. in the database), later the the system passes the malicious code to a user where it is executed in the browser." timeStamp="2016-08-17T00:00:00.000+0200" attacker="_pCMgMGFnEeaenr5P40YdvQ _iPckkGFoEeaenr5P40YdvQ _6mm8sGFoEeaenr5P40YdvQ _gzjY4GFpEeaenr5P40YdvQ _A2-kAGFoEeaenr5P40YdvQ" prerequisites="_WZhQQj1JEeaC77dVaP0Eeg _M0bySGSOEeaBdfha1Hk-SA _YGJIMFpAEeeDStyR4vdK8Q _yuXHgFpBEeeDStyR4vdK8Q _7HVqYHCXEeeuUeOpptM-yQ _VpQeUHCiEeeuUeOpptM-yQ _P9jo0HHsEee3t9O1wS03ow _t-jVcYDNEeep_vGoYB1cZA _CibCIYDOEeep_vGoYB1cZA" stealth="STEALTHY" categories="_vZcjAIdYEee-g4qoALnDSA _v2lyAIdYEee-g4qoALnDSA">
         <securityViolations>CONFIDENTIALITY</securityViolations>
         <securityViolations>INTEGRITY</securityViolations>
         <securityViolations>AUTHENTICATION</securityViolations>
       </attackTypes>
-      <attackTypes id="_gEjY5T1OEeaVk-W-mW-puA" name="CrossSiteRequestForgery" description="The attacker misleads a user of a web application who is logged in to open a link that contains a malicious command which is then executed with the rights of the user." timeStamp="2016-08-17T00:00:00.000+0200" attacker="_pCMgMGFnEeaenr5P40YdvQ _iPckkGFoEeaenr5P40YdvQ _6mm8sGFoEeaenr5P40YdvQ _gzjY4GFpEeaenr5P40YdvQ" prerequisites="_WZhQQj1JEeaC77dVaP0Eeg _Myt4qD1KEeaVk-W-mW-puA _uZh6Yj1OEeaVk-W-mW-puA _w4tQsmfOEeat05QRYoj_vQ _nOF1wHCcEeeuUeOpptM-yQ _3Qf3gHCeEeeuUeOpptM-yQ _Iv2DQHCfEeeuUeOpptM-yQ" stealth="STEALTHY">
+      <attackTypes id="_gEjY5T1OEeaVk-W-mW-puA" name="CrossSiteRequestForgery" description="The attacker misleads a user of a web application who is logged in to open a link that contains a malicious command which is then executed with the rights of the user." timeStamp="2016-08-17T00:00:00.000+0200" attacker="_pCMgMGFnEeaenr5P40YdvQ _iPckkGFoEeaenr5P40YdvQ _6mm8sGFoEeaenr5P40YdvQ _gzjY4GFpEeaenr5P40YdvQ" prerequisites="_WZhQQj1JEeaC77dVaP0Eeg _Myt4qD1KEeaVk-W-mW-puA _uZh6Yj1OEeaVk-W-mW-puA _w4tQsmfOEeat05QRYoj_vQ _nOF1wHCcEeeuUeOpptM-yQ _3Qf3gHCeEeeuUeOpptM-yQ _Iv2DQHCfEeeuUeOpptM-yQ" stealth="STEALTHY" categories="_wUjgYIdYEee-g4qoALnDSA _v2lyAIdYEee-g4qoALnDSA _u1Re8IdYEee-g4qoALnDSA">
         <securityViolations>AUTHENTICATION</securityViolations>
       </attackTypes>
     </contains>
     <contains xsi:type="securityPatterns:PatternCatalog" id="_gwSCQCvnEeeBFJawWlgBXg" name="Security Patterns" description="This catalog contains a selection of security patterns." createdBy="Christian Busch">
-      <securityPatterns id="_IVr20C60Eeee4Ma0GzGF8w" name="Authenticator" description="The authenticator veryfies the identity of the user. To do so It receives provided autentication information from the user, compares it with expected authentication information and, on equality, creates and returns a proof of identity to the user." stakeholder="" prerequisites="_QCwv8HJPEeeUDOga6FjiIA _Z2AysHJPEeeUDOga6FjiIA _Z2AysHJPEeeUDOga6FjiIA _Z2AysHJPEeeUDOga6FjiIA _HcBuMHJQEeeUDOga6FjiIA _kp2D0HrCEeelLYMz0yOLCw _l2BjEHrCEeelLYMz0yOLCw">
+      <securityPatterns id="_IVr20C60Eeee4Ma0GzGF8w" name="Authenticator" description="The authenticator veryfies the identity of the user. To do so It receives provided autentication information from the user, compares it with expected authentication information and, on equality, creates and returns a proof of identity to the user." stakeholder="" prerequisites="_QCwv8HJPEeeUDOga6FjiIA _Z2AysHJPEeeUDOga6FjiIB _Z2AysHJPEeeUDOga6FjiIC _Z2AysHJPEeeUDOga6FjiIA _HcBuMHJQEeeUDOga6FjiIA _kp2D0HrCEeelLYMz0yOLCw _l2BjEHrCEeelLYMz0yOLCw" categories="_u1Re8IdYEee-g4qoALnDSA _jINlcIdZEee-g4qoALnDSA _qatisIdZEee-g4qoALnDSA _QKv14IdZEee-g4qoALnDSA _v2lyAIdYEee-g4qoALnDSA">
         <roles id="_6ntp8DEvEeejp9Ll7O-qTg" name="Authenticator" description="Component checking a clients claim of identity by comparing provided identifaction information with expected one. Hands out proof of identification in case of equality." requires="_435fEDPVEeedIemevWrvFg" usedBy="_XuOBEDPYEeedIemevWrvFg"/>
         <roles id="_435fEDPVEeedIemevWrvFg" name="Authentication Information" description="Information required to establish the identity of users." usedBy="_6ntp8DEvEeejp9Ll7O-qTg"/>
         <roles id="_XuOBEDPYEeedIemevWrvFg" name="Proof of Identity" description="Created by the authenticator, may be used to proof identy without repeated identification through authenticator." requires="_6ntp8DEvEeejp9Ll7O-qTg"/>
@@ -44,61 +44,74 @@
         <roles id="_5P6eoDExEeejp9Ll7O-qTg" name="User Role Mapping" description="Information about which roles a user belongs to." usedBy="_y5o5EDExEeejp9Ll7O-qTg"/>
         <roles id="_tGYhADExEeejp9Ll7O-qTg" name="Role Right Mapping" description="Definition of rights a role is given." usedBy="_y5o5EDExEeejp9Ll7O-qTg"/>
       </securityPatterns>
-      <securityPatterns id="_OH2CsC60Eeee4Ma0GzGF8w" name="Proxy-based Filter Firewall" description="A packet filter firewall allows the definition and enforcement of rules at the application layer for restricting ingoing and outgoing network trafic as well as ananlysis and modification of payload.." prerequisites="_QCwv8HJPEeeUDOga6FjiIA _UHWxUHJQEeeUDOga6FjiIA _ThGCkHJQEeeUDOga6FjiIA _MVlZIHdpEeeQ5rJ_Llc3NA _lEuB8HrCEeelLYMz0yOLCw _Tab_QHrHEeelLYMz0yOLCw _YEMYoHrHEeelLYMz0yOLCw _lDKJcHrHEeelLYMz0yOLCw _QnuKkHrIEeelLYMz0yOLCw _1HWJUHrIEeelLYMz0yOLCw _CpPBAHrJEeelLYMz0yOLCw _ItoMYHrJEeelLYMz0yOLCw _YX33sHrJEeelLYMz0yOLCw _mV-KQHrJEeelLYMz0yOLCw _fa98cHrIEeelLYMz0yOLCw">
+      <securityPatterns id="_OH2CsC60Eeee4Ma0GzGF8w" name="Proxy-based Filter Firewall" description="A packet filter firewall allows the definition and enforcement of rules at the application layer for restricting ingoing and outgoing network trafic as well as ananlysis and modification of payload.." prerequisites="_QCwv8HJPEeeUDOga6FjiIA _UHWxUHJQEeeUDOga6FjiIA _ThGCkHJQEeeUDOga6FjiIA _MVlZIHdpEeeQ5rJ_Llc3NA _lEuB8HrCEeelLYMz0yOLCw _Tab_QHrHEeelLYMz0yOLCw _YEMYoHrHEeelLYMz0yOLCw _lDKJcHrHEeelLYMz0yOLCw _QnuKkHrIEeelLYMz0yOLCw _1HWJUHrIEeelLYMz0yOLCw _CpPBAHrJEeelLYMz0yOLCw _ItoMYHrJEeelLYMz0yOLCw _YX33sHrJEeelLYMz0yOLCw _mV-KQHrJEeelLYMz0yOLCw _fa98cHrIEeelLYMz0yOLCw" categories="_ePgKEIdZEee-g4qoALnDSA _v2lyAIdYEee-g4qoALnDSA _Pxm9IIdZEee-g4qoALnDSA _jINlcIdZEee-g4qoALnDSA">
         <roles id="_nnMFgDODEeedIemevWrvFg" name="Proxy" description="Firewall component acting as a proxy for a specific service; checking ingoing and outgoing traffic up to application layer against rule base and enforcing those rules." requires="_MS0ZwDEwEeejp9Ll7O-qTg _APZrMDEwEeejp9Ll7O-qTg"/>
         <roles id="_APZrMDEwEeejp9Ll7O-qTg" name="External Interface" description="Interface facing to the untrusted partition of the network." usedBy="_nnMFgDODEeedIemevWrvFg"/>
         <roles id="_MS0ZwDEwEeejp9Ll7O-qTg" name="Internal Interface" description="Interface facing the trusted partition of the network." usedBy="_nnMFgDODEeedIemevWrvFg"/>
       </securityPatterns>
     </contains>
-    <contains xsi:type="securityPrerequisites:PrerequisiteCatalog" id="_heSXwSvnEeeBFJawWlgBXg" description="The catalog of prerequisites to capture context assumptions." timeStamp="2016-08-17T00:00:00.000+0200" createdBy="Kevin Wiegratz">
+    <contains xsi:type="securityPrerequisites:PrerequisiteCatalog" id="_heSXwSvnEeeBFJawWlgBXg">
       <prerequisites xsi:type="securityPrerequisites:CompositePrerequisite" id="_WZhQQj1JEeaC77dVaP0Eeg" name="WebApplication" description="The system is a web application." timeStamp="2016-08-17T00:00:00.000+0200" attacks="_DPedQj1JEeaC77dVaP0Eeg _zbUWEj1KEeaVk-W-mW-puA _yZTNgT1MEeaVk-W-mW-puA _XL2vUj1NEeaVk-W-mW-puA _gEjY5T1OEeaVk-W-mW-puA" subPrerequisites="_YGJIMFpAEeeDStyR4vdK8Q _nOF1wHCcEeeuUeOpptM-yQ _Iv2DQHCfEeeuUeOpptM-yQ _P9jo0HHsEee3t9O1wS03ow _7HVqYHCXEeeuUeOpptM-yQ _hlpTcFqLEee3Y7MWUzYKLA _ZS2W0FqLEee3Y7MWUzYKLA" requiredBy="_Myt4qD1KEeaVk-W-mW-puA _GBmUuD1LEeaVk-W-mW-puA" prerequisites="_Myt4qD1KEeaVk-W-mW-puA _GBmUuD1LEeaVk-W-mW-puA _M0bySGSOEeaBdfha1Hk-SA"/>
       <prerequisites id="_Myt4qD1KEeaVk-W-mW-puA" name="HTTPUsage" description="The system uses HTTP to fulfill its tasks as a web server." timeStamp="2016-08-17T00:00:00.000+0200" attacks="_DPedQj1JEeaC77dVaP0Eeg _gEjY5T1OEeaVk-W-mW-puA" subPrerequisites="_WZhQQj1JEeaC77dVaP0Eeg"/>
       <prerequisites id="_g5Xd1z1KEeaVk-W-mW-puA" name="BotNetAvailability" description="The attacker has a bot net under his control." timeStamp="2016-08-17T00:00:00.000+0200" attacks="_DPedQj1JEeaC77dVaP0Eeg _zbUWEj1KEeaVk-W-mW-puA"/>
       <prerequisites id="_GBmUuD1LEeaVk-W-mW-puA" name="TCPUsage" description="The system uses TCP as a transport protocol to enable the use of HTTP and fulfill its tasks as a web server." timeStamp="2016-08-17T00:00:00.000+0200" attacks="_zbUWEj1KEeaVk-W-mW-puA" subPrerequisites="_WZhQQj1JEeaC77dVaP0Eeg"/>
-      <prerequisites id="_BvpFYT1NEeaVk-W-mW-puA" name="Interpreter" description="The component is an interpreter that can execute code." timeStamp="2016-08-17T00:00:00.000+0200" attacks="_yZTNgT1MEeaVk-W-mW-puA"/>
+      <prerequisites xsi:type="securityPrerequisites:CompositePrerequisite" id="_BvpFYT1NEeaVk-W-mW-puA" name="Interpreter" description="The component is an interpreter that can execute code." timeStamp="2016-08-17T00:00:00.000+0200" attacks="_yZTNgT1MEeaVk-W-mW-puA" prerequisites="_K3GZKD1NEeaVk-W-mW-puA"/>
       <prerequisites id="_K3GZKD1NEeaVk-W-mW-puA" name="SQLDatabase" description="The database uses SQL for access." timeStamp="2016-08-17T00:00:00.000+0200" attacks="_yZTNgT1MEeaVk-W-mW-puA" subPrerequisites="_XrUGAFpDEeeDStyR4vdK8Q"/>
       <prerequisites id="_M0bySGSOEeaBdfha1Hk-SA" name="HTMLWithScripting" description="HTML with scripting (e.g. JavaScript) is used." timeStamp="2016-08-17T00:00:00.000+0200" attacks="_XL2vUj1NEeaVk-W-mW-puA"/>
       <prerequisites id="_uZh6Yj1OEeaVk-W-mW-puA" name="CarelessLinkOpening" description="The user carelessly clicks on unknown links." timeStamp="2016-08-17T00:00:00.000+0200" attacks="_gEjY5T1OEeaVk-W-mW-puA"/>
       <prerequisites id="_w4tQsmfOEeat05QRYoj_vQ" name="LoginRequired" description="The user has to log in before using the system." timeStamp="2016-08-21T00:00:00.000+0200" attacks="_gEjY5T1OEeaVk-W-mW-puA"/>
-      <prerequisites id="_YGJIMFpAEeeDStyR4vdK8Q" name="ClientBrowserScripting" description="Client-Browser enabled Scripting" status="INVALID" attacks="_XL2vUj1NEeaVk-W-mW-puA" requiredBy="_WZhQQj1JEeaC77dVaP0Eeg"/>
-      <prerequisites id="_yuXHgFpBEeeDStyR4vdK8Q" name="UntrustedInputEncryption" description="untrusted input is not properly censored/encrypted/escaped by the application" status="INVALID" attacks="_XL2vUj1NEeaVk-W-mW-puA _yZTNgT1MEeaVk-W-mW-puA" requiredBy="_VpQeUHCiEeeuUeOpptM-yQ"/>
-      <prerequisites id="_XrUGAFpDEeeDStyR4vdK8Q" name="UntrustedInputInSQLQueries" description="untrusted input from users is used for sql queries without validation" status="INVALID" attacks="_yZTNgT1MEeaVk-W-mW-puA" requiredBy="_VpQeUHCiEeeuUeOpptM-yQ _K3GZKD1NEeaVk-W-mW-puA"/>
-      <prerequisites id="_ZS2W0FqLEee3Y7MWUzYKLA" name="RateLimiting" description="Allocation of Ressources without limits at the webserver" status="INVALID" attacks="_DPedQj1JEeaC77dVaP0Eeg" requiredBy="_WZhQQj1JEeaC77dVaP0Eeg"/>
-      <prerequisites id="_hlpTcFqLEee3Y7MWUzYKLA" name="ReleaseOfRessources" description="No release of ressources after effective lifetime of connection at webserver" status="INVALID" attacks="_DPedQj1JEeaC77dVaP0Eeg" requiredBy="_WZhQQj1JEeaC77dVaP0Eeg"/>
-      <prerequisites id="_5whTUFqcEee3Y7MWUzYKLA" name="CustomErrorPages" description="Custom error pages that show the exact description of the occurred error" status="INVALID" attacks="_yZTNgT1MEeaVk-W-mW-puA"/>
-      <prerequisites id="_7HVqYHCXEeeuUeOpptM-yQ" name="UntrustedInputInHTMLOutput" description="untrusted input makes its way into the html output of the application" status="INVALID" attacks="_XL2vUj1NEeaVk-W-mW-puA" requiredBy="_WZhQQj1JEeaC77dVaP0Eeg _VpQeUHCiEeeuUeOpptM-yQ"/>
-      <prerequisites id="_nOF1wHCcEeeuUeOpptM-yQ" name="ParameterInURL" description="there are parameters in the url" status="INVALID" attacks="_gEjY5T1OEeaVk-W-mW-puA" requiredBy="_WZhQQj1JEeaC77dVaP0Eeg"/>
-      <prerequisites id="_3Qf3gHCeEeeuUeOpptM-yQ" name="ReauthenticationForActions" description="there is no unexpectable token in the url or there is no reauthentication of the user needed for performing actions" status="INVALID" attacks="_gEjY5T1OEeaVk-W-mW-puA"/>
-      <prerequisites id="_Iv2DQHCfEeeuUeOpptM-yQ" name="SessionCookieAuthenticationAndAutorisation" description="The session cookie of the user is used for authentication and autorisation" status="INVALID" attacks="_gEjY5T1OEeaVk-W-mW-puA" requiredBy="_WZhQQj1JEeaC77dVaP0Eeg"/>
-      <prerequisites id="_9CVoYHCgEeeuUeOpptM-yQ" name="BehaviorAtRessourceLimits" description="Defined, acceptable behavior when ressources reach the limit" status="INVALID" attacks="_DPedQj1JEeaC77dVaP0Eeg"/>
-      <prerequisites id="_HrR9AHChEeeuUeOpptM-yQ" name="UntrustedInputToInterpreter" description="untrusted input makes its way to an interpreter" status="INVALID" attacks="_yZTNgT1MEeaVk-W-mW-puA" requiredBy="_VpQeUHCiEeeuUeOpptM-yQ"/>
-      <prerequisites id="_IdkgIHCiEeeuUeOpptM-yQ" name="UntrustedInputParameterised" description="untrusted input is not parameterised in queries" status="INVALID" attacks="_yZTNgT1MEeaVk-W-mW-puA" requiredBy="_VpQeUHCiEeeuUeOpptM-yQ"/>
-      <prerequisites id="_VpQeUHCiEeeuUeOpptM-yQ" name="UntrustedInput" description="user input is accepted by the application" status="INVALID" attacks="_XL2vUj1NEeaVk-W-mW-puA _yZTNgT1MEeaVk-W-mW-puA" subPrerequisites="_yuXHgFpBEeeDStyR4vdK8Q _7HVqYHCXEeeuUeOpptM-yQ _XrUGAFpDEeeDStyR4vdK8Q _IdkgIHCiEeeuUeOpptM-yQ _HrR9AHChEeeuUeOpptM-yQ"/>
-      <prerequisites id="_XlTvQHHqEee3t9O1wS03ow" name="TrustInFrameworks" description="the application trusts in frameworks from third parties" status="INVALID" attacks="_yZTNgT1MEeaVk-W-mW-puA"/>
-      <prerequisites id="_P9jo0HHsEee3t9O1wS03ow" name="UnsafeJavaScriptAPI" description="unsafe JavaScript-APIS that do not encode or validate input are used" status="INVALID" attacks="_XL2vUj1NEeaVk-W-mW-puA" requiredBy="_WZhQQj1JEeaC77dVaP0Eeg"/>
-      <prerequisites id="_QCwv8HJPEeeUDOga6FjiIA" name="SingleAccessPoint" description="there is only one access point to the system" status="INVALID" securityPatterns="_IVr20C60Eeee4Ma0GzGF8w _OH2CsC60Eeee4Ma0GzGF8w"/>
-      <prerequisites id="_Z2AysHJPEeeUDOga6FjiIA" name="LegitimacyChecked" description="Client has to prove that his access is legitimate." status="INVALID" securityPatterns="_IVr20C60Eeee4Ma0GzGF8w"/>
-      <prerequisites id="_Z2AysHJPEeeUDOga6FjiIA" name="PasswordDesign" description="passwords have to be chosen properly (length, composition, source)" status="INVALID" securityPatterns="_IVr20C60Eeee4Ma0GzGF8w"/>
-      <prerequisites id="_Z2AysHJPEeeUDOga6FjiIA" name="PasswordUse" description="usage of passwords, e.g. their lifetime and ownership" status="INVALID" securityPatterns="_IVr20C60Eeee4Ma0GzGF8w"/>
-      <prerequisites id="_HcBuMHJQEeeUDOga6FjiIA" name="PasswordProtection" description="protection of passwords, e.g. during transmission or in storage" status="INVALID" securityPatterns="_IVr20C60Eeee4Ma0GzGF8w"/>
-      <prerequisites id="_UHWxUHJQEeeUDOga6FjiIA" name="ConnectedToInternet" description="system is connected to the internet" status="INVALID" securityPatterns="_OH2CsC60Eeee4Ma0GzGF8w"/>
-      <prerequisites id="_ThGCkHJQEeeUDOga6FjiIA" name="RuleSetCorrect" description="the rule set of the firewall implements the security policies correctly" status="INVALID" securityPatterns="_OH2CsC60Eeee4Ma0GzGF8w"/>
-      <prerequisites id="_MVlZIHdpEeeQ5rJ_Llc3NA" name="FirewallsConfiguredIdentically" description="all firewalls are configured the same" status="INVALID" securityPatterns="_OH2CsC60Eeee4Ma0GzGF8w"/>
-      <prerequisites id="_kp2D0HrCEeelLYMz0yOLCw" name="AuthenticationInfoStored" description="The authentication information is stored securely (e.g. hashed) with read-only access" status="INVALID" securityPatterns="_IVr20C60Eeee4Ma0GzGF8w"/>
-      <prerequisites id="_l2BjEHrCEeelLYMz0yOLCw" name="ProofOfIdentitySentSecurely" description="the proof of identity the user receives is sent over an encrypted connection" status="INVALID" securityPatterns="_IVr20C60Eeee4Ma0GzGF8w"/>
-      <prerequisites id="_lEuB8HrCEeelLYMz0yOLCw" name="PacketRejectionFromUntrustedAddresses" description="packets from mistrusted addresses (specified in rule set) are rejected" status="INVALID" securityPatterns="_OH2CsC60Eeee4Ma0GzGF8w"/>
-      <prerequisites id="_Tab_QHrHEeelLYMz0yOLCw" name="DefaultRuleInRuleSet" description="there is a default rule in the ruleset" status="INVALID" securityPatterns="_OH2CsC60Eeee4Ma0GzGF8w"/>
-      <prerequisites id="_YEMYoHrHEeelLYMz0yOLCw" name="TrafficFromOutsideLimited" description="Only certain physical servers get network traffic from outside" status="INVALID" securityPatterns="_OH2CsC60Eeee4Ma0GzGF8w"/>
-      <prerequisites id="_lDKJcHrHEeelLYMz0yOLCw" name="FunctionalityServersInDMZ" description="the functionality of the application is provided only on servers in the DMZ (demilitarized zone)" status="INVALID" securityPatterns="_OH2CsC60Eeee4Ma0GzGF8w"/>
-      <prerequisites id="_QnuKkHrIEeelLYMz0yOLCw" name="AccessToInternalSystems" description="servers in the DMZ only have restricted access to internal systems (only legitimate traffic is allowed)" status="INVALID" securityPatterns="_OH2CsC60Eeee4Ma0GzGF8w"/>
-      <prerequisites id="_fa98cHrIEeelLYMz0yOLCw" name="ApplicationServerSeparate" description="application server that expose functionality are separated from web servers (that should deliver only static content)" status="INVALID" securityPatterns="_OH2CsC60Eeee4Ma0GzGF8w"/>
-      <prerequisites id="_1HWJUHrIEeelLYMz0yOLCw" name="UnsuitableRequestsRejected" description="router at external border rejects all request for addresses that are not in scope of the web server address" status="INVALID" securityPatterns="_OH2CsC60Eeee4Ma0GzGF8w"/>
-      <prerequisites id="_CpPBAHrJEeelLYMz0yOLCw" name="RouterRulesConsistent" description="rules in all routers are consistent " status="INVALID" securityPatterns="_OH2CsC60Eeee4Ma0GzGF8w"/>
-      <prerequisites id="_ItoMYHrJEeelLYMz0yOLCw" name="TrafficFromExternalToInternalRouter" description="there is no direct traffic between external and internal router" status="INVALID" securityPatterns="_OH2CsC60Eeee4Ma0GzGF8w"/>
-      <prerequisites id="_YX33sHrJEeelLYMz0yOLCw" name="ReverseProxy" description="there is a reverse proxy that filters all requests" status="INVALID" securityPatterns="_OH2CsC60Eeee4Ma0GzGF8w"/>
-      <prerequisites id="_mV-KQHrJEeelLYMz0yOLCw" name="DMZAndBackendServerSeparatedByFirewall" description="there is no direct traffic between dmz and backend servers" status="INVALID" securityPatterns="_OH2CsC60Eeee4Ma0GzGF8w"/>
-      <prerequisites id="_t-jVcYDNEeep_vGoYB1cZA" name="UntrustedInputInStorage" description="untrusted (user-supplied) input makes its way into the application storage" status="INVALID" attacks="_XL2vUj1NEeaVk-W-mW-puA"/>
-      <prerequisites id="_CibCIYDOEeep_vGoYB1cZA" name="SoftwareUpToDate" description="used software is up to date and e.g. has all updates installed" status="INVALID" attacks="_XL2vUj1NEeaVk-W-mW-puA"/>
+      <prerequisites id="_YGJIMFpAEeeDStyR4vdK8Q" name="ClientBrowserScripting" description="Client-Browser enabled Scripting" attacks="_XL2vUj1NEeaVk-W-mW-puA" requiredBy="_WZhQQj1JEeaC77dVaP0Eeg"/>
+      <prerequisites id="_yuXHgFpBEeeDStyR4vdK8Q" name="UntrustedInputEncryption" description="untrusted input is not properly censored/encrypted/escaped by the application" attacks="_XL2vUj1NEeaVk-W-mW-puA _yZTNgT1MEeaVk-W-mW-puA" requiredBy="_VpQeUHCiEeeuUeOpptM-yQ"/>
+      <prerequisites id="_XrUGAFpDEeeDStyR4vdK8Q" name="UntrustedInputInSQLQueries" description="untrusted input from users is used for sql queries without validation" attacks="_yZTNgT1MEeaVk-W-mW-puA" requiredBy="_VpQeUHCiEeeuUeOpptM-yQ _K3GZKD1NEeaVk-W-mW-puA"/>
+      <prerequisites id="_ZS2W0FqLEee3Y7MWUzYKLA" name="RateLimiting" description="Allocation of Ressources without limits at the webserver" attacks="_DPedQj1JEeaC77dVaP0Eeg" requiredBy="_WZhQQj1JEeaC77dVaP0Eeg"/>
+      <prerequisites id="_hlpTcFqLEee3Y7MWUzYKLA" name="ReleaseOfRessources" description="No release of ressources after effective lifetime of connection at webserver" attacks="_DPedQj1JEeaC77dVaP0Eeg" requiredBy="_WZhQQj1JEeaC77dVaP0Eeg"/>
+      <prerequisites id="_5whTUFqcEee3Y7MWUzYKLA" name="CustomErrorPages" description="Custom error pages that show the exact description of the occurred error" attacks="_yZTNgT1MEeaVk-W-mW-puA"/>
+      <prerequisites id="_7HVqYHCXEeeuUeOpptM-yQ" name="UntrustedInputInHTMLOutput" description="untrusted input makes its way into the html output of the application" attacks="_XL2vUj1NEeaVk-W-mW-puA" requiredBy="_WZhQQj1JEeaC77dVaP0Eeg _VpQeUHCiEeeuUeOpptM-yQ"/>
+      <prerequisites id="_nOF1wHCcEeeuUeOpptM-yQ" name="ParameterInURL" description="there are parameters in the url" attacks="_gEjY5T1OEeaVk-W-mW-puA" requiredBy="_WZhQQj1JEeaC77dVaP0Eeg"/>
+      <prerequisites id="_3Qf3gHCeEeeuUeOpptM-yQ" name="ReauthenticationForActions" description="there is no unexpectable token in the url or there is no reauthentication of the user needed for performing actions" attacks="_gEjY5T1OEeaVk-W-mW-puA"/>
+      <prerequisites id="_Iv2DQHCfEeeuUeOpptM-yQ" name="SessionCookieAuthenticationAndAutorisation" description="The session cookie of the user is used for authentication and autorisation" attacks="_gEjY5T1OEeaVk-W-mW-puA" requiredBy="_WZhQQj1JEeaC77dVaP0Eeg"/>
+      <prerequisites id="_9CVoYHCgEeeuUeOpptM-yQ" name="BehaviorAtRessourceLimits" description="Defined, acceptable behavior when ressources reach the limit" attacks="_DPedQj1JEeaC77dVaP0Eeg"/>
+      <prerequisites id="_HrR9AHChEeeuUeOpptM-yQ" name="UntrustedInputToInterpreter" description="untrusted input makes its way to an interpreter" attacks="_yZTNgT1MEeaVk-W-mW-puA" requiredBy="_VpQeUHCiEeeuUeOpptM-yQ"/>
+      <prerequisites id="_IdkgIHCiEeeuUeOpptM-yQ" name="UntrustedInputParameterised" description="untrusted input is not parameterised in queries" attacks="_yZTNgT1MEeaVk-W-mW-puA" requiredBy="_VpQeUHCiEeeuUeOpptM-yQ"/>
+      <prerequisites id="_VpQeUHCiEeeuUeOpptM-yQ" name="UntrustedInput" description="user input is accepted by the application" attacks="_XL2vUj1NEeaVk-W-mW-puA _yZTNgT1MEeaVk-W-mW-puA" subPrerequisites="_yuXHgFpBEeeDStyR4vdK8Q _7HVqYHCXEeeuUeOpptM-yQ _XrUGAFpDEeeDStyR4vdK8Q _IdkgIHCiEeeuUeOpptM-yQ _HrR9AHChEeeuUeOpptM-yQ"/>
+      <prerequisites id="_XlTvQHHqEee3t9O1wS03ow" name="TrustInFrameworks" description="the application trusts in frameworks from third parties" attacks="_yZTNgT1MEeaVk-W-mW-puA"/>
+      <prerequisites id="_P9jo0HHsEee3t9O1wS03ow" name="UnsafeJavaScriptAPI" description="unsafe JavaScript-APIS that do not encode or validate input are used" attacks="_XL2vUj1NEeaVk-W-mW-puA" requiredBy="_WZhQQj1JEeaC77dVaP0Eeg"/>
+      <prerequisites id="_QCwv8HJPEeeUDOga6FjiIA" name="SingleAccessPoint" description="there is only one access point to the system" securityPatterns="_IVr20C60Eeee4Ma0GzGF8w _OH2CsC60Eeee4Ma0GzGF8w"/>
+      <prerequisites id="_Z2AysHJPEeeUDOga6FjiIB" name="LegitimacyChecked" description="Client has to prove that his access is legitimate." securityPatterns="_IVr20C60Eeee4Ma0GzGF8w"/>
+      <prerequisites id="_Z2AysHJPEeeUDOga6FjiIC" name="PasswordDesign" description="passwords have to be chosen properly (length, composition, source)" securityPatterns="_IVr20C60Eeee4Ma0GzGF8w"/>
+      <prerequisites id="_Z2AysHJPEeeUDOga6FjiIA" name="PasswordUse" description="usage of passwords, e.g. their lifetime and ownership" securityPatterns="_IVr20C60Eeee4Ma0GzGF8w"/>
+      <prerequisites id="_HcBuMHJQEeeUDOga6FjiIA" name="PasswordProtection" description="protection of passwords, e.g. during transmission or in storage" securityPatterns="_IVr20C60Eeee4Ma0GzGF8w"/>
+      <prerequisites id="_UHWxUHJQEeeUDOga6FjiIA" name="ConnectedToInternet" description="system is connected to the internet" securityPatterns="_OH2CsC60Eeee4Ma0GzGF8w"/>
+      <prerequisites id="_ThGCkHJQEeeUDOga6FjiIA" name="RuleSetCorrect" description="the rule set of the firewall implements the security policies correctly" securityPatterns="_OH2CsC60Eeee4Ma0GzGF8w"/>
+      <prerequisites id="_MVlZIHdpEeeQ5rJ_Llc3NA" name="FirewallsConfiguredIdentically" description="all firewalls are configured the same" securityPatterns="_OH2CsC60Eeee4Ma0GzGF8w"/>
+      <prerequisites id="_kp2D0HrCEeelLYMz0yOLCw" name="AuthenticationInfoStored" description="The authentication information is stored securely (e.g. hashed) with read-only access" securityPatterns="_IVr20C60Eeee4Ma0GzGF8w"/>
+      <prerequisites id="_l2BjEHrCEeelLYMz0yOLCw" name="ProofOfIdentitySentSecurely" description="the proof of identity the user receives is sent over an encrypted connection" securityPatterns="_IVr20C60Eeee4Ma0GzGF8w"/>
+      <prerequisites id="_lEuB8HrCEeelLYMz0yOLCw" name="PacketRejectionFromUntrustedAddresses" description="packets from mistrusted addresses (specified in rule set) are rejected" securityPatterns="_OH2CsC60Eeee4Ma0GzGF8w"/>
+      <prerequisites id="_Tab_QHrHEeelLYMz0yOLCw" name="DefaultRuleInRuleSet" description="there is a default rule in the ruleset" securityPatterns="_OH2CsC60Eeee4Ma0GzGF8w"/>
+      <prerequisites id="_YEMYoHrHEeelLYMz0yOLCw" name="TrafficFromOutsideLimited" description="Only certain physical servers get network traffic from outside" securityPatterns="_OH2CsC60Eeee4Ma0GzGF8w"/>
+      <prerequisites id="_lDKJcHrHEeelLYMz0yOLCw" name="FunctionalityServersInDMZ" description="the functionality of the application is provided only on servers in the DMZ (demilitarized zone)" securityPatterns="_OH2CsC60Eeee4Ma0GzGF8w"/>
+      <prerequisites id="_QnuKkHrIEeelLYMz0yOLCw" name="AccessToInternalSystems" description="servers in the DMZ only have restricted access to internal systems (only legitimate traffic is allowed)" securityPatterns="_OH2CsC60Eeee4Ma0GzGF8w"/>
+      <prerequisites id="_fa98cHrIEeelLYMz0yOLCw" name="ApplicationServerSeparate" description="application server that expose functionality are separated from web servers (that should deliver only static content)" securityPatterns="_OH2CsC60Eeee4Ma0GzGF8w"/>
+      <prerequisites id="_1HWJUHrIEeelLYMz0yOLCw" name="UnsuitableRequestsRejected" description="router at external border rejects all request for addresses that are not in scope of the web server address" securityPatterns="_OH2CsC60Eeee4Ma0GzGF8w"/>
+      <prerequisites id="_CpPBAHrJEeelLYMz0yOLCw" name="RouterRulesConsistent" description="rules in all routers are consistent " securityPatterns="_OH2CsC60Eeee4Ma0GzGF8w"/>
+      <prerequisites id="_ItoMYHrJEeelLYMz0yOLCw" name="TrafficFromExternalToInternalRouter" description="there is no direct traffic between external and internal router" securityPatterns="_OH2CsC60Eeee4Ma0GzGF8w"/>
+      <prerequisites id="_YX33sHrJEeelLYMz0yOLCw" name="ReverseProxy" description="there is a reverse proxy that filters all requests" securityPatterns="_OH2CsC60Eeee4Ma0GzGF8w"/>
+      <prerequisites id="_mV-KQHrJEeelLYMz0yOLCw" name="DMZAndBackendServerSeparatedByFirewall" description="there is no direct traffic between dmz and backend servers" securityPatterns="_OH2CsC60Eeee4Ma0GzGF8w"/>
+      <prerequisites id="_t-jVcYDNEeep_vGoYB1cZA" name="UntrustedInputInStorage" description="untrusted (user-supplied) input makes its way into the application storage" attacks="_XL2vUj1NEeaVk-W-mW-puA"/>
+      <prerequisites id="_CibCIYDOEeep_vGoYB1cZA" name="SoftwareUpToDate" description="used software is up to date and e.g. has all updates installed" attacks="_XL2vUj1NEeaVk-W-mW-puA"/>
+    </contains>
+    <contains xsi:type="categories:CategoryTable" id="_8hQjQ4dXEee-g4qoALnDSA" name="Categories" description="possible categories" createdBy="Larissa Schmid">
+      <categories id="_uIwXMIdYEee-g4qoALnDSA" name="Injection"/>
+      <categories id="_u1Re8IdYEee-g4qoALnDSA" name="Broken Authentication and Session Management"/>
+      <categories id="_vZcjAIdYEee-g4qoALnDSA" name="Cross-Site Scripting"/>
+      <categories id="_v2lyAIdYEee-g4qoALnDSA" name="Security Misconfiguration" description=""/>
+      <categories id="_wUjgYIdYEee-g4qoALnDSA" name="Cross-Site Request Forgery"/>
+      <categories id="_8ej_IIdYEee-g4qoALnDSA" name="Flooding"/>
+      <categories id="_Pxm9IIdZEee-g4qoALnDSA" name="Firewalll Architectures" categoryType="SECURITYPATTERN"/>
+      <categories id="_QKv14IdZEee-g4qoALnDSA" name="Operating System Access Control" categoryType="SECURITYPATTERN"/>
+      <categories id="_ePgKEIdZEee-g4qoALnDSA" name="Secure Internet Applications" categoryType="SECURITYPATTERN"/>
+      <categories id="_jINlcIdZEee-g4qoALnDSA" name="System Access Control Architecture" categoryType="SECURITYPATTERN"/>
+      <categories id="_qatisIdZEee-g4qoALnDSA" name="Identification and Authentication" categoryType="SECURITYPATTERN"/>
     </contains>
   </security:Container>
   <emfprofileapplication:ProfileApplication>
@@ -206,9 +219,6 @@
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite" appliedTo="_yuXHgFpBEeeDStyR4vdK8Q">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_L8XqcCmiEeeqDL-zCBq2ew"/>
     </stereotypeApplications>
-    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ResourcePrerequisite">
-      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_L8XqcCmiEeeqDL-zCBq2ew"/>
-    </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite" appliedTo="_XrUGAFpDEeeDStyR4vdK8Q">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_L8XqcCmiEeeqDL-zCBq2ew"/>
     </stereotypeApplications>
@@ -293,29 +303,35 @@
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:SystemPrerequisite" appliedTo="_QCwv8HJPEeeUDOga6FjiIA">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_csSsoFvwEeeyfvu_tDc-kQ"/>
     </stereotypeApplications>
-    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_Z2AysHJPEeeUDOga6FjiIA">
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_Z2AysHJPEeeUDOga6FjiIB">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_P9jo0HHsEee3t9O1wS03ow">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
     </stereotypeApplications>
-    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_Z2AysHJPEeeUDOga6FjiIA">
-      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
-    </stereotypeApplications>
-    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_Z2AysHJPEeeUDOga6FjiIA">
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_Z2AysHJPEeeUDOga6FjiIC">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_HcBuMHJQEeeUDOga6FjiIA">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+      <basicComponent href="../../../../cocome-cloud.repository#_oTQFuTSoEeal3vOMu7N_ww"/>
+      <basicComponent href="../../../../cocome-cloud.repository#_iQEYEDSkEeal3vOMu7N_ww"/>
+      <basicComponent href="../../../../cocome-cloud.repository#_oFfIwDSjEeal3vOMu7N_ww"/>
+      <operationProvidedRole href="../../../../cocome-cloud.repository#_rBOrsTSkEeal3vOMu7N_ww"/>
+      <operationProvidedRole href="../../../../cocome-cloud.repository#_4rULMTSmEeal3vOMu7N_ww"/>
+      <operationProvidedRole href="../../../../cocome-cloud.repository#_sBjjcTSoEeal3vOMu7N_ww"/>
+      <operationProvidedRole href="../../../../cocome-cloud.repository#_uMAo0TSoEeal3vOMu7N_ww"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite" appliedTo="_HcBuMHJQEeeUDOga6FjiIA">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_efuZIFvwEeeyfvu_tDc-kQ"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:SystemPrerequisite" appliedTo="_UHWxUHJQEeeUDOga6FjiIA">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_csSsoFvwEeeyfvu_tDc-kQ"/>
+      <system href="../../../../cocome-cloud.system#_yBTmILF9EeaCwqxzEIieVA"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_ThGCkHJQEeeUDOga6FjiIA">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+      <basicComponent href="../../../../cocome-cloud.repository#_8pP20GNWEeewVMCtsoppRA"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite" appliedTo="_ThGCkHJQEeeUDOga6FjiIA">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_efuZIFvwEeeyfvu_tDc-kQ"/>
@@ -328,9 +344,11 @@
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_MVlZIHdpEeeQ5rJ_Llc3NA">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+      <basicComponent href="../../../../cocome-cloud.repository#_8pP20GNWEeewVMCtsoppRA"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_kp2D0HrCEeelLYMz0yOLCw">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+      <basicComponent href="../../../../cocome-cloud.repository#_oTQFuTSoEeal3vOMu7N_ww"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:NetworkPrerequisite" appliedTo="_l2BjEHrCEeelLYMz0yOLCw">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_duNcoFvwEeeyfvu_tDc-kQ"/>
@@ -340,6 +358,7 @@
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_l2BjEHrCEeelLYMz0yOLCw">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+      <operationProvidedRole href="../../../../cocome-cloud.repository#_mrsB8WR_EeaYxPjtCxykSQ"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:NetworkPrerequisite" appliedTo="_lEuB8HrCEeelLYMz0yOLCw">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_duNcoFvwEeeyfvu_tDc-kQ"/>
@@ -379,6 +398,7 @@
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_1HWJUHrIEeelLYMz0yOLCw">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+      <basicComponent href="../../../../cocome-cloud.repository#_8pP20GNWEeewVMCtsoppRA"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_CpPBAHrJEeelLYMz0yOLCw">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
@@ -391,6 +411,7 @@
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_YX33sHrJEeelLYMz0yOLCw">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+      <basicComponent href="../../../../cocome-cloud.repository#_8pP20GNWEeewVMCtsoppRA"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite" appliedTo="_YX33sHrJEeelLYMz0yOLCw">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_efuZIFvwEeeyfvu_tDc-kQ"/>
@@ -406,36 +427,48 @@
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_t-jVcYDNEeep_vGoYB1cZA">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+      <compositeComponent href="../../../../cocome-cloud.repository#_nrE4ra_9Eeal2oK95oef3A"/>
+      <operationProvidedRole href="../../../../cocome-cloud.repository#_yCX1wLGAEeaCwqxzEIieVA"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:SystemPrerequisite" appliedTo="_CibCIYDOEeep_vGoYB1cZA">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_csSsoFvwEeeyfvu_tDc-kQ"/>
+      <system href="../../../../cocome-cloud.system#_yBTmILF9EeaCwqxzEIieVA"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_XrUGAFpDEeeDStyR4vdK8Q">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+      <basicComponent href="../../../../cocome-cloud.repository#_llW0oNY4EeW73vtlcwkhxw"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_7HVqYHCXEeeuUeOpptM-yQ">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+      <compositeComponent href="../../../../cocome-cloud.repository#_WxsrWK_-Eeal2oK95oef3A"/>
+      <operationProvidedRole href="../../../../cocome-cloud.repository#_v-gIULC2Eea4bqS8ZK-LhA"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_HrR9AHChEeeuUeOpptM-yQ">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+      <basicComponent href="../../../../cocome-cloud.repository#_kBFSaNYgEeWrM-HnT5f_ug"/>
+      <basicComponent href="../../../../cocome-cloud.repository#_llW0oNY4EeW73vtlcwkhxw"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_IdkgIHCiEeeuUeOpptM-yQ">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+      <basicComponent href="../../../../cocome-cloud.repository#_TErv0DSgEeal3vOMu7N_ww"/>
+      <basicComponent href="../../../../cocome-cloud.repository#_H9-ogDSdEeal3vOMu7N_ww"/>
+      <basicComponent href="../../../../cocome-cloud.repository#_hI0F8NY6EeW73vtlcwkhxw"/>
+      <basicComponent href="../../../../cocome-cloud.repository#_kIFSQtYgEeWrM-HnT5f_ug"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_VpQeUHCiEeeuUeOpptM-yQ">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+      <basicComponent href="../../../../cocome-cloud.repository#_hI0F8NY6EeW73vtlcwkhxw"/>
+      <basicComponent href="../../../../cocome-cloud.repository#_kIFSQtYgEeWrM-HnT5f_ug"/>
+      <basicComponent href="../../../../cocome-cloud.repository#_H9-ogDSdEeal3vOMu7N_ww"/>
+      <basicComponent href="../../../../cocome-cloud.repository#_TErv0DSgEeal3vOMu7N_ww"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:SystemPrerequisite" appliedTo="_XlTvQHHqEee3t9O1wS03ow">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_csSsoFvwEeeyfvu_tDc-kQ"/>
+      <system href="../../../../cocome-cloud.system#_yBTmILF9EeaCwqxzEIieVA"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_Z2AysHJPEeeUDOga6FjiIA">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
-    </stereotypeApplications>
-    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite" appliedTo="_Z2AysHJPEeeUDOga6FjiIA">
-      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_efuZIFvwEeeyfvu_tDc-kQ"/>
-    </stereotypeApplications>
-    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_Z2AysHJPEeeUDOga6FjiIA">
-      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+      <basicComponent href="../../../../cocome-cloud.repository#_TErv0DSgEeal3vOMu7N_ww"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:NetworkPrerequisite" appliedTo="_HcBuMHJQEeeUDOga6FjiIA">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_duNcoFvwEeeyfvu_tDc-kQ"/>
@@ -445,15 +478,23 @@
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_lEuB8HrCEeelLYMz0yOLCw">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+      <basicComponent href="../../../../cocome-cloud.repository#_8pP20GNWEeewVMCtsoppRA"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_Tab_QHrHEeelLYMz0yOLCw">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
+      <basicComponent href="../../../../cocome-cloud.repository#_8pP20GNWEeewVMCtsoppRA"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:NetworkPrerequisite" appliedTo="_lDKJcHrHEeelLYMz0yOLCw">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_duNcoFvwEeeyfvu_tDc-kQ"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:NetworkPrerequisite" appliedTo="_mV-KQHrJEeelLYMz0yOLCw">
       <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_duNcoFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite" appliedTo="_Z2AysHJPEeeUDOga6FjiIC">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_efuZIFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite" appliedTo="_Z2AysHJPEeeUDOga6FjiIA">
+      <extension href="../../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_efuZIFvwEeeyfvu_tDc-kQ"/>
     </stereotypeApplications>
     <importedProfiles nsURI="http://de.fzi.decision.security.profile.pcm.prerequisite/0.1.0" location="platform:/plugin/de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram"/>
     <importedProfiles nsURI="http://de.fzi.decision.security.profile.pcm.pattern/0.1.0" location="platform:/plugin/de.fzi.decision.security.profile.pcm.pattern/profile.emfprofile_diagram"/>
