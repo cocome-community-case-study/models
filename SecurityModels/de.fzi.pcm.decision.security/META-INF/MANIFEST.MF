@@ -18,6 +18,9 @@ Require-Bundle: org.eclipse.core.runtime,
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Export-Package: security,
+ security.categories,
+ security.categories.impl,
+ security.categories.util,
  security.impl,
  security.securityPatterns,
  security.securityPatterns.impl,

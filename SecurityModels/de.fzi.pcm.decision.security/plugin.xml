@@ -46,4 +46,12 @@
             genModel="model/security.genmodel"/>
    </extension>
 
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated security -->
+      <package
+            uri="http://www.fzi.de/pcm/security/categories"
+            class="security.categories.CategoriesPackage"
+            genModel="model/security.genmodel"/>
+   </extension>
+
 </plugin>

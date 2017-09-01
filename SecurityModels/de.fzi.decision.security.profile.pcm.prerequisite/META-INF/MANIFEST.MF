@@ -5,5 +5,6 @@ Bundle-SymbolicName: de.fzi.decision.security.profile.pcm.prerequisite; singleto
 Bundle-Version: 1.0.0.qualifier
 Bundle-Localization: plugin
 Require-Bundle: org.modelversioning.emfprofile;bundle-version="1.1.0";visibility:=reexport,
- org.modelversioning.emfprofile.registry;bundle-version="1.0.0";visibility:=reexport
+ org.modelversioning.emfprofile.registry;bundle-version="1.0.0";visibility:=reexport,
+ de.fzi.pcm.decision.security;bundle-version="0.1.0"
 Bundle-ActivationPolicy: lazy

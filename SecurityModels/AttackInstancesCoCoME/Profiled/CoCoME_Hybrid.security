@@ -18,7 +18,7 @@
       <attackTypes id="_zbUWEj1KEeaVk-W-mW-puA" name="TCPSYNFlooding" description="The attacker opens lots of TCP connections with the server, but suppresses the final ACK of the handshake procedure, so that every connection stays half-open and uses resources of the server to finally produce a denial of service." timeStamp="2016-08-17T00:00:00.000+0200" attacker="_pCMgMGFnEeaenr5P40YdvQ _A2-kAGFoEeaenr5P40YdvQ _iPckkGFoEeaenr5P40YdvQ _gzjY4GFpEeaenr5P40YdvQ _R5xEsGFqEeaenr5P40YdvQ" prerequisites="_GBmUuD1LEeaVk-W-mW-puA _WZhQQj1JEeaC77dVaP0Eeg _g5Xd1z1KEeaVk-W-mW-puA" stealth="STEALTHY">
         <securityViolations>AVAILABILITY</securityViolations>
       </attackTypes>
-      <attackTypes id="_yZTNgT1MEeaVk-W-mW-puA" name="SQLInjection" description="The attacker injects malicious SQL code in parameters that are passed into SQL commands unchecked which leads to the execution of malicious SQL commands." timeStamp="2016-08-17T00:00:00.000+0200" attacker="_pCMgMGFnEeaenr5P40YdvQ _A2-kAGFoEeaenr5P40YdvQ _iPckkGFoEeaenr5P40YdvQ _6mm8sGFoEeaenr5P40YdvQ _gzjY4GFpEeaenr5P40YdvQ" prerequisites="_K3GZKD1NEeaVk-W-mW-puA _BvpFYT1NEeaVk-W-mW-puA _WZhQQj1JEeaC77dVaP0Eeg _XrUGAFpDEeeDStyR4vdK8Q _5whTUFqcEee3Y7MWUzYKLA _HrR9AHChEeeuUeOpptM-yQ _yuXHgFpBEeeDStyR4vdK8Q _IdkgIHCiEeeuUeOpptM-yQ _VpQeUHCiEeeuUeOpptM-yQ _XlTvQHHqEee3t9O1wS03ow" stealth="STEALTHY" categories="_uIwXMIdYEee-g4qoALnDSA _v2lyAIdYEee-g4qoALnDSA">
+      <attackTypes id="_yZTNgT1MEeaVk-W-mW-puA" name="SQLInjection" description="The attacker injects malicious SQL code in parameters that are passed into SQL commands unchecked which leads to the execution of malicious SQL commands." timeStamp="2016-08-17T00:00:00.000+0200" attacker="_pCMgMGFnEeaenr5P40YdvQ _A2-kAGFoEeaenr5P40YdvQ _iPckkGFoEeaenr5P40YdvQ _6mm8sGFoEeaenr5P40YdvQ _gzjY4GFpEeaenr5P40YdvQ" prerequisites="_K3GZKD1NEeaVk-W-mW-puA _BvpFYT1NEeaVk-W-mW-puA _WZhQQj1JEeaC77dVaP0Eeg _XrUGAFpDEeeDStyR4vdK8Q _HrR9AHChEeeuUeOpptM-yQ _yuXHgFpBEeeDStyR4vdK8Q _IdkgIHCiEeeuUeOpptM-yQ _VpQeUHCiEeeuUeOpptM-yQ _XlTvQHHqEee3t9O1wS03ow" stealth="STEALTHY" categories="_uIwXMIdYEee-g4qoALnDSA _v2lyAIdYEee-g4qoALnDSA">
         <securityViolations>CONFIDENTIALITY</securityViolations>
         <securityViolations>INTEGRITY</securityViolations>
         <securityViolations>NONREPUDIATION</securityViolations>
@@ -67,7 +67,6 @@
       <prerequisites id="_XrUGAFpDEeeDStyR4vdK8Q" name="UntrustedInputInSQLQueries" description="untrusted input from users is used for sql queries without validation" attacks="_yZTNgT1MEeaVk-W-mW-puA" requiredBy="_VpQeUHCiEeeuUeOpptM-yQ _K3GZKD1NEeaVk-W-mW-puA"/>
       <prerequisites id="_ZS2W0FqLEee3Y7MWUzYKLA" name="RateLimiting" description="Allocation of Ressources without limits at the webserver" attacks="_DPedQj1JEeaC77dVaP0Eeg" requiredBy="_WZhQQj1JEeaC77dVaP0Eeg"/>
       <prerequisites id="_hlpTcFqLEee3Y7MWUzYKLA" name="ReleaseOfRessources" description="No release of ressources after effective lifetime of connection at webserver" attacks="_DPedQj1JEeaC77dVaP0Eeg" requiredBy="_WZhQQj1JEeaC77dVaP0Eeg"/>
-      <prerequisites id="_5whTUFqcEee3Y7MWUzYKLA" name="CustomErrorPages" description="Custom error pages that show the exact description of the occurred error" attacks="_yZTNgT1MEeaVk-W-mW-puA"/>
       <prerequisites id="_7HVqYHCXEeeuUeOpptM-yQ" name="UntrustedInputInHTMLOutput" description="untrusted input makes its way into the html output of the application" attacks="_XL2vUj1NEeaVk-W-mW-puA" requiredBy="_WZhQQj1JEeaC77dVaP0Eeg _VpQeUHCiEeeuUeOpptM-yQ"/>
       <prerequisites id="_nOF1wHCcEeeuUeOpptM-yQ" name="ParameterInURL" description="there are parameters in the url" attacks="_gEjY5T1OEeaVk-W-mW-puA" requiredBy="_WZhQQj1JEeaC77dVaP0Eeg"/>
       <prerequisites id="_3Qf3gHCeEeeuUeOpptM-yQ" name="ReauthenticationForActions" description="there is no unexpectable token in the url or there is no reauthentication of the user needed for performing actions" attacks="_gEjY5T1OEeaVk-W-mW-puA"/>
@@ -75,9 +74,9 @@
       <prerequisites id="_9CVoYHCgEeeuUeOpptM-yQ" name="BehaviorAtRessourceLimits" description="Defined, acceptable behavior when ressources reach the limit" attacks="_DPedQj1JEeaC77dVaP0Eeg"/>
       <prerequisites id="_HrR9AHChEeeuUeOpptM-yQ" name="UntrustedInputToInterpreter" description="untrusted input makes its way to an interpreter" attacks="_yZTNgT1MEeaVk-W-mW-puA" requiredBy="_VpQeUHCiEeeuUeOpptM-yQ"/>
       <prerequisites id="_IdkgIHCiEeeuUeOpptM-yQ" name="UntrustedInputParameterised" description="untrusted input is not parameterised in queries" attacks="_yZTNgT1MEeaVk-W-mW-puA" requiredBy="_VpQeUHCiEeeuUeOpptM-yQ"/>
-      <prerequisites id="_VpQeUHCiEeeuUeOpptM-yQ" name="UntrustedInput" description="user input is accepted by the application" attacks="_XL2vUj1NEeaVk-W-mW-puA _yZTNgT1MEeaVk-W-mW-puA" subPrerequisites="_yuXHgFpBEeeDStyR4vdK8Q _7HVqYHCXEeeuUeOpptM-yQ _XrUGAFpDEeeDStyR4vdK8Q _IdkgIHCiEeeuUeOpptM-yQ _HrR9AHChEeeuUeOpptM-yQ"/>
+      <prerequisites id="_VpQeUHCiEeeuUeOpptM-yQ" name="UntrustedInput" description="user input is accepted by the application" attacks="_XL2vUj1NEeaVk-W-mW-puA _yZTNgT1MEeaVk-W-mW-puA" subPrerequisites="_yuXHgFpBEeeDStyR4vdK8Q _7HVqYHCXEeeuUeOpptM-yQ _XrUGAFpDEeeDStyR4vdK8Q _IdkgIHCiEeeuUeOpptM-yQ _HrR9AHChEeeuUeOpptM-yQ _P9jo0HHsEee3t9O1wS03ow"/>
       <prerequisites id="_XlTvQHHqEee3t9O1wS03ow" name="TrustInFrameworks" description="the application trusts in frameworks from third parties" attacks="_yZTNgT1MEeaVk-W-mW-puA"/>
-      <prerequisites id="_P9jo0HHsEee3t9O1wS03ow" name="UnsafeJavaScriptAPI" description="unsafe JavaScript-APIS that do not encode or validate input are used" attacks="_XL2vUj1NEeaVk-W-mW-puA" requiredBy="_WZhQQj1JEeaC77dVaP0Eeg"/>
+      <prerequisites id="_P9jo0HHsEee3t9O1wS03ow" name="UnsafeJavaScriptAPI" description="unsafe JavaScript-APIS that do not encode or validate input are used" attacks="_XL2vUj1NEeaVk-W-mW-puA" requiredBy="_WZhQQj1JEeaC77dVaP0Eeg _VpQeUHCiEeeuUeOpptM-yQ"/>
       <prerequisites id="_QCwv8HJPEeeUDOga6FjiIA" name="SingleAccessPoint" description="there is only one access point to the system" securityPatterns="_IVr20C60Eeee4Ma0GzGF8w _OH2CsC60Eeee4Ma0GzGF8w"/>
       <prerequisites id="_Z2AysHJPEeeUDOga6FjiIA" name="LegitimacyChecked" description="Client has to prove that his access is legitimate." securityPatterns="_IVr20C60Eeee4Ma0GzGF8w"/>
       <prerequisites id="_Z2AysHJPEeeUDOga6FjiIA" name="PasswordDesign" description="passwords have to be chosen properly (length, composition, source)" securityPatterns="_IVr20C60Eeee4Ma0GzGF8w"/>
@@ -193,10 +192,10 @@
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:NetworkPrerequisite" appliedTo="_WZhQQj1JEeaC77dVaP0Eeg">
       <extension href="../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_L8XqcCmiEeeqDL-zCBq2ew"/>
     </stereotypeApplications>
-    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite" appliedTo="_5whTUFqcEee3Y7MWUzYKLA">
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ConfigurationPrerequisite">
       <extension href="../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_L8XqcCmiEeeqDL-zCBq2ew"/>
     </stereotypeApplications>
-    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_5whTUFqcEee3Y7MWUzYKLA">
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite">
       <extension href="../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_L8XqcCmiEeeqDL-zCBq2ew"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:NetworkPrerequisite" appliedTo="_7HVqYHCXEeeuUeOpptM-yQ">
@@ -393,6 +392,9 @@
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:NetworkPrerequisite" appliedTo="_mV-KQHrJEeelLYMz0yOLCw">
       <extension href="../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_duNcoFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:SystemPrerequisite" appliedTo="_Myt4qD1KEeaVk-W-mW-puA">
+      <extension href="../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_csSsoFvwEeeyfvu_tDc-kQ"/>
     </stereotypeApplications>
     <importedProfiles nsURI="http://de.fzi.decision.security.profile.pcm.pattern/0.1.0" location="platform:/plugin/de.fzi.decision.security.profile.pcm.pattern/profile.emfprofile_diagram"/>
     <importedProfiles nsURI="http://de.fzi.decision.security.profile.pcm.prerequisite/0.1.0" location="platform:/plugin/de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram"/>
