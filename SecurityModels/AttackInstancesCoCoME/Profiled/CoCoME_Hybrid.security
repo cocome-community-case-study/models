@@ -100,6 +100,7 @@
       <prerequisites id="_mV-KQHrJEeelLYMz0yOLCw" name="DMZAndBackendServerSeparatedByFirewall" description="there is no direct traffic between dmz and backend servers" securityPatterns="_OH2CsC60Eeee4Ma0GzGF8w"/>
       <prerequisites id="_t-jVcYDNEeep_vGoYB1cZA" name="UntrustedInputInStorage" description="untrusted (user-supplied) input makes its way into the application storage" attacks="_XL2vUj1NEeaVk-W-mW-puA"/>
       <prerequisites id="_CibCIYDOEeep_vGoYB1cZA" name="SoftwareUpToDate" description="used software is up to date and e.g. has all updates installed" attacks="_XL2vUj1NEeaVk-W-mW-puA"/>
+      <prerequisites id="_Bl8o4I8eEeeNhrIg462ZNQ" name="dummy"/>
     </contains>
     <contains xsi:type="categories:CategoryTable" id="_8hQjQ4dXEee-g4qoALnDSA" name="Categories" description="possible categories" createdBy="Larissa Schmid">
       <categories id="_uIwXMIdYEee-g4qoALnDSA" name="Injection"/>
@@ -395,6 +396,9 @@
     </stereotypeApplications>
     <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:SystemPrerequisite" appliedTo="_Myt4qD1KEeaVk-W-mW-puA">
       <extension href="../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_csSsoFvwEeeyfvu_tDc-kQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="de.fzi.decision.security.profile.pcm.prerequisite:ComponentPrerequisite" appliedTo="_Bl8o4I8eEeeNhrIg462ZNQ">
+      <extension href="../../../../de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram#_bfoFMFvwEeeyfvu_tDc-kQ"/>
     </stereotypeApplications>
     <importedProfiles nsURI="http://de.fzi.decision.security.profile.pcm.pattern/0.1.0" location="platform:/plugin/de.fzi.decision.security.profile.pcm.pattern/profile.emfprofile_diagram"/>
     <importedProfiles nsURI="http://de.fzi.decision.security.profile.pcm.prerequisite/0.1.0" location="platform:/plugin/de.fzi.decision.security.profile.pcm.prerequisite/profile.emfprofile_diagram"/>
