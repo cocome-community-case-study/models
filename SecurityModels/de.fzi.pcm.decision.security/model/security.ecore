@@ -105,9 +105,13 @@
       <eStructuralFeatures xsi:type="ecore:EReference" name="attacks" upperBound="-1"
           eType="#//securityThreats/Attack" eOpposite="#//securityThreats/Attack/prerequisites"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="subPrerequisites" upperBound="-1"
-          eType="#//securityPrerequisites/Prerequisite" eOpposite="#//securityPrerequisites/Prerequisite/requiredBy"/>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="requiredBy" upperBound="-1"
+          eType="#//securityPrerequisites/Prerequisite" eOpposite="#//securityPrerequisites/Prerequisite/requirement"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="requirement" upperBound="-1"
           eType="#//securityPrerequisites/Prerequisite" eOpposite="#//securityPrerequisites/Prerequisite/subPrerequisites"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="categories" upperBound="-1"
+          eType="#//categories/Category"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="runtime" lowerBound="1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EEnum" name="Status">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
