@@ -73,6 +73,12 @@
         <target xmi:type="ecore:EClass" href="http://www.fzi.de/pcm/security#//securityPrerequisites/Prerequisite"/>
       </extensions>
     </eClassifiers>
+    <eClassifiers xmi:type="emfprofile:Stereotype" xmi:id="_IOhs0JVoEeeqc8oJK2dKZQ" name="UsagePrerequsite">
+      <eSuperTypes xmi:type="ecore:EClass" href="http://www.modelversioning.org/emfprofile/application/1.1#//StereotypeApplication"/>
+      <extensions xmi:type="emfprofile:Extension" xmi:id="_MNyXsJVoEeeqc8oJK2dKZQ">
+        <target xmi:type="ecore:EClass" href="http://www.fzi.de/pcm/security#//securityPrerequisites/Prerequisite"/>
+      </extensions>
+    </eClassifiers>
   </emfprofile:Profile>
   <notation:Diagram xmi:id="_y1A7kCmNEeet7bdG1btjwg" type="EMFProfile" element="_y0GVkCmNEeet7bdG1btjwg" name="profile.emfprofile_diagram" measurementUnit="Pixel">
     <children xmi:type="notation:Node" xmi:id="_xlOqgCmUEeet7bdG1btjwg" type="2006" element="_xlM1UCmUEeet7bdG1btjwg">
@@ -343,6 +349,16 @@
       <element xmi:type="ecore:EClass" href="http://palladiosimulator.org/PalladioComponentModel/5.2#//resourceenvironment/ResourceContainer"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OYMJ45SQEeejKaP3ooKqYQ" x="708" y="396"/>
     </children>
+    <children xmi:type="notation:Node" xmi:id="_IPXaUJVoEeeqc8oJK2dKZQ" type="2006" element="_IOhs0JVoEeeqc8oJK2dKZQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_IPYocJVoEeeqc8oJK2dKZQ" type="5008"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_IPZPgJVoEeeqc8oJK2dKZQ" type="7008">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_IPZPgZVoEeeqc8oJK2dKZQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_IPZPgpVoEeeqc8oJK2dKZQ"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_IPXaUZVoEeeqc8oJK2dKZQ"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_IPXaUpVoEeeqc8oJK2dKZQ" fontName="Noto Sans"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IPXaU5VoEeeqc8oJK2dKZQ" x="125" y="88"/>
+    </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_y1A7kSmNEeet7bdG1btjwg"/>
     <edges xmi:type="notation:Edge" xmi:id="_YwBPACmVEeet7bdG1btjwg" type="4003" element="_Yv-LsCmVEeet7bdG1btjwg" source="_yxN8gCmUEeet7bdG1btjwg" target="_X9hbECmVEeet7bdG1btjwg">
       <children xmi:type="notation:DecorationNode" xmi:id="_YwB2ECmVEeet7bdG1btjwg" type="6001">
@@ -522,6 +538,15 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_PiR-cpSQEeejKaP3ooKqYQ" fontName="Segoe UI"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PiR-c5SQEeejKaP3ooKqYQ" points="[2, 22, 2, -72]$[2, 87, 2, -7]"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PiXeAJSQEeejKaP3ooKqYQ" id="(0.5491803278688525,0.19047619047619047)"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_MN3QMJVoEeeqc8oJK2dKZQ" type="4005" element="_MNyXsJVoEeeqc8oJK2dKZQ" source="_IPXaUJVoEeeqc8oJK2dKZQ" target="__2YwECmhEeeqDL-zCBq2ew">
+      <children xmi:type="notation:DecorationNode" xmi:id="_MN33QJVoEeeqc8oJK2dKZQ" type="6004">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MN33QZVoEeeqc8oJK2dKZQ" x="10" y="10"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_MN3QMZVoEeeqc8oJK2dKZQ"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_MN3QMpVoEeeqc8oJK2dKZQ" fontName="Noto Sans"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MN3QM5VoEeeqc8oJK2dKZQ" points="[29, 15, -153, -75]$[179, 110, -3, 20]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MN_MAJVoEeeqc8oJK2dKZQ" id="(0.7622950819672131,0.4791666666666667)"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>
