@@ -1,15 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<resourceenvironment:ResourceEnvironment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2" xmlns:resourceenvironmentprivacy="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2/Privacy" entityName="CocomeCloudResourceEnvirnoment">
-  <resourceContainer_ResourceEnvironment xsi:type="resourceenvironmentprivacy:ResourceContainerPrivacy" id="_tutKg1mDEeafw8jrX0KOKw" entityName="Server_1_TEMP">
-    <activeResourceSpecifications_ResourceContainer id="_pAkYAPIAEeahUr35rXG0IA"/>
-    <activeResourceSpecifications_ResourceContainer xsi:type="resourceenvironment:HDDProcessingResourceSpecification" id="_qOMowfIAEeahUr35rXG0IA"/>
-  </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="resourceenvironmentprivacy:ResourceContainerPrivacy" id="_wMHoI1mDEeafw8jrX0KOKw" entityName="ResourceContainer_&quot;">
-    <activeResourceSpecifications_ResourceContainer id="_qlsiwPIAEeahUr35rXG0IA"/>
-    <activeResourceSpecifications_ResourceContainer xsi:type="resourceenvironment:HDDProcessingResourceSpecification" id="_q_wBgfIAEeahUr35rXG0IA"/>
-  </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="resourceenvironmentprivacy:ResourceContainerPrivacy" id="_RctKsVoWEeavDPeSvLqz1Q">
-    <activeResourceSpecifications_ResourceContainer id="_RuTV8PIBEeahUr35rXG0IA"/>
-    <activeResourceSpecifications_ResourceContainer xsi:type="resourceenvironment:HDDProcessingResourceSpecification" id="_SQrqQfIBEeahUr35rXG0IA"/>
-  </resourceContainer_ResourceEnvironment>
-</resourceenvironment:ResourceEnvironment>
+<resourceenvironment:ResourceEnvironment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2" entityName="CocomeCloudResourceEnvirnoment"/>
