@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<QMLDeclarations:QMLDeclarations xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:QMLContract="http:///QMLContract.ecore" xmlns:QMLDeclarations="http:///QMLDeclarations.ecore" xmlns:QMLProfile="http:///QMLProfile.ecore" id="__xouYPOoEeaug9KErHOn0Q">
+  <qmlDeclarations xsi:type="QMLProfile:SimpleQMLProfile" id="__Gb1MJyKEd-NNcIT2kpSGQ" entityName="PCMStandardQMLProfile">
+    <usageModel href="cocome-cloud.usagemodel#/"/>
+    <requirements xsi:type="QMLProfile:UsageScenarioRequirement" id="__IEz85yKEd-NNcIT2kpSGQ">
+      <requireContract xsi:type="QMLContract:SimpleQMLContract" href="pathmap://PCM_MODELS/PCMStandardQMLContract.qmldeclarations#_FqNZYaCrEd-s9uTaURbrKA"/>
+      <usageScenario href="cocome-cloud.usagemodel#_B3WagPOlEeaug9KErHOn0Q"/>
+    </requirements>
+  </qmlDeclarations>
+</QMLDeclarations:QMLDeclarations>

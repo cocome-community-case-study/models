@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<org.palladiosimulator:CloudProfile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.palladiosimulator="http://palladiosimulator.org/PalladioComponentModel/5.2/CloudProfile" name="aws-ec2">
+  <cloudProviders name="aws-ec2" identity="username" credential="access-token">
+    <cloudResources xsi:type="org.palladiosimulator:VMType" pricePerHour="0.129" location="eu-west-1" name="m4.large" provider="//@cloudProviders.0" maxCores="2" minCores="2" minRAM="8.0" maxRAM="8.0" minProcessingRate="2.3" maxProcessingRate="2.4"/>
+    <cloudResources xsi:type="org.palladiosimulator:VMType" pricePerHour="0.257" location="eu-west-1" name="m4.xlarge" provider="//@cloudProviders.0" maxCores="4" maxRAM="16.0" minProcessingRate="2.3" maxProcessingRate="2.4"/>
+    <cloudResources xsi:type="org.palladiosimulator:VMType" pricePerHour="0.079" location="eu-west-1" name="m3.medium" provider="//@cloudProviders.0" maxCores="1" maxRAM="3.75" minProcessingRate="2.5" maxProcessingRate="2.6"/>
+    <cloudResources xsi:type="org.palladiosimulator:VMType" pricePerHour="0.158" location="eu-west-1" name="m3.large" provider="//@cloudProviders.0" maxCores="2" maxRAM="7.5" minProcessingRate="2.5" maxProcessingRate="2.6"/>
+    <cloudResources xsi:type="org.palladiosimulator:VMType" pricePerHour="0.315" location="eu-west-1" name="m3.xlarge" provider="//@cloudProviders.0" maxCores="4" maxRAM="15.0" minProcessingRate="2.5" maxProcessingRate="2.6"/>
+    <cloudResources xsi:type="org.palladiosimulator:VMType" pricePerHour="0.632" location="eu-west-1" name="m3.2xlarge" provider="//@cloudProviders.0" maxCores="8" maxRAM="30.0" minProcessingRate="2.5" maxProcessingRate="2.6"/>
+    <cloudResources xsi:type="org.palladiosimulator:VMType" pricePerHour="0.48" location="eu-west-1" name="m4.2xlarge" provider="//@cloudProviders.0" maxCores="8" maxRAM="32.0" minProcessingRate="2.3" maxProcessingRate="2.4"/>
+  </cloudProviders>
+</org.palladiosimulator:CloudProfile>
