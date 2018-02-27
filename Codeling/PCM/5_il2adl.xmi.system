@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.1" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.1" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.1" id="_enzZAJJUEeevNbdb7QnnwA">
+  <assemblyContexts__ComposedStructure id="_hNVQ0ZJUEeevNbdb7QnnwA" entityName="assembly_context_TrivialBankServer">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="5_il2adl.xmi.repository#_en0nIJJUEeevNbdb7QnnwA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_hN21QZJUEeevNbdb7QnnwA" entityName="assembly_context_inventory">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="5_il2adl.xmi.repository#_en11QJJUEeevNbdb7QnnwA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_hN4qcZJUEeevNbdb7QnnwA" entityName="assembly_context_cashdeskline">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="5_il2adl.xmi.repository#_en11QZJUEeevNbdb7QnnwA"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_hOP20pJUEeevNbdb7QnnwA" outerProvidedRole_ProvidedDelegationConnector="_hOP20ZJUEeevNbdb7QnnwA" assemblyContext_ProvidedDelegationConnector="_hNVQ0ZJUEeevNbdb7QnnwA">
+    <innerProvidedRole_ProvidedDelegationConnector href="5_il2adl.xmi.repository#_yQiTLJJUEee-fbVXvuq7Wg"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_yQeoyZJUEee-fbVXvuq7Wg" entityName="connector_assembly_context_TrivialBankServer_assembly_context_cashdeskline" requiringAssemblyContext_AssemblyConnector="_hN4qcZJUEeevNbdb7QnnwA" providingAssemblyContext_AssemblyConnector="_hNVQ0ZJUEeevNbdb7QnnwA">
+    <providedRole_AssemblyConnector href="5_il2adl.xmi.repository#_yQiTLJJUEee-fbVXvuq7Wg"/>
+    <requiredRole_AssemblyConnector href="5_il2adl.xmi.repository#_yQt5UpJUEee-fbVXvuq7Wg"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_hQZL4pJUEeevNbdb7QnnwA" outerProvidedRole_ProvidedDelegationConnector="_hQZL4ZJUEeevNbdb7QnnwA" assemblyContext_ProvidedDelegationConnector="_hN4qcZJUEeevNbdb7QnnwA">
+    <innerProvidedRole_ProvidedDelegationConnector href="5_il2adl.xmi.repository#_yQtSQpJUEee-fbVXvuq7Wg"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_hQaaApJUEeevNbdb7QnnwA" outerProvidedRole_ProvidedDelegationConnector="_hQaaAZJUEeevNbdb7QnnwA" assemblyContext_ProvidedDelegationConnector="_hN4qcZJUEeevNbdb7QnnwA">
+    <innerProvidedRole_ProvidedDelegationConnector href="5_il2adl.xmi.repository#_yQtSQ5JUEee-fbVXvuq7Wg"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_hQboIpJUEeevNbdb7QnnwA" outerProvidedRole_ProvidedDelegationConnector="_hQboIZJUEeevNbdb7QnnwA" assemblyContext_ProvidedDelegationConnector="_hN4qcZJUEeevNbdb7QnnwA">
+    <innerProvidedRole_ProvidedDelegationConnector href="5_il2adl.xmi.repository#_yQtSRJJUEee-fbVXvuq7Wg"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_hQcPMpJUEeevNbdb7QnnwA" outerProvidedRole_ProvidedDelegationConnector="_hQcPMZJUEeevNbdb7QnnwA" assemblyContext_ProvidedDelegationConnector="_hN4qcZJUEeevNbdb7QnnwA">
+    <innerProvidedRole_ProvidedDelegationConnector href="5_il2adl.xmi.repository#_yQtSRZJUEee-fbVXvuq7Wg"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_hQddUpJUEeevNbdb7QnnwA" outerProvidedRole_ProvidedDelegationConnector="_hQddUZJUEeevNbdb7QnnwA" assemblyContext_ProvidedDelegationConnector="_hN4qcZJUEeevNbdb7QnnwA">
+    <innerProvidedRole_ProvidedDelegationConnector href="5_il2adl.xmi.repository#_yQt5UJJUEee-fbVXvuq7Wg"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_hQeEYpJUEeevNbdb7QnnwA" outerProvidedRole_ProvidedDelegationConnector="_hQeEYZJUEeevNbdb7QnnwA" assemblyContext_ProvidedDelegationConnector="_hN4qcZJUEeevNbdb7QnnwA">
+    <innerProvidedRole_ProvidedDelegationConnector href="5_il2adl.xmi.repository#_yQt5UZJUEee-fbVXvuq7Wg"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_hQercpJUEeevNbdb7QnnwA" outerProvidedRole_ProvidedDelegationConnector="_hQercZJUEeevNbdb7QnnwA" assemblyContext_ProvidedDelegationConnector="_hN21QZJUEeevNbdb7QnnwA">
+    <innerProvidedRole_ProvidedDelegationConnector href="5_il2adl.xmi.repository#_yQsEIZJUEee-fbVXvuq7Wg"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_hQf5kpJUEeevNbdb7QnnwA" outerProvidedRole_ProvidedDelegationConnector="_hQf5kZJUEeevNbdb7QnnwA" assemblyContext_ProvidedDelegationConnector="_hN21QZJUEeevNbdb7QnnwA">
+    <innerProvidedRole_ProvidedDelegationConnector href="5_il2adl.xmi.repository#_yQsEIpJUEee-fbVXvuq7Wg"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_hQggopJUEeevNbdb7QnnwA" outerProvidedRole_ProvidedDelegationConnector="_hQggoZJUEeevNbdb7QnnwA" assemblyContext_ProvidedDelegationConnector="_hN21QZJUEeevNbdb7QnnwA">
+    <innerProvidedRole_ProvidedDelegationConnector href="5_il2adl.xmi.repository#_yQsEI5JUEee-fbVXvuq7Wg"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_hQhuwpJUEeevNbdb7QnnwA" outerProvidedRole_ProvidedDelegationConnector="_hQhuwZJUEeevNbdb7QnnwA" assemblyContext_ProvidedDelegationConnector="_hN21QZJUEeevNbdb7QnnwA">
+    <innerProvidedRole_ProvidedDelegationConnector href="5_il2adl.xmi.repository#_yQsEJJJUEee-fbVXvuq7Wg"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_yQfP4pJUEee-fbVXvuq7Wg" entityName="connector_assembly_context_inventory_assembly_context_cashdeskline" requiringAssemblyContext_AssemblyConnector="_hN4qcZJUEeevNbdb7QnnwA" providingAssemblyContext_AssemblyConnector="_hN21QZJUEeevNbdb7QnnwA">
+    <providedRole_AssemblyConnector href="5_il2adl.xmi.repository#_yQsEJJJUEee-fbVXvuq7Wg"/>
+    <requiredRole_AssemblyConnector href="5_il2adl.xmi.repository#_yQt5U5JUEee-fbVXvuq7Wg"/>
+  </connectors__ComposedStructure>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_hOP20ZJUEeevNbdb7QnnwA" entityName="provided_role_IBank_TrivialBankServer_system">
+    <providedInterface__OperationProvidedRole href="5_il2adl.xmi.repository#_en2cUZJUEeevNbdb7QnnwA"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_hQZL4ZJUEeevNbdb7QnnwA" entityName="provided_role_IBarcodeScanner_cashdeskline_system">
+    <providedInterface__OperationProvidedRole href="5_il2adl.xmi.repository#_en2cU5JUEeevNbdb7QnnwA"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_hQaaAZJUEeevNbdb7QnnwA" entityName="provided_role_ICardReader_cashdeskline_system">
+    <providedInterface__OperationProvidedRole href="5_il2adl.xmi.repository#_en3DYJJUEeevNbdb7QnnwA"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_hQboIZJUEeevNbdb7QnnwA" entityName="provided_role_ICashBox_cashdeskline_system">
+    <providedInterface__OperationProvidedRole href="5_il2adl.xmi.repository#_en3qcJJUEeevNbdb7QnnwA"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_hQcPMZJUEeevNbdb7QnnwA" entityName="provided_role_IExpressLight_cashdeskline_system">
+    <providedInterface__OperationProvidedRole href="5_il2adl.xmi.repository#_en4RgJJUEeevNbdb7QnnwA"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_hQddUZJUEeevNbdb7QnnwA" entityName="provided_role_IPrinter_cashdeskline_system">
+    <providedInterface__OperationProvidedRole href="5_il2adl.xmi.repository#_en4RgZJUEeevNbdb7QnnwA"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_hQeEYZJUEeevNbdb7QnnwA" entityName="provided_role_IUserDisplay_cashdeskline_system">
+    <providedInterface__OperationProvidedRole href="5_il2adl.xmi.repository#_en4RgpJUEeevNbdb7QnnwA"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_hQercZJUEeevNbdb7QnnwA" entityName="provided_role_IProductDispatcher_inventory_system">
+    <providedInterface__OperationProvidedRole href="5_il2adl.xmi.repository#_en2cUpJUEeevNbdb7QnnwA"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_hQf5kZJUEeevNbdb7QnnwA" entityName="provided_role_IReporting_inventory_system">
+    <providedInterface__OperationProvidedRole href="5_il2adl.xmi.repository#_en3qcZJUEeevNbdb7QnnwA"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_hQggoZJUEeevNbdb7QnnwA" entityName="provided_role_IStoreInventoryManager_inventory_system">
+    <providedInterface__OperationProvidedRole href="5_il2adl.xmi.repository#_en3DYZJUEeevNbdb7QnnwA"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_hQhuwZJUEeevNbdb7QnnwA" entityName="provided_role_IStoreInventory_inventory_system">
+    <providedInterface__OperationProvidedRole href="5_il2adl.xmi.repository#_en3DYpJUEeevNbdb7QnnwA"/>
+  </providedRoles_InterfaceProvidingEntity>
+</system:System>

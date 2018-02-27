@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="ASCII"?>
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <ownedComment body="Codeling-ID: _9OOyELV6EeeuHsKGCfKyGw"/>
+  <packagedElement xsi:type="uml:Component" name="cashdeskline">
+    <ownedComment body="Codeling-ID: _9OOyEbV6EeeuHsKGCfKyGw"/>
+    <packagedElement xsi:type="uml:Component" name="CashDeskModel">
+      <ownedComment body="Codeling-ID: _9OOyFbV6EeeuHsKGCfKyGw"/>
+      <packagedElement xsi:type="uml:Component" name="CashBoxModel">
+        <ownedComment body="Codeling-ID: _9OPZIbV6EeeuHsKGCfKyGw"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Component" name="ExpressLightModel">
+        <ownedComment body="Codeling-ID: _9OPZILV6EeeuHsKGCfKyGw"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Component" name="BarcodeScannerModel">
+        <ownedComment body="Codeling-ID: _9OOyFrV6EeeuHsKGCfKyGw"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Component" name="CardReaderModel">
+        <ownedComment body="Codeling-ID: _9OOyGrV6EeeuHsKGCfKyGw"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Component" name="PrinterModel">
+        <ownedComment body="Codeling-ID: _9OOyGbV6EeeuHsKGCfKyGw"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Component" name="UserDisplayModel">
+        <ownedComment body="Codeling-ID: _9OOyGLV6EeeuHsKGCfKyGw"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:ComponentRealization" client="//cashdeskline/CashDeskModel/CashBoxModel" supplier="//ICashBox">
+        <ownedComment body="Codeling-ID: null"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:ComponentRealization" client="//cashdeskline/CashDeskModel/ExpressLightModel" supplier="//IExpressLight">
+        <ownedComment body="Codeling-ID: null"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:ComponentRealization" client="//cashdeskline/CashDeskModel/BarcodeScannerModel" supplier="//IBarcodeScanner">
+        <ownedComment body="Codeling-ID: null"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:ComponentRealization" client="//cashdeskline/CashDeskModel/CardReaderModel" supplier="//ICardReader">
+        <ownedComment body="Codeling-ID: null"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:ComponentRealization" client="//cashdeskline/CashDeskModel/PrinterModel" supplier="//IPrinter">
+        <ownedComment body="Codeling-ID: null"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:ComponentRealization" client="//cashdeskline/CashDeskModel/UserDisplayModel" supplier="//IUserDisplay">
+        <ownedComment body="Codeling-ID: null"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Component" name="CoordinatorModel">
+      <ownedComment body="Codeling-ID: _9OOyF7V6EeeuHsKGCfKyGw"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Usage" client="//cashdeskline/CashDeskModel" supplier="//IStoreInventory">
+      <ownedComment body="Codeling-ID: null"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Usage" client="//cashdeskline/CashDeskModel" supplier="//IBank">
+      <ownedComment body="Codeling-ID: null"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Component" name="inventory">
+    <ownedComment body="Codeling-ID: _9OOyErV6EeeuHsKGCfKyGw"/>
+    <packagedElement xsi:type="uml:Component" name="application">
+      <ownedComment body="Codeling-ID: _9OOyE7V6EeeuHsKGCfKyGw"/>
+      <packagedElement xsi:type="uml:Component" name="ProductDispatcherServer">
+        <ownedComment body="Codeling-ID: _9OPZIrV6EeeuHsKGCfKyGw"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Component" name="ReportingServer">
+        <ownedComment body="Codeling-ID: _9OPZJbV6EeeuHsKGCfKyGw"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Component" name="StoreServer">
+        <ownedComment body="Codeling-ID: _9OPZJLV6EeeuHsKGCfKyGw"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:ComponentRealization" client="//inventory/application/ProductDispatcherServer" supplier="//IProductDispatcher">
+        <ownedComment body="Codeling-ID: null"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:ComponentRealization" client="//inventory/application/ReportingServer" supplier="//IReporting">
+        <ownedComment body="Codeling-ID: null"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:ComponentRealization" client="//inventory/application/StoreServer" supplier="//IStoreInventoryManager">
+        <ownedComment body="Codeling-ID: null"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:ComponentRealization" client="//inventory/application/StoreServer" supplier="//IStoreInventory">
+        <ownedComment body="Codeling-ID: null"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Usage" client="//inventory/application/StoreServer" supplier="//IProductDispatcher">
+        <ownedComment body="Codeling-ID: null"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Component" name="console">
+      <ownedComment body="Codeling-ID: _9OOyFLV6EeeuHsKGCfKyGw"/>
+      <packagedElement xsi:type="uml:Component" name="ReportingConsole">
+        <ownedComment body="Codeling-ID: _9OQAZbV6EeeuHsKGCfKyGw"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Component" name="StoreConsole">
+        <ownedComment body="Codeling-ID: _9OQAZrV6EeeuHsKGCfKyGw"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Usage" client="//inventory/console/ReportingConsole" supplier="//IReporting">
+        <ownedComment body="Codeling-ID: null"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Usage" client="//inventory/console/StoreConsole" supplier="//IStoreInventoryManager">
+        <ownedComment body="Codeling-ID: null"/>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Component" name="TrivialBankServer">
+    <ownedComment body="Codeling-ID: _9OPZI7V6EeeuHsKGCfKyGw"/>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Interface" name="IProductDispatcher">
+    <ownedComment body="Codeling-ID: _9OPZKLV6EeeuHsKGCfKyGw"/>
+    <ownedOperation name="dispatchProductsFromOtherStores">
+      <ownedComment body="Codeling-ID: _9OQAMLV6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Interface" name="IReporting">
+    <ownedComment body="Codeling-ID: _9OPZKbV6EeeuHsKGCfKyGw"/>
+    <ownedOperation name="getStoreStockReport">
+      <ownedComment body="Codeling-ID: _9OQAMbV6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+    <ownedOperation name="getEnterpriseStockReport">
+      <ownedComment body="Codeling-ID: _9OQAMrV6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+    <ownedOperation name="getEnterpriseDeliveryReport">
+      <ownedComment body="Codeling-ID: _9OQAM7V6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Interface" name="IStoreInventoryManager">
+    <ownedComment body="Codeling-ID: _9OPZKrV6EeeuHsKGCfKyGw"/>
+    <ownedOperation name="getStore">
+      <ownedComment body="Codeling-ID: _9OQANLV6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+    <ownedOperation name="getProductsWithLowStock">
+      <ownedComment body="Codeling-ID: _9OQANbV6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+    <ownedOperation name="getAllProducts">
+      <ownedComment body="Codeling-ID: _9OQANrV6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+    <ownedOperation name="getProductsWithStockItems">
+      <ownedComment body="Codeling-ID: _9OQAN7V6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+    <ownedOperation name="orderProducts">
+      <ownedComment body="Codeling-ID: _9OQAOLV6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+    <ownedOperation name="getOrder">
+      <ownedComment body="Codeling-ID: _9OQAObV6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+    <ownedOperation name="getOutstandingOrders">
+      <ownedComment body="Codeling-ID: _9OQAOrV6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+    <ownedOperation name="rollInReceivedOrder">
+      <ownedComment body="Codeling-ID: _9OQAO7V6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+    <ownedOperation name="changePrice">
+      <ownedComment body="Codeling-ID: _9OQAPLV6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+    <ownedOperation name="markProductsUnavailableInStock">
+      <ownedComment body="Codeling-ID: _9OQAPbV6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+    <ownedOperation name="getStockItems">
+      <ownedComment body="Codeling-ID: _9OQAPrV6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Interface" name="IStoreInventory">
+    <ownedComment body="Codeling-ID: _9OPZK7V6EeeuHsKGCfKyGw"/>
+    <ownedOperation name="getProductWithStockItem">
+      <ownedComment body="Codeling-ID: _9OQAP7V6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Interface" name="IBank">
+    <ownedComment body="Codeling-ID: _9OPZJ7V6EeeuHsKGCfKyGw"/>
+    <ownedOperation name="validateCard">
+      <ownedComment body="Codeling-ID: _9OPZMrV6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+    <ownedOperation name="debitCard">
+      <ownedComment body="Codeling-ID: _9OPZM7V6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Interface" name="IBarcodeScanner">
+    <ownedComment body="Codeling-ID: _9OPZJrV6EeeuHsKGCfKyGw"/>
+    <ownedOperation name="sendProductBarcode">
+      <ownedComment body="Codeling-ID: _9OPZMbV6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Interface" name="ICardReader">
+    <ownedComment body="Codeling-ID: _9OPZLbV6EeeuHsKGCfKyGw"/>
+    <ownedOperation name="sendCreditCardInfo">
+      <ownedComment body="Codeling-ID: _9OQAQ7V6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+    <ownedOperation name="sendCreditCardPin">
+      <ownedComment body="Codeling-ID: _9OQARLV6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Interface" name="ICashBox">
+    <ownedComment body="Codeling-ID: _9OPZMLV6EeeuHsKGCfKyGw"/>
+    <ownedOperation name="open">
+      <ownedComment body="Codeling-ID: _9OQAS7V6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+    <ownedOperation name="close">
+      <ownedComment body="Codeling-ID: _9OQATLV6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+    <ownedOperation name="isOpen">
+      <ownedComment body="Codeling-ID: _9OQATbV6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+    <ownedOperation name="pressControlKey">
+      <ownedComment body="Codeling-ID: _9OQATrV6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+    <ownedOperation name="pressNumpadKey">
+      <ownedComment body="Codeling-ID: _9OQAT7V6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Interface" name="IExpressLight">
+    <ownedComment body="Codeling-ID: _9OPZL7V6EeeuHsKGCfKyGw"/>
+    <ownedOperation name="turnExpressLightOn">
+      <ownedComment body="Codeling-ID: _9OQASLV6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+    <ownedOperation name="turnExpressLightOff">
+      <ownedComment body="Codeling-ID: _9OQASbV6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+    <ownedOperation name="isOn">
+      <ownedComment body="Codeling-ID: _9OQASrV6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Interface" name="IPrinter">
+    <ownedComment body="Codeling-ID: _9OPZLrV6EeeuHsKGCfKyGw"/>
+    <ownedOperation name="tearOffPrintout">
+      <ownedComment body="Codeling-ID: _9OQARbV6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+    <ownedOperation name="printText">
+      <ownedComment body="Codeling-ID: _9OQARrV6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+    <ownedOperation name="getCurrentPrintout">
+      <ownedComment body="Codeling-ID: _9OQAR7V6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Interface" name="IUserDisplay">
+    <ownedComment body="Codeling-ID: _9OPZLLV6EeeuHsKGCfKyGw"/>
+    <ownedOperation name="setContent">
+      <ownedComment body="Codeling-ID: _9OQAQLV6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+    <ownedOperation name="getMessage">
+      <ownedComment body="Codeling-ID: _9OQAQbV6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+    <ownedOperation name="getMessageKind">
+      <ownedComment body="Codeling-ID: _9OQAQrV6EeeuHsKGCfKyGw"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xsi:type="uml:ComponentRealization" client="//TrivialBankServer" supplier="//IBank">
+    <ownedComment body="Codeling-ID: null"/>
+  </packagedElement>
+</uml:Model>

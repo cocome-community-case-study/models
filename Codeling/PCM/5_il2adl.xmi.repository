@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.1" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.1" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.1" id="_hNIcgJJUEeevNbdb7QnnwA">
+  <components__Repository xsi:type="repository:BasicComponent" id="_yQgd8ZJUEee-fbVXvuq7Wg" entityName="CashDeskModel_Internal">
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_yQgd8pJUEee-fbVXvuq7Wg" entityName="required_role_IBank_CashDeskModel_Internal" requiredInterface__OperationRequiredRole="_en2cUZJUEeevNbdb7QnnwA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_yQgd85JUEee-fbVXvuq7Wg" entityName="required_role_IStoreInventory_CashDeskModel_Internal" requiredInterface__OperationRequiredRole="_en3DYpJUEeevNbdb7QnnwA"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_en1OMJJUEeevNbdb7QnnwA" entityName="ProductDispatcherServer">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQgd9ZJUEee-fbVXvuq7Wg" entityName="provided_role_IProductDispatcher_ProductDispatcherServer" providedInterface__OperationProvidedRole="_en2cUpJUEeevNbdb7QnnwA"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hRFvcZJUEeevNbdb7QnnwA" describedService__SEFF="_en6twJJUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hRFvcpJUEeevNbdb7QnnwA" successor_AbstractAction="_hRFvc5JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hRFvc5JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hRFvcpJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_en1OMpJUEeevNbdb7QnnwA" entityName="ReportingServer">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQgd-pJUEee-fbVXvuq7Wg" entityName="provided_role_IReporting_ReportingServer" providedInterface__OperationProvidedRole="_en3qcZJUEeevNbdb7QnnwA"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hRG9kZJUEeevNbdb7QnnwA" describedService__SEFF="_en9xEpJUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hRG9kpJUEeevNbdb7QnnwA" successor_AbstractAction="_hRG9k5JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hRG9k5JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hRG9kpJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hRIywZJUEeevNbdb7QnnwA" describedService__SEFF="_en9xE5JUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hRIywpJUEeevNbdb7QnnwA" successor_AbstractAction="_hRIyw5JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hRIyw5JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hRIywpJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hRLPAZJUEeevNbdb7QnnwA" describedService__SEFF="_en9xFJJUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hRLPApJUEeevNbdb7QnnwA" successor_AbstractAction="_hRLPA5JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hRLPA5JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hRLPApJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_en1OMZJUEeevNbdb7QnnwA" entityName="StoreServer">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQhFBpJUEee-fbVXvuq7Wg" entityName="provided_role_IStoreInventoryManager_StoreServer" providedInterface__OperationProvidedRole="_en3DYZJUEeevNbdb7QnnwA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQhFB5JUEee-fbVXvuq7Wg" entityName="provided_role_IStoreInventory_StoreServer" providedInterface__OperationProvidedRole="_en3DYpJUEeevNbdb7QnnwA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_yQhFCJJUEee-fbVXvuq7Wg" entityName="required_role_IProductDispatcher_StoreServer" requiredInterface__OperationRequiredRole="_en2cUpJUEeevNbdb7QnnwA"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hPd-0ZJUEeevNbdb7QnnwA" describedService__SEFF="_en8i8pJUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hPd-0pJUEeevNbdb7QnnwA" successor_AbstractAction="_hPd-05JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hPd-05JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hPd-0pJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hPfM8ZJUEeevNbdb7QnnwA" describedService__SEFF="_en8i85JUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hPfM8pJUEeevNbdb7QnnwA" successor_AbstractAction="_hPfM85JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hPfM85JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hPfM8pJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hPf0AZJUEeevNbdb7QnnwA" describedService__SEFF="_en8i9JJUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hPf0ApJUEeevNbdb7QnnwA" successor_AbstractAction="_HK2UcJJWEee-fbVXvuq7Wg"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hPf0A5JUEeevNbdb7QnnwA" predecessor_AbstractAction="_HK2UcJJWEee-fbVXvuq7Wg"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_HK2UcJJWEee-fbVXvuq7Wg" entityName="someAction" predecessor_AbstractAction="_hPf0ApJUEeevNbdb7QnnwA" successor_AbstractAction="_hPf0A5JUEeevNbdb7QnnwA">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="1000"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hPgbEZJUEeevNbdb7QnnwA" describedService__SEFF="_en8i9ZJUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hPgbEpJUEeevNbdb7QnnwA" successor_AbstractAction="_hPgbE5JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hPgbE5JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hPgbEpJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hPhCIZJUEeevNbdb7QnnwA" describedService__SEFF="_en8i9pJUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hPhCIpJUEeevNbdb7QnnwA" successor_AbstractAction="_hPhCI5JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hPhCI5JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hPhCIpJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hPiQQZJUEeevNbdb7QnnwA" describedService__SEFF="_en8i95JUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hPiQQpJUEeevNbdb7QnnwA" successor_AbstractAction="_hPiQQ5JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hPiQQ5JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hPiQQpJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hPjeYZJUEeevNbdb7QnnwA" describedService__SEFF="_en8i-JJUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hPjeYpJUEeevNbdb7QnnwA" successor_AbstractAction="_hPjeY5JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hPjeY5JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hPjeYpJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hPksgZJUEeevNbdb7QnnwA" describedService__SEFF="_en8i-ZJUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hPksgpJUEeevNbdb7QnnwA" successor_AbstractAction="_hPksg5JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hPksg5JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hPksgpJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hPl6oZJUEeevNbdb7QnnwA" describedService__SEFF="_en9KAJJUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hPl6opJUEeevNbdb7QnnwA" successor_AbstractAction="_hPl6o5JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hPl6o5JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hPl6opJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hPnIwZJUEeevNbdb7QnnwA" describedService__SEFF="_en9KAZJUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hPnIwpJUEeevNbdb7QnnwA" successor_AbstractAction="_hPnIw5JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hPnIw5JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hPnIwpJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hPo98ZJUEeevNbdb7QnnwA" describedService__SEFF="_en9KApJUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hPo98pJUEeevNbdb7QnnwA" successor_AbstractAction="_hPo985JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hPo985JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hPo98pJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hPqMEZJUEeevNbdb7QnnwA" describedService__SEFF="_en9KA5JUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hPqMEpJUEeevNbdb7QnnwA" successor_AbstractAction="_hPqME5JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hPqME5JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hPqMEpJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_en0nIJJUEeevNbdb7QnnwA" entityName="TrivialBankServer">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQiTLJJUEee-fbVXvuq7Wg" entityName="provided_role_IBank_TrivialBankServer" providedInterface__OperationProvidedRole="_en2cUZJUEeevNbdb7QnnwA"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hPyH4ZJUEeevNbdb7QnnwA" describedService__SEFF="_en44kJJUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hPyH4pJUEeevNbdb7QnnwA" successor_AbstractAction="_hPyH45JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hPyH45JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hPyH4pJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hPzWAZJUEeevNbdb7QnnwA" describedService__SEFF="_en44kZJUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hPzWApJUEeevNbdb7QnnwA" successor_AbstractAction="_hPzWA5JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hPzWA5JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hPzWApJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_eoBbcJJUEeevNbdb7QnnwA" entityName="CashBoxModel">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQi6NZJUEee-fbVXvuq7Wg" entityName="provided_role_ICashBox_CashBoxModel" providedInterface__OperationProvidedRole="_en3qcJJUEeevNbdb7QnnwA"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hRSjwZJUEeevNbdb7QnnwA" describedService__SEFF="_en9KBJJUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hRSjwpJUEeevNbdb7QnnwA" successor_AbstractAction="_hRSjw5JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hRSjw5JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hRSjwpJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hRVAAZJUEeevNbdb7QnnwA" describedService__SEFF="_en9KBZJUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hRVAApJUEeevNbdb7QnnwA" successor_AbstractAction="_hRVAA5JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hRVAA5JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hRVAApJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hRW1MZJUEeevNbdb7QnnwA" describedService__SEFF="_en9KBpJUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hRW1MpJUEeevNbdb7QnnwA" successor_AbstractAction="_hRW1M5JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hRW1M5JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hRW1MpJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hRZRcZJUEeevNbdb7QnnwA" describedService__SEFF="_en9xEJJUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hRZRcpJUEeevNbdb7QnnwA" successor_AbstractAction="_hRZRc5JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hRZRc5JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hRZRcpJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hRbGoZJUEeevNbdb7QnnwA" describedService__SEFF="_en9xEZJUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hRbGopJUEeevNbdb7QnnwA" successor_AbstractAction="_hRbGo5JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hRbGo5JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hRbGopJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_eoBbcZJUEeevNbdb7QnnwA" entityName="ExpressLightModel">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQjhSpJUEee-fbVXvuq7Wg" entityName="provided_role_IExpressLight_ExpressLightModel" providedInterface__OperationProvidedRole="_en4RgJJUEeevNbdb7QnnwA"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hRc70ZJUEeevNbdb7QnnwA" describedService__SEFF="_en9xFZJUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hRc70pJUEeevNbdb7QnnwA" successor_AbstractAction="_hRc705JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hRc705JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hRc70pJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hRexAZJUEeevNbdb7QnnwA" describedService__SEFF="_en9xFpJUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hRexApJUEeevNbdb7QnnwA" successor_AbstractAction="_hRexA5JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hRexA5JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hRexApJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hRgmMZJUEeevNbdb7QnnwA" describedService__SEFF="_en9xF5JUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hRgmMpJUEeevNbdb7QnnwA" successor_AbstractAction="_hRgmM5JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hRgmM5JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hRgmMpJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_en_mR5JUEeevNbdb7QnnwA" entityName="ReportingConsole">
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_yQkIWZJUEee-fbVXvuq7Wg" entityName="required_role_IReporting_ReportingConsole" requiredInterface__OperationRequiredRole="_en3qcZJUEeevNbdb7QnnwA"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_eoANUJJUEeevNbdb7QnnwA" entityName="StoreConsole">
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_yQkIW5JUEee-fbVXvuq7Wg" entityName="required_role_IStoreInventoryManager_StoreConsole" requiredInterface__OperationRequiredRole="_en3DYZJUEeevNbdb7QnnwA"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_eoA0YJJUEeevNbdb7QnnwA" entityName="BarcodeScannerModel">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQkvYJJUEee-fbVXvuq7Wg" entityName="provided_role_IBarcodeScanner_BarcodeScannerModel" providedInterface__OperationProvidedRole="_en2cU5JUEeevNbdb7QnnwA"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hRMdIZJUEeevNbdb7QnnwA" describedService__SEFF="_en774JJUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hRMdIpJUEeevNbdb7QnnwA" successor_AbstractAction="_hRMdI5JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hRMdI5JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hRMdIpJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_eoA0YZJUEeevNbdb7QnnwA" entityName="CardReaderModel">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQkvZZJUEee-fbVXvuq7Wg" entityName="provided_role_ICardReader_CardReaderModel" providedInterface__OperationProvidedRole="_en3DYJJUEeevNbdb7QnnwA"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hROSUZJUEeevNbdb7QnnwA" describedService__SEFF="_en8i8JJUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hROSUpJUEeevNbdb7QnnwA" successor_AbstractAction="_hROSU5JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hROSU5JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hROSUpJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hRQHgZJUEeevNbdb7QnnwA" describedService__SEFF="_en8i8ZJUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hRQHgpJUEeevNbdb7QnnwA" successor_AbstractAction="_hRQHg5JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hRQHg5JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hRQHgpJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_eoBbcpJUEeevNbdb7QnnwA" entityName="PrinterModel">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQlWcZJUEee-fbVXvuq7Wg" entityName="provided_role_IPrinter_PrinterModel" providedInterface__OperationProvidedRole="_en4RgZJUEeevNbdb7QnnwA"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hRibYZJUEeevNbdb7QnnwA" describedService__SEFF="_en-YIJJUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hRibYpJUEeevNbdb7QnnwA" successor_AbstractAction="_hRibY5JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hRibY5JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hRibYpJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hRkQkZJUEeevNbdb7QnnwA" describedService__SEFF="_en-YIZJUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hRkQkpJUEeevNbdb7QnnwA" successor_AbstractAction="_hRkQk5JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hRkQk5JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hRkQkpJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hRoiAZJUEeevNbdb7QnnwA" describedService__SEFF="_en-YIpJUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hRoiApJUEeevNbdb7QnnwA" successor_AbstractAction="_hRoiA5JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hRoiA5JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hRoiApJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_eoCCgJJUEeevNbdb7QnnwA" entityName="UserDisplayModel">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQl9g5JUEee-fbVXvuq7Wg" entityName="provided_role_IUserDisplay_UserDisplayModel" providedInterface__OperationProvidedRole="_en4RgpJUEeevNbdb7QnnwA"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hPwSsZJUEeevNbdb7QnnwA" describedService__SEFF="_en-YI5JUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hPwSspJUEeevNbdb7QnnwA" successor_AbstractAction="_hPwSs5JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hPwSs5JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hPwSspJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hPw5wZJUEeevNbdb7QnnwA" describedService__SEFF="_en-YJJJUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hPw5wpJUEeevNbdb7QnnwA" successor_AbstractAction="_hPw5w5JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hPw5w5JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hPw5wpJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_hPxg0ZJUEeevNbdb7QnnwA" describedService__SEFF="_en-YJZJUEeevNbdb7QnnwA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_hPxg0pJUEeevNbdb7QnnwA" successor_AbstractAction="_hPxg05JUEeevNbdb7QnnwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_hPxg05JUEeevNbdb7QnnwA" predecessor_AbstractAction="_hPxg0pJUEeevNbdb7QnnwA"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_eoANUpJUEeevNbdb7QnnwA" entityName="CoordinatorModel"/>
+  <components__Repository xsi:type="repository:CompositeComponent" id="_eoANUZJUEeevNbdb7QnnwA" entityName="CashDeskModel">
+    <assemblyContexts__ComposedStructure id="_hNZiQZJUEeevNbdb7QnnwA" entityName="assembly_context_UserDisplayModel" encapsulatedComponent__AssemblyContext="_eoCCgJJUEeevNbdb7QnnwA"/>
+    <assemblyContexts__ComposedStructure id="_hNY7MZJUEeevNbdb7QnnwA" entityName="assembly_context_PrinterModel" encapsulatedComponent__AssemblyContext="_eoBbcpJUEeevNbdb7QnnwA"/>
+    <assemblyContexts__ComposedStructure id="_hNV345JUEeevNbdb7QnnwA" entityName="assembly_context_ExpressLightModel" encapsulatedComponent__AssemblyContext="_eoBbcZJUEeevNbdb7QnnwA"/>
+    <assemblyContexts__ComposedStructure id="_hNV34ZJUEeevNbdb7QnnwA" entityName="assembly_context_CashBoxModel" encapsulatedComponent__AssemblyContext="_eoBbcJJUEeevNbdb7QnnwA"/>
+    <assemblyContexts__ComposedStructure id="_hNYUIZJUEeevNbdb7QnnwA" entityName="assembly_context_CardReaderModel" encapsulatedComponent__AssemblyContext="_eoA0YZJUEeevNbdb7QnnwA"/>
+    <assemblyContexts__ComposedStructure id="_hNXtEZJUEeevNbdb7QnnwA" entityName="assembly_context_BarcodeScannerModel" encapsulatedComponent__AssemblyContext="_eoA0YJJUEeevNbdb7QnnwA"/>
+    <assemblyContexts__ComposedStructure id="_hNPxQZJUEeevNbdb7QnnwA" entityName="assembly_context_CashDeskModel_Internal" encapsulatedComponent__AssemblyContext="_yQgd8ZJUEee-fbVXvuq7Wg"/>
+    <connectors__ComposedStructure xsi:type="composition:RequiredDelegationConnector" id="_yQnys5JUEee-fbVXvuq7Wg" innerRequiredRole_RequiredDelegationConnector="_yQgd8pJUEee-fbVXvuq7Wg" outerRequiredRole_RequiredDelegationConnector="_yQpA1ZJUEee-fbVXvuq7Wg" assemblyContext_RequiredDelegationConnector="_hNPxQZJUEeevNbdb7QnnwA"/>
+    <connectors__ComposedStructure xsi:type="composition:RequiredDelegationConnector" id="_yQnytJJUEee-fbVXvuq7Wg" innerRequiredRole_RequiredDelegationConnector="_yQgd85JUEee-fbVXvuq7Wg" outerRequiredRole_RequiredDelegationConnector="_yQpA1pJUEee-fbVXvuq7Wg" assemblyContext_RequiredDelegationConnector="_hNPxQZJUEeevNbdb7QnnwA"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_yQoZwJJUEee-fbVXvuq7Wg" innerProvidedRole_ProvidedDelegationConnector="_yQkvYJJUEee-fbVXvuq7Wg" outerProvidedRole_ProvidedDelegationConnector="_yQoZxpJUEee-fbVXvuq7Wg" assemblyContext_ProvidedDelegationConnector="_hNXtEZJUEeevNbdb7QnnwA"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_yQoZwZJUEee-fbVXvuq7Wg" innerProvidedRole_ProvidedDelegationConnector="_yQkvZZJUEee-fbVXvuq7Wg" outerProvidedRole_ProvidedDelegationConnector="_yQpA0JJUEee-fbVXvuq7Wg" assemblyContext_ProvidedDelegationConnector="_hNYUIZJUEeevNbdb7QnnwA"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_yQoZwpJUEee-fbVXvuq7Wg" innerProvidedRole_ProvidedDelegationConnector="_yQi6NZJUEee-fbVXvuq7Wg" outerProvidedRole_ProvidedDelegationConnector="_yQpA0ZJUEee-fbVXvuq7Wg" assemblyContext_ProvidedDelegationConnector="_hNV34ZJUEeevNbdb7QnnwA"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_yQoZw5JUEee-fbVXvuq7Wg" innerProvidedRole_ProvidedDelegationConnector="_yQjhSpJUEee-fbVXvuq7Wg" outerProvidedRole_ProvidedDelegationConnector="_yQpA0pJUEee-fbVXvuq7Wg" assemblyContext_ProvidedDelegationConnector="_hNV345JUEeevNbdb7QnnwA"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_yQoZxJJUEee-fbVXvuq7Wg" innerProvidedRole_ProvidedDelegationConnector="_yQlWcZJUEee-fbVXvuq7Wg" outerProvidedRole_ProvidedDelegationConnector="_yQpA05JUEee-fbVXvuq7Wg" assemblyContext_ProvidedDelegationConnector="_hNY7MZJUEeevNbdb7QnnwA"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_yQoZxZJUEee-fbVXvuq7Wg" innerProvidedRole_ProvidedDelegationConnector="_yQl9g5JUEee-fbVXvuq7Wg" outerProvidedRole_ProvidedDelegationConnector="_yQpA1JJUEee-fbVXvuq7Wg" assemblyContext_ProvidedDelegationConnector="_hNZiQZJUEeevNbdb7QnnwA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQoZxpJUEee-fbVXvuq7Wg" entityName="provided_role_IBarcodeScanner_CashDeskModel" providedInterface__OperationProvidedRole="_en2cU5JUEeevNbdb7QnnwA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQpA0JJUEee-fbVXvuq7Wg" entityName="provided_role_ICardReader_CashDeskModel" providedInterface__OperationProvidedRole="_en3DYJJUEeevNbdb7QnnwA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQpA0ZJUEee-fbVXvuq7Wg" entityName="provided_role_ICashBox_CashDeskModel" providedInterface__OperationProvidedRole="_en3qcJJUEeevNbdb7QnnwA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQpA0pJUEee-fbVXvuq7Wg" entityName="provided_role_IExpressLight_CashDeskModel" providedInterface__OperationProvidedRole="_en4RgJJUEeevNbdb7QnnwA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQpA05JUEee-fbVXvuq7Wg" entityName="provided_role_IPrinter_CashDeskModel" providedInterface__OperationProvidedRole="_en4RgZJUEeevNbdb7QnnwA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQpA1JJUEee-fbVXvuq7Wg" entityName="provided_role_IUserDisplay_CashDeskModel" providedInterface__OperationProvidedRole="_en4RgpJUEeevNbdb7QnnwA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_yQpA1ZJUEee-fbVXvuq7Wg" entityName="required_role_IBank_CashDeskModel" requiredInterface__OperationRequiredRole="_en2cUZJUEeevNbdb7QnnwA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_yQpA1pJUEee-fbVXvuq7Wg" entityName="required_role_IStoreInventory_CashDeskModel" requiredInterface__OperationRequiredRole="_en3DYpJUEeevNbdb7QnnwA"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:CompositeComponent" id="_en2cUJJUEeevNbdb7QnnwA" entityName="console">
+    <assemblyContexts__ComposedStructure id="_hNXGAZJUEeevNbdb7QnnwA" entityName="assembly_context_StoreConsole" encapsulatedComponent__AssemblyContext="_eoANUJJUEeevNbdb7QnnwA"/>
+    <assemblyContexts__ComposedStructure id="_hNWe8ZJUEeevNbdb7QnnwA" entityName="assembly_context_ReportingConsole" encapsulatedComponent__AssemblyContext="_en_mR5JUEeevNbdb7QnnwA"/>
+    <connectors__ComposedStructure xsi:type="composition:RequiredDelegationConnector" id="_yQpn45JUEee-fbVXvuq7Wg" innerRequiredRole_RequiredDelegationConnector="_yQkIW5JUEee-fbVXvuq7Wg" outerRequiredRole_RequiredDelegationConnector="_yQpn5ZJUEee-fbVXvuq7Wg" assemblyContext_RequiredDelegationConnector="_hNXGAZJUEeevNbdb7QnnwA"/>
+    <connectors__ComposedStructure xsi:type="composition:RequiredDelegationConnector" id="_yQpn5JJUEee-fbVXvuq7Wg" innerRequiredRole_RequiredDelegationConnector="_yQkIWZJUEee-fbVXvuq7Wg" outerRequiredRole_RequiredDelegationConnector="_yQpn5pJUEee-fbVXvuq7Wg" assemblyContext_RequiredDelegationConnector="_hNWe8ZJUEeevNbdb7QnnwA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_yQpn5ZJUEee-fbVXvuq7Wg" entityName="required_role_IStoreInventoryManager_console" requiredInterface__OperationRequiredRole="_en3DYZJUEeevNbdb7QnnwA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_yQpn5pJUEee-fbVXvuq7Wg" entityName="required_role_IReporting_console" requiredInterface__OperationRequiredRole="_en3qcZJUEeevNbdb7QnnwA"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:CompositeComponent" id="_en11QpJUEeevNbdb7QnnwA" entityName="application">
+    <assemblyContexts__ComposedStructure id="_hNUpwZJUEeevNbdb7QnnwA" entityName="assembly_context_StoreServer" encapsulatedComponent__AssemblyContext="_en1OMZJUEeevNbdb7QnnwA"/>
+    <assemblyContexts__ComposedStructure id="_hNUCsZJUEeevNbdb7QnnwA" entityName="assembly_context_ReportingServer" encapsulatedComponent__AssemblyContext="_en1OMpJUEeevNbdb7QnnwA"/>
+    <assemblyContexts__ComposedStructure id="_hNS0kZJUEeevNbdb7QnnwA" entityName="assembly_context_ProductDispatcherServer" encapsulatedComponent__AssemblyContext="_en1OMJJUEeevNbdb7QnnwA"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_yQqO85JUEee-fbVXvuq7Wg" innerProvidedRole_ProvidedDelegationConnector="_yQgd9ZJUEee-fbVXvuq7Wg" outerProvidedRole_ProvidedDelegationConnector="_yQq2AJJUEee-fbVXvuq7Wg" assemblyContext_ProvidedDelegationConnector="_hNS0kZJUEeevNbdb7QnnwA"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_yQqO9JJUEee-fbVXvuq7Wg" innerProvidedRole_ProvidedDelegationConnector="_yQgd-pJUEee-fbVXvuq7Wg" outerProvidedRole_ProvidedDelegationConnector="_yQq2AZJUEee-fbVXvuq7Wg" assemblyContext_ProvidedDelegationConnector="_hNUCsZJUEeevNbdb7QnnwA"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_yQqO9ZJUEee-fbVXvuq7Wg" innerProvidedRole_ProvidedDelegationConnector="_yQhFBpJUEee-fbVXvuq7Wg" outerProvidedRole_ProvidedDelegationConnector="_yQq2ApJUEee-fbVXvuq7Wg" assemblyContext_ProvidedDelegationConnector="_hNUpwZJUEeevNbdb7QnnwA"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_yQqO9pJUEee-fbVXvuq7Wg" innerProvidedRole_ProvidedDelegationConnector="_yQhFB5JUEee-fbVXvuq7Wg" outerProvidedRole_ProvidedDelegationConnector="_yQq2A5JUEee-fbVXvuq7Wg" assemblyContext_ProvidedDelegationConnector="_hNUpwZJUEeevNbdb7QnnwA"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_yQqO95JUEee-fbVXvuq7Wg" entityName="connector_assembly_context_ProductDispatcherServer_assembly_context_StoreServer" requiringAssemblyContext_AssemblyConnector="_hNUpwZJUEeevNbdb7QnnwA" providingAssemblyContext_AssemblyConnector="_hNS0kZJUEeevNbdb7QnnwA" providedRole_AssemblyConnector="_yQgd9ZJUEee-fbVXvuq7Wg" requiredRole_AssemblyConnector="_yQhFCJJUEee-fbVXvuq7Wg"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQq2AJJUEee-fbVXvuq7Wg" entityName="provided_role_IProductDispatcher_application" providedInterface__OperationProvidedRole="_en2cUpJUEeevNbdb7QnnwA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQq2AZJUEee-fbVXvuq7Wg" entityName="provided_role_IReporting_application" providedInterface__OperationProvidedRole="_en3qcZJUEeevNbdb7QnnwA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQq2ApJUEee-fbVXvuq7Wg" entityName="provided_role_IStoreInventoryManager_application" providedInterface__OperationProvidedRole="_en3DYZJUEeevNbdb7QnnwA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQq2A5JUEee-fbVXvuq7Wg" entityName="provided_role_IStoreInventory_application" providedInterface__OperationProvidedRole="_en3DYpJUEeevNbdb7QnnwA"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:CompositeComponent" id="_en11QJJUEeevNbdb7QnnwA" entityName="inventory">
+    <assemblyContexts__ComposedStructure id="_hN0ZAZJUEeevNbdb7QnnwA" entityName="assembly_context_console" encapsulatedComponent__AssemblyContext="_en2cUJJUEeevNbdb7QnnwA"/>
+    <assemblyContexts__ComposedStructure id="_hN1nIZJUEeevNbdb7QnnwA" entityName="assembly_context_application" encapsulatedComponent__AssemblyContext="_en11QpJUEeevNbdb7QnnwA"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_yQrdEJJUEee-fbVXvuq7Wg" innerProvidedRole_ProvidedDelegationConnector="_yQq2AJJUEee-fbVXvuq7Wg" outerProvidedRole_ProvidedDelegationConnector="_yQsEIZJUEee-fbVXvuq7Wg" assemblyContext_ProvidedDelegationConnector="_hN1nIZJUEeevNbdb7QnnwA"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_yQrdEZJUEee-fbVXvuq7Wg" innerProvidedRole_ProvidedDelegationConnector="_yQq2AZJUEee-fbVXvuq7Wg" outerProvidedRole_ProvidedDelegationConnector="_yQsEIpJUEee-fbVXvuq7Wg" assemblyContext_ProvidedDelegationConnector="_hN1nIZJUEeevNbdb7QnnwA"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_yQrdEpJUEee-fbVXvuq7Wg" innerProvidedRole_ProvidedDelegationConnector="_yQq2ApJUEee-fbVXvuq7Wg" outerProvidedRole_ProvidedDelegationConnector="_yQsEI5JUEee-fbVXvuq7Wg" assemblyContext_ProvidedDelegationConnector="_hN1nIZJUEeevNbdb7QnnwA"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_yQrdE5JUEee-fbVXvuq7Wg" innerProvidedRole_ProvidedDelegationConnector="_yQq2A5JUEee-fbVXvuq7Wg" outerProvidedRole_ProvidedDelegationConnector="_yQsEJJJUEee-fbVXvuq7Wg" assemblyContext_ProvidedDelegationConnector="_hN1nIZJUEeevNbdb7QnnwA"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_yQrdFJJUEee-fbVXvuq7Wg" entityName="connector_assembly_context_application_assembly_context_console" requiringAssemblyContext_AssemblyConnector="_hN0ZAZJUEeevNbdb7QnnwA" providingAssemblyContext_AssemblyConnector="_hN1nIZJUEeevNbdb7QnnwA" providedRole_AssemblyConnector="_yQq2ApJUEee-fbVXvuq7Wg" requiredRole_AssemblyConnector="_yQpn5ZJUEee-fbVXvuq7Wg"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_yQsEIJJUEee-fbVXvuq7Wg" entityName="connector_assembly_context_application_assembly_context_console" requiringAssemblyContext_AssemblyConnector="_hN0ZAZJUEeevNbdb7QnnwA" providingAssemblyContext_AssemblyConnector="_hN1nIZJUEeevNbdb7QnnwA" providedRole_AssemblyConnector="_yQq2AZJUEee-fbVXvuq7Wg" requiredRole_AssemblyConnector="_yQpn5pJUEee-fbVXvuq7Wg"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQsEIZJUEee-fbVXvuq7Wg" entityName="provided_role_IProductDispatcher_inventory" providedInterface__OperationProvidedRole="_en2cUpJUEeevNbdb7QnnwA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQsEIpJUEee-fbVXvuq7Wg" entityName="provided_role_IReporting_inventory" providedInterface__OperationProvidedRole="_en3qcZJUEeevNbdb7QnnwA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQsEI5JUEee-fbVXvuq7Wg" entityName="provided_role_IStoreInventoryManager_inventory" providedInterface__OperationProvidedRole="_en3DYZJUEeevNbdb7QnnwA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQsEJJJUEee-fbVXvuq7Wg" entityName="provided_role_IStoreInventory_inventory" providedInterface__OperationProvidedRole="_en3DYpJUEeevNbdb7QnnwA"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:CompositeComponent" id="_en11QZJUEeevNbdb7QnnwA" entityName="cashdeskline">
+    <assemblyContexts__ComposedStructure id="_hNZiQ5JUEeevNbdb7QnnwA" entityName="assembly_context_CoordinatorModel" encapsulatedComponent__AssemblyContext="_eoANUpJUEeevNbdb7QnnwA"/>
+    <assemblyContexts__ComposedStructure id="_hNyj0ZJUEeevNbdb7QnnwA" entityName="assembly_context_CashDeskModel" encapsulatedComponent__AssemblyContext="_eoANUZJUEeevNbdb7QnnwA"/>
+    <connectors__ComposedStructure xsi:type="composition:RequiredDelegationConnector" id="_yQsrMZJUEee-fbVXvuq7Wg" innerRequiredRole_RequiredDelegationConnector="_yQpA1ZJUEee-fbVXvuq7Wg" outerRequiredRole_RequiredDelegationConnector="_yQt5UpJUEee-fbVXvuq7Wg" assemblyContext_RequiredDelegationConnector="_hNyj0ZJUEeevNbdb7QnnwA"/>
+    <connectors__ComposedStructure xsi:type="composition:RequiredDelegationConnector" id="_yQsrMpJUEee-fbVXvuq7Wg" innerRequiredRole_RequiredDelegationConnector="_yQpA1pJUEee-fbVXvuq7Wg" outerRequiredRole_RequiredDelegationConnector="_yQt5U5JUEee-fbVXvuq7Wg" assemblyContext_RequiredDelegationConnector="_hNyj0ZJUEeevNbdb7QnnwA"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_yQsrM5JUEee-fbVXvuq7Wg" innerProvidedRole_ProvidedDelegationConnector="_yQoZxpJUEee-fbVXvuq7Wg" outerProvidedRole_ProvidedDelegationConnector="_yQtSQpJUEee-fbVXvuq7Wg" assemblyContext_ProvidedDelegationConnector="_hNyj0ZJUEeevNbdb7QnnwA"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_yQsrNJJUEee-fbVXvuq7Wg" innerProvidedRole_ProvidedDelegationConnector="_yQpA0JJUEee-fbVXvuq7Wg" outerProvidedRole_ProvidedDelegationConnector="_yQtSQ5JUEee-fbVXvuq7Wg" assemblyContext_ProvidedDelegationConnector="_hNyj0ZJUEeevNbdb7QnnwA"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_yQsrNZJUEee-fbVXvuq7Wg" innerProvidedRole_ProvidedDelegationConnector="_yQpA0ZJUEee-fbVXvuq7Wg" outerProvidedRole_ProvidedDelegationConnector="_yQtSRJJUEee-fbVXvuq7Wg" assemblyContext_ProvidedDelegationConnector="_hNyj0ZJUEeevNbdb7QnnwA"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_yQsrNpJUEee-fbVXvuq7Wg" innerProvidedRole_ProvidedDelegationConnector="_yQpA0pJUEee-fbVXvuq7Wg" outerProvidedRole_ProvidedDelegationConnector="_yQtSRZJUEee-fbVXvuq7Wg" assemblyContext_ProvidedDelegationConnector="_hNyj0ZJUEeevNbdb7QnnwA"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_yQtSQJJUEee-fbVXvuq7Wg" innerProvidedRole_ProvidedDelegationConnector="_yQpA05JUEee-fbVXvuq7Wg" outerProvidedRole_ProvidedDelegationConnector="_yQt5UJJUEee-fbVXvuq7Wg" assemblyContext_ProvidedDelegationConnector="_hNyj0ZJUEeevNbdb7QnnwA"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_yQtSQZJUEee-fbVXvuq7Wg" innerProvidedRole_ProvidedDelegationConnector="_yQpA1JJUEee-fbVXvuq7Wg" outerProvidedRole_ProvidedDelegationConnector="_yQt5UZJUEee-fbVXvuq7Wg" assemblyContext_ProvidedDelegationConnector="_hNyj0ZJUEeevNbdb7QnnwA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQtSQpJUEee-fbVXvuq7Wg" entityName="provided_role_IBarcodeScanner_cashdeskline" providedInterface__OperationProvidedRole="_en2cU5JUEeevNbdb7QnnwA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQtSQ5JUEee-fbVXvuq7Wg" entityName="provided_role_ICardReader_cashdeskline" providedInterface__OperationProvidedRole="_en3DYJJUEeevNbdb7QnnwA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQtSRJJUEee-fbVXvuq7Wg" entityName="provided_role_ICashBox_cashdeskline" providedInterface__OperationProvidedRole="_en3qcJJUEeevNbdb7QnnwA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQtSRZJUEee-fbVXvuq7Wg" entityName="provided_role_IExpressLight_cashdeskline" providedInterface__OperationProvidedRole="_en4RgJJUEeevNbdb7QnnwA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQt5UJJUEee-fbVXvuq7Wg" entityName="provided_role_IPrinter_cashdeskline" providedInterface__OperationProvidedRole="_en4RgZJUEeevNbdb7QnnwA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQt5UZJUEee-fbVXvuq7Wg" entityName="provided_role_IUserDisplay_cashdeskline" providedInterface__OperationProvidedRole="_en4RgpJUEeevNbdb7QnnwA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_yQt5UpJUEee-fbVXvuq7Wg" entityName="required_role_IBank_cashdeskline" requiredInterface__OperationRequiredRole="_en2cUZJUEeevNbdb7QnnwA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_yQt5U5JUEee-fbVXvuq7Wg" entityName="required_role_IStoreInventory_cashdeskline" requiredInterface__OperationRequiredRole="_en3DYpJUEeevNbdb7QnnwA"/>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_en2cUpJUEeevNbdb7QnnwA" entityName="IProductDispatcher">
+    <signatures__OperationInterface id="_en6twJJUEeevNbdb7QnnwA" entityName="dispatchProductsFromOtherStores"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_en3qcZJUEeevNbdb7QnnwA" entityName="IReporting">
+    <signatures__OperationInterface id="_en9xEpJUEeevNbdb7QnnwA" entityName="getStoreStockReport"/>
+    <signatures__OperationInterface id="_en9xE5JUEeevNbdb7QnnwA" entityName="getEnterpriseStockReport"/>
+    <signatures__OperationInterface id="_en9xFJJUEeevNbdb7QnnwA" entityName="getEnterpriseDeliveryReport"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_en3DYZJUEeevNbdb7QnnwA" entityName="IStoreInventoryManager">
+    <signatures__OperationInterface id="_en8i8pJUEeevNbdb7QnnwA" entityName="getStore"/>
+    <signatures__OperationInterface id="_en8i85JUEeevNbdb7QnnwA" entityName="getProductsWithLowStock"/>
+    <signatures__OperationInterface id="_en8i9JJUEeevNbdb7QnnwA" entityName="getAllProducts"/>
+    <signatures__OperationInterface id="_en8i9ZJUEeevNbdb7QnnwA" entityName="getProductsWithStockItems"/>
+    <signatures__OperationInterface id="_en8i9pJUEeevNbdb7QnnwA" entityName="orderProducts"/>
+    <signatures__OperationInterface id="_en8i95JUEeevNbdb7QnnwA" entityName="getOrder"/>
+    <signatures__OperationInterface id="_en8i-JJUEeevNbdb7QnnwA" entityName="getOutstandingOrders"/>
+    <signatures__OperationInterface id="_en8i-ZJUEeevNbdb7QnnwA" entityName="rollInReceivedOrder"/>
+    <signatures__OperationInterface id="_en9KAJJUEeevNbdb7QnnwA" entityName="changePrice"/>
+    <signatures__OperationInterface id="_en9KAZJUEeevNbdb7QnnwA" entityName="markProductsUnavailableInStock"/>
+    <signatures__OperationInterface id="_en9KApJUEeevNbdb7QnnwA" entityName="getStockItems"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_en3DYpJUEeevNbdb7QnnwA" entityName="IStoreInventory">
+    <signatures__OperationInterface id="_en9KA5JUEeevNbdb7QnnwA" entityName="getProductWithStockItem"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_en2cU5JUEeevNbdb7QnnwA" entityName="IBarcodeScanner">
+    <signatures__OperationInterface id="_en774JJUEeevNbdb7QnnwA" entityName="sendProductBarcode"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_en3DYJJUEeevNbdb7QnnwA" entityName="ICardReader">
+    <signatures__OperationInterface id="_en8i8JJUEeevNbdb7QnnwA" entityName="sendCreditCardInfo"/>
+    <signatures__OperationInterface id="_en8i8ZJUEeevNbdb7QnnwA" entityName="sendCreditCardPin"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_en3qcJJUEeevNbdb7QnnwA" entityName="ICashBox">
+    <signatures__OperationInterface id="_en9KBJJUEeevNbdb7QnnwA" entityName="open"/>
+    <signatures__OperationInterface id="_en9KBZJUEeevNbdb7QnnwA" entityName="close"/>
+    <signatures__OperationInterface id="_en9KBpJUEeevNbdb7QnnwA" entityName="isOpen"/>
+    <signatures__OperationInterface id="_en9xEJJUEeevNbdb7QnnwA" entityName="pressControlKey"/>
+    <signatures__OperationInterface id="_en9xEZJUEeevNbdb7QnnwA" entityName="pressNumpadKey"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_en4RgJJUEeevNbdb7QnnwA" entityName="IExpressLight">
+    <signatures__OperationInterface id="_en9xFZJUEeevNbdb7QnnwA" entityName="turnExpressLightOn"/>
+    <signatures__OperationInterface id="_en9xFpJUEeevNbdb7QnnwA" entityName="turnExpressLightOff"/>
+    <signatures__OperationInterface id="_en9xF5JUEeevNbdb7QnnwA" entityName="isOn"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_en4RgZJUEeevNbdb7QnnwA" entityName="IPrinter">
+    <signatures__OperationInterface id="_en-YIJJUEeevNbdb7QnnwA" entityName="tearOffPrintout"/>
+    <signatures__OperationInterface id="_en-YIZJUEeevNbdb7QnnwA" entityName="printText"/>
+    <signatures__OperationInterface id="_en-YIpJUEeevNbdb7QnnwA" entityName="getCurrentPrintout"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_en4RgpJUEeevNbdb7QnnwA" entityName="IUserDisplay">
+    <signatures__OperationInterface id="_en-YI5JUEeevNbdb7QnnwA" entityName="setContent"/>
+    <signatures__OperationInterface id="_en-YJJJUEeevNbdb7QnnwA" entityName="getMessage"/>
+    <signatures__OperationInterface id="_en-YJZJUEeevNbdb7QnnwA" entityName="getMessageKind"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_en2cUZJUEeevNbdb7QnnwA" entityName="IBank">
+    <signatures__OperationInterface id="_en44kJJUEeevNbdb7QnnwA" entityName="validateCard"/>
+    <signatures__OperationInterface id="_en44kZJUEeevNbdb7QnnwA" entityName="debitCard"/>
+  </interfaces__Repository>
+</repository:Repository>

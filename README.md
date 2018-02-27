@@ -5,6 +5,7 @@ Palladio Component Model (PCM) based models of CoCoME.
 
 PCM3.5/		CoCoME models compatible with PCM 3.5
 PCM4.0/		CoCoME models compatible with PCM 4.0
+Codeling/PCM	PCM models of CoCoME as extracted by the tool *Codeling*
 SecurityModels/	Security models for CoCoME based on an PCM extension
 cocome-cloud-sale-process.bpusagemodel
 		Usage model for the sale process, uses PCM 5.1 ???
