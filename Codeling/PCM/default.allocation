@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.1" id="_yNMEMJJUEee-fbVXvuq7Wg" entityName="defaultAllocation">
+  <targetResourceEnvironment_Allocation href="default.resourceenvironment#/"/>
+  <system_Allocation href="5_il2adl.xmi.system#_enzZAJJUEeevNbdb7QnnwA"/>
+  <allocationContexts_Allocation id="_zWG0EJJUEee-fbVXvuq7Wg" entityName="Allocation_assembly_context_TrivialBankServer &lt;TrivialBankServer>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_qkAFQJJUEee-fbVXvuq7Wg"/>
+    <assemblyContext_AllocationContext href="5_il2adl.xmi.system#_hNVQ0ZJUEeevNbdb7QnnwA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_zwbYkJJUEee-fbVXvuq7Wg" entityName="Allocation_assembly_context_inventory &lt;inventory>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_qkAFQJJUEee-fbVXvuq7Wg"/>
+    <assemblyContext_AllocationContext href="5_il2adl.xmi.system#_hN21QZJUEeevNbdb7QnnwA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_0v54kJJUEee-fbVXvuq7Wg" entityName="Allocation_assembly_context_cashdeskline &lt;cashdeskline>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_qkAFQJJUEee-fbVXvuq7Wg"/>
+    <assemblyContext_AllocationContext href="5_il2adl.xmi.system#_hN4qcZJUEeevNbdb7QnnwA"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>

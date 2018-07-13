@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.1" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.1" xsi:schemaLocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.1 http://palladiosimulator.org/PalladioComponentModel/5.1#//allocation http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.1 http://palladiosimulator.org/PalladioComponentModel/5.1#//resourceenvironment" xmi:id="_yNMEMZJUEee-fbVXvuq7Wg" type="allocation" name="default.allocation_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_yQ_mIJJUEee-fbVXvuq7Wg" type="2003" fontName=".Helvetica Neue DeskInterface">
+    <children xmi:type="notation:DecorationNode" xmi:id="_yQ_mIpJUEee-fbVXvuq7Wg" type="5008"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yQ_mI5JUEee-fbVXvuq7Wg" type="7003">
+      <children xmi:type="notation:Shape" xmi:id="_zlYmMJJUEee-fbVXvuq7Wg" type="3002" fontName=".Helvetica Neue DeskInterface">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zlYmMpJUEee-fbVXvuq7Wg" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_zlYmM5JUEee-fbVXvuq7Wg" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="default.allocation#_zWG0EJJUEee-fbVXvuq7Wg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zlYmMZJUEee-fbVXvuq7Wg" x="132" y="45"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_z65jMJJUEee-fbVXvuq7Wg" type="3002" fontName=".Helvetica Neue DeskInterface">
+        <children xmi:type="notation:DecorationNode" xmi:id="_z65jMpJUEee-fbVXvuq7Wg" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_z65jM5JUEee-fbVXvuq7Wg" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="default.allocation#_zwbYkJJUEee-fbVXvuq7Wg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z65jMZJUEee-fbVXvuq7Wg" x="255" y="124"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_06JZsJJUEee-fbVXvuq7Wg" type="3002" fontName=".Helvetica Neue DeskInterface">
+        <children xmi:type="notation:DecorationNode" xmi:id="_06JZspJUEee-fbVXvuq7Wg" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_06JZs5JUEee-fbVXvuq7Wg" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="default.allocation#_0v54kJJUEee-fbVXvuq7Wg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_06JZsZJUEee-fbVXvuq7Wg" x="393" y="220"/>
+      </children>
+    </children>
+    <element xmi:type="resourceenvironment:ResourceContainer" href="default.resourceenvironment#_qkAFQJJUEee-fbVXvuq7Wg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yQ_mIZJUEee-fbVXvuq7Wg" width="705" height="317"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_yNMEMpJUEee-fbVXvuq7Wg"/>
+  <element xmi:type="allocation:Allocation" href="default.allocation#_yNMEMJJUEee-fbVXvuq7Wg"/>
+</notation:Diagram>
