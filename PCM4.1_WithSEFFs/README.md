@@ -15,7 +15,7 @@ This is the version we work on. It has at least a plain Seff for each Method due
 
 
 ##Important:   
-Meta-Model Version 5.2 is used. If your PalladioDrop does not show any models, you might need to update your eclipse/palladiodrop-version to [Palladio 4.2](https://sdqweb.ipd.kit.edu/wiki/PCM_4.1)
+Meta-Model Version 5.2 is used. If your PalladioDrop does not show any models, you might need to update your eclipse/palladiodrop-version to [Palladio 4.1](https://sdqweb.ipd.kit.edu/wiki/PCM_4.1)
 
 
 
